@@ -1,0 +1,52 @@
+{
+  "run_id": "spark_run",
+  "stage": "E",
+  "status": "FAILED",
+  "checks_total": 7,
+  "checks_failed": 1,
+  "spark_sec": 0.433,
+  "results": [
+    {
+      "check": "stg_missing_match_id",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.026
+    },
+    {
+      "check": "stg_matchday_out_of_range",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.044
+    },
+    {
+      "check": "stg_duplicate_match_id",
+      "status": "FAIL",
+      "failed_rows": 1,
+      "duration_sec": 0.238
+    },
+    {
+      "check": "areas_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.032
+    },
+    {
+      "check": "competitions_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.026
+    },
+    {
+      "check": "teams_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.031
+    },
+    {
+      "check": "matches_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.036
+    }
+  ]
+}

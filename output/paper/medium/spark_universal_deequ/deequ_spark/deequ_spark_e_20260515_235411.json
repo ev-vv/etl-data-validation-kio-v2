@@ -1,0 +1,112 @@
+{
+  "run_id": "spark_run",
+  "stage": "E",
+  "status": "FAILED",
+  "checks_total": 17,
+  "checks_failed": 1,
+  "spark_sec": 2.241,
+  "results": [
+    {
+      "check": "id_is_complete",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.161
+    },
+    {
+      "check": "utcDate_is_complete",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.177
+    },
+    {
+      "check": "status_is_complete",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.166
+    },
+    {
+      "check": "home_team_complete",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.179
+    },
+    {
+      "check": "away_team_complete",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.168
+    },
+    {
+      "check": "matchday_range",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.163
+    },
+    {
+      "check": "status_valid",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.186
+    },
+    {
+      "check": "unique_match_id",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.241
+    },
+    {
+      "check": "unique_competition_id",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.049
+    },
+    {
+      "check": "unique_team_id",
+      "status": "FAIL",
+      "failed_rows": 200,
+      "duration_sec": 0.216
+    },
+    {
+      "check": "unique_area_id",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.056
+    },
+    {
+      "check": "competitions_not_empty",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.032
+    },
+    {
+      "check": "teams_not_empty",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.143
+    },
+    {
+      "check": "areas_not_empty",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.031
+    },
+    {
+      "check": "areas_id_complete",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.032
+    },
+    {
+      "check": "competitions_id_complete",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.038
+    },
+    {
+      "check": "teams_id_complete",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.202
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+exported_at,tools_dag_id,stage,layer,tool,kind,runs,checks_total,checks_failed,avg_duration_ms,std_duration_ms,avg_cpu_percent,std_cpu_percent,avg_rss_kb,std_rss_kb,avg_spark_duration_ms,std_spark_duration_ms
+2026-05-16T06:12:27.464421,spark_baseline,E,E_SODA,soda,baseline,3,7,0,8039.0,280.0,0.133,0.125,261872.0,5.657,8038.0,280.0
+2026-05-16T06:12:27.464421,spark_baseline,T,T_DEEQU,deequ,baseline,3,10,1,18576.0,179.0,0.1,0.0,261878.0,2.828,18575.0,180.0
+2026-05-16T06:12:27.464421,spark_baseline,L,L_SODA,soda,baseline,3,3,0,4858.0,312.0,0.067,0.094,261888.0,0.0,4858.0,312.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x3 + DDS: fact_match,E,E_SODA,soda,STG: swap_teams x3 + DDS: fact_match,3,7,2,620.0,105.0,1.667,0.262,293233.333,482.718,619.0,104.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x3 + DDS: fact_match,T,T_DEEQU,deequ,STG: swap_teams x3 + DDS: fact_match,3,10,5,831.0,82.0,1.567,0.464,292038.667,241.359,831.0,82.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x3 + DDS: fact_match,L,L_SODA,soda,STG: swap_teams x3 + DDS: fact_match,3,3,0,264.0,16.0,2.4,1.699,291868.0,0.0,264.0,16.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x5 + DDS: fact_standing,E,E_SODA,soda,STG: swap_teams x5 + DDS: fact_standing,3,7,0,535.0,19.0,1.9,0.082,289108.0,0.0,535.0,18.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x5 + DDS: fact_standing,T,T_DEEQU,deequ,STG: swap_teams x5 + DDS: fact_standing,3,10,3,815.0,54.0,1.7,0.707,289108.0,0.0,814.0,54.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x5 + DDS: fact_standing,L,L_SODA,soda,STG: swap_teams x5 + DDS: fact_standing,3,3,0,305.0,58.0,2.2,3.111,289112.0,0.0,304.0,58.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x7 + DDS: season_dates_missing,E,E_SODA,soda,STG: swap_teams x7 + DDS: season_dates_missing,3,7,1,443.0,57.0,1.767,2.498,290246.667,241.359,443.0,58.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x7 + DDS: season_dates_missing,T,T_DEEQU,deequ,STG: swap_teams x7 + DDS: season_dates_missing,3,10,2,674.0,35.0,2.067,1.464,288369.333,482.718,674.0,34.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x7 + DDS: season_dates_missing,L,L_SODA,soda,STG: swap_teams x7 + DDS: season_dates_missing,3,3,1,245.0,44.0,0.0,0.0,288028.0,0.0,244.0,44.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x10 + DDS: fact_match,E,E_SODA,soda,STG: swap_teams x10 + DDS: fact_match,3,7,2,516.0,82.0,1.3,0.963,298064.0,0.0,515.0,83.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x10 + DDS: fact_match,T,T_DEEQU,deequ,STG: swap_teams x10 + DDS: fact_match,3,10,5,737.0,97.0,1.867,0.881,297552.0,418.046,736.0,96.0
+2026-05-16T06:12:27.464421,spark_STG: swap_teams x10 + DDS: fact_match,L,L_SODA,soda,STG: swap_teams x10 + DDS: fact_match,3,3,0,213.0,48.0,1.2,1.697,297040.0,0.0,213.0,48.0
+2026-05-16T06:12:27.464421,spark_STG: competitions duplicate_first + DDS: fact_standing,E,E_SODA,soda,STG: competitions duplicate_first + DDS: fact_standing,3,7,1,496.0,69.0,1.867,1.408,296089.333,241.359,495.0,69.0
+2026-05-16T06:12:27.464421,spark_STG: competitions duplicate_first + DDS: fact_standing,T,T_DEEQU,deequ,STG: competitions duplicate_first + DDS: fact_standing,3,10,3,687.0,67.0,1.367,1.103,295236.0,0.0,687.0,68.0
+2026-05-16T06:12:27.464421,spark_STG: competitions duplicate_first + DDS: fact_standing,L,L_SODA,soda,STG: competitions duplicate_first + DDS: fact_standing,3,3,0,198.0,28.0,3.533,2.604,295236.0,0.0,197.0,28.0
+2026-05-16T06:12:27.464421,spark_STG: teams duplicate_first + DDS: season_dates_missing,E,E_SODA,soda,STG: teams duplicate_first + DDS: season_dates_missing,3,7,2,438.0,49.0,1.633,1.156,295236.0,0.0,438.0,49.0
+2026-05-16T06:12:27.464421,spark_STG: teams duplicate_first + DDS: season_dates_missing,T,T_DEEQU,deequ,STG: teams duplicate_first + DDS: season_dates_missing,3,10,2,631.0,58.0,1.467,1.184,295236.0,0.0,630.0,58.0
+2026-05-16T06:12:27.464421,spark_STG: teams duplicate_first + DDS: season_dates_missing,L,L_SODA,soda,STG: teams duplicate_first + DDS: season_dates_missing,3,3,1,244.0,63.0,4.2,5.94,295236.0,0.0,244.0,63.0
+2026-05-16T06:12:27.464421,spark_STG: matches duplicate_first + DDS: fact_match,E,E_SODA,soda,STG: matches duplicate_first + DDS: fact_match,3,7,3,338.0,53.0,1.867,1.36,303208.0,0.0,338.0,53.0
+2026-05-16T06:12:27.464421,spark_STG: matches duplicate_first + DDS: fact_match,T,T_DEEQU,deequ,STG: matches duplicate_first + DDS: fact_match,3,10,5,627.0,33.0,2.133,0.759,303208.0,0.0,627.0,33.0
+2026-05-16T06:12:27.464421,spark_STG: matches duplicate_first + DDS: fact_match,L,L_SODA,soda,STG: matches duplicate_first + DDS: fact_match,3,3,0,277.0,29.0,1.267,1.791,303208.0,0.0,276.0,29.0
+2026-05-16T06:12:27.464421,spark_STG: teams duplicate_first + swap x5 + DDS: fact_standing,E,E_SODA,soda,STG: teams duplicate_first + swap x5 + DDS: fact_standing,3,7,1,523.0,25.0,1.9,0.082,300014.667,965.436,523.0,24.0
+2026-05-16T06:12:27.464421,spark_STG: teams duplicate_first + swap x5 + DDS: fact_standing,T,T_DEEQU,deequ,STG: teams duplicate_first + swap x5 + DDS: fact_standing,3,10,4,672.0,61.0,2.0,0.648,299332.0,0.0,671.0,62.0
+2026-05-16T06:12:27.464421,spark_STG: teams duplicate_first + swap x5 + DDS: fact_standing,L,L_SODA,soda,STG: teams duplicate_first + swap x5 + DDS: fact_standing,3,3,0,282.0,54.0,1.5,2.121,299332.0,0.0,281.0,54.0
+2026-05-16T06:12:27.464421,spark_STG: competitions duplicate_first + DDS: dim_competition,E,E_SODA,soda,STG: competitions duplicate_first + DDS: dim_competition,3,7,1,444.0,44.0,1.567,1.126,299332.0,0.0,443.0,43.0
+2026-05-16T06:12:27.464421,spark_STG: competitions duplicate_first + DDS: dim_competition,T,T_DEEQU,deequ,STG: competitions duplicate_first + DDS: dim_competition,3,10,2,668.0,44.0,2.0,0.648,299332.0,0.0,667.0,44.0
+2026-05-16T06:12:27.464421,spark_STG: competitions duplicate_first + DDS: dim_competition,L,L_SODA,soda,STG: competitions duplicate_first + DDS: dim_competition,3,3,0,239.0,42.0,1.3,1.838,299332.0,0.0,239.0,42.0

@@ -1,0 +1,124 @@
+{
+  "run_id": "spark_run",
+  "stage": "T",
+  "status": "FAILED",
+  "checks_total": 19,
+  "checks_failed": 3,
+  "spark_sec": 1.112,
+  "results": [
+    {
+      "check": "areas_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.037
+    },
+    {
+      "check": "competitions_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.029
+    },
+    {
+      "check": "teams_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.03
+    },
+    {
+      "check": "matches_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.038
+    },
+    {
+      "check": "standings_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.039
+    },
+    {
+      "check": "areas_uniqueness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.062
+    },
+    {
+      "check": "competitions_uniqueness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.05
+    },
+    {
+      "check": "teams_uniqueness",
+      "status": "FAIL",
+      "failed_rows": 1500,
+      "duration_sec": 0.056
+    },
+    {
+      "check": "matches_uniqueness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.215
+    },
+    {
+      "check": "matches_schema_id",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.042
+    },
+    {
+      "check": "matches_schema_utcDate",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.03
+    },
+    {
+      "check": "matches_schema_status",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.029
+    },
+    {
+      "check": "matches_home_away_diff",
+      "status": "FAIL",
+      "failed_rows": 5,
+      "duration_sec": 0.032
+    },
+    {
+      "check": "matchday_out_of_range",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.029
+    },
+    {
+      "check": "match_status_invalid",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.034
+    },
+    {
+      "check": "fact_match_home_team_fk",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.114
+    },
+    {
+      "check": "fact_match_away_team_fk",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.074
+    },
+    {
+      "check": "fact_match_competition_fk",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.107
+    },
+    {
+      "check": "standings_points_consistency",
+      "status": "FAIL",
+      "failed_rows": 16341,
+      "duration_sec": 0.064
+    }
+  ]
+}

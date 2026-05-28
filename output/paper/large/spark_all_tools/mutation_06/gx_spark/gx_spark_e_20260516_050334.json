@@ -1,0 +1,100 @@
+{
+  "run_id": "spark_run",
+  "stage": "E",
+  "status": "FAILED",
+  "checks_total": 15,
+  "checks_failed": 4,
+  "spark_sec": 0.729,
+  "results": [
+    {
+      "check": "areas_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.032
+    },
+    {
+      "check": "competitions_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.028
+    },
+    {
+      "check": "teams_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.038
+    },
+    {
+      "check": "matches_completeness",
+      "status": "FAIL",
+      "failed_rows": 125401,
+      "duration_sec": 0.035
+    },
+    {
+      "check": "standings_completeness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.042
+    },
+    {
+      "check": "areas_uniqueness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.051
+    },
+    {
+      "check": "competitions_uniqueness",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.049
+    },
+    {
+      "check": "teams_uniqueness",
+      "status": "FAIL",
+      "failed_rows": 1500,
+      "duration_sec": 0.06
+    },
+    {
+      "check": "matches_uniqueness",
+      "status": "FAIL",
+      "failed_rows": 1,
+      "duration_sec": 0.202
+    },
+    {
+      "check": "matches_schema_id",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.041
+    },
+    {
+      "check": "matches_schema_utcDate",
+      "status": "FAIL",
+      "failed_rows": 125401,
+      "duration_sec": 0.036
+    },
+    {
+      "check": "matches_schema_status",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.029
+    },
+    {
+      "check": "matches_home_away_diff",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.028
+    },
+    {
+      "check": "matchday_out_of_range",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.028
+    },
+    {
+      "check": "match_status_invalid",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.03
+    }
+  ]
+}

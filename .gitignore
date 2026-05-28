@@ -1,7 +1,6 @@
 
 # Runtime artifacts
 /logs/
-/output/
 .venv/
 venv/
 /.env

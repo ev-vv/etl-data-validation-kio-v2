@@ -73,8 +73,8 @@ validation runs).
 
 ```bash
 # 1. Клонировать репозиторий
-git clone <REPO_URL> etl-data-validation-kio
-cd etl-data-validation-kio
+git clone https://github.com/ev-vv/etl-data-validation-kio-v2.git etl-data-validation-kio-v2
+cd etl-data-validation-kio-v2
 
 # 2. Создать виртуальное окружение
 python3 -m venv venv

@@ -1,0 +1,40 @@
+{
+  "run_id": "spark_run",
+  "stage": "T",
+  "status": "SUCCESS",
+  "checks_total": 5,
+  "checks_failed": 0,
+  "spark_sec": 0.339,
+  "results": [
+    {
+      "check": "dds_duplicate_fact_match",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.056
+    },
+    {
+      "check": "dds_missing_home_away_team",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.063
+    },
+    {
+      "check": "dds_referential_integrity_violation",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.126
+    },
+    {
+      "check": "match_home_away_diff",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.041
+    },
+    {
+      "check": "match_status_invalid",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.054
+    }
+  ]
+}

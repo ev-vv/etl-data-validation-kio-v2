@@ -1,0 +1,40 @@
+{
+  "run_id": "spark_run",
+  "stage": "L",
+  "status": "FAILED",
+  "checks_total": 5,
+  "checks_failed": 1,
+  "spark_sec": 0.155,
+  "results": [
+    {
+      "check": "matches_dates_not_null",
+      "status": "FAIL",
+      "failed_rows": 15200,
+      "duration_sec": 0.026
+    },
+    {
+      "check": "unique_standings",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.045
+    },
+    {
+      "check": "standings_positive_points",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.032
+    },
+    {
+      "check": "rate_out_of_bounds",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.028
+    },
+    {
+      "check": "standings_not_empty",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.025
+    }
+  ]
+}

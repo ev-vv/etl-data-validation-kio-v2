@@ -1,0 +1,28 @@
+{
+  "run_id": "spark_run",
+  "stage": "L",
+  "status": "SUCCESS",
+  "checks_total": 3,
+  "checks_failed": 0,
+  "spark_sec": 0.116,
+  "results": [
+    {
+      "check": "mart_kpi_rate_out_of_bounds",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.024
+    },
+    {
+      "check": "mart_kpi_missing_dates",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.036
+    },
+    {
+      "check": "mart_duplicate_team_rows",
+      "status": "PASS",
+      "failed_rows": 0,
+      "duration_sec": 0.055
+    }
+  ]
+}
