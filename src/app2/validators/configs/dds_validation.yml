@@ -1,0 +1,129 @@
+layers:
+  DDS:
+    suites:
+      referential_suite:
+        enabled: true
+        entity: DDS_referential_validation_suite
+        description: "Проверки ссылочной целостности DDS (FK между фактами и измерениями)."
+        validations:
+          - fact_match_fk
+          - fact_standing_fk
+          - dim_competition_area_fk
+      source_completeness_suite:
+        enabled: true
+        entity: DDS_source_completeness_validation_suite
+        description: "Проверки полноты загрузки DDS относительно источника STG"
+        validations:
+          - competitions_source_completeness
+          - teams_source_completeness
+          - matches_source_completeness
+          - standings_source_completeness
+      source_exclusivity_suite:
+        enabled: true
+        entity: DDS_source_exclusivity_validation_suite
+        description: "Проверки отсутствия лишних записей в DDS."
+        validations:
+          - competitions_source_exclusivity
+          - teams_source_exclusivity
+          - matches_source_exclusivity
+          - standings_source_exclusivity
+      rules_suite:
+        enabled: true
+        entity: DDS_rules_validation_suite
+        description: "Проверки бизнес-правил на уровне DDS (валидность статусов, очков, логика матчей)."
+        validations:
+          - match_home_away_diff
+          - match_status_valid
+          - standings_points_consistency
+          - season_round_robin
+    validations:
+      fact_match_fk:
+        enabled: true
+        entity: fact_match_fk
+        severity: error
+        type: referential
+        description: "Проверяет ссылочную целостность fact_match (все ссылки на dim_team/dim_season/dim_competition должны существовать)."
+      fact_standing_fk:
+        enabled: true
+        entity: fact_standing_fk
+        severity: warning
+        type: referential
+        description: "Проверяет ссылочную целостность fact_standing (ссылка на dim_team должна существовать)."
+      dim_competition_area_fk:
+        enabled: true
+        entity: dim_competition_area_fk
+        severity: error
+        type: referential
+        description: "Проверяет ссылочную целостность dim_competition (area_id должен существовать в dim_area)."
+      competitions_source_completeness:
+        enabled: true
+        entity: competitions_source_completeness
+        severity: error
+        type: source_completeness
+        description: "Проверяет полноту competitions (все competitions из STG должны присутствовать в DDS)."
+      teams_source_completeness:
+        enabled: true
+        entity: teams_source_completeness
+        severity: error
+        type: source_completeness
+        description: "Проверяет полноту teams (все teams из STG должны присутствовать в DDS)."
+      matches_source_completeness:
+        enabled: true
+        entity: matches_source_completeness
+        severity: error
+        type: source_completeness
+        description: "Проверяет полноту matches (все matches из STG должны присутствовать в DDS)."
+      standings_source_completeness:
+        enabled: true
+        entity: standings_source_completeness
+        severity: warning
+        type: source_completeness
+        description: "Проверяет полноту standings (все standings из STG должны присутствовать в DDS)."
+      competitions_source_exclusivity:
+        enabled: true
+        entity: competitions_source_exclusivity
+        severity: error
+        type: source_exclusivity
+        description: "Проверяет эксклюзивность competitions (в DDS нет competitions, отсутствующих в STG)."
+      teams_source_exclusivity:
+        enabled: true
+        entity: teams_source_exclusivity
+        severity: error
+        type: source_exclusivity
+        description: "Проверяет эксклюзивность teams (в DDS нет teams, отсутствующих в STG)."
+      matches_source_exclusivity:
+        enabled: true
+        entity: matches_source_exclusivity
+        severity: error
+        type: source_exclusivity
+        description: "Проверяет эксклюзивность matches (в DDS нет matches, отсутствующих в STG)."
+      standings_source_exclusivity:
+        enabled: true
+        entity: standings_source_exclusivity
+        severity: warning
+        type: source_exclusivity
+        description: "Проверяет эксклюзивность standings (в DDS нет standings, отсутствующих в STG)."
+      match_home_away_diff:
+        enabled: true
+        entity: match_home_away_diff
+        severity: error
+        type: rules
+        description: "Проверяет правило матча: домашняя и гостевая команда не должны совпадать."
+      match_status_valid:
+        enabled: true
+        entity: match_status_valid
+        severity: warning
+        type: rules
+        description: "Проверяет правило матча: статус должен входить в допустимый набор значений."
+      standings_points_consistency:
+        enabled: true
+        entity: standings_points_consistency
+        severity: warning
+        type: rules
+        description: "Проверяет правило standings: points должны совпадать с формулой won*3 + draw."
+      season_round_robin:
+        enabled: true
+        entity: season_round_robin
+        severity: warning
+        type: rules
+        description: "Проверяет правило round-robin: баланс домашних/гостевых матчей по командам (для сезонов до 2025)."

@@ -1,0 +1,91 @@
+experiment:
+  name: safe16_validation_impact
+  baseline:
+    stg_run_id: manual_input_stg_20260516_095454
+    dds_run_id: manual_input_dds_20260516_095454
+  defaults:
+    dag_id_stg: manual_stg_input
+    dag_id_dds: manual_dds_input
+    snapshot_limit: 200
+    truncate_dds_before_iteration: false
+    stg_mutations_config: src/app2/mutators/configs/stg_mutations.yml
+    dds_mutations_config: src/app2/mutators/configs/dds_mutations.yml
+    stg_validation_config: src/app2/validators/configs/stg_validation.yml
+    dds_validation_config: src/app2/validators/configs/dds_validation.yml
+  iterations:
+  - name: 'STG: swap_teams x3 + DDS: fact_match'
+    kind: stg_mutation
+    from_stg_run_id: baseline
+    stg_mutations_enable:
+      matches:
+      - swap_teams
+    dds_mutations_enable:
+    - fact_match
+    env:
+      APP2_STG_SWAP_TEAMS_COUNT: '3'
+  - name: 'STG: swap_teams x5 + DDS: fact_standing'
+    kind: stg_mutation
+    from_stg_run_id: baseline
+    stg_mutations_enable:
+      matches:
+      - swap_teams
+    dds_mutations_enable:
+    - fact_standing
+    env:
+      APP2_STG_SWAP_TEAMS_COUNT: '5'
+  - name: 'STG: swap_teams x7 + DDS: season_dates_missing'
+    kind: stg_mutation
+    from_stg_run_id: baseline
+    stg_mutations_enable:
+      matches:
+      - swap_teams
+    dds_mutations_enable:
+    - season_dates_missing
+    env:
+      APP2_STG_SWAP_TEAMS_COUNT: '7'
+  - name: 'STG: swap_teams x10 + DDS: fact_match'
+    kind: stg_mutation
+    from_stg_run_id: baseline
+    stg_mutations_enable:
+      matches:
+      - swap_teams
+    dds_mutations_enable:
+    - fact_match
+    env:
+      APP2_STG_SWAP_TEAMS_COUNT: '10'
+  - name: 'STG: competitions duplicate_first + DDS: fact_standing'
+    kind: stg_mutation
+    from_stg_run_id: baseline
+    stg_mutations_enable:
+      competitions:
+      - duplicate_first
+    dds_mutations_enable:
+    - fact_standing
+  - name: 'STG: teams duplicate_first + DDS: season_dates_missing'
+    kind: stg_mutation
+    from_stg_run_id: baseline
+    stg_mutations_enable:
+      teams:
+      - duplicate_first
+    dds_mutations_enable:
+    - season_dates_missing
+  - name: 'STG: matches duplicate_first + DDS: fact_match'
+    kind: stg_mutation
+    from_stg_run_id: baseline
+    stg_mutations_enable:
+      matches:
+      - duplicate_first
+    dds_mutations_enable:
+    - fact_match
+  - name: 'STG: teams duplicate_first + swap x5 + DDS: fact_standing'
+    kind: stg_mutation
+    from_stg_run_id: baseline
+    stg_mutations_enable:
+      teams:
+      - duplicate_first
+      matches:
+      - swap_teams
+    dds_mutations_enable:
+    - fact_standing
+    env:
+      APP2_STG_SWAP_TEAMS_COUNT: '5'

@@ -1,0 +1,1582 @@
+{
+  "source_id": 106,
+  "endpoint": "competitions/2014/scorers?season=2023&limit=50",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "count": 50,
+    "season": {
+      "id": 1577,
+      "winner": null,
+      "endDate": "2024-05-26",
+      "startDate": "2023-08-13",
+      "currentMatchday": 38
+    },
+    "filters": {
+      "limit": 50,
+      "season": 2023
+    },
+    "scorers": [
+      {
+        "team": {
+          "id": 298,
+          "tla": "GIR",
+          "name": "Girona FC",
+          "crest": "https://crests.football-data.org/298.png",
+          "venue": "Estadi Municipal de Montilivi",
+          "address": "Avinguda de Montilivi, 141 Girona 17003",
+          "founded": 1930,
+          "website": "http://www.gironafc.cat",
+          "shortName": "Girona",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2022-08-16T12:47:06Z"
+        },
+        "goals": 24,
+        "player": {
+          "id": 24217,
+          "name": "Artem Dovbyk",
+          "section": "Centre-Forward",
+          "lastName": "Dovbyk",
+          "position": null,
+          "firstName": "Artem",
+          "dateOfBirth": "1997-06-21",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Ukraine",
+          "shirtNumber": 7
+        },
+        "assists": 8,
+        "penalties": 7,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 94,
+          "tla": "VIL",
+          "name": "Villarreal CF",
+          "crest": "https://crests.football-data.org/94.png",
+          "venue": "Estadio de la Cerámica",
+          "address": "Camino Miralcamp, s/n Villarreal 12540",
+          "founded": 1923,
+          "website": "http://www.villarrealcf.es",
+          "shortName": "Villarreal",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-02-22T18:26:04Z"
+        },
+        "goals": 23,
+        "player": {
+          "id": 8167,
+          "name": "Alexander Sørloth",
+          "section": "Centre-Forward",
+          "lastName": "Sørloth",
+          "position": null,
+          "firstName": "Alexander",
+          "dateOfBirth": "1995-12-05",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Norway",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 86,
+          "tla": "RMA",
+          "name": "Real Madrid CF",
+          "crest": "https://crests.football-data.org/86.png",
+          "venue": "Estadio Santiago Bernabéu",
+          "address": "Avenida Concha Espina, 1 Madrid 28036",
+          "founded": 1902,
+          "website": "http://www.realmadrid.com",
+          "shortName": "Real Madrid",
+          "clubColors": "White / Purple",
+          "lastUpdated": "2022-02-19T08:59:31Z"
+        },
+        "goals": 19,
+        "player": {
+          "id": 125010,
+          "name": "Jude Bellingham",
+          "section": "Attacking Midfield",
+          "lastName": "Bellingham",
+          "position": null,
+          "firstName": "Jude",
+          "dateOfBirth": "2003-06-29",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 1,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 81,
+          "tla": "FCB",
+          "name": "FC Barcelona",
+          "crest": "https://crests.football-data.org/81.png",
+          "venue": "Camp Nou",
+          "address": "Avenida Arístides Maillol s/n Barcelona 08028",
+          "founded": 1899,
+          "website": "http://www.fcbarcelona.com",
+          "shortName": "Barça",
+          "clubColors": "Red / Navy Blue / Orange",
+          "lastUpdated": "2024-07-29T17:09:22Z"
+        },
+        "goals": 19,
+        "player": {
+          "id": 371,
+          "name": "Robert Lewandowski",
+          "section": "Centre-Forward",
+          "lastName": "Lewandowski",
+          "position": null,
+          "firstName": "Robert",
+          "dateOfBirth": "1988-08-21",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Poland",
+          "shirtNumber": null
+        },
+        "assists": 8,
+        "penalties": 4,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 79,
+          "tla": "OSA",
+          "name": "CA Osasuna",
+          "crest": "https://crests.football-data.org/79.png",
+          "venue": "Estadio El Sadar",
+          "address": "Calle del Sadar, s/n Pamplona 31006",
+          "founded": 1920,
+          "website": "http://www.osasuna.es",
+          "shortName": "Osasuna",
+          "clubColors": "Red / Navy Blue",
+          "lastUpdated": "2024-07-29T17:09:06Z"
+        },
+        "goals": 17,
+        "player": {
+          "id": 2237,
+          "name": "Ante Budimir",
+          "section": "Centre-Forward",
+          "lastName": "Budimir",
+          "position": null,
+          "firstName": "Ante",
+          "dateOfBirth": "1991-07-22",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Croatia",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 3,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 559,
+          "tla": "SEV",
+          "name": "Sevilla FC",
+          "crest": "https://crests.football-data.org/559.png",
+          "venue": "Estadio Ramón Sánchez Pizjuán",
+          "address": "Calle Sevilla Fútbol Club, s/n Sevilla 41005",
+          "founded": 1905,
+          "website": "http://www.sevillafc.es",
+          "shortName": "Sevilla FC",
+          "clubColors": "White / Red",
+          "lastUpdated": "2024-07-29T17:09:57Z"
+        },
+        "goals": 16,
+        "player": {
+          "id": 32836,
+          "name": "Youssef En-Nesyri",
+          "section": "Centre-Forward",
+          "lastName": "En-Nesyri",
+          "position": null,
+          "firstName": "Youssef",
+          "dateOfBirth": "1997-06-01",
+          "lastUpdated": "2024-10-04T09:41:46Z",
+          "nationality": "Morocco",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 78,
+          "tla": "ATL",
+          "name": "Club Atlético de Madrid",
+          "crest": "https://crests.football-data.org/78.png",
+          "venue": "Estadio Wanda Metropolitano",
+          "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+          "founded": 1903,
+          "website": "http://www.clubatleticodemadrid.com",
+          "shortName": "Atleti",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2024-07-29T17:08:58Z"
+        },
+        "goals": 16,
+        "player": {
+          "id": 114,
+          "name": "Antoine Griezmann",
+          "section": "Centre-Forward",
+          "lastName": "Griezmann",
+          "position": null,
+          "firstName": "Antoine",
+          "dateOfBirth": "1991-03-21",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 4,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 78,
+          "tla": "ATL",
+          "name": "Club Atlético de Madrid",
+          "crest": "https://crests.football-data.org/78.png",
+          "venue": "Estadio Wanda Metropolitano",
+          "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+          "founded": 1903,
+          "website": "http://www.clubatleticodemadrid.com",
+          "shortName": "Atleti",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2024-07-29T17:08:58Z"
+        },
+        "goals": 15,
+        "player": {
+          "id": 7819,
+          "name": "Álvaro Morata",
+          "section": "Centre-Forward",
+          "lastName": "Álvaro Morata",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-10-23",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 86,
+          "tla": "RMA",
+          "name": "Real Madrid CF",
+          "crest": "https://crests.football-data.org/86.png",
+          "venue": "Estadio Santiago Bernabéu",
+          "address": "Avenida Concha Espina, 1 Madrid 28036",
+          "founded": 1902,
+          "website": "http://www.realmadrid.com",
+          "shortName": "Real Madrid",
+          "clubColors": "White / Purple",
+          "lastUpdated": "2022-02-19T08:59:31Z"
+        },
+        "goals": 15,
+        "player": {
+          "id": 1556,
+          "name": "Vinicius Junior",
+          "section": "Left Winger",
+          "lastName": "Vinícius Junior",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2000-07-12",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 1,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 82,
+          "tla": "GET",
+          "name": "Getafe CF",
+          "crest": "https://crests.football-data.org/82.png",
+          "venue": "Coliseum Alfonso Pérez",
+          "address": "Avenida Teresa de Calcuta, s/n Getafe 28903",
+          "founded": 1946,
+          "website": "http://www.getafecf.com",
+          "shortName": "Getafe",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-25T16:43:35Z"
+        },
+        "goals": 15,
+        "player": {
+          "id": 69,
+          "name": "Borja Mayoral",
+          "section": "Centre-Forward",
+          "lastName": "Borja Mayoral",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1997-04-05",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 4,
+        "playedMatches": 27
+      },
+      {
+        "team": {
+          "id": 77,
+          "tla": "ATH",
+          "name": "Athletic Club",
+          "crest": "https://crests.football-data.org/77.png",
+          "venue": "San Mamés",
+          "address": "Ibaigane, Alameda Mazarredo, 23 Bilbao 48009",
+          "founded": 1898,
+          "website": "http://www.athletic-club.eus",
+          "shortName": "Athletic",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-06T09:31:27Z"
+        },
+        "goals": 14,
+        "player": {
+          "id": 81565,
+          "name": "Gorka Guruzeta",
+          "section": "Centre-Forward",
+          "lastName": "Guruzeta",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-09-12",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 95,
+          "tla": "VAL",
+          "name": "Valencia CF",
+          "crest": "https://crests.football-data.org/95.png",
+          "venue": "Estadio de Mestalla",
+          "address": "Plaza del Valencia Club de Fútbol, 2 Valencia 46010",
+          "founded": 1919,
+          "website": "http://www.valenciacf.com",
+          "shortName": "Valencia",
+          "clubColors": "White / Orange / Black",
+          "lastUpdated": "2024-07-29T17:10:18Z"
+        },
+        "goals": 13,
+        "player": {
+          "id": 32762,
+          "name": "Hugo Duro",
+          "section": "Centre-Forward",
+          "lastName": "Hugo Duro",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-11-10",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 558,
+          "tla": "CEL",
+          "name": "RC Celta de Vigo",
+          "crest": "https://crests.football-data.org/558.png",
+          "venue": "Estadio de Balaídos",
+          "address": "Calle del Conde de Gondomar, 1 Vigo 36203",
+          "founded": 1923,
+          "website": "http://www.celtavigo.net",
+          "shortName": "Celta",
+          "clubColors": "Sky Blue / White",
+          "lastUpdated": "2024-07-29T17:10:02Z"
+        },
+        "goals": 13,
+        "player": {
+          "id": 213269,
+          "name": "Jørgen Strand Larsen",
+          "section": "Offence",
+          "lastName": "Strand Larsen",
+          "position": null,
+          "firstName": "Jørgen",
+          "dateOfBirth": "2000-02-06",
+          "lastUpdated": "2023-09-19T09:54:47Z",
+          "nationality": "Norway",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 77,
+          "tla": "ATH",
+          "name": "Athletic Club",
+          "crest": "https://crests.football-data.org/77.png",
+          "venue": "San Mamés",
+          "address": "Ibaigane, Alameda Mazarredo, 23 Bilbao 48009",
+          "founded": 1898,
+          "website": "http://www.athletic-club.eus",
+          "shortName": "Athletic",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-06T09:31:27Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 32629,
+          "name": "Iñaki Williams",
+          "section": "Right Winger",
+          "lastName": "Iñaki Williams",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1994-06-15",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Ghana",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 83,
+          "tla": "GRA",
+          "name": "Granada CF",
+          "crest": "https://crests.football-data.org/83.png",
+          "venue": "Estadio Nuevo Los Cármenes",
+          "address": "Calle del Pintor Manuel Maldonado, s/n Granada 18007",
+          "founded": 1931,
+          "website": "http://www.granadacf.es",
+          "shortName": "Granada",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:11:42Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 83795,
+          "name": "Myrto Uzuni",
+          "section": "Midfield",
+          "lastName": "Uzuni",
+          "position": null,
+          "firstName": "Myrto",
+          "dateOfBirth": "1995-05-31",
+          "lastUpdated": "2024-08-05T08:21:33Z",
+          "nationality": "Albania",
+          "shirtNumber": 77
+        },
+        "assists": 1,
+        "penalties": 4,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 86,
+          "tla": "RMA",
+          "name": "Real Madrid CF",
+          "crest": "https://crests.football-data.org/86.png",
+          "venue": "Estadio Santiago Bernabéu",
+          "address": "Avenida Concha Espina, 1 Madrid 28036",
+          "founded": 1902,
+          "website": "http://www.realmadrid.com",
+          "shortName": "Real Madrid",
+          "clubColors": "White / Purple",
+          "lastUpdated": "2022-02-19T08:59:31Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 1324,
+          "name": "Rodrygo",
+          "section": "Right Winger",
+          "lastName": "Rodrygo",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-01-09",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 90,
+          "tla": "BET",
+          "name": "Real Betis Balompié",
+          "crest": "https://crests.football-data.org/90.png",
+          "venue": "Estadio Benito Villamarín",
+          "address": "Avenida de Heliópolis, s/n Sevilla 41012",
+          "founded": 1907,
+          "website": "http://www.realbetisbalompie.es",
+          "shortName": "Real Betis",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-05-03T08:22:26Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 8,
+          "name": "Willian José",
+          "section": "Centre-Forward",
+          "lastName": "Willian José",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1991-11-23",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 94,
+          "tla": "VIL",
+          "name": "Villarreal CF",
+          "crest": "https://crests.football-data.org/94.png",
+          "venue": "Estadio de la Cerámica",
+          "address": "Camino Miralcamp, s/n Villarreal 12540",
+          "founded": 1923,
+          "website": "http://www.villarrealcf.es",
+          "shortName": "Villarreal",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-02-22T18:26:04Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 32719,
+          "name": "Gerard Moreno",
+          "section": "Centre-Forward",
+          "lastName": "Gerard Moreno",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-04-07",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": 2,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 86,
+          "tla": "RMA",
+          "name": "Real Madrid CF",
+          "crest": "https://crests.football-data.org/86.png",
+          "venue": "Estadio Santiago Bernabéu",
+          "address": "Avenida Concha Espina, 1 Madrid 28036",
+          "founded": 1902,
+          "website": "http://www.realmadrid.com",
+          "shortName": "Real Madrid",
+          "clubColors": "White / Purple",
+          "lastUpdated": "2022-02-19T08:59:31Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 7938,
+          "name": "Joselu",
+          "section": "Centre-Forward",
+          "lastName": "Joselu",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1990-03-27",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 90,
+          "tla": "BET",
+          "name": "Real Betis Balompié",
+          "crest": "https://crests.football-data.org/90.png",
+          "venue": "Estadio Benito Villamarín",
+          "address": "Avenida de Heliópolis, s/n Sevilla 41012",
+          "founded": 1907,
+          "website": "http://www.realbetisbalompie.es",
+          "shortName": "Real Betis",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-05-03T08:22:26Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 7936,
+          "name": "Ayoze Pérez",
+          "section": "Centre-Forward",
+          "lastName": "Ayoze Pérez",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1993-07-29",
+          "lastUpdated": "2024-11-28T13:36:11Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 263,
+          "tla": "ALA",
+          "name": "Deportivo Alavés",
+          "crest": "https://crests.football-data.org/263.png",
+          "venue": "Estadio de Mendizorroza",
+          "address": "Mendizorroza, Paseo Cervantes, s/n Vitoria 01007",
+          "founded": 1921,
+          "website": "http://www.alaves.com",
+          "shortName": "Alavés",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-19T08:23:45Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 215434,
+          "name": "Samu Omorodion",
+          "section": "Centre-Forward",
+          "lastName": "Samu Aghehowa",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": null,
+          "lastUpdated": "2024-11-26T09:43:13Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 267,
+          "tla": "ALM",
+          "name": "UD Almería",
+          "crest": "https://crests.football-data.org/267.png",
+          "venue": "Estadio de los Juegos Mediterráneos",
+          "address": "Calle Alcalde Santiago Martínez Cabrejas, 5 Almería 04007",
+          "founded": 1989,
+          "website": "http://www.udalmeriasad.com",
+          "shortName": "Almería",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-08-16T12:47:01Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 151029,
+          "name": "Sergio Arribas",
+          "section": "Midfield",
+          "lastName": "Sergio Arribas",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-09-30",
+          "lastUpdated": "2024-08-05T08:21:35Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 78,
+          "tla": "ATL",
+          "name": "Club Atlético de Madrid",
+          "crest": "https://crests.football-data.org/78.png",
+          "venue": "Estadio Wanda Metropolitano",
+          "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+          "founded": 1903,
+          "website": "http://www.clubatleticodemadrid.com",
+          "shortName": "Atleti",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2024-07-29T17:08:58Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 125,
+          "name": "Ángel Correa",
+          "section": "Right Winger",
+          "lastName": "Correa",
+          "position": null,
+          "firstName": "Ángel",
+          "dateOfBirth": "1995-03-09",
+          "lastUpdated": "2024-11-28T13:36:10Z",
+          "nationality": "Argentina",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 1,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 298,
+          "tla": "GIR",
+          "name": "Girona FC",
+          "crest": "https://crests.football-data.org/298.png",
+          "venue": "Estadi Municipal de Montilivi",
+          "address": "Avinguda de Montilivi, 141 Girona 17003",
+          "founded": 1930,
+          "website": "http://www.gironafc.cat",
+          "shortName": "Girona",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2022-08-16T12:47:06Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 146352,
+          "name": "Sávio",
+          "section": "Right Winger",
+          "lastName": "Sávinho",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2004-04-10",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 10,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 92,
+          "tla": "RSO",
+          "name": "Real Sociedad de Fútbol",
+          "crest": "https://crests.football-data.org/92.png",
+          "venue": "Estadio Municipal de Anoeta",
+          "address": "Anoeta Pasalekua, 1 San Sebastián 20014",
+          "founded": 1903,
+          "website": "http://www.realsociedad.com",
+          "shortName": "Real Sociedad",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2024-07-29T17:10:27Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 180137,
+          "name": "Mikel Oyarzabal",
+          "section": "Centre-Forward",
+          "lastName": "Mikel Oyarzabal",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1997-04-21",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 2,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 558,
+          "tla": "CEL",
+          "name": "RC Celta de Vigo",
+          "crest": "https://crests.football-data.org/558.png",
+          "venue": "Estadio de Balaídos",
+          "address": "Calle del Conde de Gondomar, 1 Vigo 36203",
+          "founded": 1923,
+          "website": "http://www.celtavigo.net",
+          "shortName": "Celta",
+          "clubColors": "Sky Blue / White",
+          "lastUpdated": "2024-07-29T17:10:02Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 3201,
+          "name": "Iago Aspas",
+          "section": "Centre-Forward",
+          "lastName": "Iago Aspas",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1987-08-01",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 10,
+        "penalties": 3,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 298,
+          "tla": "GIR",
+          "name": "Girona FC",
+          "crest": "https://crests.football-data.org/298.png",
+          "venue": "Estadi Municipal de Montilivi",
+          "address": "Avinguda de Montilivi, 141 Girona 17003",
+          "founded": 1930,
+          "website": "http://www.gironafc.cat",
+          "shortName": "Girona",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2022-08-16T12:47:06Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 3171,
+          "name": "Cristhian Stuani",
+          "section": "Centre-Forward",
+          "lastName": "Stuani",
+          "position": null,
+          "firstName": "Cristhian",
+          "dateOfBirth": "1986-10-12",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Uruguay",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 90,
+          "tla": "BET",
+          "name": "Real Betis Balompié",
+          "crest": "https://crests.football-data.org/90.png",
+          "venue": "Estadio Benito Villamarín",
+          "address": "Avenida de Heliópolis, s/n Sevilla 41012",
+          "founded": 1907,
+          "website": "http://www.realbetisbalompie.es",
+          "shortName": "Real Betis",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-05-03T08:22:26Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 66,
+          "name": "Isco",
+          "section": "Attacking Midfield",
+          "lastName": "Isco",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-04-21",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 2,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 298,
+          "tla": "GIR",
+          "name": "Girona FC",
+          "crest": "https://crests.football-data.org/298.png",
+          "venue": "Estadi Municipal de Montilivi",
+          "address": "Avinguda de Montilivi, 141 Girona 17003",
+          "founded": 1930,
+          "website": "http://www.gironafc.cat",
+          "shortName": "Girona",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2022-08-16T12:47:06Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 16173,
+          "name": "Viktor Tsyhankov",
+          "section": "Right Winger",
+          "lastName": "Tsygankov",
+          "position": null,
+          "firstName": "Viktor",
+          "dateOfBirth": "1997-11-15",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Ukraine",
+          "shirtNumber": 15
+        },
+        "assists": 7,
+        "penalties": null,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 81,
+          "tla": "FCB",
+          "name": "FC Barcelona",
+          "crest": "https://crests.football-data.org/81.png",
+          "venue": "Camp Nou",
+          "address": "Avenida Arístides Maillol s/n Barcelona 08028",
+          "founded": 1899,
+          "website": "http://www.fcbarcelona.com",
+          "shortName": "Barça",
+          "clubColors": "Red / Navy Blue / Orange",
+          "lastUpdated": "2024-07-29T17:09:22Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 214533,
+          "name": "Fermín López",
+          "section": "Central Midfield",
+          "lastName": "Fermín López",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2003-05-11",
+          "lastUpdated": "2025-05-30T09:41:03Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 86,
+          "tla": "RMA",
+          "name": "Real Madrid CF",
+          "crest": "https://crests.football-data.org/86.png",
+          "venue": "Estadio Santiago Bernabéu",
+          "address": "Avenida Concha Espina, 1 Madrid 28036",
+          "founded": 1902,
+          "website": "http://www.realmadrid.com",
+          "shortName": "Real Madrid",
+          "clubColors": "White / Purple",
+          "lastUpdated": "2022-02-19T08:59:31Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 7887,
+          "name": "Brahim Diaz",
+          "section": "Right Winger",
+          "lastName": "Brahim Díaz",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-08-03",
+          "lastUpdated": "2025-12-22T09:41:04Z",
+          "nationality": "Morocco",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 82,
+          "tla": "GET",
+          "name": "Getafe CF",
+          "crest": "https://crests.football-data.org/82.png",
+          "venue": "Coliseum Alfonso Pérez",
+          "address": "Avenida Teresa de Calcuta, s/n Getafe 28903",
+          "founded": 1946,
+          "website": "http://www.getafecf.com",
+          "shortName": "Getafe",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-25T16:43:35Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 101075,
+          "name": "Mason Greenwood",
+          "section": "Right Winger",
+          "lastName": "Greenwood",
+          "position": null,
+          "firstName": "Mason",
+          "dateOfBirth": "2001-10-01",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": 2,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 92,
+          "tla": "RSO",
+          "name": "Real Sociedad de Fútbol",
+          "crest": "https://crests.football-data.org/92.png",
+          "venue": "Estadio Municipal de Anoeta",
+          "address": "Anoeta Pasalekua, 1 San Sebastián 20014",
+          "founded": 1903,
+          "website": "http://www.realsociedad.com",
+          "shortName": "Real Sociedad",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2024-07-29T17:10:27Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 48555,
+          "name": "Takefusa Kubo",
+          "section": "Right Winger",
+          "lastName": "Kubo",
+          "position": null,
+          "firstName": "Takefusa",
+          "dateOfBirth": "2001-06-04",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Japan",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 95,
+          "tla": "VAL",
+          "name": "Valencia CF",
+          "crest": "https://crests.football-data.org/95.png",
+          "venue": "Estadio de Mestalla",
+          "address": "Plaza del Valencia Club de Fútbol, 2 Valencia 46010",
+          "founded": 1919,
+          "website": "http://www.valenciacf.com",
+          "shortName": "Valencia",
+          "clubColors": "White / Orange / Black",
+          "lastUpdated": "2024-07-29T17:10:18Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 33270,
+          "name": "Pepelu",
+          "section": "Defensive Midfield",
+          "lastName": "Pepelu",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-08-11",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 7,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 81,
+          "tla": "FCB",
+          "name": "FC Barcelona",
+          "crest": "https://crests.football-data.org/81.png",
+          "venue": "Camp Nou",
+          "address": "Avenida Arístides Maillol s/n Barcelona 08028",
+          "founded": 1899,
+          "website": "http://www.fcbarcelona.com",
+          "shortName": "Barça",
+          "clubColors": "Red / Navy Blue / Orange",
+          "lastUpdated": "2024-07-29T17:09:22Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 33154,
+          "name": "Ferrán Torres",
+          "section": "Right Winger",
+          "lastName": "Ferran Torres",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2000-02-29",
+          "lastUpdated": "2024-11-28T13:36:10Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 298,
+          "tla": "GIR",
+          "name": "Girona FC",
+          "crest": "https://crests.football-data.org/298.png",
+          "venue": "Estadi Municipal de Montilivi",
+          "address": "Avinguda de Montilivi, 141 Girona 17003",
+          "founded": 1930,
+          "website": "http://www.gironafc.cat",
+          "shortName": "Girona",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2022-08-16T12:47:06Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 33523,
+          "name": "Portu",
+          "section": "Right Winger",
+          "lastName": "Portu",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-05-21",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 39
+      },
+      {
+        "team": {
+          "id": 89,
+          "tla": "MAL",
+          "name": "RCD Mallorca",
+          "crest": "https://crests.football-data.org/89.png",
+          "venue": "Iberostar Estadi",
+          "address": "Son Moix, Calle Camí dels Reis, s/n Palma de Mallorca 07011",
+          "founded": 1916,
+          "website": "http://www.rcdmallorca.es",
+          "shortName": "Mallorca",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-02-19T08:44:00Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 30059,
+          "name": "Vedat Muriqi",
+          "section": "Centre-Forward",
+          "lastName": "Muriqi",
+          "position": null,
+          "firstName": "Vedat",
+          "dateOfBirth": "1994-04-24",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Kosovo",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 81,
+          "tla": "FCB",
+          "name": "FC Barcelona",
+          "crest": "https://crests.football-data.org/81.png",
+          "venue": "Camp Nou",
+          "address": "Avenida Arístides Maillol s/n Barcelona 08028",
+          "founded": 1899,
+          "website": "http://www.fcbarcelona.com",
+          "shortName": "Barça",
+          "clubColors": "Red / Navy Blue / Orange",
+          "lastUpdated": "2024-07-29T17:09:22Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 39265,
+          "name": "João Félix",
+          "section": "Offence",
+          "lastName": "João Félix",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-11-10",
+          "lastUpdated": "2024-11-28T13:36:10Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 558,
+          "tla": "CEL",
+          "name": "RC Celta de Vigo",
+          "crest": "https://crests.football-data.org/558.png",
+          "venue": "Estadio de Balaídos",
+          "address": "Calle del Conde de Gondomar, 1 Vigo 36203",
+          "founded": 1923,
+          "website": "http://www.celtavigo.net",
+          "shortName": "Celta",
+          "clubColors": "Sky Blue / White",
+          "lastUpdated": "2024-07-29T17:10:02Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 43285,
+          "name": "Anastasios Douvikas",
+          "section": "Centre-Forward",
+          "lastName": "Douvikas",
+          "position": null,
+          "firstName": "Anastasios",
+          "dateOfBirth": "1999-08-02",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Greece",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 77,
+          "tla": "ATH",
+          "name": "Athletic Club",
+          "crest": "https://crests.football-data.org/77.png",
+          "venue": "San Mamés",
+          "address": "Ibaigane, Alameda Mazarredo, 23 Bilbao 48009",
+          "founded": 1898,
+          "website": "http://www.athletic-club.eus",
+          "shortName": "Athletic",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-06T09:31:27Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 2294,
+          "name": "Álex Berenguer",
+          "section": "Left Winger",
+          "lastName": "Álex Berenguer",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1995-07-04",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 1,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 94,
+          "tla": "VIL",
+          "name": "Villarreal CF",
+          "crest": "https://crests.football-data.org/94.png",
+          "venue": "Estadio de la Cerámica",
+          "address": "Camino Miralcamp, s/n Villarreal 12540",
+          "founded": 1923,
+          "website": "http://www.villarrealcf.es",
+          "shortName": "Villarreal",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-02-22T18:26:04Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 213275,
+          "name": "José Morales",
+          "section": "Offence",
+          "lastName": "José Morales",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1987-07-23",
+          "lastUpdated": "2023-07-30T23:05:42Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 78,
+          "tla": "ATL",
+          "name": "Club Atlético de Madrid",
+          "crest": "https://crests.football-data.org/78.png",
+          "venue": "Estadio Wanda Metropolitano",
+          "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+          "founded": 1903,
+          "website": "http://www.clubatleticodemadrid.com",
+          "shortName": "Atleti",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2024-07-29T17:08:58Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 70,
+          "name": "Marcos Llorente",
+          "section": "Right Midfield",
+          "lastName": "Marcos Llorente",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1995-01-30",
+          "lastUpdated": "2024-09-02T09:38:35Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 87,
+          "tla": "RAY",
+          "name": "Rayo Vallecano de Madrid",
+          "crest": "https://crests.football-data.org/87.png",
+          "venue": "Estadio del Rayo Vallecano",
+          "address": "Calle del Payaso Fofó, s/n Madrid 28018",
+          "founded": 1924,
+          "website": "http://www.rayovallecano.es",
+          "shortName": "Rayo Vallecano",
+          "clubColors": "White / Red",
+          "lastUpdated": "2024-07-29T17:10:35Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 32312,
+          "name": "Álvaro García",
+          "section": "Left Winger",
+          "lastName": "Álvaro García",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-10-27",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 89,
+          "tla": "MAL",
+          "name": "RCD Mallorca",
+          "crest": "https://crests.football-data.org/89.png",
+          "venue": "Iberostar Estadi",
+          "address": "Son Moix, Calle Camí dels Reis, s/n Palma de Mallorca 07011",
+          "founded": 1916,
+          "website": "http://www.rcdmallorca.es",
+          "shortName": "Mallorca",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-02-19T08:44:00Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 33681,
+          "name": "Abdón Prats",
+          "section": "Centre-Forward",
+          "lastName": "Abdón",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-12-07",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 83,
+          "tla": "GRA",
+          "name": "Granada CF",
+          "crest": "https://crests.football-data.org/83.png",
+          "venue": "Estadio Nuevo Los Cármenes",
+          "address": "Calle del Pintor Manuel Maldonado, s/n Granada 18007",
+          "founded": 1931,
+          "website": "http://www.granadacf.es",
+          "shortName": "Granada",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:11:42Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 180104,
+          "name": "Bryan Zaragoza",
+          "section": "Offence",
+          "lastName": "Bryan Zaragoza",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-04-25",
+          "lastUpdated": "2023-10-13T09:49:33Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 21
+      },
+      {
+        "team": {
+          "id": 83,
+          "tla": "GRA",
+          "name": "Granada CF",
+          "crest": "https://crests.football-data.org/83.png",
+          "venue": "Estadio Nuevo Los Cármenes",
+          "address": "Calle del Pintor Manuel Maldonado, s/n Granada 18007",
+          "founded": 1931,
+          "website": "http://www.granadacf.es",
+          "shortName": "Granada",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:11:42Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 11113,
+          "name": "Lucas Boyé",
+          "section": "Offence",
+          "lastName": "Boyé",
+          "position": null,
+          "firstName": "Lucas",
+          "dateOfBirth": "1996-02-28",
+          "lastUpdated": "2024-08-05T08:21:33Z",
+          "nationality": "Argentina",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 81,
+          "tla": "FCB",
+          "name": "FC Barcelona",
+          "crest": "https://crests.football-data.org/81.png",
+          "venue": "Camp Nou",
+          "address": "Avenida Arístides Maillol s/n Barcelona 08028",
+          "founded": 1899,
+          "website": "http://www.fcbarcelona.com",
+          "shortName": "Barça",
+          "clubColors": "Red / Navy Blue / Orange",
+          "lastUpdated": "2024-07-29T17:09:22Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 37428,
+          "name": "Raphinha",
+          "section": "Left Winger",
+          "lastName": "Raphinha",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-12-14",
+          "lastUpdated": "2024-11-28T13:36:10Z",
+          "nationality": "Brazil",
+          "shirtNumber": 7
+        },
+        "assists": 9,
+        "penalties": 1,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 275,
+          "tla": "LPA",
+          "name": "UD Las Palmas",
+          "crest": "https://crests.football-data.org/275.png",
+          "venue": "Estadio de Gran Canaria",
+          "address": "Calle Pío XII, 29 Las Palmas de Gran Canaria 35005",
+          "founded": 1949,
+          "website": "http://www.udlaspalmas.es",
+          "shortName": "Las Palmas",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-02-19T08:43:46Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 119386,
+          "name": "Kirian Rodríguez",
+          "section": "Attacking Midfield",
+          "lastName": "Kirian Rodríguez",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-03-05",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 267,
+          "tla": "ALM",
+          "name": "UD Almería",
+          "crest": "https://crests.football-data.org/267.png",
+          "venue": "Estadio de los Juegos Mediterráneos",
+          "address": "Calle Alcalde Santiago Martínez Cabrejas, 5 Almería 04007",
+          "founded": 1989,
+          "website": "http://www.udalmeriasad.com",
+          "shortName": "Almería",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-08-16T12:47:01Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 32386,
+          "name": "Luis Suárez",
+          "section": "Offence",
+          "lastName": "Suárez",
+          "position": null,
+          "firstName": "Luis",
+          "dateOfBirth": "1997-12-02",
+          "lastUpdated": "2025-02-20T09:44:47Z",
+          "nationality": "Colombia",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 267,
+          "tla": "ALM",
+          "name": "UD Almería",
+          "crest": "https://crests.football-data.org/267.png",
+          "venue": "Estadio de los Juegos Mediterráneos",
+          "address": "Calle Alcalde Santiago Martínez Cabrejas, 5 Almería 04007",
+          "founded": 1989,
+          "website": "http://www.udalmeriasad.com",
+          "shortName": "Almería",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-08-16T12:47:01Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 32721,
+          "name": "Léo Baptistão",
+          "section": "Offence",
+          "lastName": "Leo Baptistão",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-08-26",
+          "lastUpdated": "2025-02-20T09:44:47Z",
+          "nationality": "Brazil",
+          "shirtNumber": 10
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 33
+      }
+    ],
+    "competition": {
+      "id": 2014,
+      "code": "PD",
+      "name": "Primera Division",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/laliga.png"
+    }
+  }
+}

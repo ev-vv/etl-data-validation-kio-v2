@@ -1,0 +1,164 @@
+experiment:
+  name: demo_validation_impact
+
+  baseline:
+    stg_run_id: "manual__2026-01-09T10:59:39.137217+00:00"
+    dds_run_id: "manual__2026-01-09T11:19:56.607627+00:00"
+    
+  defaults:
+    dag_id_stg: "stg_football_raw_app2"
+    dag_id_dds: "dds_football_load_app2"
+
+    snapshot_limit: 200
+    truncate_dds_before_iteration: true
+
+    stg_mutations_config: "app2/mutators/configs/stg_mutations.yml"
+    dds_mutations_config: "app2/mutators/configs/dds_mutations.yml"
+    stg_validation_config: "app2/validators/configs/stg_validation.yml"
+    dds_validation_config: "app2/validators/configs/dds_validation.yml"
+
+  iterations:
+
+    - name: "STG мутация: swap_teams (пример искажения home/away)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        matches: ["swap_teams"]
+      env:
+        APP2_STG_SWAP_TEAMS_COUNT: "5"
+
+    - name: "DDS мутация: вставка аномального fact_match (валидации включены, ожидаем FAIL)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["fact_match"]
+
+    - name: "DDS мутация: вставка аномального fact_match (rules+exclusivity отключены, ожидаем SUCCESS)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["fact_match"]
+      dds_validation_overrides:
+        match_home_away_diff: false
+        matches_source_exclusivity: false
+
+
+
+
+    - name: "STG мутация: matches drop_required (валидации включены, ожидаем FAIL на STG)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        matches: ["drop_required"]
+
+    - name: "STG мутация: competitions duplicate_first (валидации включены, ожидаем FAIL на uniqueness)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        competitions: ["duplicate_first"]
+
+    - name: "STG мутация: matches corrupt_id (STG валидации отключены, ожидаем FAIL на DDS загрузке)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      run_stg_validation: false
+      stg_mutations_enable:
+        matches: ["corrupt_id"]
+
+    - name: "DDS мутация: dim_competition (семантическое искажение названия, ожидаем SUCCESS и изменения витрин)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["dim_competition"]
+
+    - name: "DDS мутация: fact_match (home/away diff отключен, exclusivity включен, ожидаем FAIL на source_exclusivity)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["fact_match"]
+      dds_validation_overrides:
+        match_home_away_diff: false
+        matches_source_exclusivity: false
+
+    - name: "STG mutation: areas drop_required (expect completeness fail)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        areas: ["drop_required"]
+
+    - name: "STG mutation: teams duplicate_first (expect uniqueness fail)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        teams: ["duplicate_first"]
+
+    - name: "DDS mutation: fact_standing (expect rules fail)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["fact_standing"]
+
+    - name: "STG mutation: scorers drop_required (expect completeness fail)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        scorers: ["drop_required"]
+
+    - name: "STG mutation: standings duplicate_first (expect uniqueness fail)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        standings: ["duplicate_first"]
+
+    - name: "STG mutation: matches swap_teams x10 (expect consistency impact)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        matches: ["swap_teams"]
+      env:
+        APP2_STG_SWAP_TEAMS_COUNT: "10"
+
+    - name: "STG mutation: competitions corrupt_id (expect schema/consistency issues)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        competitions: ["corrupt_id"]
+
+    - name: "STG mutation: teams drop_required + duplicate_first (mixed)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        teams: ["drop_required", "duplicate_first"]
+
+    - name: "DDS mutation: dim_competition (expect referential drift)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["dim_competition"]
+
+    - name: "DDS mutation: fact_match (expect rules fail)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["fact_match"]
+
+    - name: "DDS mutation: fact_standing (expect rules fail, skip DDS validation)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["fact_standing"]
+      run_dds_validation: false
+
+    - name: "STG mutation: matches drop_matches_key (schema mismatch)"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        matches: ["drop_matches_key"]
+
+    - name: "STG mutation: matches matchday_out_of_range"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        matches: ["matchday_out_of_range"]
+
+    - name: "STG mutation: matches duplicate_first"
+      kind: stg_mutation
+      from_stg_run_id: baseline
+      stg_mutations_enable:
+        matches: ["duplicate_first"]
+
+    - name: "DDS mutation: season_dates_missing (expect mart date missing)"
+      kind: dds_mutation
+      from_stg_run_id: baseline
+      dds_mutations_enable: ["season_dates_missing"]

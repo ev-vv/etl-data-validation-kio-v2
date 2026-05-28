@@ -1,0 +1,1 @@
+from app2.validators.stg.consistency_suite.run import run_stg_consistency_suite

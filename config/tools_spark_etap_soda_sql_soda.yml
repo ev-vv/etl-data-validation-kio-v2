@@ -1,0 +1,15 @@
+
+experiment:
+  name: spark_etap_soda_sql_soda
+  baseline:
+    stg_run_id: __auto__
+    dds_run_id: __auto__
+  defaults:
+    output_dir: logs/etl_stage_reports
+    include_experiments: true
+    only_unprocessed: false
+    repeats: 5
+    tools_by_stage:
+      E: [soda]
+      T: [sql]
+      L: [soda]

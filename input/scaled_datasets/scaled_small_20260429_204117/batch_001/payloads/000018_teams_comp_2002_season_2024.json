@@ -1,0 +1,109 @@
+{
+  "endpoint": "competitions/2002/teams?season=2024",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "teams": [
+      {
+        "id": 99016,
+        "area": {
+          "id": 2142
+        },
+        "name": "Ramseymouth FC",
+        "shortName": "New Amanda",
+        "tla": "ZLK",
+        "crest": "https://placekittens.com/55/171",
+        "address": "04653 Murphy Trace Suite 464\nSouth Andrewside, AR 46371",
+        "venue": "Santos Ltd Stadium"
+      },
+      {
+        "id": 15276,
+        "area": {
+          "id": 2142
+        },
+        "name": "East Jamestown FC",
+        "shortName": "East David",
+        "tla": "QHK",
+        "crest": "https://placekittens.com/446/952",
+        "address": "99124 Beth Inlet Suite 631\nNorth Heidi, ME 90188",
+        "venue": "Trujillo, Hogan and Knight Stadium"
+      },
+      {
+        "id": 15383,
+        "area": {
+          "id": 2142
+        },
+        "name": "Amandastad FC",
+        "shortName": "New Deborahtown",
+        "tla": "AFG",
+        "crest": "https://placekittens.com/887/741",
+        "address": "262 Gilbert Plain Suite 769\nMarcusbury, MP 11860",
+        "venue": "Keith-Sanchez Stadium"
+      },
+      {
+        "id": 70910,
+        "area": {
+          "id": 2142
+        },
+        "name": "Rogersfort FC",
+        "shortName": "Hunterborough",
+        "tla": "WZQ",
+        "crest": "https://placekittens.com/697/572",
+        "address": "083 John Lodge Suite 837\nWesttown, CO 39067",
+        "venue": "Sullivan and Sons Stadium"
+      },
+      {
+        "id": 50135,
+        "area": {
+          "id": 2142
+        },
+        "name": "Thomashaven FC",
+        "shortName": "Ronaldside",
+        "tla": "VWS",
+        "crest": "https://dummyimage.com/929x554",
+        "address": "351 James Streets\nHillshire, WV 69266",
+        "venue": "Campbell, Garcia and Lee Stadium"
+      },
+      {
+        "id": 39816,
+        "area": {
+          "id": 2142
+        },
+        "name": "Harrytown FC",
+        "shortName": "West Brandon",
+        "tla": "DJS",
+        "crest": "https://picsum.photos/258/1005",
+        "address": "7752 Johnny Wall Suite 116\nJoneston, FL 20056",
+        "venue": "Avery, Miller and Wright Stadium"
+      },
+      {
+        "id": 83147,
+        "area": {
+          "id": 2142
+        },
+        "name": "Obrienbury FC",
+        "shortName": "Hayesmouth",
+        "tla": "TLB",
+        "crest": "https://placekittens.com/625/123",
+        "address": "USS Meza\nFPO AE 82488",
+        "venue": "Baker Inc Stadium"
+      },
+      {
+        "id": 30585,
+        "area": {
+          "id": 2142
+        },
+        "name": "East Andrea FC",
+        "shortName": "North Ricky",
+        "tla": "SME",
+        "crest": "https://picsum.photos/596/66",
+        "address": "713 French Road Apt. 618\nLake Edward, KY 19144",
+        "venue": "Brown LLC Stadium"
+      }
+    ]
+  }
+}

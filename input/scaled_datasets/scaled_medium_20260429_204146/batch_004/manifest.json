@@ -1,0 +1,164 @@
+{
+  "batch_id": "scaled_medium_20260429_204146_b004",
+  "batch_num": 4,
+  "scale": "medium",
+  "exported_at_utc": "2026-04-29T17:41:47.268892Z",
+  "files": [
+    {
+      "file": "payloads/000001_teams_comp_2016_season_2024.json",
+      "endpoint": "competitions/2016/teams?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000002_matches_comp_2016_season_2024.json",
+      "endpoint": "competitions/2016/matches?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000003_standings_comp_2016_season_2024.json",
+      "endpoint": "competitions/2016/standings?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000004_teams_comp_2016_season_2025.json",
+      "endpoint": "competitions/2016/teams?season=2025",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000005_matches_comp_2016_season_2025.json",
+      "endpoint": "competitions/2016/matches?season=2025",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000006_standings_comp_2016_season_2025.json",
+      "endpoint": "competitions/2016/standings?season=2025",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000007_teams_comp_2034_season_2022.json",
+      "endpoint": "competitions/2034/teams?season=2022",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000008_matches_comp_2034_season_2022.json",
+      "endpoint": "competitions/2034/matches?season=2022",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000009_standings_comp_2034_season_2022.json",
+      "endpoint": "competitions/2034/standings?season=2022",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000010_teams_comp_2034_season_2023.json",
+      "endpoint": "competitions/2034/teams?season=2023",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000011_matches_comp_2034_season_2023.json",
+      "endpoint": "competitions/2034/matches?season=2023",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000012_standings_comp_2034_season_2023.json",
+      "endpoint": "competitions/2034/standings?season=2023",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000013_teams_comp_2034_season_2024.json",
+      "endpoint": "competitions/2034/teams?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000014_matches_comp_2034_season_2024.json",
+      "endpoint": "competitions/2034/matches?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000015_standings_comp_2034_season_2024.json",
+      "endpoint": "competitions/2034/standings?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000016_teams_comp_2034_season_2025.json",
+      "endpoint": "competitions/2034/teams?season=2025",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000017_matches_comp_2034_season_2025.json",
+      "endpoint": "competitions/2034/matches?season=2025",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000018_standings_comp_2034_season_2025.json",
+      "endpoint": "competitions/2034/standings?season=2025",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000019_teams_comp_2015_season_2022.json",
+      "endpoint": "competitions/2015/teams?season=2022",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000020_matches_comp_2015_season_2022.json",
+      "endpoint": "competitions/2015/matches?season=2022",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000021_standings_comp_2015_season_2022.json",
+      "endpoint": "competitions/2015/standings?season=2022",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000022_teams_comp_2015_season_2023.json",
+      "endpoint": "competitions/2015/teams?season=2023",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000023_matches_comp_2015_season_2023.json",
+      "endpoint": "competitions/2015/matches?season=2023",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000024_standings_comp_2015_season_2023.json",
+      "endpoint": "competitions/2015/standings?season=2023",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000025_teams_comp_2015_season_2024.json",
+      "endpoint": "competitions/2015/teams?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000026_matches_comp_2015_season_2024.json",
+      "endpoint": "competitions/2015/matches?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000027_standings_comp_2015_season_2024.json",
+      "endpoint": "competitions/2015/standings?season=2024",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000028_teams_comp_2015_season_2025.json",
+      "endpoint": "competitions/2015/teams?season=2025",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000029_matches_comp_2015_season_2025.json",
+      "endpoint": "competitions/2015/matches?season=2025",
+      "http_status": 200
+    },
+    {
+      "file": "payloads/000030_standings_comp_2015_season_2025.json",
+      "endpoint": "competitions/2015/standings?season=2025",
+      "http_status": 200
+    }
+  ],
+  "counts": {
+    "files": 30,
+    "teams": 200,
+    "matches": 3800,
+    "standings": 10
+  }
+}

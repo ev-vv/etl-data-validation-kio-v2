@@ -1,0 +1,204 @@
+layers:
+  STG:
+    suites:
+      ingestion_suite:
+        enabled: true
+        entity: STG_ingestion_validation_suite
+        description: "Проверки пригодности ответов внешнего API для дальнейшеи обработки (в STG не должно быть 4xx/5xx и служебных JSON без ожидаемых ключеи)."
+        validations:
+          - api_http_status_ok
+          - api_payload_shape_ok
+      schema_suite:
+        enabled: true
+        entity: STG_schema_validation_suite
+        description: "Проверки соответствия структуры JSON ожидаемой схеме (типы полей, обязательные ключи)."
+        validations:
+          - areas_schema
+          - competitions_schema
+          - teams_schema
+          - scorers_schema
+          - matches_schema
+          - standings_schema
+      completeness_suite:
+        enabled: true
+        entity: STG_completeness_validation_suite
+        description: "Проверки заполненности критичных полей в данных (id, name, даты и т.д.)."
+        validations:
+          - areas_completeness
+          - competitions_completeness
+          - teams_completeness
+          - scorers_completeness
+          - matches_completeness
+          - standings_completeness
+      uniqueness_suite:
+        enabled: true
+        entity: STG_uniqueness_validation_suite
+        description: "Проверки уникальности ключевых идентификаторов внутри списков (отсутствие дубликатов)."
+        validations:
+          - areas_uniqueness
+          - competitions_uniqueness
+          - teams_uniqueness
+          - scorers_uniqueness
+          - matches_uniqueness
+          - standings_uniqueness
+      consistency_suite:
+        enabled: true
+        entity: STG_consistency_validation_suite
+        description: "Проверки согласованности данных между сущностями и полями (взаимосвязи и допустимые значения)."
+        validations:
+          - competitions_consistency
+          - matches_consistency
+          - standings_consistency
+          - teams_consistency
+          - scorers_consistency
+    validations:
+      api_http_status_ok:
+        enabled: true
+        entity: raw_football_api
+        severity: error
+        type: ingestion
+        description: "Проверяет, что в STG нет ответов с http_status вне диапазона 2xx."
+      api_payload_shape_ok:
+        enabled: true
+        entity: raw_football_api
+        severity: error
+        type: ingestion
+        description: "Проверяет, что JSON содержит ожидаемыи верхнеуровневыи ключ (teams/matches/standings/...)."
+      areas_schema:
+        enabled: true
+        entity: areas
+        severity: error
+        type: schema
+        description: "Проверяет структуру areas (обязательные поля и типы)."
+      competitions_schema:
+        enabled: true
+        entity: competitions
+        severity: error
+        type: schema
+        description: "Проверяет структуру competitions (обязательные поля и типы)."
+      teams_schema:
+        enabled: true
+        entity: teams
+        severity: error
+        type: schema
+        description: "Проверяет структуру teams (обязательные поля и типы)."
+      scorers_schema:
+        enabled: true
+        entity: scorers
+        severity: warning
+        type: schema
+        description: "Проверяет структуру scorers (обязательные поля и типы)."
+      matches_schema:
+        enabled: true
+        entity: matches
+        severity: error
+        type: schema
+        description: "Проверяет структуру matches (обязательные поля и типы)."
+      standings_schema:
+        enabled: true
+        entity: standings
+        severity: warning
+        type: schema
+        description: "Проверяет структуру standings (обязательные поля и типы)."
+      areas_completeness:
+        enabled: true
+        entity: areas
+        severity: error
+        type: completeness
+        description: "Проверяет заполненность areas (нет NULL/пустых значении в ключевых полях)."
+      competitions_completeness:
+        enabled: true
+        entity: competitions
+        severity: error
+        type: completeness
+        description: "Проверяет заполненность competitions (нет NULL/пустых значении в ключевых полях)."
+      teams_completeness:
+        enabled: true
+        entity: teams
+        severity: error
+        type: completeness
+        description: "Проверяет заполненность teams (нет NULL/пустых значении в ключевых полях)."
+      scorers_completeness:
+        enabled: true
+        entity: scorers
+        severity: error
+        type: completeness
+        description: "Проверяет заполненность scorers (нет NULL/пустых значении в ключевых полях)."
+      matches_completeness:
+        enabled: true
+        entity: matches
+        severity: error
+        type: completeness
+        description: "Проверяет заполненность matches (наличие id, дат и идентификаторов команд, если они ожидаются)."
+      standings_completeness:
+        enabled: true
+        entity: standings
+        severity: warning
+        type: completeness
+        description: "Проверяет заполненность standings (наличие season/competition и таблицы результатов)."
+      areas_uniqueness:
+        enabled: true
+        entity: areas
+        severity: error
+        type: uniqueness
+        description: "Проверяет уникальность areas (отсутствие дубликатов по id)."
+      competitions_uniqueness:
+        enabled: true
+        entity: competitions
+        severity: error
+        type: uniqueness
+        description: "Проверяет уникальность competitions (отсутствие дубликатов по id)."
+      teams_uniqueness:
+        enabled: true
+        entity: teams
+        severity: error
+        type: uniqueness
+        description: "Проверяет уникальность teams (отсутствие дубликатов по id)."
+      scorers_uniqueness:
+        enabled: true
+        entity: scorers
+        severity: error
+        type: uniqueness
+        description: "Проверяет уникальность scorers (отсутствие дубликатов по id)."
+      matches_uniqueness:
+        enabled: true
+        entity: matches
+        severity: error
+        type: uniqueness
+        description: "Проверяет уникальность matches (отсутствие дубликатов по id)."
+      standings_uniqueness:
+        enabled: true
+        entity: standings
+        severity: warning
+        type: uniqueness
+        description: "Проверяет уникальность standings (отсутствие дубликатов по ключевым полям)."
+      competitions_consistency:
+        enabled: true
+        entity: competitions
+        severity: error
+        type: consistency
+        description: "Проверяет согласованность competitions (корректность связеи, например area, и базовых атрибутов)."
+      matches_consistency:
+        enabled: true
+        entity: matches
+        severity: error
+        type: consistency
+        description: "Проверяет согласованность matches (формат дат и связеи команд/сезона)."
+      standings_consistency:
+        enabled: true
+        entity: standings
+        severity: warning
+        type: consistency
+        description: "Проверяет согласованность standings (ключевые показатели и структура таблицы)."
+      teams_consistency:
+        enabled: true
+        entity: teams
+        severity: warning
+        type: consistency
+        description: "Проверяет согласованность teams (атрибуты команды и связь с area)."
+      scorers_consistency:
+        enabled: true
+        entity: scorers
+        severity: warning
+        type: consistency
+        description: "Проверяет согласованность scorers (атрибуты игрока/команды и статистика)."

@@ -1,0 +1,28 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: etl_kio_postgres
+    environment:
+      POSTGRES_DB: vkr_data
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: pass
+    ports:
+      - "55432:5432"
+    volumes:
+      - etl_kio_pgdata:/var/lib/postgresql/data
+      - ./sql/initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d vkr_data"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+      start_period: 10s
+
+volumes:
+  etl_kio_pgdata:
+networks:
+  default:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.100.0.0/24

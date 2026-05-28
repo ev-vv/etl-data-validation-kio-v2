@@ -1,0 +1,1 @@
+from app2.validators.dds.referential_suite.run import run_dds_referential_suite

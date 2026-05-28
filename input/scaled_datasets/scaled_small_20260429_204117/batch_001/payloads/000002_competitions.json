@@ -1,0 +1,52 @@
+{
+  "endpoint": "competitions",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "competitions": [
+      {
+        "id": 2040,
+        "area": {
+          "id": 2030,
+          "name": "Bermuda",
+          "countryCode": "GM",
+          "flag": "https://placekittens.com/476/54"
+        },
+        "name": "Moore-Bernard League",
+        "code": "VGF",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/778x198"
+      },
+      {
+        "id": 2017,
+        "area": {
+          "id": 2142,
+          "name": "Saint Pierre and Miquelon",
+          "countryCode": "CA",
+          "flag": "https://picsum.photos/178/864"
+        },
+        "name": "Munoz-Roman League",
+        "code": "UDI",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/255/775"
+      },
+      {
+        "id": 2002,
+        "area": {
+          "id": 2142,
+          "name": "Saint Pierre and Miquelon",
+          "countryCode": "CA",
+          "flag": "https://picsum.photos/178/864"
+        },
+        "name": "Carter, Fuller and Mcclure League",
+        "code": "XKM",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/142/93"
+      }
+    ]
+  }
+}

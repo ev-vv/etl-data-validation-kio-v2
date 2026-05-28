@@ -1,0 +1,109 @@
+{
+  "endpoint": "competitions/2040/teams?season=2023",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "teams": [
+      {
+        "id": 39871,
+        "area": {
+          "id": 2030
+        },
+        "name": "Traciebury FC",
+        "shortName": "South Joshuastad",
+        "tla": "KXW",
+        "crest": "https://placekittens.com/429/546",
+        "address": "USS Lynch\nFPO AE 70511",
+        "venue": "Sanchez, Ford and Nelson Stadium"
+      },
+      {
+        "id": 93886,
+        "area": {
+          "id": 2030
+        },
+        "name": "Lake Mark FC",
+        "shortName": "East Lydiamouth",
+        "tla": "ZRE",
+        "crest": "https://picsum.photos/432/644",
+        "address": "724 John Points Suite 969\nCoxberg, NY 65187",
+        "venue": "Campos Inc Stadium"
+      },
+      {
+        "id": 30033,
+        "area": {
+          "id": 2030
+        },
+        "name": "Port Erin FC",
+        "shortName": "South Patrickmouth",
+        "tla": "HQJ",
+        "crest": "https://placekittens.com/23/234",
+        "address": "514 Moore Alley Suite 828\nPort Colleenhaven, PA 26572",
+        "venue": "Brooks and Sons Stadium"
+      },
+      {
+        "id": 80697,
+        "area": {
+          "id": 2030
+        },
+        "name": "New Mariotown FC",
+        "shortName": "West Natashaport",
+        "tla": "PDP",
+        "crest": "https://placekittens.com/161/175",
+        "address": "227 Joseph Well\nBrandtside, WV 96174",
+        "venue": "Harris, Collins and Carney Stadium"
+      },
+      {
+        "id": 95180,
+        "area": {
+          "id": 2030
+        },
+        "name": "Samuelhaven FC",
+        "shortName": "Martinezbury",
+        "tla": "EVB",
+        "crest": "https://picsum.photos/471/451",
+        "address": "10518 Joshua Oval\nNew David, FM 75348",
+        "venue": "Kennedy, Mueller and Aguirre Stadium"
+      },
+      {
+        "id": 34957,
+        "area": {
+          "id": 2030
+        },
+        "name": "North Donnastad FC",
+        "shortName": "Jenkinston",
+        "tla": "RPP",
+        "crest": "https://dummyimage.com/201x124",
+        "address": "33872 White Mountain\nPort Sandra, NV 72633",
+        "venue": "Williams PLC Stadium"
+      },
+      {
+        "id": 11934,
+        "area": {
+          "id": 2030
+        },
+        "name": "Port Melindaburgh FC",
+        "shortName": "Tuckerborough",
+        "tla": "ZDK",
+        "crest": "https://dummyimage.com/776x4",
+        "address": "6872 Kenneth Centers Apt. 500\nShawhaven, GA 07956",
+        "venue": "Miller, Lopez and Larson Stadium"
+      },
+      {
+        "id": 98501,
+        "area": {
+          "id": 2030
+        },
+        "name": "South David FC",
+        "shortName": "New Brooke",
+        "tla": "NFA",
+        "crest": "https://picsum.photos/647/534",
+        "address": "46247 Hickman Cliffs Apt. 799\nNorth Amandahaven, KS 17862",
+        "venue": "Ibarra-Suarez Stadium"
+      }
+    ]
+  }
+}

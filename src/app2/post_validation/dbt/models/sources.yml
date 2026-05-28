@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: dds
+    schema: dds
+    tables:
+      - name: fact_match
+      - name: fact_standing
+  - name: mart
+    schema: mart
+    tables:
+      - name: v_competition_season_kpi
+      - name: v_team_season_results

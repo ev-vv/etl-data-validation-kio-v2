@@ -1,0 +1,34 @@
+
+# Runtime artifacts
+/logs/
+/output/
+.venv/
+venv/
+/.env
+/dbt_packages/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Fallback ignores (if someone builds in the source dir)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+# *.log
+*.out
+*.synctex.gz
+
+# Python cache
+__pycache__/
+*.pyc
+
+spark-warehouse/
+metastore_db/
+derby.log
+jars/
+minio_data/
+temp_parquet/
+plots/

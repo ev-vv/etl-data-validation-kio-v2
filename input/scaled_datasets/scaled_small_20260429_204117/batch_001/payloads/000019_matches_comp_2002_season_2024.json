@@ -1,0 +1,1153 @@
+{
+  "endpoint": "competitions/2002/matches?season=2024",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "matches": [
+      {
+        "id": 530728,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-01T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "awayTeam": {
+          "id": 15276,
+          "name": "East Jamestown FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 3,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 145767,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-02T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "awayTeam": {
+          "id": 15276,
+          "name": "East Jamestown FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 433632,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-03T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "awayTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 1,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 880879,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-04T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "awayTeam": {
+          "id": 15276,
+          "name": "East Jamestown FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 595951,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-05T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "awayTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 0,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 839485,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-06T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 950823,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-07T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "awayTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 2,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 499749,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-08T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 3,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 504832,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-09T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 70910,
+          "name": "Rogersfort FC"
+        },
+        "awayTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      },
+      {
+        "id": 795928,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-10T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "awayTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 4,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 930884,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-11T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "awayTeam": {
+          "id": 99016,
+          "name": "Ramseymouth FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 3,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 960616,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-12T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 99016,
+          "name": "Ramseymouth FC"
+        },
+        "awayTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 5,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 783691,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-13T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "awayTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 1,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 259493,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-14T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "awayTeam": {
+          "id": 15276,
+          "name": "East Jamestown FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 1,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 619389,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-15T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 5,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 138817,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-16T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 232378,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-17T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 99016,
+          "name": "Ramseymouth FC"
+        },
+        "awayTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 626690,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-18T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "awayTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 718849,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-19T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "awayTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      },
+      {
+        "id": 448121,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-20T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "awayTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 2,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 205239,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-21T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "awayTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 986088,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-22T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 561694,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-23T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15276,
+          "name": "East Jamestown FC"
+        },
+        "awayTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 204555,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-24T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "awayTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 651499,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-25T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "awayTeam": {
+          "id": 99016,
+          "name": "Ramseymouth FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 4,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 579123,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-26T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "awayTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 5,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 116093,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-27T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "awayTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 857537,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-28T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15276,
+          "name": "East Jamestown FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 3,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 251157,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-29T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "awayTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 529893,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-30T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 786587,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-31T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15276,
+          "name": "East Jamestown FC"
+        },
+        "awayTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 261859,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-01T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "awayTeam": {
+          "id": 99016,
+          "name": "Ramseymouth FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 1,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 178463,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-02T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "awayTeam": {
+          "id": 70910,
+          "name": "Rogersfort FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 2,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 592296,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-03T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "awayTeam": {
+          "id": 50135,
+          "name": "Thomashaven FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 5,
+            "away": 1
+          }
+        }
+      },
+      {
+        "id": 919488,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-04T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 3,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 377896,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-05T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 83147,
+          "name": "Obrienbury FC"
+        },
+        "awayTeam": {
+          "id": 15383,
+          "name": "Amandastad FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 455007,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-06T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 70910,
+          "name": "Rogersfort FC"
+        },
+        "awayTeam": {
+          "id": 30585,
+          "name": "East Andrea FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 753534,
+        "competition": {
+          "id": 2002
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-07T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 15276,
+          "name": "East Jamestown FC"
+        },
+        "awayTeam": {
+          "id": 39816,
+          "name": "Harrytown FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 4,
+            "away": 5
+          }
+        }
+      }
+    ]
+  }
+}

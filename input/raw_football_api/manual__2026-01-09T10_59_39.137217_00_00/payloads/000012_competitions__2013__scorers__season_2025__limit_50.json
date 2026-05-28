@@ -1,0 +1,1582 @@
+{
+  "source_id": 12,
+  "endpoint": "competitions/2013/scorers?season=2025&limit=50",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "count": 50,
+    "season": {
+      "id": 2371,
+      "winner": null,
+      "endDate": "2025-12-21",
+      "startDate": "2025-03-29",
+      "currentMatchday": 38
+    },
+    "filters": {
+      "limit": 50,
+      "season": 2025
+    },
+    "scorers": [
+      {
+        "team": {
+          "id": 1771,
+          "tla": "CRU",
+          "name": "Cruzeiro EC",
+          "crest": "https://crests.football-data.org/1771.png",
+          "venue": "Estádio Governador Magalhães Pinto",
+          "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+          "founded": 1921,
+          "website": "http://www.cruzeiro.com.br",
+          "shortName": "Cruzeiro",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-04-10T11:03:46Z"
+        },
+        "goals": 21,
+        "player": {
+          "id": 91310,
+          "name": "Kaio Jorge",
+          "section": "Centre-Forward",
+          "lastName": "Kaio Jorge",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2002-01-24",
+          "lastUpdated": "2024-09-02T09:59:11Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": 1,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 1783,
+          "tla": "FLA",
+          "name": "CR Flamengo",
+          "crest": "https://crests.football-data.org/1783.png",
+          "venue": "Estadio Jornalista Mário Filho",
+          "address": "null Rio de Janeiro, RJ null",
+          "founded": 1919,
+          "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+          "shortName": "Flamengo",
+          "clubColors": "Red / Black / White",
+          "lastUpdated": "2022-04-06T13:13:43Z"
+        },
+        "goals": 18,
+        "player": {
+          "id": 1244,
+          "name": "Giorgian De Arrascaeta",
+          "section": "Midfield",
+          "lastName": "de Arrascaeta",
+          "position": null,
+          "firstName": "Giorgian",
+          "dateOfBirth": "1994-06-01",
+          "lastUpdated": "2024-06-11T22:59:38Z",
+          "nationality": "Uruguay",
+          "shirtNumber": null
+        },
+        "assists": 14,
+        "penalties": 2,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 1769,
+          "tla": "PAL",
+          "name": "SE Palmeiras",
+          "crest": "https://crests.football-data.org/1769.png",
+          "venue": "Allianz Parque",
+          "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+          "founded": 1914,
+          "website": "http://www.palmeiras.com.br",
+          "shortName": "Palmeiras",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-04-06T13:14:55Z"
+        },
+        "goals": 16,
+        "player": {
+          "id": 181439,
+          "name": "Vítor Roque",
+          "section": "Centre-Forward",
+          "lastName": "Vítor Roque",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2005-02-28",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 1,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 1780,
+          "tla": "VAS",
+          "name": "CR Vasco da Gama",
+          "crest": "https://crests.football-data.org/1780.png",
+          "venue": "Estádio Club de Regatas Vasco da Gama",
+          "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+          "founded": 1898,
+          "website": "http://www.vasco.com.br",
+          "shortName": "Vasco da Gama",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-02-18T08:43:37Z"
+        },
+        "goals": 14,
+        "player": {
+          "id": 59859,
+          "name": "Pablo Vegetti",
+          "section": "Offence",
+          "lastName": "Vegetti",
+          "position": null,
+          "firstName": "Pablo",
+          "dateOfBirth": "1988-10-15",
+          "lastUpdated": "2023-07-31T10:34:23Z",
+          "nationality": "Argentina",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 3,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 1780,
+          "tla": "VAS",
+          "name": "CR Vasco da Gama",
+          "crest": "https://crests.football-data.org/1780.png",
+          "venue": "Estádio Club de Regatas Vasco da Gama",
+          "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+          "founded": 1898,
+          "website": "http://www.vasco.com.br",
+          "shortName": "Vasco da Gama",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-02-18T08:43:37Z"
+        },
+        "goals": 14,
+        "player": {
+          "id": 203356,
+          "name": "Rayan",
+          "section": "Offence",
+          "lastName": "Rayan",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2006-08-03",
+          "lastUpdated": "2025-02-28T09:42:37Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 4364,
+          "tla": "MIR",
+          "name": "Mirassol FC",
+          "crest": "https://crests.football-data.org/4364.png",
+          "venue": "Estádio José Maria de Campos Maia",
+          "address": "null Mirassol, SP null",
+          "founded": 1925,
+          "website": "http://www.mirassolfc.com.br",
+          "shortName": "Mirassol",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-07-31T08:47:23Z"
+        },
+        "goals": 13,
+        "player": {
+          "id": 1340,
+          "name": "Reinaldo",
+          "section": "Defence",
+          "lastName": "Reinaldo",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1989-09-28",
+          "lastUpdated": "2024-06-18T09:41:48Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 6,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 1769,
+          "tla": "PAL",
+          "name": "SE Palmeiras",
+          "crest": "https://crests.football-data.org/1769.png",
+          "venue": "Allianz Parque",
+          "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+          "founded": 1914,
+          "website": "http://www.palmeiras.com.br",
+          "shortName": "Palmeiras",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-04-06T13:14:55Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 170698,
+          "name": "José Manuel López",
+          "section": "Midfield",
+          "lastName": "López",
+          "position": null,
+          "firstName": "José Manuel",
+          "dateOfBirth": "2000-12-06",
+          "lastUpdated": "2024-06-13T09:41:56Z",
+          "nationality": "Argentina",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 2,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 1783,
+          "tla": "FLA",
+          "name": "CR Flamengo",
+          "crest": "https://crests.football-data.org/1783.png",
+          "venue": "Estadio Jornalista Mário Filho",
+          "address": "null Rio de Janeiro, RJ null",
+          "founded": 1919,
+          "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+          "shortName": "Flamengo",
+          "clubColors": "Red / Black / White",
+          "lastUpdated": "2022-04-06T13:13:43Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 1077,
+          "name": "Pedro",
+          "section": "Offence",
+          "lastName": "Pedro",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1997-06-20",
+          "lastUpdated": "2023-07-30T23:15:48Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 1,
+        "playedMatches": 23
+      },
+      {
+        "team": {
+          "id": 1767,
+          "tla": "FBP",
+          "name": "Grêmio FBPA",
+          "crest": "https://crests.football-data.org/1767.png",
+          "venue": "Arena do Grêmio",
+          "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+          "founded": 1903,
+          "website": "http://www.gremio.net",
+          "shortName": "Grêmio",
+          "clubColors": "Blue / Black / White",
+          "lastUpdated": "2023-02-18T08:42:52Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 37833,
+          "name": "Carlos Vinícius",
+          "section": "Centre-Forward",
+          "lastName": "Carlos Vinícius",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1995-03-25",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 3,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 1837,
+          "tla": "CSC",
+          "name": "Ceará SC",
+          "crest": "https://crests.football-data.org/1837.png",
+          "venue": "Estádio Castelão",
+          "address": "Av. João Pessoa 3532, Porangabuçu Fortaleza, CE 60425-680",
+          "founded": 1914,
+          "website": "http://www.cearasc.com",
+          "shortName": "Ceará",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-02-18T08:33:26Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 40134,
+          "name": "Pedro Raul",
+          "section": "Offence",
+          "lastName": "Pedro Raúl",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-11-05",
+          "lastUpdated": "2023-10-26T09:47:28Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 1,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 6684,
+          "tla": "SCI",
+          "name": "SC Internacional",
+          "crest": "https://crests.football-data.org/6684.png",
+          "venue": "Estádio José Pinheiro Borba",
+          "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
+          "founded": 1909,
+          "website": "http://www.internacional.com.br",
+          "shortName": "Internacional",
+          "clubColors": "Red / White",
+          "lastUpdated": "2023-02-18T08:43:22Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 16481,
+          "name": "Alan Patrick",
+          "section": "Midfield",
+          "lastName": "Alan Patrick",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1991-05-13",
+          "lastUpdated": "2023-07-30T23:15:50Z",
+          "nationality": "Brazil",
+          "shirtNumber": 21
+        },
+        "assists": 6,
+        "penalties": 6,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 1777,
+          "tla": "BAH",
+          "name": "EC Bahia",
+          "crest": "https://crests.football-data.org/1777.png",
+          "venue": "Estádio Governador Roberto Santos",
+          "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+          "founded": 1931,
+          "website": "http://www.esporteclubebahia.com.br",
+          "shortName": "Bahia",
+          "clubColors": "Blue / White / Red",
+          "lastUpdated": "2024-10-28T10:09:10Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 8,
+          "name": "Willian José",
+          "section": "Centre-Forward",
+          "lastName": "Willian José",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1991-11-23",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 3,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 1779,
+          "tla": "COR",
+          "name": "SC Corinthians Paulista",
+          "crest": "https://crests.football-data.org/1779.png",
+          "venue": "Neo Química Arena",
+          "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+          "founded": 1910,
+          "website": "http://www.corinthians.com.br",
+          "shortName": "Corinthians",
+          "clubColors": "Black / White",
+          "lastUpdated": "2024-07-29T17:24:47Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 1325,
+          "name": "Yuri Alberto",
+          "section": "Offence",
+          "lastName": "Yuri Alberto",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-03-18",
+          "lastUpdated": "2025-03-10T09:42:27Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 2,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 4286,
+          "tla": "RBB",
+          "name": "RB Bragantino",
+          "crest": "https://crests.football-data.org/4286.png",
+          "venue": "Estádio Nabi Abi Chedid",
+          "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+          "founded": 1928,
+          "website": "http://www.bragantino.net",
+          "shortName": "Bragantino",
+          "clubColors": "White / Black",
+          "lastUpdated": "2023-02-18T08:43:26Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 179032,
+          "name": "Jhonatan",
+          "section": "Midfield",
+          "lastName": "Jhon Jhon",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2002-09-09",
+          "lastUpdated": "2023-09-09T01:50:51Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": 3,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 6685,
+          "tla": "SAN",
+          "name": "Santos FC",
+          "crest": "https://crests.football-data.org/6685.png",
+          "venue": "Estádio Urbano Caldeira",
+          "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+          "founded": 1912,
+          "website": "http://santosfc.com.br",
+          "shortName": "Santos",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-02-18T08:43:18Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 83705,
+          "name": "Álvaro Barreal",
+          "section": "Midfield",
+          "lastName": "Barreal",
+          "position": null,
+          "firstName": "Álvaro",
+          "dateOfBirth": "2000-08-17",
+          "lastUpdated": "2022-04-07T08:16:59Z",
+          "nationality": "Argentina",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 1,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 1782,
+          "tla": "VIT",
+          "name": "EC Vitória",
+          "crest": "https://crests.football-data.org/1782.png",
+          "venue": "Estádio Manoel Barradas",
+          "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+          "founded": 1899,
+          "website": "http://www.ecvitoria.com.br",
+          "shortName": "Vitória",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2023-02-18T08:33:29Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 12837,
+          "name": "Renato Kayzer",
+          "section": "Offence",
+          "lastName": "Renato Kayzer",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-02-17",
+          "lastUpdated": "2023-07-30T23:15:48Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 1776,
+          "tla": "PAU",
+          "name": "São Paulo FC",
+          "crest": "https://crests.football-data.org/1776.png",
+          "venue": "Estádio do Morumbi",
+          "address": "null São Paulo, SP null",
+          "founded": 1930,
+          "website": "http://www.saopaulofc.net",
+          "shortName": "São Paulo",
+          "clubColors": "White / Red / Black",
+          "lastUpdated": "2023-02-18T08:43:44Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 42901,
+          "name": "Luciano",
+          "section": "Offence",
+          "lastName": "Luciano",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1993-05-18",
+          "lastUpdated": "2023-07-30T23:15:46Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 1,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 4245,
+          "tla": "JUV",
+          "name": "EC Juventude",
+          "crest": "https://crests.football-data.org/4245_large.png",
+          "venue": "Estádio Alfredo Jaconi",
+          "address": "Rua Hércules Galló 1547, Centro Caxias do Sul, RS 95090-110",
+          "founded": 1913,
+          "website": "http://www.juventude.com.br",
+          "shortName": "Juventude",
+          "clubColors": "Green / White",
+          "lastUpdated": "2021-07-22T10:54:36Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 11194,
+          "name": "Gabriel Taliari",
+          "section": "Midfield",
+          "lastName": "Gabriel Taliari",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1997-04-13",
+          "lastUpdated": "2024-10-30T09:42:34Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 1783,
+          "tla": "FLA",
+          "name": "CR Flamengo",
+          "crest": "https://crests.football-data.org/1783.png",
+          "venue": "Estadio Jornalista Mário Filho",
+          "address": "null Rio de Janeiro, RJ null",
+          "founded": 1919,
+          "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+          "shortName": "Flamengo",
+          "clubColors": "Red / Black / White",
+          "lastUpdated": "2022-04-06T13:13:43Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 1317,
+          "name": "Bruno Henrique",
+          "section": "Offence",
+          "lastName": "Bruno Henrique",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1990-12-30",
+          "lastUpdated": "2023-07-30T23:15:48Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 4286,
+          "tla": "RBB",
+          "name": "RB Bragantino",
+          "crest": "https://crests.football-data.org/4286.png",
+          "venue": "Estádio Nabi Abi Chedid",
+          "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+          "founded": 1928,
+          "website": "http://www.bragantino.net",
+          "shortName": "Bragantino",
+          "clubColors": "White / Black",
+          "lastUpdated": "2023-02-18T08:43:26Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 1326,
+          "name": "Eduardo Sasha",
+          "section": "Offence",
+          "lastName": "Eduardo Sasha",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-02-24",
+          "lastUpdated": "2023-07-30T23:15:49Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 3,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 1766,
+          "tla": "CAM",
+          "name": "CA Mineiro",
+          "crest": "https://crests.football-data.org/1766.png",
+          "venue": "Estádio Raimundo Sampaio",
+          "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+          "founded": 1908,
+          "website": "http://www.atletico.com.br",
+          "shortName": "Mineiro",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-12-28T10:32:33Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 21689,
+          "name": "Hulk",
+          "section": "Offence",
+          "lastName": "Hulk",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1986-07-25",
+          "lastUpdated": "2023-07-30T23:15:42Z",
+          "nationality": "Brazil",
+          "shirtNumber": 10
+        },
+        "assists": 6,
+        "penalties": 1,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 6685,
+          "tla": "SAN",
+          "name": "Santos FC",
+          "crest": "https://crests.football-data.org/6685.png",
+          "venue": "Estádio Urbano Caldeira",
+          "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+          "founded": 1912,
+          "website": "http://santosfc.com.br",
+          "shortName": "Santos",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-02-18T08:43:18Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 8491,
+          "name": "Neymar",
+          "section": "Offence",
+          "lastName": "Neymar",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1992-02-05",
+          "lastUpdated": "2023-07-30T17:03:23Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 21
+      },
+      {
+        "team": {
+          "id": 1780,
+          "tla": "VAS",
+          "name": "CR Vasco da Gama",
+          "crest": "https://crests.football-data.org/1780.png",
+          "venue": "Estádio Club de Regatas Vasco da Gama",
+          "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+          "founded": 1898,
+          "website": "http://www.vasco.com.br",
+          "shortName": "Vasco da Gama",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-02-18T08:43:37Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 171304,
+          "name": "Nuno Moreira",
+          "section": "Left Winger",
+          "lastName": "Nuno Moreira",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-06-16",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 4286,
+          "tla": "RBB",
+          "name": "RB Bragantino",
+          "crest": "https://crests.football-data.org/4286.png",
+          "venue": "Estádio Nabi Abi Chedid",
+          "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+          "founded": 1928,
+          "website": "http://www.bragantino.net",
+          "shortName": "Bragantino",
+          "clubColors": "White / Black",
+          "lastUpdated": "2023-02-18T08:43:26Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 114353,
+          "name": "Isidro Pitta",
+          "section": "Midfield",
+          "lastName": "Pitta",
+          "position": null,
+          "firstName": "Isidro",
+          "dateOfBirth": "1999-08-14",
+          "lastUpdated": "2023-07-30T23:15:50Z",
+          "nationality": "Paraguay",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 3984,
+          "tla": "FEC",
+          "name": "Fortaleza EC",
+          "crest": "https://crests.football-data.org/3984.png",
+          "venue": "Estádio Castelão",
+          "address": "Avenida Senador Fernandes Távora 200, Pici Fortaleza, CE 60510-290",
+          "founded": 1918,
+          "website": "http://www.fortalezaec.net",
+          "shortName": "Fortaleza",
+          "clubColors": "Red / Blue / White",
+          "lastUpdated": "2022-04-06T13:16:50Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 1196,
+          "name": "Deyverson",
+          "section": "Offence",
+          "lastName": "Deyverson",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1991-05-08",
+          "lastUpdated": "2023-07-30T23:15:50Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 1771,
+          "tla": "CRU",
+          "name": "Cruzeiro EC",
+          "crest": "https://crests.football-data.org/1771.png",
+          "venue": "Estádio Governador Magalhães Pinto",
+          "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+          "founded": 1921,
+          "website": "http://www.cruzeiro.com.br",
+          "shortName": "Cruzeiro",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-04-10T11:03:46Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 45490,
+          "name": "Matheus Pereira",
+          "section": "Offence",
+          "lastName": "Matheus Pereira",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-05-05",
+          "lastUpdated": "2023-07-30T23:15:45Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 1837,
+          "tla": "CSC",
+          "name": "Ceará SC",
+          "crest": "https://crests.football-data.org/1837.png",
+          "venue": "Estádio Castelão",
+          "address": "Av. João Pessoa 3532, Porangabuçu Fortaleza, CE 60425-680",
+          "founded": 1914,
+          "website": "http://www.cearasc.com",
+          "shortName": "Ceará",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-02-18T08:33:26Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 179043,
+          "name": "Antonio Galeano",
+          "section": "Offence",
+          "lastName": "Galeano",
+          "position": null,
+          "firstName": "Antonio",
+          "dateOfBirth": "2000-03-22",
+          "lastUpdated": "2022-04-11T21:53:27Z",
+          "nationality": "Paraguay",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 1783,
+          "tla": "FLA",
+          "name": "CR Flamengo",
+          "crest": "https://crests.football-data.org/1783.png",
+          "venue": "Estadio Jornalista Mário Filho",
+          "address": "null Rio de Janeiro, RJ null",
+          "founded": 1919,
+          "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+          "shortName": "Flamengo",
+          "clubColors": "Red / Black / White",
+          "lastUpdated": "2022-04-06T13:13:43Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 8413,
+          "name": "Luiz Araújo",
+          "section": "Offence",
+          "lastName": "Luiz Araújo",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-06-02",
+          "lastUpdated": "2023-07-30T23:15:48Z",
+          "nationality": "Brazil",
+          "shirtNumber": 11
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 4364,
+          "tla": "MIR",
+          "name": "Mirassol FC",
+          "crest": "https://crests.football-data.org/4364.png",
+          "venue": "Estádio José Maria de Campos Maia",
+          "address": "null Mirassol, SP null",
+          "founded": 1925,
+          "website": "http://www.mirassolfc.com.br",
+          "shortName": "Mirassol",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-07-31T08:47:23Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 18732,
+          "name": "Negueba",
+          "section": "Offence",
+          "lastName": "Negueba",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-12-03",
+          "lastUpdated": "2023-09-20T09:43:08Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 3984,
+          "tla": "FEC",
+          "name": "Fortaleza EC",
+          "crest": "https://crests.football-data.org/3984.png",
+          "venue": "Estádio Castelão",
+          "address": "Avenida Senador Fernandes Távora 200, Pici Fortaleza, CE 60510-290",
+          "founded": 1918,
+          "website": "http://www.fortalezaec.net",
+          "shortName": "Fortaleza",
+          "clubColors": "Red / Blue / White",
+          "lastUpdated": "2022-04-06T13:16:50Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 76337,
+          "name": "Adam Bareiro",
+          "section": "Offence",
+          "lastName": "Bareiro",
+          "position": null,
+          "firstName": "Adam",
+          "dateOfBirth": "1996-07-26",
+          "lastUpdated": "2024-06-06T15:58:16Z",
+          "nationality": "Paraguay",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 22
+      },
+      {
+        "team": {
+          "id": 1771,
+          "tla": "CRU",
+          "name": "Cruzeiro EC",
+          "crest": "https://crests.football-data.org/1771.png",
+          "venue": "Estádio Governador Magalhães Pinto",
+          "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+          "founded": 1921,
+          "website": "http://www.cruzeiro.com.br",
+          "shortName": "Cruzeiro",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-04-10T11:03:46Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 1327,
+          "name": "Gabriel Barbosa",
+          "section": "Offence",
+          "lastName": "Gabriel Barbosa",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-08-30",
+          "lastUpdated": "2023-07-30T23:15:48Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 1766,
+          "tla": "CAM",
+          "name": "CA Mineiro",
+          "crest": "https://crests.football-data.org/1766.png",
+          "venue": "Estádio Raimundo Sampaio",
+          "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+          "founded": 1908,
+          "website": "http://www.atletico.com.br",
+          "shortName": "Mineiro",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-12-28T10:32:33Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 1226,
+          "name": "Rony",
+          "section": "Offence",
+          "lastName": "Rony",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1995-05-11",
+          "lastUpdated": "2024-06-13T09:41:56Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 1779,
+          "tla": "COR",
+          "name": "SC Corinthians Paulista",
+          "crest": "https://crests.football-data.org/1779.png",
+          "venue": "Neo Química Arena",
+          "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+          "founded": 1910,
+          "website": "http://www.corinthians.com.br",
+          "shortName": "Corinthians",
+          "clubColors": "Black / White",
+          "lastUpdated": "2024-07-29T17:24:47Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 8472,
+          "name": "Memphis Depay",
+          "section": "Centre-Forward",
+          "lastName": "Depay",
+          "position": null,
+          "firstName": "Memphis",
+          "dateOfBirth": "1994-02-13",
+          "lastUpdated": "2025-03-10T09:42:27Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 1,
+        "playedMatches": 23
+      },
+      {
+        "team": {
+          "id": 1777,
+          "tla": "BAH",
+          "name": "EC Bahia",
+          "crest": "https://crests.football-data.org/1777.png",
+          "venue": "Estádio Governador Roberto Santos",
+          "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+          "founded": 1931,
+          "website": "http://www.esporteclubebahia.com.br",
+          "shortName": "Bahia",
+          "clubColors": "Blue / White / Red",
+          "lastUpdated": "2024-10-28T10:09:10Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 140873,
+          "name": "Luciano Juba",
+          "section": "Defence",
+          "lastName": "Luciano Juba",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-08-29",
+          "lastUpdated": "2023-07-31T10:01:14Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 1767,
+          "tla": "FBP",
+          "name": "Grêmio FBPA",
+          "crest": "https://crests.football-data.org/1767.png",
+          "venue": "Arena do Grêmio",
+          "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+          "founded": 1903,
+          "website": "http://www.gremio.net",
+          "shortName": "Grêmio",
+          "clubColors": "Blue / Black / White",
+          "lastUpdated": "2023-02-18T08:42:52Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 3467,
+          "name": "Martin Braithwaite",
+          "section": "Centre-Forward",
+          "lastName": "Braithwaite",
+          "position": null,
+          "firstName": "Martin",
+          "dateOfBirth": "1991-06-05",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Denmark",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 4,
+        "playedMatches": 18
+      },
+      {
+        "team": {
+          "id": 1769,
+          "tla": "PAL",
+          "name": "SE Palmeiras",
+          "crest": "https://crests.football-data.org/1769.png",
+          "venue": "Allianz Parque",
+          "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+          "founded": 1914,
+          "website": "http://www.palmeiras.com.br",
+          "shortName": "Palmeiras",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-04-06T13:14:55Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 143549,
+          "name": "Facundo Torres Pérez",
+          "section": "Midfield",
+          "lastName": "Torres",
+          "position": null,
+          "firstName": "Facundo",
+          "dateOfBirth": "2000-04-13",
+          "lastUpdated": "2024-06-06T15:58:16Z",
+          "nationality": "Uruguay",
+          "shirtNumber": 17
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 1765,
+          "tla": "FLU",
+          "name": "Fluminense FC",
+          "crest": "https://crests.football-data.org/1765.png",
+          "venue": "Estadio Jornalista Mário Filho",
+          "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+          "founded": 1902,
+          "website": "http://www.fluminense.com.br",
+          "shortName": "Fluminense",
+          "clubColors": "Maroon / Green / White",
+          "lastUpdated": "2024-07-29T17:24:37Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 21951,
+          "name": "Germán Cano",
+          "section": "Offence",
+          "lastName": "Cano",
+          "position": null,
+          "firstName": "Germán",
+          "dateOfBirth": "1988-02-02",
+          "lastUpdated": "2024-06-26T09:41:49Z",
+          "nationality": "Argentina",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 23
+      },
+      {
+        "team": {
+          "id": 1765,
+          "tla": "FLU",
+          "name": "Fluminense FC",
+          "crest": "https://crests.football-data.org/1765.png",
+          "venue": "Estadio Jornalista Mário Filho",
+          "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+          "founded": 1902,
+          "website": "http://www.fluminense.com.br",
+          "shortName": "Fluminense",
+          "clubColors": "Maroon / Green / White",
+          "lastUpdated": "2024-07-29T17:24:37Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 181336,
+          "name": "Kevin Serna",
+          "section": "Offence",
+          "lastName": "Serna",
+          "position": null,
+          "firstName": "Kevin",
+          "dateOfBirth": "1997-12-22",
+          "lastUpdated": "2024-07-25T09:42:15Z",
+          "nationality": "Colombia",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 3984,
+          "tla": "FEC",
+          "name": "Fortaleza EC",
+          "crest": "https://crests.football-data.org/3984.png",
+          "venue": "Estádio Castelão",
+          "address": "Avenida Senador Fernandes Távora 200, Pici Fortaleza, CE 60510-290",
+          "founded": 1918,
+          "website": "http://www.fortalezaec.net",
+          "shortName": "Fortaleza",
+          "clubColors": "Red / Blue / White",
+          "lastUpdated": "2022-04-06T13:16:50Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 169022,
+          "name": "Breno Lopes",
+          "section": "Offence",
+          "lastName": "Breno Lopes",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-01-24",
+          "lastUpdated": "2023-07-30T23:15:44Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 4364,
+          "tla": "MIR",
+          "name": "Mirassol FC",
+          "crest": "https://crests.football-data.org/4364.png",
+          "venue": "Estádio José Maria de Campos Maia",
+          "address": "null Mirassol, SP null",
+          "founded": 1925,
+          "website": "http://www.mirassolfc.com.br",
+          "shortName": "Mirassol",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-07-31T08:47:23Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 40067,
+          "name": "Chico",
+          "section": "Offence",
+          "lastName": "Chico",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1995-05-05",
+          "lastUpdated": "2025-03-19T09:51:22Z",
+          "nationality": "Brazil",
+          "shirtNumber": 23
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 21
+      },
+      {
+        "team": {
+          "id": 1778,
+          "tla": "REC",
+          "name": "SC Recife",
+          "crest": "https://crests.football-data.org/1778.png",
+          "venue": "Estádio Adelmar da Costa Carvalho",
+          "address": "Rua Sport Club do Recife S/N Recife, PE 50750-560",
+          "founded": 1905,
+          "website": "http://www.sportrecife.com.br",
+          "shortName": "Recife",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2023-02-18T08:33:32Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 128775,
+          "name": "Derik Lacerda",
+          "section": "Offence",
+          "lastName": "Derik Lacerda",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-09-27",
+          "lastUpdated": "2023-07-30T23:15:50Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 4364,
+          "tla": "MIR",
+          "name": "Mirassol FC",
+          "crest": "https://crests.football-data.org/4364.png",
+          "venue": "Estádio José Maria de Campos Maia",
+          "address": "null Mirassol, SP null",
+          "founded": 1925,
+          "website": "http://www.mirassolfc.com.br",
+          "shortName": "Mirassol",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-07-31T08:47:23Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 95982,
+          "name": "Alesson",
+          "section": "Midfield",
+          "lastName": "Alesson",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-02-16",
+          "lastUpdated": "2023-07-30T23:15:49Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 4364,
+          "tla": "MIR",
+          "name": "Mirassol FC",
+          "crest": "https://crests.football-data.org/4364.png",
+          "venue": "Estádio José Maria de Campos Maia",
+          "address": "null Mirassol, SP null",
+          "founded": 1925,
+          "website": "http://www.mirassolfc.com.br",
+          "shortName": "Mirassol",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-07-31T08:47:23Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 204018,
+          "name": "Cristian Renato",
+          "section": "Defence",
+          "lastName": "Cristian Renato",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2000-02-18",
+          "lastUpdated": "2023-07-31T10:36:16Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 6684,
+          "tla": "SCI",
+          "name": "SC Internacional",
+          "crest": "https://crests.football-data.org/6684.png",
+          "venue": "Estádio José Pinheiro Borba",
+          "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
+          "founded": 1909,
+          "website": "http://www.internacional.com.br",
+          "shortName": "Internacional",
+          "clubColors": "Red / White",
+          "lastUpdated": "2023-02-18T08:43:22Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 11680,
+          "name": "Rafael Borré",
+          "section": "Centre-Forward",
+          "lastName": "Borré",
+          "position": null,
+          "firstName": "Rafael",
+          "dateOfBirth": "1995-09-15",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Colombia",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 4364,
+          "tla": "MIR",
+          "name": "Mirassol FC",
+          "crest": "https://crests.football-data.org/4364.png",
+          "venue": "Estádio José Maria de Campos Maia",
+          "address": "null Mirassol, SP null",
+          "founded": 1925,
+          "website": "http://www.mirassolfc.com.br",
+          "shortName": "Mirassol",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-07-31T08:47:23Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 1427,
+          "name": "Gabriel",
+          "section": "Offence",
+          "lastName": "Gabriel",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1990-01-06",
+          "lastUpdated": "2023-07-31T10:01:22Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 27
+      },
+      {
+        "team": {
+          "id": 1776,
+          "tla": "PAU",
+          "name": "São Paulo FC",
+          "crest": "https://crests.football-data.org/1776.png",
+          "venue": "Estádio do Morumbi",
+          "address": "null São Paulo, SP null",
+          "founded": 1930,
+          "website": "http://www.saopaulofc.net",
+          "shortName": "São Paulo",
+          "clubColors": "White / Red / Black",
+          "lastUpdated": "2023-02-18T08:43:44Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 103499,
+          "name": "Ferreira",
+          "section": "Midfield",
+          "lastName": "Ferreira",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1997-12-31",
+          "lastUpdated": "2024-06-28T09:42:02Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 1766,
+          "tla": "CAM",
+          "name": "CA Mineiro",
+          "crest": "https://crests.football-data.org/1766.png",
+          "venue": "Estádio Raimundo Sampaio",
+          "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+          "founded": 1908,
+          "website": "http://www.atletico.com.br",
+          "shortName": "Mineiro",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-12-28T10:32:33Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 82534,
+          "name": "Igor Gomes",
+          "section": "Midfield",
+          "lastName": "Igor Gomes",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-03-17",
+          "lastUpdated": "2023-09-09T01:50:49Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 1776,
+          "tla": "PAU",
+          "name": "São Paulo FC",
+          "crest": "https://crests.football-data.org/1776.png",
+          "venue": "Estádio do Morumbi",
+          "address": "null São Paulo, SP null",
+          "founded": 1930,
+          "website": "http://www.saopaulofc.net",
+          "shortName": "São Paulo",
+          "clubColors": "White / Red / Black",
+          "lastUpdated": "2023-02-18T08:43:44Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 45459,
+          "name": "André Silva",
+          "section": "Offence",
+          "lastName": "André Silva",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1997-06-03",
+          "lastUpdated": "2023-07-30T19:37:08Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 20
+      },
+      {
+        "team": {
+          "id": 1771,
+          "tla": "CRU",
+          "name": "Cruzeiro EC",
+          "crest": "https://crests.football-data.org/1771.png",
+          "venue": "Estádio Governador Magalhães Pinto",
+          "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+          "founded": 1921,
+          "website": "http://www.cruzeiro.com.br",
+          "shortName": "Cruzeiro",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-04-10T11:03:46Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 118245,
+          "name": "Christian",
+          "section": "Midfield",
+          "lastName": "Christian",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2000-12-19",
+          "lastUpdated": "2023-07-30T23:15:43Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 1770,
+          "tla": "BOT",
+          "name": "Botafogo FR",
+          "crest": "https://crests.football-data.org/1770.png",
+          "venue": "Estádio Nilton Santos",
+          "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
+          "founded": 1904,
+          "website": "http://www.botafogo.com.br",
+          "shortName": "Botafogo",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-02-18T08:43:47Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 1192,
+          "name": "Artur Guimaraes",
+          "section": "Offence",
+          "lastName": "Artur",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-02-15",
+          "lastUpdated": "2023-07-30T23:16:42Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 31
+      }
+    ],
+    "competition": {
+      "id": 2013,
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/bsa.png"
+    }
+  }
+}

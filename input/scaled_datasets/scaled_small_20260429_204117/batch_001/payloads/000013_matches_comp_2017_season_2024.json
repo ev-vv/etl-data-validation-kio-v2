@@ -1,0 +1,1153 @@
+{
+  "endpoint": "competitions/2017/matches?season=2024",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "matches": [
+      {
+        "id": 844261,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-01T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "awayTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 2,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 266071,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-02T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "awayTeam": {
+          "id": 97062,
+          "name": "Cindyville FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 5,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 425845,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-03T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 22097,
+          "name": "Calderonton FC"
+        },
+        "awayTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 677596,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-04T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 58434,
+          "name": "Ericside FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 5,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 114338,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-05T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "awayTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 679077,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-06T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "awayTeam": {
+          "id": 58434,
+          "name": "Ericside FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 2,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 527809,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-07T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 22097,
+          "name": "Calderonton FC"
+        },
+        "awayTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 197736,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-08T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "awayTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 335615,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-09T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "awayTeam": {
+          "id": 58434,
+          "name": "Ericside FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 3,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 982277,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-10T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 3,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 218972,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-11T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "awayTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 583863,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-12T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 97062,
+          "name": "Cindyville FC"
+        },
+        "awayTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 3,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 223172,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-13T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "awayTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 4,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 779172,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-14T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "awayTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 972565,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-15T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "awayTeam": {
+          "id": 22097,
+          "name": "Calderonton FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 4,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 261450,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-16T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 3,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 622584,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-17T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "awayTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 2,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 851413,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-18T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 5,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 406039,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-19T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 58434,
+          "name": "Ericside FC"
+        },
+        "awayTeam": {
+          "id": 97062,
+          "name": "Cindyville FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      },
+      {
+        "id": 633590,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-20T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "awayTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 1,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 839677,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-21T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "awayTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 3,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 386706,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-22T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 58434,
+          "name": "Ericside FC"
+        },
+        "awayTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 1,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 535673,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-23T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 4,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 975271,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-24T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "awayTeam": {
+          "id": 97062,
+          "name": "Cindyville FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 605937,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-25T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 3,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 595158,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-26T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 97062,
+          "name": "Cindyville FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 355570,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-27T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 578975,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-28T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "awayTeam": {
+          "id": 22097,
+          "name": "Calderonton FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 678043,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-29T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 97062,
+          "name": "Cindyville FC"
+        },
+        "awayTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "score": {
+          "winner": "DRAW",
+          "fullTime": {
+            "home": 4,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 251668,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-30T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 97062,
+          "name": "Cindyville FC"
+        },
+        "awayTeam": {
+          "id": 58434,
+          "name": "Ericside FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      },
+      {
+        "id": 502219,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-08-31T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "awayTeam": {
+          "id": 22097,
+          "name": "Calderonton FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 299869,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-01T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "awayTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 4
+          }
+        }
+      },
+      {
+        "id": 728492,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-02T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 97062,
+          "name": "Cindyville FC"
+        },
+        "awayTeam": {
+          "id": 32241,
+          "name": "West Zacharymouth FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 5,
+            "away": 3
+          }
+        }
+      },
+      {
+        "id": 632929,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-03T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 22097,
+          "name": "Calderonton FC"
+        },
+        "awayTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 4,
+            "away": 2
+          }
+        }
+      },
+      {
+        "id": 882544,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-04T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 28136,
+          "name": "East Patrick FC"
+        },
+        "awayTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      },
+      {
+        "id": 243139,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-05T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 58434,
+          "name": "Ericside FC"
+        },
+        "awayTeam": {
+          "id": 23473,
+          "name": "Kimberlychester FC"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          }
+        }
+      },
+      {
+        "id": 173201,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-06T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 77889,
+          "name": "Williamsbury FC"
+        },
+        "awayTeam": {
+          "id": 46585,
+          "name": "Darlenefurt FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 4,
+            "away": 5
+          }
+        }
+      },
+      {
+        "id": 389666,
+        "competition": {
+          "id": 2017
+        },
+        "season": {
+          "id": 2024,
+          "startDate": "2024-08-01",
+          "endDate": "2025-05-30"
+        },
+        "utcDate": "2024-09-07T00:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "homeTeam": {
+          "id": 58434,
+          "name": "Ericside FC"
+        },
+        "awayTeam": {
+          "id": 22097,
+          "name": "Calderonton FC"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "fullTime": {
+            "home": 4,
+            "away": 2
+          }
+        }
+      }
+    ]
+  }
+}

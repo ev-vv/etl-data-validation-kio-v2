@@ -1,0 +1,1582 @@
+{
+  "source_id": 32,
+  "endpoint": "competitions/2021/scorers?season=2024&limit=50",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "count": 50,
+    "season": {
+      "id": 2287,
+      "winner": null,
+      "endDate": "2025-05-25",
+      "startDate": "2024-08-16",
+      "currentMatchday": 38
+    },
+    "filters": {
+      "limit": 50,
+      "season": 2024
+    },
+    "scorers": [
+      {
+        "team": {
+          "id": 64,
+          "tla": "LIV",
+          "name": "Liverpool FC",
+          "crest": "https://crests.football-data.org/64.png",
+          "venue": "Anfield",
+          "address": "Anfield Road Liverpool L4 0TH",
+          "founded": 1892,
+          "website": "http://www.liverpoolfc.tv",
+          "shortName": "Liverpool",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:30:22Z"
+        },
+        "goals": 29,
+        "player": {
+          "id": 3754,
+          "name": "Mohamed Salah",
+          "section": "Right Winger",
+          "lastName": "Salah",
+          "position": null,
+          "firstName": "Mohamed",
+          "dateOfBirth": "1992-06-15",
+          "lastUpdated": "2025-04-19T09:41:02Z",
+          "nationality": "Egypt",
+          "shirtNumber": null
+        },
+        "assists": 17,
+        "penalties": 9,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 67,
+          "tla": "NEW",
+          "name": "Newcastle United FC",
+          "crest": "https://crests.football-data.org/67.png",
+          "venue": "St. James' Park",
+          "address": "Sports Direct Arena Newcastle upon Tyne NE1 4ST",
+          "founded": 1881,
+          "website": "http://www.nufc.co.uk",
+          "shortName": "Newcastle",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-09-28T18:51:07Z"
+        },
+        "goals": 23,
+        "player": {
+          "id": 6486,
+          "name": "Alexander Isak",
+          "section": "Centre-Forward",
+          "lastName": "Isak",
+          "position": null,
+          "firstName": "Alexander",
+          "dateOfBirth": "1999-09-21",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Sweden",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 4,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 65,
+          "tla": "MCI",
+          "name": "Manchester City FC",
+          "crest": "https://crests.football-data.org/65.png",
+          "venue": "Etihad Stadium",
+          "address": "SportCity Manchester M11 3FF",
+          "founded": 1880,
+          "website": "https://www.mancity.com",
+          "shortName": "Man City",
+          "clubColors": "Sky Blue / White",
+          "lastUpdated": "2022-02-10T19:48:37Z"
+        },
+        "goals": 22,
+        "player": {
+          "id": 38101,
+          "name": "Erling Haaland",
+          "section": "Centre-Forward",
+          "lastName": "Haaland",
+          "position": null,
+          "firstName": "Erling",
+          "dateOfBirth": "2000-07-21",
+          "lastUpdated": "2025-04-02T09:41:03Z",
+          "nationality": "Norway",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 3,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 351,
+          "tla": "NOT",
+          "name": "Nottingham Forest FC",
+          "crest": "https://crests.football-data.org/351.png",
+          "venue": "The City Ground",
+          "address": "Pavilion Road, West Bridgeford Nottingham NG2 5GJ",
+          "founded": 1865,
+          "website": "http://www.nottinghamforest.co.uk",
+          "shortName": "Nottingham",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-07-26T17:53:21Z"
+        },
+        "goals": 20,
+        "player": {
+          "id": 8057,
+          "name": "Chris Wood",
+          "section": "Centre-Forward",
+          "lastName": "Wood",
+          "position": null,
+          "firstName": "Chris",
+          "dateOfBirth": "1991-12-07",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "New Zealand",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 3,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 402,
+          "tla": "BRE",
+          "name": "Brentford FC",
+          "crest": "https://crests.football-data.org/402.png",
+          "venue": "Griffin Park",
+          "address": "Braemar Road Brentford TW8 0NT",
+          "founded": 1889,
+          "website": "http://www.brentfordfc.co.uk",
+          "shortName": "Brentford",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-04-03T16:24:00Z"
+        },
+        "goals": 20,
+        "player": {
+          "id": 8626,
+          "name": "Bryan Mbeumo",
+          "section": "Right Winger",
+          "lastName": "Mbeumo",
+          "position": null,
+          "firstName": "Bryan",
+          "dateOfBirth": "1999-08-07",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "Cameroon",
+          "shirtNumber": null
+        },
+        "assists": 8,
+        "penalties": 5,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 402,
+          "tla": "BRE",
+          "name": "Brentford FC",
+          "crest": "https://crests.football-data.org/402.png",
+          "venue": "Griffin Park",
+          "address": "Braemar Road Brentford TW8 0NT",
+          "founded": 1889,
+          "website": "http://www.brentfordfc.co.uk",
+          "shortName": "Brentford",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-04-03T16:24:00Z"
+        },
+        "goals": 18,
+        "player": {
+          "id": 612,
+          "name": "Yoane Wissa",
+          "section": "Centre-Forward",
+          "lastName": "Wissa",
+          "position": null,
+          "firstName": "Yoane",
+          "dateOfBirth": "1996-09-03",
+          "lastUpdated": "2024-11-28T13:36:10Z",
+          "nationality": "DR Congo",
+          "shirtNumber": 19
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 58,
+          "tla": "AVL",
+          "name": "Aston Villa FC",
+          "crest": "https://crests.football-data.org/58.png",
+          "venue": "Villa Park",
+          "address": "Villa Park Birmingham B6 6HE",
+          "founded": 1872,
+          "website": "http://www.avfc.co.uk",
+          "shortName": "Aston Villa",
+          "clubColors": "Claret / Sky Blue",
+          "lastUpdated": "2022-04-03T16:22:14Z"
+        },
+        "goals": 16,
+        "player": {
+          "id": 4444,
+          "name": "Ollie Watkins",
+          "section": "Centre-Forward",
+          "lastName": "Watkins",
+          "position": null,
+          "firstName": "Ollie",
+          "dateOfBirth": "1995-12-30",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": 2,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 76,
+          "tla": "WOL",
+          "name": "Wolverhampton Wanderers FC",
+          "crest": "https://crests.football-data.org/76.png",
+          "venue": "Molineux Stadium",
+          "address": "Waterloo Road Wolverhampton WV1 4QR",
+          "founded": 1877,
+          "website": "http://www.wolves.co.uk",
+          "shortName": "Wolverhampton",
+          "clubColors": "Black / Gold",
+          "lastUpdated": "2024-07-29T17:16:22Z"
+        },
+        "goals": 15,
+        "player": {
+          "id": 30842,
+          "name": "Matheus Cunha",
+          "section": "Centre-Forward",
+          "lastName": "Matheus Cunha",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-05-27",
+          "lastUpdated": "2025-04-03T09:43:08Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 61,
+          "tla": "CHE",
+          "name": "Chelsea FC",
+          "crest": "https://crests.football-data.org/61.png",
+          "venue": "Stamford Bridge",
+          "address": "Fulham Road London SW6 1HS",
+          "founded": 1905,
+          "website": "http://www.chelseafc.com",
+          "shortName": "Chelsea",
+          "clubColors": "Royal Blue / White",
+          "lastUpdated": "2022-02-10T19:24:40Z"
+        },
+        "goals": 15,
+        "player": {
+          "id": 144892,
+          "name": "Cole Palmer",
+          "section": "Attacking Midfield",
+          "lastName": "Palmer",
+          "position": null,
+          "firstName": "Cole",
+          "dateOfBirth": "2002-05-06",
+          "lastUpdated": "2025-04-01T09:43:04Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 8,
+        "penalties": 4,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 76,
+          "tla": "WOL",
+          "name": "Wolverhampton Wanderers FC",
+          "crest": "https://crests.football-data.org/76.png",
+          "venue": "Molineux Stadium",
+          "address": "Waterloo Road Wolverhampton WV1 4QR",
+          "founded": 1877,
+          "website": "http://www.wolves.co.uk",
+          "shortName": "Wolverhampton",
+          "clubColors": "Black / Gold",
+          "lastUpdated": "2024-07-29T17:16:22Z"
+        },
+        "goals": 14,
+        "player": {
+          "id": 213269,
+          "name": "Jørgen Strand Larsen",
+          "section": "Offence",
+          "lastName": "Strand Larsen",
+          "position": null,
+          "firstName": "Jørgen",
+          "dateOfBirth": "2000-02-06",
+          "lastUpdated": "2023-09-19T09:54:47Z",
+          "nationality": "Norway",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 354,
+          "tla": "CRY",
+          "name": "Crystal Palace FC",
+          "crest": "https://crests.football-data.org/354.png",
+          "venue": "Selhurst Park",
+          "address": "Whitehorse Lane London SE25 6PU",
+          "founded": 1905,
+          "website": "http://www.cpfc.co.uk",
+          "shortName": "Crystal Palace",
+          "clubColors": "Red / Blue",
+          "lastUpdated": "2022-02-10T19:22:36Z"
+        },
+        "goals": 14,
+        "player": {
+          "id": 641,
+          "name": "Jean-Philippe Mateta",
+          "section": "Centre-Forward",
+          "lastName": "Mateta",
+          "position": null,
+          "firstName": "Jean-Philippe",
+          "dateOfBirth": "1997-06-28",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 2,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 563,
+          "tla": "WHU",
+          "name": "West Ham United FC",
+          "crest": "https://crests.football-data.org/563.png",
+          "venue": "London Stadium",
+          "address": "Queen Elizabeth Olympic Park, London London E20 2ST",
+          "founded": 1895,
+          "website": "http://www.whufc.com",
+          "shortName": "West Ham",
+          "clubColors": "Claret / Sky Blue",
+          "lastUpdated": "2022-02-19T08:09:25Z"
+        },
+        "goals": 13,
+        "player": {
+          "id": 11414,
+          "name": "Jarrod Bowen",
+          "section": "Right Winger",
+          "lastName": "Bowen",
+          "position": null,
+          "firstName": "Jarrod",
+          "dateOfBirth": "1996-01-01",
+          "lastUpdated": "2025-04-03T09:43:11Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 10,
+        "penalties": 1,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 64,
+          "tla": "LIV",
+          "name": "Liverpool FC",
+          "crest": "https://crests.football-data.org/64.png",
+          "venue": "Anfield",
+          "address": "Anfield Road Liverpool L4 0TH",
+          "founded": 1892,
+          "website": "http://www.liverpoolfc.tv",
+          "shortName": "Liverpool",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:30:22Z"
+        },
+        "goals": 13,
+        "player": {
+          "id": 22396,
+          "name": "Luis Díaz",
+          "section": "Left Winger",
+          "lastName": "Díaz",
+          "position": null,
+          "firstName": "Luis",
+          "dateOfBirth": "1997-01-13",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Colombia",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 349,
+          "tla": "IPS",
+          "name": "Ipswich Town FC",
+          "crest": "https://crests.football-data.org/349.png",
+          "venue": "Portman Road Stadium",
+          "address": "Portman Road Ipswich IP1 2DA",
+          "founded": 1887,
+          "website": "http://www.itfc.co.uk",
+          "shortName": "Ipswich Town",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-10-28T10:50:05Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 151095,
+          "name": "Liam Delap",
+          "section": "Centre-Forward",
+          "lastName": "Delap",
+          "position": null,
+          "firstName": "Liam",
+          "dateOfBirth": "2003-02-08",
+          "lastUpdated": "2024-08-23T10:11:35Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 2,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 63,
+          "tla": "FUL",
+          "name": "Fulham FC",
+          "crest": "https://crests.football-data.org/63.png",
+          "venue": "Craven Cottage",
+          "address": "Craven Cottage, Stevenage Road London SW6 6HH",
+          "founded": 1879,
+          "website": "http://www.fulhamfc.com",
+          "shortName": "Fulham",
+          "clubColors": "White / Black",
+          "lastUpdated": "2024-07-29T17:16:11Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 3305,
+          "name": "Raúl Jiménez",
+          "section": "Centre-Forward",
+          "lastName": "Jiménez",
+          "position": null,
+          "firstName": "Raúl",
+          "dateOfBirth": "1991-05-05",
+          "lastUpdated": "2025-04-01T09:43:05Z",
+          "nationality": "Mexico",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 3,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 1044,
+          "tla": "BOU",
+          "name": "AFC Bournemouth",
+          "crest": "https://crests.football-data.org/bournemouth.png",
+          "venue": "Vitality Stadium",
+          "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
+          "founded": 1890,
+          "website": "http://www.afcb.co.uk",
+          "shortName": "Bournemouth",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2024-08-29T08:54:34Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 7561,
+          "name": "Justin Kluivert",
+          "section": "Left Winger",
+          "lastName": "Kluivert",
+          "position": null,
+          "firstName": "Justin",
+          "dateOfBirth": "1999-05-05",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 6,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 1044,
+          "tla": "BOU",
+          "name": "AFC Bournemouth",
+          "crest": "https://crests.football-data.org/bournemouth.png",
+          "venue": "Vitality Stadium",
+          "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
+          "founded": 1890,
+          "website": "http://www.afcb.co.uk",
+          "shortName": "Bournemouth",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2024-08-29T08:54:34Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 4417,
+          "name": "Antoine Semenyo",
+          "section": "Right Winger",
+          "lastName": "Semenyo",
+          "position": null,
+          "firstName": "Antoine",
+          "dateOfBirth": "2000-01-07",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "Ghana",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 73,
+          "tla": "TOT",
+          "name": "Tottenham Hotspur FC",
+          "crest": "https://crests.football-data.org/73.png",
+          "venue": "Tottenham Hotspur Stadium",
+          "address": "Bill Nicholson Way, 748 High Road London N17 0AP",
+          "founded": 1882,
+          "website": "http://www.tottenhamhotspur.com",
+          "shortName": "Tottenham",
+          "clubColors": "Navy Blue / White",
+          "lastUpdated": "2024-05-11T21:39:03Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 124694,
+          "name": "Brennan Johnson",
+          "section": "Right Winger",
+          "lastName": "Johnson",
+          "position": null,
+          "firstName": "Brennan",
+          "dateOfBirth": "2001-05-23",
+          "lastUpdated": "2025-04-03T09:43:08Z",
+          "nationality": "Wales",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 402,
+          "tla": "BRE",
+          "name": "Brentford FC",
+          "crest": "https://crests.football-data.org/402.png",
+          "venue": "Griffin Park",
+          "address": "Braemar Road Brentford TW8 0NT",
+          "founded": 1889,
+          "website": "http://www.brentfordfc.co.uk",
+          "shortName": "Brentford",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-04-03T16:24:00Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 123286,
+          "name": "Kevin Schade",
+          "section": "Left Winger",
+          "lastName": "Schade",
+          "position": null,
+          "firstName": "Kevin",
+          "dateOfBirth": "2001-11-27",
+          "lastUpdated": "2025-04-01T09:43:10Z",
+          "nationality": "Germany",
+          "shirtNumber": 16
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 397,
+          "tla": "BHA",
+          "name": "Brighton & Hove Albion FC",
+          "crest": "https://crests.football-data.org/397.png",
+          "venue": "The American Express Community Stadium",
+          "address": "44 North Road Brighton & Hove BN1 1YR",
+          "founded": 1898,
+          "website": "http://www.seagulls.co.uk",
+          "shortName": "Brighton Hove",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2024-07-29T17:18:23Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 132707,
+          "name": "Kaoru Mitoma",
+          "section": "Left Winger",
+          "lastName": "Mitoma",
+          "position": null,
+          "firstName": "Kaoru",
+          "dateOfBirth": "1997-05-20",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "Japan",
+          "shirtNumber": 18
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 397,
+          "tla": "BHA",
+          "name": "Brighton & Hove Albion FC",
+          "crest": "https://crests.football-data.org/397.png",
+          "venue": "The American Express Community Stadium",
+          "address": "44 North Road Brighton & Hove BN1 1YR",
+          "founded": 1898,
+          "website": "http://www.seagulls.co.uk",
+          "shortName": "Brighton Hove",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2024-07-29T17:18:23Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 3328,
+          "name": "Danny Welbeck",
+          "section": "Centre-Forward",
+          "lastName": "Welbeck",
+          "position": null,
+          "firstName": "Danny",
+          "dateOfBirth": "1990-11-26",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": 1,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 397,
+          "tla": "BHA",
+          "name": "Brighton & Hove Albion FC",
+          "crest": "https://crests.football-data.org/397.png",
+          "venue": "The American Express Community Stadium",
+          "address": "44 North Road Brighton & Hove BN1 1YR",
+          "founded": 1898,
+          "website": "http://www.seagulls.co.uk",
+          "shortName": "Brighton Hove",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2024-07-29T17:18:23Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 103125,
+          "name": "João Pedro",
+          "section": "Centre-Forward",
+          "lastName": "João Pedro",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-09-26",
+          "lastUpdated": "2025-04-01T09:43:10Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 5,
+        "playedMatches": 27
+      },
+      {
+        "team": {
+          "id": 61,
+          "tla": "CHE",
+          "name": "Chelsea FC",
+          "crest": "https://crests.football-data.org/61.png",
+          "venue": "Stamford Bridge",
+          "address": "Fulham Road London SW6 1HS",
+          "founded": 1905,
+          "website": "http://www.chelseafc.com",
+          "shortName": "Chelsea",
+          "clubColors": "Royal Blue / White",
+          "lastUpdated": "2022-02-10T19:24:40Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 152515,
+          "name": "Nicolas Jackson",
+          "section": "Centre-Forward",
+          "lastName": "Jackson",
+          "position": null,
+          "firstName": "Nicolas",
+          "dateOfBirth": "2001-06-20",
+          "lastUpdated": "2025-04-01T09:41:42Z",
+          "nationality": "Senegal",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 1044,
+          "tla": "BOU",
+          "name": "AFC Bournemouth",
+          "crest": "https://crests.football-data.org/bournemouth.png",
+          "venue": "Vitality Stadium",
+          "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
+          "founded": 1890,
+          "website": "http://www.afcb.co.uk",
+          "shortName": "Bournemouth",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2024-08-29T08:54:34Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 131260,
+          "name": "Evanilson",
+          "section": "Centre-Forward",
+          "lastName": "Evanilson",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-10-06",
+          "lastUpdated": "2024-08-23T10:11:35Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 64,
+          "tla": "LIV",
+          "name": "Liverpool FC",
+          "crest": "https://crests.football-data.org/64.png",
+          "venue": "Anfield",
+          "address": "Anfield Road Liverpool L4 0TH",
+          "founded": 1892,
+          "website": "http://www.liverpoolfc.tv",
+          "shortName": "Liverpool",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:30:22Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 7459,
+          "name": "Cody Gakpo",
+          "section": "Left Winger",
+          "lastName": "Gakpo",
+          "position": null,
+          "firstName": "Cody",
+          "dateOfBirth": "1999-05-07",
+          "lastUpdated": "2025-04-02T09:41:02Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 57,
+          "tla": "ARS",
+          "name": "Arsenal FC",
+          "crest": "https://crests.football-data.org/57.png",
+          "venue": "Emirates Stadium",
+          "address": "75 Drayton Park London N5 1BU",
+          "founded": 1886,
+          "website": "http://www.arsenal.com",
+          "shortName": "Arsenal",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:48:56Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 171,
+          "name": "Kai Havertz",
+          "section": "Centre-Forward",
+          "lastName": "Havertz",
+          "position": null,
+          "firstName": "Kai",
+          "dateOfBirth": "1999-06-11",
+          "lastUpdated": "2024-11-28T13:36:09Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 24
+      },
+      {
+        "team": {
+          "id": 338,
+          "tla": "LEI",
+          "name": "Leicester City FC",
+          "crest": "https://crests.football-data.org/338.png",
+          "venue": "King Power Stadium",
+          "address": "The Walkers Stadium, Filbert Way Leicester LE2 7FL",
+          "founded": 1884,
+          "website": "http://www.lcfc.com",
+          "shortName": "Leicester City",
+          "clubColors": "Royal Blue / White",
+          "lastUpdated": "2022-02-10T19:48:23Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 3330,
+          "name": "Jamie Vardy",
+          "section": "Centre-Forward",
+          "lastName": "Vardy",
+          "position": null,
+          "firstName": "Jamie",
+          "dateOfBirth": "1987-01-11",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 1,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 563,
+          "tla": "WHU",
+          "name": "West Ham United FC",
+          "crest": "https://crests.football-data.org/563.png",
+          "venue": "London Stadium",
+          "address": "Queen Elizabeth Olympic Park, London London E20 2ST",
+          "founded": 1895,
+          "website": "http://www.whufc.com",
+          "shortName": "West Ham",
+          "clubColors": "Claret / Sky Blue",
+          "lastUpdated": "2022-02-19T08:09:25Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 15742,
+          "name": "Tomáš Souček",
+          "section": "Defensive Midfield",
+          "lastName": "Souček",
+          "position": null,
+          "firstName": "Tomáš",
+          "dateOfBirth": "1995-02-27",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "Czech Republic",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 36
+      },
+      {
+        "team": {
+          "id": 63,
+          "tla": "FUL",
+          "name": "Fulham FC",
+          "crest": "https://crests.football-data.org/63.png",
+          "venue": "Craven Cottage",
+          "address": "Craven Cottage, Stevenage Road London SW6 6HH",
+          "founded": 1879,
+          "website": "http://www.fulhamfc.com",
+          "shortName": "Fulham",
+          "clubColors": "White / Black",
+          "lastUpdated": "2024-07-29T17:16:11Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 3392,
+          "name": "Alex Iwobi",
+          "section": "Left Winger",
+          "lastName": "Iwobi",
+          "position": null,
+          "firstName": "Alex",
+          "dateOfBirth": "1996-05-03",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Nigeria",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 57,
+          "tla": "ARS",
+          "name": "Arsenal FC",
+          "crest": "https://crests.football-data.org/57.png",
+          "venue": "Emirates Stadium",
+          "address": "75 Drayton Park London N5 1BU",
+          "founded": 1886,
+          "website": "http://www.arsenal.com",
+          "shortName": "Arsenal",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:48:56Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 8984,
+          "name": "Leandro Trossard",
+          "section": "Left Winger",
+          "lastName": "Trossard",
+          "position": null,
+          "firstName": "Leandro",
+          "dateOfBirth": "1994-12-04",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Belgium",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 67,
+          "tla": "NEW",
+          "name": "Newcastle United FC",
+          "crest": "https://crests.football-data.org/67.png",
+          "venue": "St. James' Park",
+          "address": "Sports Direct Arena Newcastle upon Tyne NE1 4ST",
+          "founded": 1881,
+          "website": "http://www.nufc.co.uk",
+          "shortName": "Newcastle",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-09-28T18:51:07Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 8076,
+          "name": "Harvey Barnes",
+          "section": "Left Winger",
+          "lastName": "Barnes",
+          "position": null,
+          "firstName": "Harvey",
+          "dateOfBirth": "1997-12-09",
+          "lastUpdated": "2025-04-02T09:43:10Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 62,
+          "tla": "EVE",
+          "name": "Everton FC",
+          "crest": "https://crests.football-data.org/62.png",
+          "venue": "Goodison Park",
+          "address": "Goodison Park Liverpool L4 4EL",
+          "founded": 1878,
+          "website": "http://www.evertonfc.com",
+          "shortName": "Everton",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-10T19:47:42Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 94091,
+          "name": "Iliman Ndiaye",
+          "section": "Left Winger",
+          "lastName": "Ndiaye",
+          "position": null,
+          "firstName": "Iliman",
+          "dateOfBirth": "1999-07-22",
+          "lastUpdated": "2024-11-28T13:36:10Z",
+          "nationality": "Senegal",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 2,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 73,
+          "tla": "TOT",
+          "name": "Tottenham Hotspur FC",
+          "crest": "https://crests.football-data.org/73.png",
+          "venue": "Tottenham Hotspur Stadium",
+          "address": "Bill Nicholson Way, 748 High Road London N17 0AP",
+          "founded": 1882,
+          "website": "http://www.tottenhamhotspur.com",
+          "shortName": "Tottenham",
+          "clubColors": "Navy Blue / White",
+          "lastUpdated": "2024-05-11T21:39:03Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 7878,
+          "name": "Dominic Solanke",
+          "section": "Centre-Forward",
+          "lastName": "Solanke",
+          "position": null,
+          "firstName": "Dominic",
+          "dateOfBirth": "1997-09-14",
+          "lastUpdated": "2025-04-03T09:43:08Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 1,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 73,
+          "tla": "TOT",
+          "name": "Tottenham Hotspur FC",
+          "crest": "https://crests.football-data.org/73.png",
+          "venue": "Tottenham Hotspur Stadium",
+          "address": "Bill Nicholson Way, 748 High Road London N17 0AP",
+          "founded": 1882,
+          "website": "http://www.tottenhamhotspur.com",
+          "shortName": "Tottenham",
+          "clubColors": "Navy Blue / White",
+          "lastUpdated": "2024-05-11T21:39:03Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 3992,
+          "name": "James Maddison",
+          "section": "Attacking Midfield",
+          "lastName": "Maddison",
+          "position": null,
+          "firstName": "James",
+          "dateOfBirth": "1996-11-23",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 8,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 66,
+          "tla": "MUN",
+          "name": "Manchester United FC",
+          "crest": "https://crests.football-data.org/66.png",
+          "venue": "Old Trafford",
+          "address": "Sir Matt Busby Way Manchester M16 0RA",
+          "founded": 1878,
+          "website": "http://www.manutd.com",
+          "shortName": "Man United",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:27:46Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 133584,
+          "name": "Amad Diallo",
+          "section": "Right Winger",
+          "lastName": "Diallo",
+          "position": null,
+          "firstName": "Amad",
+          "dateOfBirth": "2002-07-11",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Ivory Coast",
+          "shirtNumber": 79
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 354,
+          "tla": "CRY",
+          "name": "Crystal Palace FC",
+          "crest": "https://crests.football-data.org/354.png",
+          "venue": "Selhurst Park",
+          "address": "Whitehorse Lane London SE25 6PU",
+          "founded": 1905,
+          "website": "http://www.cpfc.co.uk",
+          "shortName": "Crystal Palace",
+          "clubColors": "Red / Blue",
+          "lastUpdated": "2022-02-10T19:22:36Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 4032,
+          "name": "Eberechi Eze",
+          "section": "Attacking Midfield",
+          "lastName": "Eze",
+          "position": null,
+          "firstName": "Eberechi",
+          "dateOfBirth": "1998-06-29",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 8,
+        "penalties": 1,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 57,
+          "tla": "ARS",
+          "name": "Arsenal FC",
+          "crest": "https://crests.football-data.org/57.png",
+          "venue": "Emirates Stadium",
+          "address": "75 Drayton Park London N5 1BU",
+          "founded": 1886,
+          "website": "http://www.arsenal.com",
+          "shortName": "Arsenal",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:48:56Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 61450,
+          "name": "Martinelli",
+          "section": "Left Winger",
+          "lastName": "Gabriel Martinelli",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-06-18",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 35
+      },
+      {
+        "team": {
+          "id": 58,
+          "tla": "AVL",
+          "name": "Aston Villa FC",
+          "crest": "https://crests.football-data.org/58.png",
+          "venue": "Villa Park",
+          "address": "Villa Park Birmingham B6 6HE",
+          "founded": 1872,
+          "website": "http://www.avfc.co.uk",
+          "shortName": "Aston Villa",
+          "clubColors": "Claret / Sky Blue",
+          "lastUpdated": "2022-04-03T16:22:14Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 82140,
+          "name": "Morgan Rogers",
+          "section": "Attacking Midfield",
+          "lastName": "Rogers",
+          "position": null,
+          "firstName": "Morgan",
+          "dateOfBirth": "2002-07-26",
+          "lastUpdated": "2024-11-28T13:36:09Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 10,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 63,
+          "tla": "FUL",
+          "name": "Fulham FC",
+          "crest": "https://crests.football-data.org/63.png",
+          "venue": "Craven Cottage",
+          "address": "Craven Cottage, Stevenage Road London SW6 6HH",
+          "founded": 1879,
+          "website": "http://www.fulhamfc.com",
+          "shortName": "Fulham",
+          "clubColors": "White / Black",
+          "lastUpdated": "2024-07-29T17:16:11Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 138036,
+          "name": "Rodrigo Muniz",
+          "section": "Centre-Forward",
+          "lastName": "Rodrigo Muniz",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-05-04",
+          "lastUpdated": "2025-04-01T09:43:05Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 62,
+          "tla": "EVE",
+          "name": "Everton FC",
+          "crest": "https://crests.football-data.org/62.png",
+          "venue": "Goodison Park",
+          "address": "Goodison Park Liverpool L4 4EL",
+          "founded": 1878,
+          "website": "http://www.evertonfc.com",
+          "shortName": "Everton",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-10T19:47:42Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 125044,
+          "name": "Beto",
+          "section": "Centre-Forward",
+          "lastName": "Beto",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-01-31",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 66,
+          "tla": "MUN",
+          "name": "Manchester United FC",
+          "crest": "https://crests.football-data.org/66.png",
+          "venue": "Old Trafford",
+          "address": "Sir Matt Busby Way Manchester M16 0RA",
+          "founded": 1878,
+          "website": "http://www.manutd.com",
+          "shortName": "Man United",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:27:46Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 3257,
+          "name": "Bruno Fernandes",
+          "section": "Attacking Midfield",
+          "lastName": "Bruno Fernandes",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1994-09-08",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 10,
+        "penalties": 3,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 354,
+          "tla": "CRY",
+          "name": "Crystal Palace FC",
+          "crest": "https://crests.football-data.org/354.png",
+          "venue": "Selhurst Park",
+          "address": "Whitehorse Lane London SE25 6PU",
+          "founded": 1905,
+          "website": "http://www.cpfc.co.uk",
+          "shortName": "Crystal Palace",
+          "clubColors": "Red / Blue",
+          "lastUpdated": "2022-02-10T19:22:36Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 3638,
+          "name": "Ismaïla Sarr",
+          "section": "Right Winger",
+          "lastName": "Sarr",
+          "position": null,
+          "firstName": "Ismaïla",
+          "dateOfBirth": "1998-02-25",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "Senegal",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 67,
+          "tla": "NEW",
+          "name": "Newcastle United FC",
+          "crest": "https://crests.football-data.org/67.png",
+          "venue": "St. James' Park",
+          "address": "Sports Direct Arena Newcastle upon Tyne NE1 4ST",
+          "founded": 1881,
+          "website": "http://www.nufc.co.uk",
+          "shortName": "Newcastle",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-09-28T18:51:07Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 7934,
+          "name": "Jacob Murphy",
+          "section": "Right Winger",
+          "lastName": "Murphy",
+          "position": null,
+          "firstName": "Jacob",
+          "dateOfBirth": "1995-02-24",
+          "lastUpdated": "2025-04-02T09:43:10Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 12,
+        "penalties": null,
+        "playedMatches": 37
+      },
+      {
+        "team": {
+          "id": 58,
+          "tla": "AVL",
+          "name": "Aston Villa FC",
+          "crest": "https://crests.football-data.org/58.png",
+          "venue": "Villa Park",
+          "address": "Villa Park Birmingham B6 6HE",
+          "founded": 1872,
+          "website": "http://www.avfc.co.uk",
+          "shortName": "Aston Villa",
+          "clubColors": "Claret / Sky Blue",
+          "lastUpdated": "2022-04-03T16:22:14Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 104493,
+          "name": "Jhon Durán",
+          "section": "Centre-Forward",
+          "lastName": "Durán",
+          "position": null,
+          "firstName": "Jhon",
+          "dateOfBirth": "2003-12-13",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Colombia",
+          "shirtNumber": 9
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 21
+      },
+      {
+        "team": {
+          "id": 351,
+          "tla": "NOT",
+          "name": "Nottingham Forest FC",
+          "crest": "https://crests.football-data.org/351.png",
+          "venue": "The City Ground",
+          "address": "Pavilion Road, West Bridgeford Nottingham NG2 5GJ",
+          "founded": 1865,
+          "website": "http://www.nottinghamforest.co.uk",
+          "shortName": "Nottingham",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-07-26T17:53:21Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 4091,
+          "name": "Morgan Gibbs-White",
+          "section": "Attacking Midfield",
+          "lastName": "Gibbs-White",
+          "position": null,
+          "firstName": "Morgan",
+          "dateOfBirth": "2000-01-27",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 9,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 73,
+          "tla": "TOT",
+          "name": "Tottenham Hotspur FC",
+          "crest": "https://crests.football-data.org/73.png",
+          "venue": "Tottenham Hotspur Stadium",
+          "address": "Bill Nicholson Way, 748 High Road London N17 0AP",
+          "founded": 1882,
+          "website": "http://www.tottenhamhotspur.com",
+          "shortName": "Tottenham",
+          "clubColors": "Navy Blue / White",
+          "lastUpdated": "2024-05-11T21:39:03Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 170281,
+          "name": "Heung-min Son",
+          "section": "Left Winger",
+          "lastName": "Son",
+          "position": null,
+          "firstName": "Heung-min",
+          "dateOfBirth": "1992-07-08",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "South Korea",
+          "shirtNumber": null
+        },
+        "assists": 9,
+        "penalties": 1,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 61,
+          "tla": "CHE",
+          "name": "Chelsea FC",
+          "crest": "https://crests.football-data.org/61.png",
+          "venue": "Stamford Bridge",
+          "address": "Fulham Road London SW6 1HS",
+          "founded": 1905,
+          "website": "http://www.chelseafc.com",
+          "shortName": "Chelsea",
+          "clubColors": "Royal Blue / White",
+          "lastUpdated": "2022-02-10T19:24:40Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 167720,
+          "name": "Noni Madueke",
+          "section": "Right Winger",
+          "lastName": "Madueke",
+          "position": null,
+          "firstName": "Noni",
+          "dateOfBirth": "2002-03-10",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 73,
+          "tla": "TOT",
+          "name": "Tottenham Hotspur FC",
+          "crest": "https://crests.football-data.org/73.png",
+          "venue": "Tottenham Hotspur Stadium",
+          "address": "Bill Nicholson Way, 748 High Road London N17 0AP",
+          "founded": 1882,
+          "website": "http://www.tottenhamhotspur.com",
+          "shortName": "Tottenham",
+          "clubColors": "Navy Blue / White",
+          "lastUpdated": "2024-05-11T21:39:03Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 1859,
+          "name": "Dejan Kulusevski",
+          "section": "Attacking Midfield",
+          "lastName": "Kulusevski",
+          "position": null,
+          "firstName": "Dejan",
+          "dateOfBirth": "2000-04-25",
+          "lastUpdated": "2024-11-28T13:36:10Z",
+          "nationality": "Sweden",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 1044,
+          "tla": "BOU",
+          "name": "AFC Bournemouth",
+          "crest": "https://crests.football-data.org/bournemouth.png",
+          "venue": "Vitality Stadium",
+          "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
+          "founded": 1890,
+          "website": "http://www.afcb.co.uk",
+          "shortName": "Bournemouth",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2024-08-29T08:54:34Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 177305,
+          "name": "Dango Ouattara",
+          "section": "Left Winger",
+          "lastName": "Ouattara",
+          "position": null,
+          "firstName": "Dango",
+          "dateOfBirth": "2002-02-11",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "Burkina Faso",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 57,
+          "tla": "ARS",
+          "name": "Arsenal FC",
+          "crest": "https://crests.football-data.org/57.png",
+          "venue": "Emirates Stadium",
+          "address": "75 Drayton Park London N5 1BU",
+          "founded": 1886,
+          "website": "http://www.arsenal.com",
+          "shortName": "Arsenal",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-10T19:48:56Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 7935,
+          "name": "Mikel Merino",
+          "section": "Central Midfield",
+          "lastName": "Mikel Merino",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-06-22",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 28
+      }
+    ],
+    "competition": {
+      "id": 2021,
+      "code": "PL",
+      "name": "Premier League",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/PL.png"
+    }
+  }
+}

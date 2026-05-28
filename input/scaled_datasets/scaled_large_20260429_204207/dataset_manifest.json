@@ -1,0 +1,105 @@
+{
+  "dataset_id": "scaled_large_20260429_204207",
+  "scale": "large",
+  "description": "Большой набор (~1,200,000 матчей)",
+  "created_at": "2026-04-29T17:42:16.125861Z",
+  "generation_duration_sec": 8.27,
+  "configuration": {
+    "competitions": 30,
+    "teams_per_comp": 50,
+    "matches_per_season": 380,
+    "seasons": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "num_batches": 10,
+    "seed": 42
+  },
+  "totals": {
+    "files": 992,
+    "teams": 1500,
+    "matches": 125400,
+    "standings": 330
+  },
+  "batches": [
+    {
+      "batch_id": "scaled_large_20260429_204207_b001",
+      "batch_num": 1,
+      "files": 101,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b002",
+      "batch_num": 2,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b003",
+      "batch_num": 3,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b004",
+      "batch_num": 4,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b005",
+      "batch_num": 5,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b006",
+      "batch_num": 6,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b007",
+      "batch_num": 7,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b008",
+      "batch_num": 8,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b009",
+      "batch_num": 9,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    },
+    {
+      "batch_id": "scaled_large_20260429_204207_b010",
+      "batch_num": 10,
+      "files": 99,
+      "teams": 1650,
+      "matches": 12540
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "endpoint": "competitions/2002/standings?season=2023",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "competition": {
+      "id": 2002,
+      "area": {
+        "id": 2142,
+        "name": "Saint Pierre and Miquelon",
+        "countryCode": "CA",
+        "flag": "https://picsum.photos/178/864"
+      },
+      "name": "Carter, Fuller and Mcclure League",
+      "code": "XKM",
+      "type": "LEAGUE",
+      "emblem": "https://placekittens.com/142/93"
+    },
+    "season": {
+      "id": 2023,
+      "startDate": "2023-08-01",
+      "endDate": "2024-05-30"
+    },
+    "standings": [
+      {
+        "stage": "REGULAR_SEASON",
+        "type": "TOTAL",
+        "table": [
+          {
+            "position": 1,
+            "team": {
+              "id": 99016,
+              "name": "Ramseymouth FC"
+            },
+            "playedGames": 38,
+            "won": 10,
+            "draw": 1,
+            "lost": 7,
+            "points": 12,
+            "goalsFor": 53,
+            "goalsAgainst": 78,
+            "goalDifference": -1
+          },
+          {
+            "position": 2,
+            "team": {
+              "id": 15276,
+              "name": "East Jamestown FC"
+            },
+            "playedGames": 38,
+            "won": 0,
+            "draw": 2,
+            "lost": 6,
+            "points": 83,
+            "goalsFor": 29,
+            "goalsAgainst": 24,
+            "goalDifference": 0
+          },
+          {
+            "position": 3,
+            "team": {
+              "id": 15383,
+              "name": "Amandastad FC"
+            },
+            "playedGames": 38,
+            "won": 8,
+            "draw": 5,
+            "lost": 9,
+            "points": 88,
+            "goalsFor": 45,
+            "goalsAgainst": 61,
+            "goalDifference": -25
+          },
+          {
+            "position": 4,
+            "team": {
+              "id": 70910,
+              "name": "Rogersfort FC"
+            },
+            "playedGames": 38,
+            "won": 10,
+            "draw": 10,
+            "lost": 8,
+            "points": 48,
+            "goalsFor": 40,
+            "goalsAgainst": 60,
+            "goalDifference": 15
+          },
+          {
+            "position": 5,
+            "team": {
+              "id": 50135,
+              "name": "Thomashaven FC"
+            },
+            "playedGames": 38,
+            "won": 15,
+            "draw": 8,
+            "lost": 0,
+            "points": 79,
+            "goalsFor": 24,
+            "goalsAgainst": 35,
+            "goalDifference": 10
+          },
+          {
+            "position": 6,
+            "team": {
+              "id": 39816,
+              "name": "Harrytown FC"
+            },
+            "playedGames": 38,
+            "won": 9,
+            "draw": 3,
+            "lost": 1,
+            "points": 55,
+            "goalsFor": 26,
+            "goalsAgainst": 68,
+            "goalDifference": 10
+          },
+          {
+            "position": 7,
+            "team": {
+              "id": 83147,
+              "name": "Obrienbury FC"
+            },
+            "playedGames": 38,
+            "won": 3,
+            "draw": 7,
+            "lost": 2,
+            "points": 88,
+            "goalsFor": 39,
+            "goalsAgainst": 77,
+            "goalDifference": -29
+          },
+          {
+            "position": 8,
+            "team": {
+              "id": 30585,
+              "name": "East Andrea FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 5,
+            "lost": 0,
+            "points": 37,
+            "goalsFor": 42,
+            "goalsAgainst": 43,
+            "goalDifference": -3
+          }
+        ]
+      }
+    ]
+  }
+}

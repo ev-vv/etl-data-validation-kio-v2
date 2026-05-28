@@ -1,0 +1,1582 @@
+{
+  "source_id": 63,
+  "endpoint": "competitions/2002/scorers?season=2025&limit=50",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "count": 50,
+    "season": {
+      "id": 2414,
+      "winner": null,
+      "endDate": "2026-05-16",
+      "startDate": "2025-08-22",
+      "currentMatchday": 16
+    },
+    "filters": {
+      "limit": 50,
+      "season": 2025
+    },
+    "scorers": [
+      {
+        "team": {
+          "id": 5,
+          "tla": "FCB",
+          "name": "FC Bayern München",
+          "crest": "https://crests.football-data.org/5.png",
+          "venue": "Allianz Arena",
+          "address": "Säbenerstr. 51 München 81547",
+          "founded": 1900,
+          "website": "http://www.fcbayern.de",
+          "shortName": "Bayern",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2024-07-09T17:26:37Z"
+        },
+        "goals": 19,
+        "player": {
+          "id": 8004,
+          "name": "Harry Kane",
+          "section": "Centre-Forward",
+          "lastName": "Kane",
+          "position": null,
+          "firstName": "Harry",
+          "dateOfBirth": "1993-07-28",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "England",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 6,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 5,
+          "tla": "FCB",
+          "name": "FC Bayern München",
+          "crest": "https://crests.football-data.org/5.png",
+          "venue": "Allianz Arena",
+          "address": "Säbenerstr. 51 München 81547",
+          "founded": 1900,
+          "website": "http://www.fcbayern.de",
+          "shortName": "Bayern",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2024-07-09T17:26:37Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 22396,
+          "name": "Luis Díaz",
+          "section": "Left Winger",
+          "lastName": "Díaz",
+          "position": null,
+          "firstName": "Luis",
+          "dateOfBirth": "1997-01-13",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Colombia",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 19,
+          "tla": "SGE",
+          "name": "Eintracht Frankfurt",
+          "crest": "https://crests.football-data.org/19.png",
+          "venue": "Deutsche Bank Park",
+          "address": "Mörfelder Landstraße 362 Frankfurt am Main 60528",
+          "founded": 1899,
+          "website": "http://www.eintracht.de",
+          "shortName": "Frankfurt",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2024-07-29T17:13:52Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 82404,
+          "name": "Jonathan Burkardt",
+          "section": "Centre-Forward",
+          "lastName": "Burkardt",
+          "position": null,
+          "firstName": "Jonathan",
+          "dateOfBirth": "2000-07-11",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 10
+      },
+      {
+        "team": {
+          "id": 10,
+          "tla": "VFB",
+          "name": "VfB Stuttgart",
+          "crest": "https://crests.football-data.org/10.png",
+          "venue": "Mercedes-Benz Arena",
+          "address": "Mercedesstraße 109 Stuttgart 70372",
+          "founded": 1893,
+          "website": "http://www.vfb.de",
+          "shortName": "Stuttgart",
+          "clubColors": "White / Red",
+          "lastUpdated": "2023-02-28T07:59:06Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 6928,
+          "name": "Deniz Undav",
+          "section": "Centre-Forward",
+          "lastName": "Undav",
+          "position": null,
+          "firstName": "Deniz",
+          "dateOfBirth": "1996-07-19",
+          "lastUpdated": "2024-10-11T09:41:02Z",
+          "nationality": "Germany",
+          "shirtNumber": 9
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 11
+      },
+      {
+        "team": {
+          "id": 5,
+          "tla": "FCB",
+          "name": "FC Bayern München",
+          "crest": "https://crests.football-data.org/5.png",
+          "venue": "Allianz Arena",
+          "address": "Säbenerstr. 51 München 81547",
+          "founded": 1900,
+          "website": "http://www.fcbayern.de",
+          "shortName": "Bayern",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2024-07-09T17:26:37Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 113765,
+          "name": "Michael Olise",
+          "section": "Right Winger",
+          "lastName": "Olise",
+          "position": null,
+          "firstName": "Michael",
+          "dateOfBirth": "2001-12-12",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 8,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 18,
+          "tla": "BMG",
+          "name": "Borussia Mönchengladbach",
+          "crest": "https://crests.football-data.org/18.png",
+          "venue": "Stadion im Borussia-Park",
+          "address": "Hennes-Weisweiler-Allee 1 Mönchengladbach 41179",
+          "founded": 1900,
+          "website": "http://www.borussia.de",
+          "shortName": "M'gladbach",
+          "clubColors": "Black / White / Green",
+          "lastUpdated": "2023-02-28T07:59:45Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 63218,
+          "name": "Haris Tabaković",
+          "section": "Offence",
+          "lastName": "Tabakovic",
+          "position": null,
+          "firstName": "Haris",
+          "dateOfBirth": "1994-06-20",
+          "lastUpdated": "2024-07-30T09:41:17Z",
+          "nationality": "Bosnia-Herzegovina",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 2,
+          "tla": "TSG",
+          "name": "TSG 1899 Hoffenheim",
+          "crest": "https://crests.football-data.org/2.png",
+          "venue": "PreZero Arena",
+          "address": "Horrenberger Straße 58 Zuzenhausen 74939",
+          "founded": 1921,
+          "website": "http://www.achtzehn99.de",
+          "shortName": "Hoffenheim",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-25T16:49:58Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 145562,
+          "name": "Fisnik Asllani",
+          "section": "Centre-Forward",
+          "lastName": "Asllani",
+          "position": null,
+          "firstName": "Fisnik",
+          "dateOfBirth": "2002-08-08",
+          "lastUpdated": "2025-03-15T09:41:30Z",
+          "nationality": "Kosovo",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 11,
+          "tla": "WOB",
+          "name": "VfL Wolfsburg",
+          "crest": "https://crests.football-data.org/11.png",
+          "venue": "Volkswagen Arena",
+          "address": "In den Allerwiesen 1 Wolfsburg 38446",
+          "founded": 1945,
+          "website": "http://www.vfl-wolfsburg.de",
+          "shortName": "Wolfsburg",
+          "clubColors": "Green / White",
+          "lastUpdated": "2024-07-29T17:13:21Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 180827,
+          "name": "Mohammed Amoura",
+          "section": "Offence",
+          "lastName": "Amoura",
+          "position": null,
+          "firstName": "Mohamed",
+          "dateOfBirth": "2000-05-09",
+          "lastUpdated": "2025-06-15T09:41:01Z",
+          "nationality": "Algeria",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 721,
+          "tla": "RBL",
+          "name": "RB Leipzig",
+          "crest": "https://crests.football-data.org/721.png",
+          "venue": "Red Bull Arena",
+          "address": "Neumarkt 29-33 Leipzig 04109",
+          "founded": 2009,
+          "website": "http://www.dierotenbullen.com",
+          "shortName": "RB Leipzig",
+          "clubColors": "White / Red",
+          "lastUpdated": "2022-02-19T09:03:00Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 56829,
+          "name": "Christoph Baumgartner",
+          "section": "Attacking Midfield",
+          "lastName": "Baumgartner",
+          "position": null,
+          "firstName": "Christoph",
+          "dateOfBirth": "1999-08-01",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Austria",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 3,
+          "tla": "B04",
+          "name": "Bayer 04 Leverkusen",
+          "crest": "https://crests.football-data.org/3.png",
+          "venue": "BayArena",
+          "address": "Bismarckstr. 122-124 Leverkusen 51373",
+          "founded": 1904,
+          "website": "http://www.bayer04.de",
+          "shortName": "Leverkusen",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-02-25T16:43:07Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 1826,
+          "name": "Patrik Schick",
+          "section": "Centre-Forward",
+          "lastName": "Schick",
+          "position": null,
+          "firstName": "Patrik",
+          "dateOfBirth": "1996-01-24",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Czech Republic",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 12
+      },
+      {
+        "team": {
+          "id": 1,
+          "tla": "KOE",
+          "name": "1. FC Köln",
+          "crest": "https://crests.football-data.org/1.png",
+          "venue": "RheinEnergieSTADION",
+          "address": "Franz-Kremer-Allee 1 Köln 50937",
+          "founded": 1948,
+          "website": "http://www.fc-koeln.de",
+          "shortName": "1. FC Köln",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-25T16:49:46Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 247659,
+          "name": "Said El Mala",
+          "section": "Offence",
+          "lastName": "El Mala",
+          "position": null,
+          "firstName": "Saïd",
+          "dateOfBirth": "2006-08-26",
+          "lastUpdated": "2025-06-21T09:41:47Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 721,
+          "tla": "RBL",
+          "name": "RB Leipzig",
+          "crest": "https://crests.football-data.org/721.png",
+          "venue": "Red Bull Arena",
+          "address": "Neumarkt 29-33 Leipzig 04109",
+          "founded": 2009,
+          "website": "http://www.dierotenbullen.com",
+          "shortName": "RB Leipzig",
+          "clubColors": "White / Red",
+          "lastUpdated": "2022-02-19T09:03:00Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 277484,
+          "name": "Yan Diomandé",
+          "section": "Offence",
+          "lastName": "Diomande",
+          "position": null,
+          "firstName": "Yan",
+          "dateOfBirth": "2006-11-14",
+          "lastUpdated": "2025-10-13T09:41:39Z",
+          "nationality": "Ivory Coast",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 19,
+          "tla": "SGE",
+          "name": "Eintracht Frankfurt",
+          "crest": "https://crests.football-data.org/19.png",
+          "venue": "Deutsche Bank Park",
+          "address": "Mörfelder Landstraße 362 Frankfurt am Main 60528",
+          "founded": 1899,
+          "website": "http://www.eintracht.de",
+          "shortName": "Frankfurt",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2024-07-29T17:13:52Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 193605,
+          "name": "Can Uzun",
+          "section": "Attacking Midfield",
+          "lastName": "Uzun",
+          "position": null,
+          "firstName": "Can",
+          "dateOfBirth": "2005-11-11",
+          "lastUpdated": "2024-11-04T17:17:22Z",
+          "nationality": "Turkey",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 12
+      },
+      {
+        "team": {
+          "id": 2,
+          "tla": "TSG",
+          "name": "TSG 1899 Hoffenheim",
+          "crest": "https://crests.football-data.org/2.png",
+          "venue": "PreZero Arena",
+          "address": "Horrenberger Straße 58 Zuzenhausen 74939",
+          "founded": 1921,
+          "website": "http://www.achtzehn99.de",
+          "shortName": "Hoffenheim",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-25T16:49:58Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 144433,
+          "name": "Tim Lemperle",
+          "section": "Centre-Forward",
+          "lastName": "Lemperle",
+          "position": null,
+          "firstName": "Tim",
+          "dateOfBirth": "2002-02-05",
+          "lastUpdated": "2024-09-02T09:59:02Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 1,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 17,
+          "tla": "SCF",
+          "name": "SC Freiburg",
+          "crest": "https://crests.football-data.org/17.png",
+          "venue": "Schwarzwald-Stadion",
+          "address": "Schwarzwaldstraße 193 Freiburg 79117",
+          "founded": 1912,
+          "website": "http://www.scfreiburg.com",
+          "shortName": "Freiburg",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:13:41Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 6686,
+          "name": "Vincenzo Grifo",
+          "section": "Left Winger",
+          "lastName": "Grifo",
+          "position": null,
+          "firstName": "Vincenzo",
+          "dateOfBirth": "1993-04-07",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Italy",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 3,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 28,
+          "tla": "UNB",
+          "name": "1. FC Union Berlin",
+          "crest": "https://crests.football-data.org/28.png",
+          "venue": "Stadion An der Alten Försterei",
+          "address": "An der Wuhlheide 263 Berlin 12555",
+          "founded": 1906,
+          "website": "http://www.fc-union-berlin.de",
+          "shortName": "Union Berlin",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:14:25Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 211740,
+          "name": "Ilyas Ansah",
+          "section": "Left Winger",
+          "lastName": "Ansah",
+          "position": null,
+          "firstName": "Ilyas",
+          "dateOfBirth": "2004-11-08",
+          "lastUpdated": "2024-09-02T09:59:03Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 4,
+          "tla": "BVB",
+          "name": "Borussia Dortmund",
+          "crest": "https://crests.football-data.org/4.png",
+          "venue": "Signal Iduna Park",
+          "address": "Rheinlanddamm 207-209 Dortmund 44137",
+          "founded": 1909,
+          "website": "http://www.bvb.de",
+          "shortName": "Dortmund",
+          "clubColors": "Black / Yellow",
+          "lastUpdated": "2022-02-25T16:50:16Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 211,
+          "name": "Sehrou Guirassy",
+          "section": "Centre-Forward",
+          "lastName": "Guirassy",
+          "position": null,
+          "firstName": "Serhou",
+          "dateOfBirth": "1996-03-12",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Guinea",
+          "shirtNumber": 9
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 2,
+          "tla": "TSG",
+          "name": "TSG 1899 Hoffenheim",
+          "crest": "https://crests.football-data.org/2.png",
+          "venue": "PreZero Arena",
+          "address": "Horrenberger Straße 58 Zuzenhausen 74939",
+          "founded": 1921,
+          "website": "http://www.achtzehn99.de",
+          "shortName": "Hoffenheim",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-25T16:49:58Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 6836,
+          "name": "Grischa Prömel",
+          "section": "Central Midfield",
+          "lastName": "Prömel",
+          "position": null,
+          "firstName": "Grischa",
+          "dateOfBirth": "1995-01-09",
+          "lastUpdated": "2024-10-09T09:41:17Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 1,
+          "tla": "KOE",
+          "name": "1. FC Köln",
+          "crest": "https://crests.football-data.org/1.png",
+          "venue": "RheinEnergieSTADION",
+          "address": "Franz-Kremer-Allee 1 Köln 50937",
+          "founded": 1948,
+          "website": "http://www.fc-koeln.de",
+          "shortName": "1. FC Köln",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-25T16:49:46Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 127401,
+          "name": "Jakub Kamiński",
+          "section": "Left Winger",
+          "lastName": "Kamiński",
+          "position": null,
+          "firstName": "Jakub",
+          "dateOfBirth": "2002-06-05",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Poland",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 12,
+          "tla": "SVW",
+          "name": "SV Werder Bremen",
+          "crest": "https://crests.football-data.org/12.png",
+          "venue": "Weserstadion",
+          "address": "Franz-Böhmert-Str. 1c Bremen 28205",
+          "founded": 1899,
+          "website": "http://www.werder.de",
+          "shortName": "Bremen",
+          "clubColors": "Green / White",
+          "lastUpdated": "2024-07-29T17:13:29Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 23925,
+          "name": "Jens Stage",
+          "section": "Central Midfield",
+          "lastName": "Stage",
+          "position": null,
+          "firstName": "Jens",
+          "dateOfBirth": "1996-11-08",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Denmark",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 20,
+          "tla": "STP",
+          "name": "FC St. Pauli 1910",
+          "crest": "https://crests.football-data.org/20.png",
+          "venue": "Millerntor-Stadion",
+          "address": "Auf dem Heiligengeistfeld Hamburg 20359",
+          "founded": 1910,
+          "website": "http://www.fcstpauli.de",
+          "shortName": "St. Pauli",
+          "clubColors": "Brown / White",
+          "lastUpdated": "2022-07-12T12:08:57Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 136168,
+          "name": "Andreas Hountondji",
+          "section": "Centre-Forward",
+          "lastName": "Hountondji",
+          "position": null,
+          "firstName": "Andréas",
+          "dateOfBirth": "2002-07-11",
+          "lastUpdated": "2024-09-02T09:59:06Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 12
+      },
+      {
+        "team": {
+          "id": 4,
+          "tla": "BVB",
+          "name": "Borussia Dortmund",
+          "crest": "https://crests.football-data.org/4.png",
+          "venue": "Signal Iduna Park",
+          "address": "Rheinlanddamm 207-209 Dortmund 44137",
+          "founded": 1909,
+          "website": "http://www.bvb.de",
+          "shortName": "Dortmund",
+          "clubColors": "Black / Yellow",
+          "lastUpdated": "2022-02-25T16:50:16Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 148,
+          "name": "Julian Brandt",
+          "section": "Attacking Midfield",
+          "lastName": "Brandt",
+          "position": null,
+          "firstName": "Julian",
+          "dateOfBirth": "1996-05-02",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 721,
+          "tla": "RBL",
+          "name": "RB Leipzig",
+          "crest": "https://crests.football-data.org/721.png",
+          "venue": "Red Bull Arena",
+          "address": "Neumarkt 29-33 Leipzig 04109",
+          "founded": 2009,
+          "website": "http://www.dierotenbullen.com",
+          "shortName": "RB Leipzig",
+          "clubColors": "White / Red",
+          "lastUpdated": "2022-02-19T09:03:00Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 178783,
+          "name": "Romulo Cruz",
+          "section": "Offence",
+          "lastName": "Rômulo",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2002-02-08",
+          "lastUpdated": "2023-07-30T23:15:44Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 11
+      },
+      {
+        "team": {
+          "id": 19,
+          "tla": "SGE",
+          "name": "Eintracht Frankfurt",
+          "crest": "https://crests.football-data.org/19.png",
+          "venue": "Deutsche Bank Park",
+          "address": "Mörfelder Landstraße 362 Frankfurt am Main 60528",
+          "founded": 1899,
+          "website": "http://www.eintracht.de",
+          "shortName": "Frankfurt",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2024-07-29T17:13:52Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 7531,
+          "name": "Ritsu Doan",
+          "section": "Right Winger",
+          "lastName": "Dōan",
+          "position": null,
+          "firstName": "Ritsu",
+          "dateOfBirth": "1998-06-16",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Japan",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 5,
+          "tla": "FCB",
+          "name": "FC Bayern München",
+          "crest": "https://crests.football-data.org/5.png",
+          "venue": "Allianz Arena",
+          "address": "Säbenerstr. 51 München 81547",
+          "founded": 1900,
+          "website": "http://www.fcbayern.de",
+          "shortName": "Bayern",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2024-07-09T17:26:37Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 311,
+          "name": "Serge Gnabry",
+          "section": "Right Winger",
+          "lastName": "Gnabry",
+          "position": null,
+          "firstName": "Serge",
+          "dateOfBirth": "1995-07-14",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 3,
+          "tla": "B04",
+          "name": "Bayer 04 Leverkusen",
+          "crest": "https://crests.football-data.org/3.png",
+          "venue": "BayArena",
+          "address": "Bismarckstr. 122-124 Leverkusen 51373",
+          "founded": 1904,
+          "website": "http://www.bayer04.de",
+          "shortName": "Leverkusen",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-02-25T16:43:07Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 16739,
+          "name": "Alejandro Grimaldo",
+          "section": "Left-Back",
+          "lastName": "Álex Grimaldo",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1995-09-20",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 1,
+        "playedMatches": 12
+      },
+      {
+        "team": {
+          "id": 4,
+          "tla": "BVB",
+          "name": "Borussia Dortmund",
+          "crest": "https://crests.football-data.org/4.png",
+          "venue": "Signal Iduna Park",
+          "address": "Rheinlanddamm 207-209 Dortmund 44137",
+          "founded": 1909,
+          "website": "http://www.bvb.de",
+          "shortName": "Dortmund",
+          "clubColors": "Black / Yellow",
+          "lastUpdated": "2022-02-25T16:50:16Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 133903,
+          "name": "Maximilian Beier",
+          "section": "Centre-Forward",
+          "lastName": "Beier",
+          "position": null,
+          "firstName": "Maximilian",
+          "dateOfBirth": "2002-10-17",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 7,
+          "tla": "HSV",
+          "name": "Hamburger SV",
+          "crest": "https://crests.football-data.org/7.png",
+          "venue": "Volksparkstadion",
+          "address": "Sylvesterallee 7 Hamburg 22525",
+          "founded": 1887,
+          "website": "http://www.hsv.de",
+          "shortName": "HSV",
+          "clubColors": "White / Red / Blue",
+          "lastUpdated": "2023-02-28T07:57:55Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 125686,
+          "name": "Rayan Philippe",
+          "section": "Centre-Forward",
+          "lastName": "Philippe",
+          "position": null,
+          "firstName": "Rayan",
+          "dateOfBirth": "2000-10-23",
+          "lastUpdated": "2024-10-15T09:41:40Z",
+          "nationality": "France",
+          "shirtNumber": 23
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 28,
+          "tla": "UNB",
+          "name": "1. FC Union Berlin",
+          "crest": "https://crests.football-data.org/28.png",
+          "venue": "Stadion An der Alten Försterei",
+          "address": "An der Wuhlheide 263 Berlin 12555",
+          "founded": 1906,
+          "website": "http://www.fc-union-berlin.de",
+          "shortName": "Union Berlin",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:14:25Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 8027,
+          "name": "Oliver Burke",
+          "section": "Right Winger",
+          "lastName": "Burke",
+          "position": null,
+          "firstName": "Oliver",
+          "dateOfBirth": "1997-04-07",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Scotland",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 4,
+          "tla": "BVB",
+          "name": "Borussia Dortmund",
+          "crest": "https://crests.football-data.org/4.png",
+          "venue": "Signal Iduna Park",
+          "address": "Rheinlanddamm 207-209 Dortmund 44137",
+          "founded": 1909,
+          "website": "http://www.bvb.de",
+          "shortName": "Dortmund",
+          "clubColors": "Black / Yellow",
+          "lastUpdated": "2022-02-25T16:50:16Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 82515,
+          "name": "Karim Adeyemi",
+          "section": "Left Winger",
+          "lastName": "Adeyemi",
+          "position": null,
+          "firstName": "Karim",
+          "dateOfBirth": "2002-01-18",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 3,
+          "tla": "B04",
+          "name": "Bayer 04 Leverkusen",
+          "crest": "https://crests.football-data.org/3.png",
+          "venue": "BayArena",
+          "address": "Bismarckstr. 122-124 Leverkusen 51373",
+          "founded": 1904,
+          "website": "http://www.bayer04.de",
+          "shortName": "Leverkusen",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-02-25T16:43:07Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 167793,
+          "name": "Ernest Poku",
+          "section": "Centre-Forward",
+          "lastName": "Poku",
+          "position": null,
+          "firstName": "Ernest",
+          "dateOfBirth": "2004-01-28",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 7,
+          "tla": "HSV",
+          "name": "Hamburger SV",
+          "crest": "https://crests.football-data.org/7.png",
+          "venue": "Volksparkstadion",
+          "address": "Sylvesterallee 7 Hamburg 22525",
+          "founded": 1887,
+          "website": "http://www.hsv.de",
+          "shortName": "HSV",
+          "clubColors": "White / Red / Blue",
+          "lastUpdated": "2023-02-28T07:57:55Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 8862,
+          "name": "Albert Sambi Lokonga",
+          "section": "Central Midfield",
+          "lastName": "Lokonga",
+          "position": null,
+          "firstName": "Albert",
+          "dateOfBirth": "1999-10-22",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Belgium",
+          "shirtNumber": 48
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 28,
+          "tla": "UNB",
+          "name": "1. FC Union Berlin",
+          "crest": "https://crests.football-data.org/28.png",
+          "venue": "Stadion An der Alten Försterei",
+          "address": "An der Wuhlheide 263 Berlin 12555",
+          "founded": 1906,
+          "website": "http://www.fc-union-berlin.de",
+          "shortName": "Union Berlin",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:14:25Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 67886,
+          "name": "Danilho Doekhi",
+          "section": "Centre-Back",
+          "lastName": "Doekhi",
+          "position": null,
+          "firstName": "Danilho",
+          "dateOfBirth": "1998-06-30",
+          "lastUpdated": "2025-06-19T09:42:00Z",
+          "nationality": "Suriname",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 44,
+          "tla": "HEI",
+          "name": "1. FC Heidenheim 1846",
+          "crest": "https://crests.football-data.org/44.png",
+          "venue": "Voith-Arena",
+          "address": "Schloßhaustraße 162 Heidenheim 89522",
+          "founded": 1846,
+          "website": "http://www.fc-heidenheim.de",
+          "shortName": "Heidenheim",
+          "clubColors": "Blue / Red / White",
+          "lastUpdated": "2024-07-29T17:14:58Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 10369,
+          "name": "Stefan Schimmer",
+          "section": "Centre-Forward",
+          "lastName": "Schimmer",
+          "position": null,
+          "firstName": "Stefan",
+          "dateOfBirth": "1994-04-28",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 12
+      },
+      {
+        "team": {
+          "id": 12,
+          "tla": "SVW",
+          "name": "SV Werder Bremen",
+          "crest": "https://crests.football-data.org/12.png",
+          "venue": "Weserstadion",
+          "address": "Franz-Böhmert-Str. 1c Bremen 28205",
+          "founded": 1899,
+          "website": "http://www.werder.de",
+          "shortName": "Bremen",
+          "clubColors": "Green / White",
+          "lastUpdated": "2024-07-29T17:13:29Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 122949,
+          "name": "Justin Njinmah",
+          "section": "Right Winger",
+          "lastName": "Njinmah",
+          "position": null,
+          "firstName": "Justin",
+          "dateOfBirth": "2000-11-15",
+          "lastUpdated": "2024-10-12T09:41:19Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 10,
+          "tla": "VFB",
+          "name": "VfB Stuttgart",
+          "crest": "https://crests.football-data.org/10.png",
+          "venue": "Mercedes-Benz Arena",
+          "address": "Mercedesstraße 109 Stuttgart 70372",
+          "founded": 1893,
+          "website": "http://www.vfb.de",
+          "shortName": "Stuttgart",
+          "clubColors": "White / Red",
+          "lastUpdated": "2023-02-28T07:59:06Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 145057,
+          "name": "Tiago Tomás",
+          "section": "Centre-Forward",
+          "lastName": "Tiago Tomás",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2002-06-16",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 1,
+          "tla": "KOE",
+          "name": "1. FC Köln",
+          "crest": "https://crests.football-data.org/1.png",
+          "venue": "RheinEnergieSTADION",
+          "address": "Franz-Kremer-Allee 1 Köln 50937",
+          "founded": 1948,
+          "website": "http://www.fc-koeln.de",
+          "shortName": "1. FC Köln",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-25T16:49:46Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 65441,
+          "name": "Marius Bülter",
+          "section": "Left Winger",
+          "lastName": "Bülter",
+          "position": null,
+          "firstName": "Marius",
+          "dateOfBirth": "1993-03-29",
+          "lastUpdated": "2024-10-09T09:41:17Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 3,
+          "tla": "B04",
+          "name": "Bayer 04 Leverkusen",
+          "crest": "https://crests.football-data.org/3.png",
+          "venue": "BayArena",
+          "address": "Bismarckstr. 122-124 Leverkusen 51373",
+          "founded": 1904,
+          "website": "http://www.bayer04.de",
+          "shortName": "Leverkusen",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-02-25T16:43:07Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 144470,
+          "name": "Malik Tillman",
+          "section": "Attacking Midfield",
+          "lastName": "Tillman",
+          "position": null,
+          "firstName": "Malik",
+          "dateOfBirth": "2002-05-28",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "USA",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 11
+      },
+      {
+        "team": {
+          "id": 15,
+          "tla": "M05",
+          "name": "1. FSV Mainz 05",
+          "crest": "https://crests.football-data.org/15.png",
+          "venue": "Opel Arena",
+          "address": "Dr.-Martin-Luther-King-Weg 20 Mainz 55122",
+          "founded": 1905,
+          "website": "http://www.mainz05.de",
+          "shortName": "Mainz",
+          "clubColors": "Red / White",
+          "lastUpdated": "2023-02-28T07:59:34Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 320,
+          "name": "Nadiem Amiri",
+          "section": "Central Midfield",
+          "lastName": "Amiri",
+          "position": null,
+          "firstName": "Nadiem",
+          "dateOfBirth": "1996-10-27",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 3,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 10,
+          "tla": "VFB",
+          "name": "VfB Stuttgart",
+          "crest": "https://crests.football-data.org/10.png",
+          "venue": "Mercedes-Benz Arena",
+          "address": "Mercedesstraße 109 Stuttgart 70372",
+          "founded": 1893,
+          "website": "http://www.vfb.de",
+          "shortName": "Stuttgart",
+          "clubColors": "White / Red",
+          "lastUpdated": "2023-02-28T07:59:06Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 33242,
+          "name": "Ermedin Demirovic",
+          "section": "Centre-Forward",
+          "lastName": "Demirović",
+          "position": null,
+          "firstName": "Ermedin",
+          "dateOfBirth": "1998-03-25",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Bosnia-Herzegovina",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 1,
+        "playedMatches": 6
+      },
+      {
+        "team": {
+          "id": 17,
+          "tla": "SCF",
+          "name": "SC Freiburg",
+          "crest": "https://crests.football-data.org/17.png",
+          "venue": "Schwarzwald-Stadion",
+          "address": "Schwarzwaldstraße 193 Freiburg 79117",
+          "founded": 1912,
+          "website": "http://www.scfreiburg.com",
+          "shortName": "Freiburg",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:13:41Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 175704,
+          "name": "Derry Scherhant",
+          "section": "Left Winger",
+          "lastName": "Scherhant",
+          "position": null,
+          "firstName": "Derry",
+          "dateOfBirth": "2002-11-10",
+          "lastUpdated": "2024-09-02T09:59:03Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 1,
+          "tla": "KOE",
+          "name": "1. FC Köln",
+          "crest": "https://crests.football-data.org/1.png",
+          "venue": "RheinEnergieSTADION",
+          "address": "Franz-Kremer-Allee 1 Köln 50937",
+          "founded": 1948,
+          "website": "http://www.fc-koeln.de",
+          "shortName": "1. FC Köln",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-25T16:49:46Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 6537,
+          "name": "Gian-Luca Waldschmidt",
+          "section": "Centre-Forward",
+          "lastName": "Waldschmidt",
+          "position": null,
+          "firstName": "Luca",
+          "dateOfBirth": "1996-05-19",
+          "lastUpdated": "2024-09-02T09:59:02Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 2,
+          "tla": "TSG",
+          "name": "TSG 1899 Hoffenheim",
+          "crest": "https://crests.football-data.org/2.png",
+          "venue": "PreZero Arena",
+          "address": "Horrenberger Straße 58 Zuzenhausen 74939",
+          "founded": 1921,
+          "website": "http://www.achtzehn99.de",
+          "shortName": "Hoffenheim",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-25T16:49:58Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 318,
+          "name": "Andrej Kramarić",
+          "section": "Centre-Forward",
+          "lastName": "Kramarić",
+          "position": null,
+          "firstName": "Andrej",
+          "dateOfBirth": "1991-06-19",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Croatia",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 1,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 16,
+          "tla": "FCA",
+          "name": "FC Augsburg",
+          "crest": "https://crests.football-data.org/16.png",
+          "venue": "WWK Arena",
+          "address": "Donauwörther Straße 170 Augsburg 86154",
+          "founded": 1907,
+          "website": "http://www.fcaugsburg.de",
+          "shortName": "Augsburg",
+          "clubColors": "Red / Green / White",
+          "lastUpdated": "2023-02-28T07:59:40Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 152692,
+          "name": "Fabian Rieder",
+          "section": "Right Winger",
+          "lastName": "Rieder",
+          "position": null,
+          "firstName": "Fabian",
+          "dateOfBirth": "2002-02-16",
+          "lastUpdated": "2025-02-08T19:07:49Z",
+          "nationality": "Switzerland",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 12,
+          "tla": "SVW",
+          "name": "SV Werder Bremen",
+          "crest": "https://crests.football-data.org/12.png",
+          "venue": "Weserstadion",
+          "address": "Franz-Böhmert-Str. 1c Bremen 28205",
+          "founded": 1899,
+          "website": "http://www.werder.de",
+          "shortName": "Bremen",
+          "clubColors": "Green / White",
+          "lastUpdated": "2024-07-29T17:13:29Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 217678,
+          "name": "Samuel Mbangula",
+          "section": "Left Winger",
+          "lastName": "Mbangula",
+          "position": null,
+          "firstName": "Samuel",
+          "dateOfBirth": "2004-01-16",
+          "lastUpdated": "2024-11-06T09:41:07Z",
+          "nationality": "Belgium",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 10,
+          "tla": "VFB",
+          "name": "VfB Stuttgart",
+          "crest": "https://crests.football-data.org/10.png",
+          "venue": "Mercedes-Benz Arena",
+          "address": "Mercedesstraße 109 Stuttgart 70372",
+          "founded": 1893,
+          "website": "http://www.vfb.de",
+          "shortName": "Stuttgart",
+          "clubColors": "White / Red",
+          "lastUpdated": "2023-02-28T07:59:06Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 189873,
+          "name": "Bilal El Khannouss",
+          "section": "Attacking Midfield",
+          "lastName": "El Khannouss",
+          "position": null,
+          "firstName": "Bilal",
+          "dateOfBirth": "2005-05-09",
+          "lastUpdated": "2024-09-02T09:38:34Z",
+          "nationality": "Morocco",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 12
+      },
+      {
+        "team": {
+          "id": 721,
+          "tla": "RBL",
+          "name": "RB Leipzig",
+          "crest": "https://crests.football-data.org/721.png",
+          "venue": "Red Bull Arena",
+          "address": "Neumarkt 29-33 Leipzig 04109",
+          "founded": 2009,
+          "website": "http://www.dierotenbullen.com",
+          "shortName": "RB Leipzig",
+          "clubColors": "White / Red",
+          "lastUpdated": "2022-02-19T09:03:00Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 212636,
+          "name": "Assan Ouédraogo",
+          "section": "Midfield",
+          "lastName": "Ouédraogo",
+          "position": null,
+          "firstName": "Assan",
+          "dateOfBirth": "2006-05-09",
+          "lastUpdated": "2024-06-06T13:14:17Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 11
+      },
+      {
+        "team": {
+          "id": 3,
+          "tla": "B04",
+          "name": "Bayer 04 Leverkusen",
+          "crest": "https://crests.football-data.org/3.png",
+          "venue": "BayArena",
+          "address": "Bismarckstr. 122-124 Leverkusen 51373",
+          "founded": 1904,
+          "website": "http://www.bayer04.de",
+          "shortName": "Leverkusen",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-02-25T16:43:07Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 64713,
+          "name": "Edmond Tapsoba",
+          "section": "Centre-Back",
+          "lastName": "Tapsoba",
+          "position": null,
+          "firstName": "Edmond",
+          "dateOfBirth": "1999-02-02",
+          "lastUpdated": "2024-10-09T09:41:00Z",
+          "nationality": "Burkina Faso",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 3,
+          "tla": "B04",
+          "name": "Bayer 04 Leverkusen",
+          "crest": "https://crests.football-data.org/3.png",
+          "venue": "BayArena",
+          "address": "Bismarckstr. 122-124 Leverkusen 51373",
+          "founded": 1904,
+          "website": "http://www.bayer04.de",
+          "shortName": "Leverkusen",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-02-25T16:43:07Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 274045,
+          "name": "Christian Kofane",
+          "section": "Offence",
+          "lastName": "Kofane",
+          "position": null,
+          "firstName": "Christian",
+          "dateOfBirth": "2006-07-26",
+          "lastUpdated": "2025-02-07T09:44:56Z",
+          "nationality": "Cameroon",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 28,
+          "tla": "UNB",
+          "name": "1. FC Union Berlin",
+          "crest": "https://crests.football-data.org/28.png",
+          "venue": "Stadion An der Alten Försterei",
+          "address": "An der Wuhlheide 263 Berlin 12555",
+          "founded": 1906,
+          "website": "http://www.fc-union-berlin.de",
+          "shortName": "Union Berlin",
+          "clubColors": "Red / White",
+          "lastUpdated": "2024-07-29T17:14:25Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 6657,
+          "name": "Rani Khedira",
+          "section": "Defensive Midfield",
+          "lastName": "Khedira",
+          "position": null,
+          "firstName": "Rani",
+          "dateOfBirth": "1994-01-27",
+          "lastUpdated": "2024-10-09T09:41:21Z",
+          "nationality": "Germany",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 14
+      }
+    ],
+    "competition": {
+      "id": 2002,
+      "code": "BL1",
+      "name": "Bundesliga",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/BL1.png"
+    }
+  }
+}

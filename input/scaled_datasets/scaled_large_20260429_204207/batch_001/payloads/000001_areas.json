@@ -1,0 +1,193 @@
+{
+  "endpoint": "areas",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_large_20260429_204207_b001",
+    "batch_id": "scaled_large_20260429_204207_b001"
+  },
+  "response_json": {
+    "areas": [
+      {
+        "id": 2654,
+        "name": "Bouvet Island (Bouvetoya)",
+        "countryCode": "AR",
+        "flag": "https://picsum.photos/563/501"
+      },
+      {
+        "id": 2142,
+        "name": "Saint Pierre and Miquelon",
+        "countryCode": "CA",
+        "flag": "https://picsum.photos/178/864"
+      },
+      {
+        "id": 2030,
+        "name": "Bermuda",
+        "countryCode": "GM",
+        "flag": "https://placekittens.com/476/54"
+      },
+      {
+        "id": 2203,
+        "name": "Saint Barthelemy",
+        "countryCode": "CF",
+        "flag": "https://dummyimage.com/859x451"
+      },
+      {
+        "id": 2603,
+        "name": "Fiji",
+        "countryCode": "AF",
+        "flag": "https://dummyimage.com/326x865"
+      },
+      {
+        "id": 2284,
+        "name": "Cape Verde",
+        "countryCode": "GM",
+        "flag": "https://picsum.photos/689/209"
+      },
+      {
+        "id": 2389,
+        "name": "Bhutan",
+        "countryCode": "MK",
+        "flag": "https://picsum.photos/704/541"
+      },
+      {
+        "id": 2747,
+        "name": "Kuwait",
+        "countryCode": "SO",
+        "flag": "https://picsum.photos/255/775"
+      },
+      {
+        "id": 2565,
+        "name": "French Polynesia",
+        "countryCode": "YE",
+        "flag": "https://placekittens.com/740/393"
+      },
+      {
+        "id": 2071,
+        "name": "Aruba",
+        "countryCode": "HR",
+        "flag": "https://picsum.photos/466/592"
+      },
+      {
+        "id": 2875,
+        "name": "Djibouti",
+        "countryCode": "BZ",
+        "flag": "https://dummyimage.com/778x569"
+      },
+      {
+        "id": 2650,
+        "name": "Syrian Arab Republic",
+        "countryCode": "MM",
+        "flag": "https://dummyimage.com/333x758"
+      },
+      {
+        "id": 2214,
+        "name": "Paraguay",
+        "countryCode": "IQ",
+        "flag": "https://placekittens.com/146/350"
+      },
+      {
+        "id": 2746,
+        "name": "Ecuador",
+        "countryCode": "DK",
+        "flag": "https://dummyimage.com/946x777"
+      },
+      {
+        "id": 2947,
+        "name": "Northern Mariana Islands",
+        "countryCode": "FM",
+        "flag": "https://picsum.photos/449/664"
+      },
+      {
+        "id": 2234,
+        "name": "Swaziland",
+        "countryCode": "AU",
+        "flag": "https://dummyimage.com/646x821"
+      },
+      {
+        "id": 2067,
+        "name": "Croatia",
+        "countryCode": "TN",
+        "flag": "https://placekittens.com/644/435"
+      },
+      {
+        "id": 2511,
+        "name": "Indonesia",
+        "countryCode": "BA",
+        "flag": "https://dummyimage.com/939x292"
+      },
+      {
+        "id": 2252,
+        "name": "Samoa",
+        "countryCode": "TJ",
+        "flag": "https://placekittens.com/538/877"
+      },
+      {
+        "id": 2408,
+        "name": "Guyana",
+        "countryCode": "GN",
+        "flag": "https://picsum.photos/283/1010"
+      },
+      {
+        "id": 2773,
+        "name": "Australia",
+        "countryCode": "CG",
+        "flag": "https://placekittens.com/313/327"
+      },
+      {
+        "id": 2432,
+        "name": "Nepal",
+        "countryCode": "BI",
+        "flag": "https://placekittens.com/788/781"
+      },
+      {
+        "id": 2479,
+        "name": "Marshall Islands",
+        "countryCode": "ID",
+        "flag": "https://placekittens.com/23/234"
+      },
+      {
+        "id": 2906,
+        "name": "Mauritania",
+        "countryCode": "GB",
+        "flag": "https://picsum.photos/546/696"
+      },
+      {
+        "id": 2300,
+        "name": "Jordan",
+        "countryCode": "DJ",
+        "flag": "https://placekittens.com/929/6"
+      },
+      {
+        "id": 2896,
+        "name": "Saint Helena",
+        "countryCode": "IN",
+        "flag": "https://placekittens.com/365/217"
+      },
+      {
+        "id": 2305,
+        "name": "Tajikistan",
+        "countryCode": "DZ",
+        "flag": "https://dummyimage.com/407x313"
+      },
+      {
+        "id": 2780,
+        "name": "Central African Republic",
+        "countryCode": "SR",
+        "flag": "https://dummyimage.com/1x663"
+      },
+      {
+        "id": 2019,
+        "name": "Bouvet Island (Bouvetoya)",
+        "countryCode": "ML",
+        "flag": "https://picsum.photos/629/490"
+      },
+      {
+        "id": 2246,
+        "name": "Turkey",
+        "countryCode": "TN",
+        "flag": "https://placekittens.com/161/175"
+      }
+    ]
+  }
+}

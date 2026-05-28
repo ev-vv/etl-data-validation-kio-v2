@@ -1,0 +1,13 @@
+jsonschema==4.18.0
+numpy
+pandas
+psycopg2-binary
+pydantic>=2.4,<3
+pyyaml
+jinja2
+python-dotenv
+sqlalchemy
+great_expectations==0.18.22
+soda-core-postgres==3.5.6
+dbt-core==1.7.9
+dbt-postgres==1.7.9

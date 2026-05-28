@@ -1,0 +1,1083 @@
+{
+  "source_id": 93,
+  "endpoint": "competitions/2017/standings?season=2023",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "area": {
+      "id": 2187,
+      "code": "POR",
+      "flag": "https://crests.football-data.org/765.svg",
+      "name": "Portugal"
+    },
+    "season": {
+      "id": 1603,
+      "winner": null,
+      "endDate": "2024-05-19",
+      "startDate": "2023-08-13",
+      "currentMatchday": 34
+    },
+    "filters": {
+      "season": "2023"
+    },
+    "standings": [
+      {
+        "type": "TOTAL",
+        "group": null,
+        "stage": "REGULAR_SEASON",
+        "table": [
+          {
+            "won": 29,
+            "draw": 3,
+            "form": "W,W,W,D,W",
+            "lost": 2,
+            "team": {
+              "id": 498,
+              "tla": "SPO",
+              "name": "Sporting Clube de Portugal",
+              "crest": "https://crests.football-data.org/498.png",
+              "shortName": "Sporting CP"
+            },
+            "points": 90,
+            "goalsFor": 96,
+            "position": 1,
+            "playedGames": 34,
+            "goalsAgainst": 29,
+            "goalDifference": 67
+          },
+          {
+            "won": 25,
+            "draw": 5,
+            "form": "D,W,L,W,W",
+            "lost": 4,
+            "team": {
+              "id": 1903,
+              "tla": "BEN",
+              "name": "Sport Lisboa e Benfica",
+              "crest": "https://crests.football-data.org/1903.png",
+              "shortName": "SL Benfica"
+            },
+            "points": 80,
+            "goalsFor": 77,
+            "position": 2,
+            "playedGames": 34,
+            "goalsAgainst": 28,
+            "goalDifference": 49
+          },
+          {
+            "won": 22,
+            "draw": 6,
+            "form": "W,W,W,D,W",
+            "lost": 6,
+            "team": {
+              "id": 503,
+              "tla": "FCP",
+              "name": "FC Porto",
+              "crest": "https://crests.football-data.org/503.png",
+              "shortName": "Porto"
+            },
+            "points": 72,
+            "goalsFor": 63,
+            "position": 3,
+            "playedGames": 34,
+            "goalsAgainst": 27,
+            "goalDifference": 36
+          },
+          {
+            "won": 21,
+            "draw": 5,
+            "form": "L,W,W,L,W",
+            "lost": 8,
+            "team": {
+              "id": 5613,
+              "tla": "SCB",
+              "name": "Sporting Clube de Braga",
+              "crest": "https://crests.football-data.org/5613.png",
+              "shortName": "Braga"
+            },
+            "points": 68,
+            "goalsFor": 71,
+            "position": 4,
+            "playedGames": 34,
+            "goalsAgainst": 50,
+            "goalDifference": 21
+          },
+          {
+            "won": 19,
+            "draw": 6,
+            "form": "W,L,L,W,L",
+            "lost": 9,
+            "team": {
+              "id": 5543,
+              "tla": "GUI",
+              "name": "Vitória SC",
+              "crest": "https://crests.football-data.org/5543.png",
+              "shortName": "Vitória SC"
+            },
+            "points": 63,
+            "goalsFor": 52,
+            "position": 5,
+            "playedGames": 34,
+            "goalsAgainst": 38,
+            "goalDifference": 14
+          },
+          {
+            "won": 16,
+            "draw": 7,
+            "form": "W,W,W,W,L",
+            "lost": 11,
+            "team": {
+              "id": 583,
+              "tla": "MOR",
+              "name": "Moreirense FC",
+              "crest": "https://crests.football-data.org/583.png",
+              "shortName": "Moreirense"
+            },
+            "points": 55,
+            "goalsFor": 36,
+            "position": 6,
+            "playedGames": 34,
+            "goalsAgainst": 35,
+            "goalDifference": 1
+          },
+          {
+            "won": 13,
+            "draw": 7,
+            "form": "L,L,D,D,D",
+            "lost": 14,
+            "team": {
+              "id": 712,
+              "tla": "FCA",
+              "name": "FC Arouca",
+              "crest": "https://crests.football-data.org/712.png",
+              "shortName": "Arouca"
+            },
+            "points": 46,
+            "goalsFor": 54,
+            "position": 7,
+            "playedGames": 34,
+            "goalsAgainst": 50,
+            "goalDifference": 4
+          },
+          {
+            "won": 10,
+            "draw": 12,
+            "form": "L,W,W,L,D",
+            "lost": 12,
+            "team": {
+              "id": 5531,
+              "tla": "FAM",
+              "name": "FC Famalicão",
+              "crest": "https://crests.football-data.org/5531.png",
+              "shortName": "Famalicão"
+            },
+            "points": 42,
+            "goalsFor": 37,
+            "position": 8,
+            "playedGames": 34,
+            "goalsAgainst": 41,
+            "goalDifference": -4
+          },
+          {
+            "won": 10,
+            "draw": 8,
+            "form": "W,L,L,W,L",
+            "lost": 16,
+            "team": {
+              "id": 6618,
+              "tla": "CAS",
+              "name": "Casa Pia AC",
+              "crest": "https://crests.football-data.org/6618.png",
+              "shortName": "Casa Pia"
+            },
+            "points": 38,
+            "goalsFor": 38,
+            "position": 9,
+            "playedGames": 34,
+            "goalsAgainst": 50,
+            "goalDifference": -12
+          },
+          {
+            "won": 10,
+            "draw": 7,
+            "form": "L,L,W,W,L",
+            "lost": 17,
+            "team": {
+              "id": 5602,
+              "tla": "FAR",
+              "name": "SC Farense",
+              "crest": "https://crests.football-data.org/5602.png",
+              "shortName": "Farense"
+            },
+            "points": 37,
+            "goalsFor": 46,
+            "position": 10,
+            "playedGames": 34,
+            "goalsAgainst": 51,
+            "goalDifference": -5
+          },
+          {
+            "won": 6,
+            "draw": 19,
+            "form": "D,D,W,D,D",
+            "lost": 9,
+            "team": {
+              "id": 496,
+              "tla": "RIO",
+              "name": "Rio Ave FC",
+              "crest": "https://crests.football-data.org/496.png",
+              "shortName": "Rio Ave"
+            },
+            "points": 37,
+            "goalsFor": 38,
+            "position": 11,
+            "playedGames": 34,
+            "goalsAgainst": 43,
+            "goalDifference": -5
+          },
+          {
+            "won": 9,
+            "draw": 9,
+            "form": "L,W,D,D,W",
+            "lost": 16,
+            "team": {
+              "id": 5533,
+              "tla": "GIL",
+              "name": "Gil Vicente FC",
+              "crest": "https://crests.football-data.org/5533.png",
+              "shortName": "Gil Vicente"
+            },
+            "points": 36,
+            "goalsFor": 42,
+            "position": 12,
+            "playedGames": 34,
+            "goalsAgainst": 52,
+            "goalDifference": -10
+          },
+          {
+            "won": 9,
+            "draw": 6,
+            "form": "L,L,L,W,D",
+            "lost": 19,
+            "team": {
+              "id": 582,
+              "tla": "EST",
+              "name": "GD Estoril Praia",
+              "crest": "https://crests.football-data.org/582.png",
+              "shortName": "Estoril Praia"
+            },
+            "points": 33,
+            "goalsFor": 49,
+            "position": 13,
+            "playedGames": 34,
+            "goalsAgainst": 58,
+            "goalDifference": -9
+          },
+          {
+            "won": 7,
+            "draw": 12,
+            "form": "W,L,D,L,D",
+            "lost": 15,
+            "team": {
+              "id": 9136,
+              "tla": "AMA",
+              "name": "CF Estrela da Amadora",
+              "crest": "https://crests.football-data.org/9136.png",
+              "shortName": "Amadora"
+            },
+            "points": 33,
+            "goalsFor": 33,
+            "position": 14,
+            "playedGames": 34,
+            "goalsAgainst": 53,
+            "goalDifference": -20
+          },
+          {
+            "won": 7,
+            "draw": 11,
+            "form": "D,L,D,L,D",
+            "lost": 16,
+            "team": {
+              "id": 810,
+              "tla": "BOA",
+              "name": "Boavista FC",
+              "crest": "https://crests.football-data.org/810.png",
+              "shortName": "Boavista"
+            },
+            "points": 32,
+            "goalsFor": 39,
+            "position": 15,
+            "playedGames": 34,
+            "goalsAgainst": 62,
+            "goalDifference": -23
+          },
+          {
+            "won": 8,
+            "draw": 8,
+            "form": "W,D,L,L,D",
+            "lost": 18,
+            "team": {
+              "id": 5601,
+              "tla": "PSC",
+              "name": "Portimonense SC",
+              "crest": "https://crests.football-data.org/5601.png",
+              "shortName": "Portimonense"
+            },
+            "points": 32,
+            "goalsFor": 39,
+            "position": 16,
+            "playedGames": 34,
+            "goalsAgainst": 72,
+            "goalDifference": -33
+          },
+          {
+            "won": 5,
+            "draw": 11,
+            "form": "D,W,L,D,L",
+            "lost": 18,
+            "team": {
+              "id": 5589,
+              "tla": "VIZ",
+              "name": "FC Vizela",
+              "crest": "https://crests.football-data.org/5589.png",
+              "shortName": "Vizela"
+            },
+            "points": 26,
+            "goalsFor": 36,
+            "position": 17,
+            "playedGames": 34,
+            "goalsAgainst": 66,
+            "goalDifference": -30
+          },
+          {
+            "won": 5,
+            "draw": 8,
+            "form": "L,L,L,L,D",
+            "lost": 21,
+            "team": {
+              "id": 1103,
+              "tla": "CHA",
+              "name": "GD Chaves",
+              "crest": "https://upload.wikimedia.org/wikipedia/en/0/05/G_D_Chaves.png",
+              "shortName": "Chaves"
+            },
+            "points": 23,
+            "goalsFor": 31,
+            "position": 18,
+            "playedGames": 34,
+            "goalsAgainst": 72,
+            "goalDifference": -41
+          }
+        ]
+      },
+      {
+        "type": "HOME",
+        "group": null,
+        "stage": "REGULAR_SEASON",
+        "table": [
+          {
+            "won": 17,
+            "draw": 0,
+            "form": "",
+            "lost": 0,
+            "team": {
+              "id": 498,
+              "tla": "SPO",
+              "name": "Sporting Clube de Portugal",
+              "crest": "https://crests.football-data.org/498.png",
+              "shortName": "Sporting CP"
+            },
+            "points": 51,
+            "goalsFor": 57,
+            "position": 1,
+            "playedGames": 17,
+            "goalsAgainst": 11,
+            "goalDifference": 46
+          },
+          {
+            "won": 15,
+            "draw": 2,
+            "form": "",
+            "lost": 0,
+            "team": {
+              "id": 1903,
+              "tla": "BEN",
+              "name": "Sport Lisboa e Benfica",
+              "crest": "https://crests.football-data.org/1903.png",
+              "shortName": "SL Benfica"
+            },
+            "points": 47,
+            "goalsFor": 48,
+            "position": 2,
+            "playedGames": 17,
+            "goalsAgainst": 7,
+            "goalDifference": 41
+          },
+          {
+            "won": 11,
+            "draw": 4,
+            "form": "",
+            "lost": 2,
+            "team": {
+              "id": 503,
+              "tla": "FCP",
+              "name": "FC Porto",
+              "crest": "https://crests.football-data.org/503.png",
+              "shortName": "Porto"
+            },
+            "points": 37,
+            "goalsFor": 35,
+            "position": 3,
+            "playedGames": 17,
+            "goalsAgainst": 13,
+            "goalDifference": 22
+          },
+          {
+            "won": 11,
+            "draw": 2,
+            "form": "",
+            "lost": 4,
+            "team": {
+              "id": 5543,
+              "tla": "GUI",
+              "name": "Vitória SC",
+              "crest": "https://crests.football-data.org/5543.png",
+              "shortName": "Vitória SC"
+            },
+            "points": 35,
+            "goalsFor": 31,
+            "position": 4,
+            "playedGames": 17,
+            "goalsAgainst": 18,
+            "goalDifference": 13
+          },
+          {
+            "won": 10,
+            "draw": 3,
+            "form": "",
+            "lost": 4,
+            "team": {
+              "id": 5613,
+              "tla": "SCB",
+              "name": "Sporting Clube de Braga",
+              "crest": "https://crests.football-data.org/5613.png",
+              "shortName": "Braga"
+            },
+            "points": 33,
+            "goalsFor": 33,
+            "position": 5,
+            "playedGames": 17,
+            "goalsAgainst": 20,
+            "goalDifference": 13
+          },
+          {
+            "won": 8,
+            "draw": 4,
+            "form": "",
+            "lost": 5,
+            "team": {
+              "id": 583,
+              "tla": "MOR",
+              "name": "Moreirense FC",
+              "crest": "https://crests.football-data.org/583.png",
+              "shortName": "Moreirense"
+            },
+            "points": 28,
+            "goalsFor": 20,
+            "position": 6,
+            "playedGames": 17,
+            "goalsAgainst": 18,
+            "goalDifference": 2
+          },
+          {
+            "won": 6,
+            "draw": 8,
+            "form": "",
+            "lost": 3,
+            "team": {
+              "id": 496,
+              "tla": "RIO",
+              "name": "Rio Ave FC",
+              "crest": "https://crests.football-data.org/496.png",
+              "shortName": "Rio Ave"
+            },
+            "points": 26,
+            "goalsFor": 25,
+            "position": 7,
+            "playedGames": 17,
+            "goalsAgainst": 20,
+            "goalDifference": 5
+          },
+          {
+            "won": 8,
+            "draw": 1,
+            "form": "",
+            "lost": 8,
+            "team": {
+              "id": 582,
+              "tla": "EST",
+              "name": "GD Estoril Praia",
+              "crest": "https://crests.football-data.org/582.png",
+              "shortName": "Estoril Praia"
+            },
+            "points": 25,
+            "goalsFor": 25,
+            "position": 8,
+            "playedGames": 17,
+            "goalsAgainst": 18,
+            "goalDifference": 7
+          },
+          {
+            "won": 6,
+            "draw": 7,
+            "form": "",
+            "lost": 4,
+            "team": {
+              "id": 5533,
+              "tla": "GIL",
+              "name": "Gil Vicente FC",
+              "crest": "https://crests.football-data.org/5533.png",
+              "shortName": "Gil Vicente"
+            },
+            "points": 25,
+            "goalsFor": 28,
+            "position": 9,
+            "playedGames": 17,
+            "goalsAgainst": 22,
+            "goalDifference": 6
+          },
+          {
+            "won": 7,
+            "draw": 3,
+            "form": "",
+            "lost": 7,
+            "team": {
+              "id": 712,
+              "tla": "FCA",
+              "name": "FC Arouca",
+              "crest": "https://crests.football-data.org/712.png",
+              "shortName": "Arouca"
+            },
+            "points": 24,
+            "goalsFor": 26,
+            "position": 10,
+            "playedGames": 17,
+            "goalsAgainst": 26,
+            "goalDifference": 0
+          },
+          {
+            "won": 6,
+            "draw": 6,
+            "form": "",
+            "lost": 5,
+            "team": {
+              "id": 5531,
+              "tla": "FAM",
+              "name": "FC Famalicão",
+              "crest": "https://crests.football-data.org/5531.png",
+              "shortName": "Famalicão"
+            },
+            "points": 24,
+            "goalsFor": 21,
+            "position": 11,
+            "playedGames": 17,
+            "goalsAgainst": 21,
+            "goalDifference": 0
+          },
+          {
+            "won": 6,
+            "draw": 4,
+            "form": "",
+            "lost": 7,
+            "team": {
+              "id": 5602,
+              "tla": "FAR",
+              "name": "SC Farense",
+              "crest": "https://crests.football-data.org/5602.png",
+              "shortName": "Farense"
+            },
+            "points": 22,
+            "goalsFor": 24,
+            "position": 12,
+            "playedGames": 17,
+            "goalsAgainst": 23,
+            "goalDifference": 1
+          },
+          {
+            "won": 6,
+            "draw": 3,
+            "form": "",
+            "lost": 8,
+            "team": {
+              "id": 9136,
+              "tla": "AMA",
+              "name": "CF Estrela da Amadora",
+              "crest": "https://crests.football-data.org/9136.png",
+              "shortName": "Amadora"
+            },
+            "points": 21,
+            "goalsFor": 22,
+            "position": 13,
+            "playedGames": 17,
+            "goalsAgainst": 27,
+            "goalDifference": -5
+          },
+          {
+            "won": 4,
+            "draw": 8,
+            "form": "",
+            "lost": 5,
+            "team": {
+              "id": 810,
+              "tla": "BOA",
+              "name": "Boavista FC",
+              "crest": "https://crests.football-data.org/810.png",
+              "shortName": "Boavista"
+            },
+            "points": 20,
+            "goalsFor": 21,
+            "position": 14,
+            "playedGames": 17,
+            "goalsAgainst": 30,
+            "goalDifference": -9
+          },
+          {
+            "won": 3,
+            "draw": 6,
+            "form": "",
+            "lost": 8,
+            "team": {
+              "id": 5601,
+              "tla": "PSC",
+              "name": "Portimonense SC",
+              "crest": "https://crests.football-data.org/5601.png",
+              "shortName": "Portimonense"
+            },
+            "points": 15,
+            "goalsFor": 18,
+            "position": 15,
+            "playedGames": 17,
+            "goalsAgainst": 31,
+            "goalDifference": -13
+          },
+          {
+            "won": 3,
+            "draw": 5,
+            "form": "",
+            "lost": 9,
+            "team": {
+              "id": 6618,
+              "tla": "CAS",
+              "name": "Casa Pia AC",
+              "crest": "https://crests.football-data.org/6618.png",
+              "shortName": "Casa Pia"
+            },
+            "points": 14,
+            "goalsFor": 10,
+            "position": 16,
+            "playedGames": 17,
+            "goalsAgainst": 18,
+            "goalDifference": -8
+          },
+          {
+            "won": 3,
+            "draw": 5,
+            "form": "",
+            "lost": 9,
+            "team": {
+              "id": 5589,
+              "tla": "VIZ",
+              "name": "FC Vizela",
+              "crest": "https://crests.football-data.org/5589.png",
+              "shortName": "Vizela"
+            },
+            "points": 14,
+            "goalsFor": 20,
+            "position": 17,
+            "playedGames": 17,
+            "goalsAgainst": 32,
+            "goalDifference": -12
+          },
+          {
+            "won": 3,
+            "draw": 4,
+            "form": "",
+            "lost": 10,
+            "team": {
+              "id": 1103,
+              "tla": "CHA",
+              "name": "GD Chaves",
+              "crest": "https://upload.wikimedia.org/wikipedia/en/0/05/G_D_Chaves.png",
+              "shortName": "Chaves"
+            },
+            "points": 13,
+            "goalsFor": 21,
+            "position": 18,
+            "playedGames": 17,
+            "goalsAgainst": 37,
+            "goalDifference": -16
+          }
+        ]
+      },
+      {
+        "type": "AWAY",
+        "group": null,
+        "stage": "REGULAR_SEASON",
+        "table": [
+          {
+            "won": 12,
+            "draw": 3,
+            "form": "",
+            "lost": 2,
+            "team": {
+              "id": 498,
+              "tla": "SPO",
+              "name": "Sporting Clube de Portugal",
+              "crest": "https://crests.football-data.org/498.png",
+              "shortName": "Sporting CP"
+            },
+            "points": 39,
+            "goalsFor": 39,
+            "position": 1,
+            "playedGames": 17,
+            "goalsAgainst": 18,
+            "goalDifference": 21
+          },
+          {
+            "won": 11,
+            "draw": 2,
+            "form": "",
+            "lost": 4,
+            "team": {
+              "id": 503,
+              "tla": "FCP",
+              "name": "FC Porto",
+              "crest": "https://crests.football-data.org/503.png",
+              "shortName": "Porto"
+            },
+            "points": 35,
+            "goalsFor": 28,
+            "position": 2,
+            "playedGames": 17,
+            "goalsAgainst": 14,
+            "goalDifference": 14
+          },
+          {
+            "won": 11,
+            "draw": 2,
+            "form": "",
+            "lost": 4,
+            "team": {
+              "id": 5613,
+              "tla": "SCB",
+              "name": "Sporting Clube de Braga",
+              "crest": "https://crests.football-data.org/5613.png",
+              "shortName": "Braga"
+            },
+            "points": 35,
+            "goalsFor": 38,
+            "position": 3,
+            "playedGames": 17,
+            "goalsAgainst": 30,
+            "goalDifference": 8
+          },
+          {
+            "won": 10,
+            "draw": 3,
+            "form": "",
+            "lost": 4,
+            "team": {
+              "id": 1903,
+              "tla": "BEN",
+              "name": "Sport Lisboa e Benfica",
+              "crest": "https://crests.football-data.org/1903.png",
+              "shortName": "SL Benfica"
+            },
+            "points": 33,
+            "goalsFor": 29,
+            "position": 4,
+            "playedGames": 17,
+            "goalsAgainst": 21,
+            "goalDifference": 8
+          },
+          {
+            "won": 8,
+            "draw": 4,
+            "form": "",
+            "lost": 5,
+            "team": {
+              "id": 5543,
+              "tla": "GUI",
+              "name": "Vitória SC",
+              "crest": "https://crests.football-data.org/5543.png",
+              "shortName": "Vitória SC"
+            },
+            "points": 28,
+            "goalsFor": 21,
+            "position": 5,
+            "playedGames": 17,
+            "goalsAgainst": 20,
+            "goalDifference": 1
+          },
+          {
+            "won": 8,
+            "draw": 3,
+            "form": "",
+            "lost": 6,
+            "team": {
+              "id": 583,
+              "tla": "MOR",
+              "name": "Moreirense FC",
+              "crest": "https://crests.football-data.org/583.png",
+              "shortName": "Moreirense"
+            },
+            "points": 27,
+            "goalsFor": 16,
+            "position": 6,
+            "playedGames": 17,
+            "goalsAgainst": 17,
+            "goalDifference": -1
+          },
+          {
+            "won": 7,
+            "draw": 3,
+            "form": "",
+            "lost": 7,
+            "team": {
+              "id": 6618,
+              "tla": "CAS",
+              "name": "Casa Pia AC",
+              "crest": "https://crests.football-data.org/6618.png",
+              "shortName": "Casa Pia"
+            },
+            "points": 24,
+            "goalsFor": 28,
+            "position": 7,
+            "playedGames": 17,
+            "goalsAgainst": 32,
+            "goalDifference": -4
+          },
+          {
+            "won": 6,
+            "draw": 4,
+            "form": "",
+            "lost": 7,
+            "team": {
+              "id": 712,
+              "tla": "FCA",
+              "name": "FC Arouca",
+              "crest": "https://crests.football-data.org/712.png",
+              "shortName": "Arouca"
+            },
+            "points": 22,
+            "goalsFor": 28,
+            "position": 8,
+            "playedGames": 17,
+            "goalsAgainst": 24,
+            "goalDifference": 4
+          },
+          {
+            "won": 4,
+            "draw": 6,
+            "form": "",
+            "lost": 7,
+            "team": {
+              "id": 5531,
+              "tla": "FAM",
+              "name": "FC Famalicão",
+              "crest": "https://crests.football-data.org/5531.png",
+              "shortName": "Famalicão"
+            },
+            "points": 18,
+            "goalsFor": 16,
+            "position": 9,
+            "playedGames": 17,
+            "goalsAgainst": 20,
+            "goalDifference": -4
+          },
+          {
+            "won": 5,
+            "draw": 2,
+            "form": "",
+            "lost": 10,
+            "team": {
+              "id": 5601,
+              "tla": "PSC",
+              "name": "Portimonense SC",
+              "crest": "https://crests.football-data.org/5601.png",
+              "shortName": "Portimonense"
+            },
+            "points": 17,
+            "goalsFor": 21,
+            "position": 10,
+            "playedGames": 17,
+            "goalsAgainst": 41,
+            "goalDifference": -20
+          },
+          {
+            "won": 4,
+            "draw": 3,
+            "form": "",
+            "lost": 10,
+            "team": {
+              "id": 5602,
+              "tla": "FAR",
+              "name": "SC Farense",
+              "crest": "https://crests.football-data.org/5602.png",
+              "shortName": "Farense"
+            },
+            "points": 15,
+            "goalsFor": 22,
+            "position": 11,
+            "playedGames": 17,
+            "goalsAgainst": 28,
+            "goalDifference": -6
+          },
+          {
+            "won": 3,
+            "draw": 3,
+            "form": "",
+            "lost": 11,
+            "team": {
+              "id": 810,
+              "tla": "BOA",
+              "name": "Boavista FC",
+              "crest": "https://crests.football-data.org/810.png",
+              "shortName": "Boavista"
+            },
+            "points": 12,
+            "goalsFor": 18,
+            "position": 12,
+            "playedGames": 17,
+            "goalsAgainst": 32,
+            "goalDifference": -14
+          },
+          {
+            "won": 1,
+            "draw": 9,
+            "form": "",
+            "lost": 7,
+            "team": {
+              "id": 9136,
+              "tla": "AMA",
+              "name": "CF Estrela da Amadora",
+              "crest": "https://crests.football-data.org/9136.png",
+              "shortName": "Amadora"
+            },
+            "points": 12,
+            "goalsFor": 11,
+            "position": 13,
+            "playedGames": 17,
+            "goalsAgainst": 26,
+            "goalDifference": -15
+          },
+          {
+            "won": 2,
+            "draw": 6,
+            "form": "",
+            "lost": 9,
+            "team": {
+              "id": 5589,
+              "tla": "VIZ",
+              "name": "FC Vizela",
+              "crest": "https://crests.football-data.org/5589.png",
+              "shortName": "Vizela"
+            },
+            "points": 12,
+            "goalsFor": 16,
+            "position": 14,
+            "playedGames": 17,
+            "goalsAgainst": 34,
+            "goalDifference": -18
+          },
+          {
+            "won": 0,
+            "draw": 11,
+            "form": "",
+            "lost": 6,
+            "team": {
+              "id": 496,
+              "tla": "RIO",
+              "name": "Rio Ave FC",
+              "crest": "https://crests.football-data.org/496.png",
+              "shortName": "Rio Ave"
+            },
+            "points": 11,
+            "goalsFor": 13,
+            "position": 15,
+            "playedGames": 17,
+            "goalsAgainst": 23,
+            "goalDifference": -10
+          },
+          {
+            "won": 3,
+            "draw": 2,
+            "form": "",
+            "lost": 12,
+            "team": {
+              "id": 5533,
+              "tla": "GIL",
+              "name": "Gil Vicente FC",
+              "crest": "https://crests.football-data.org/5533.png",
+              "shortName": "Gil Vicente"
+            },
+            "points": 11,
+            "goalsFor": 14,
+            "position": 16,
+            "playedGames": 17,
+            "goalsAgainst": 30,
+            "goalDifference": -16
+          },
+          {
+            "won": 2,
+            "draw": 4,
+            "form": "",
+            "lost": 11,
+            "team": {
+              "id": 1103,
+              "tla": "CHA",
+              "name": "GD Chaves",
+              "crest": "https://upload.wikimedia.org/wikipedia/en/0/05/G_D_Chaves.png",
+              "shortName": "Chaves"
+            },
+            "points": 10,
+            "goalsFor": 10,
+            "position": 17,
+            "playedGames": 17,
+            "goalsAgainst": 35,
+            "goalDifference": -25
+          },
+          {
+            "won": 1,
+            "draw": 5,
+            "form": "",
+            "lost": 11,
+            "team": {
+              "id": 582,
+              "tla": "EST",
+              "name": "GD Estoril Praia",
+              "crest": "https://crests.football-data.org/582.png",
+              "shortName": "Estoril Praia"
+            },
+            "points": 8,
+            "goalsFor": 24,
+            "position": 18,
+            "playedGames": 17,
+            "goalsAgainst": 40,
+            "goalDifference": -16
+          }
+        ]
+      }
+    ],
+    "competition": {
+      "id": 2017,
+      "code": "PPL",
+      "name": "Primeira Liga",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/PPL.png"
+    }
+  }
+}

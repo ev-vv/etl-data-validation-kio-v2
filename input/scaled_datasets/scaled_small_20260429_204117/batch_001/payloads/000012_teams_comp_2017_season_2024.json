@@ -1,0 +1,109 @@
+{
+  "endpoint": "competitions/2017/teams?season=2024",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "teams": [
+      {
+        "id": 58434,
+        "area": {
+          "id": 2142
+        },
+        "name": "Ericside FC",
+        "shortName": "Cherylhaven",
+        "tla": "AQJ",
+        "crest": "https://picsum.photos/613/212",
+        "address": "824 Jacobs Stravenue\nJamesview, NY 64533",
+        "venue": "Whitehead-Mathis Stadium"
+      },
+      {
+        "id": 22097,
+        "area": {
+          "id": 2142
+        },
+        "name": "Calderonton FC",
+        "shortName": "West Kellieview",
+        "tla": "KVC",
+        "crest": "https://picsum.photos/875/19",
+        "address": "059 Russell Canyon\nMichaelton, MH 47399",
+        "venue": "Fleming Ltd Stadium"
+      },
+      {
+        "id": 23473,
+        "area": {
+          "id": 2142
+        },
+        "name": "Kimberlychester FC",
+        "shortName": "East Michelle",
+        "tla": "ZZL",
+        "crest": "https://picsum.photos/844/50",
+        "address": "3421 Brennan Walks Suite 337\nKevinbury, IN 03602",
+        "venue": "Lee, Murphy and Lin Stadium"
+      },
+      {
+        "id": 46585,
+        "area": {
+          "id": 2142
+        },
+        "name": "Darlenefurt FC",
+        "shortName": "Sheilaville",
+        "tla": "QLL",
+        "crest": "https://picsum.photos/543/78",
+        "address": "569 Paul Ports Apt. 406\nNew Saraside, TX 94798",
+        "venue": "Mclaughlin, Gonzalez and Reynolds Stadium"
+      },
+      {
+        "id": 97062,
+        "area": {
+          "id": 2142
+        },
+        "name": "Cindyville FC",
+        "shortName": "Williamchester",
+        "tla": "UZS",
+        "crest": "https://picsum.photos/605/260",
+        "address": "299 Sullivan Village Apt. 443\nFloydmouth, NH 58406",
+        "venue": "Lowe-Dixon Stadium"
+      },
+      {
+        "id": 32241,
+        "area": {
+          "id": 2142
+        },
+        "name": "West Zacharymouth FC",
+        "shortName": "Port Stephaniebury",
+        "tla": "RTO",
+        "crest": "https://picsum.photos/407/301",
+        "address": "176 Jennifer Lights Suite 632\nPort Michelleville, WI 56225",
+        "venue": "Thompson Ltd Stadium"
+      },
+      {
+        "id": 77889,
+        "area": {
+          "id": 2142
+        },
+        "name": "Williamsbury FC",
+        "shortName": "South Dennismouth",
+        "tla": "QHJ",
+        "crest": "https://placekittens.com/649/906",
+        "address": "727 Green Gateway Suite 873\nScottport, IA 36115",
+        "venue": "Flores-Fernandez Stadium"
+      },
+      {
+        "id": 28136,
+        "area": {
+          "id": 2142
+        },
+        "name": "East Patrick FC",
+        "shortName": "Lake Jason",
+        "tla": "AAV",
+        "crest": "https://picsum.photos/954/851",
+        "address": "9096 Smith Knoll Suite 668\nSouth Jeffrey, NE 64155",
+        "venue": "Price Ltd Stadium"
+      }
+    ]
+  }
+}

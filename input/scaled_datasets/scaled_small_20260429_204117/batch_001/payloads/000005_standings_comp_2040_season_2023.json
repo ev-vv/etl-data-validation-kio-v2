@@ -1,0 +1,157 @@
+{
+  "endpoint": "competitions/2040/standings?season=2023",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "competition": {
+      "id": 2040,
+      "area": {
+        "id": 2030,
+        "name": "Bermuda",
+        "countryCode": "GM",
+        "flag": "https://placekittens.com/476/54"
+      },
+      "name": "Moore-Bernard League",
+      "code": "VGF",
+      "type": "LEAGUE",
+      "emblem": "https://dummyimage.com/778x198"
+    },
+    "season": {
+      "id": 2023,
+      "startDate": "2023-08-01",
+      "endDate": "2024-05-30"
+    },
+    "standings": [
+      {
+        "stage": "REGULAR_SEASON",
+        "type": "TOTAL",
+        "table": [
+          {
+            "position": 1,
+            "team": {
+              "id": 39871,
+              "name": "Traciebury FC"
+            },
+            "playedGames": 38,
+            "won": 4,
+            "draw": 10,
+            "lost": 7,
+            "points": 70,
+            "goalsFor": 30,
+            "goalsAgainst": 36,
+            "goalDifference": 3
+          },
+          {
+            "position": 2,
+            "team": {
+              "id": 93886,
+              "name": "Lake Mark FC"
+            },
+            "playedGames": 38,
+            "won": 19,
+            "draw": 6,
+            "lost": 3,
+            "points": 69,
+            "goalsFor": 68,
+            "goalsAgainst": 66,
+            "goalDifference": 14
+          },
+          {
+            "position": 3,
+            "team": {
+              "id": 30033,
+              "name": "Port Erin FC"
+            },
+            "playedGames": 38,
+            "won": 6,
+            "draw": 4,
+            "lost": 6,
+            "points": 85,
+            "goalsFor": 61,
+            "goalsAgainst": 43,
+            "goalDifference": -2
+          },
+          {
+            "position": 4,
+            "team": {
+              "id": 80697,
+              "name": "New Mariotown FC"
+            },
+            "playedGames": 38,
+            "won": 16,
+            "draw": 7,
+            "lost": 1,
+            "points": 31,
+            "goalsFor": 34,
+            "goalsAgainst": 24,
+            "goalDifference": -9
+          },
+          {
+            "position": 5,
+            "team": {
+              "id": 95180,
+              "name": "Samuelhaven FC"
+            },
+            "playedGames": 38,
+            "won": 0,
+            "draw": 9,
+            "lost": 8,
+            "points": 29,
+            "goalsFor": 57,
+            "goalsAgainst": 34,
+            "goalDifference": -30
+          },
+          {
+            "position": 6,
+            "team": {
+              "id": 34957,
+              "name": "North Donnastad FC"
+            },
+            "playedGames": 38,
+            "won": 2,
+            "draw": 10,
+            "lost": 0,
+            "points": 29,
+            "goalsFor": 24,
+            "goalsAgainst": 77,
+            "goalDifference": -28
+          },
+          {
+            "position": 7,
+            "team": {
+              "id": 11934,
+              "name": "Port Melindaburgh FC"
+            },
+            "playedGames": 38,
+            "won": 10,
+            "draw": 1,
+            "lost": 8,
+            "points": 30,
+            "goalsFor": 37,
+            "goalsAgainst": 62,
+            "goalDifference": 1
+          },
+          {
+            "position": 8,
+            "team": {
+              "id": 98501,
+              "name": "South David FC"
+            },
+            "playedGames": 38,
+            "won": 6,
+            "draw": 8,
+            "lost": 2,
+            "points": 92,
+            "goalsFor": 79,
+            "goalsAgainst": 76,
+            "goalDifference": 6
+          }
+        ]
+      }
+    ]
+  }
+}

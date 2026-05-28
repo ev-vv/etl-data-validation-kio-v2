@@ -1,0 +1,43 @@
+{
+  "endpoint": "areas",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "areas": [
+      {
+        "id": 2654,
+        "name": "Bouvet Island (Bouvetoya)",
+        "countryCode": "AR",
+        "flag": "https://picsum.photos/563/501"
+      },
+      {
+        "id": 2142,
+        "name": "Saint Pierre and Miquelon",
+        "countryCode": "CA",
+        "flag": "https://picsum.photos/178/864"
+      },
+      {
+        "id": 2030,
+        "name": "Bermuda",
+        "countryCode": "GM",
+        "flag": "https://placekittens.com/476/54"
+      },
+      {
+        "id": 2203,
+        "name": "Saint Barthelemy",
+        "countryCode": "CF",
+        "flag": "https://dummyimage.com/859x451"
+      },
+      {
+        "id": 2603,
+        "name": "Fiji",
+        "countryCode": "AF",
+        "flag": "https://dummyimage.com/326x865"
+      }
+    ]
+  }
+}

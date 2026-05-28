@@ -1,0 +1,613 @@
+{
+  "endpoint": "competitions/2047/teams?season=2021",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_large_20260429_204207_b005",
+    "batch_id": "scaled_large_20260429_204207_b005"
+  },
+  "response_json": {
+    "teams": [
+      {
+        "id": 30207,
+        "area": {
+          "id": 2875
+        },
+        "name": "Jacksonport FC",
+        "shortName": "North Ryan",
+        "tla": "EVQ",
+        "crest": "https://placekittens.com/530/55",
+        "address": "33138 Bradley Ports Apt. 211\nPort Edwin, MP 23162",
+        "venue": "Watson LLC Stadium"
+      },
+      {
+        "id": 77025,
+        "area": {
+          "id": 2875
+        },
+        "name": "Lake Nathanberg FC",
+        "shortName": "Stephensside",
+        "tla": "FZT",
+        "crest": "https://placekittens.com/17/212",
+        "address": "8806 Zhang Terrace Apt. 006\nNew Sarah, PW 65752",
+        "venue": "Little-Castillo Stadium"
+      },
+      {
+        "id": 51114,
+        "area": {
+          "id": 2875
+        },
+        "name": "Kimberlyfurt FC",
+        "shortName": "Campbellfurt",
+        "tla": "VTX",
+        "crest": "https://placekittens.com/243/891",
+        "address": "219 Jennifer Mews Apt. 213\nNorth Kevin, CA 06461",
+        "venue": "Martin-King Stadium"
+      },
+      {
+        "id": 38437,
+        "area": {
+          "id": 2875
+        },
+        "name": "West Jessicahaven FC",
+        "shortName": "North Thomasmouth",
+        "tla": "JWA",
+        "crest": "https://placekittens.com/568/197",
+        "address": "80036 Ortiz Street\nLake Aaron, AL 46092",
+        "venue": "Adkins PLC Stadium"
+      },
+      {
+        "id": 54126,
+        "area": {
+          "id": 2875
+        },
+        "name": "New Randy FC",
+        "shortName": "North Marcton",
+        "tla": "UZL",
+        "crest": "https://placekittens.com/553/500",
+        "address": "PSC 8058, Box 2692\nAPO AP 74498",
+        "venue": "Brown, Hayes and Ferguson Stadium"
+      },
+      {
+        "id": 66648,
+        "area": {
+          "id": 2875
+        },
+        "name": "Port Stephen FC",
+        "shortName": "Mahoneybury",
+        "tla": "LJN",
+        "crest": "https://picsum.photos/789/417",
+        "address": "185 Nicole Plains Suite 267\nEast Ryanport, WI 14743",
+        "venue": "Dudley and Sons Stadium"
+      },
+      {
+        "id": 30323,
+        "area": {
+          "id": 2875
+        },
+        "name": "East Rachel FC",
+        "shortName": "North Emily",
+        "tla": "GUO",
+        "crest": "https://dummyimage.com/715x382",
+        "address": "750 Cisneros Orchard\nCruzton, NE 99528",
+        "venue": "Cummings, Petersen and Jackson Stadium"
+      },
+      {
+        "id": 93205,
+        "area": {
+          "id": 2875
+        },
+        "name": "Port Destinyview FC",
+        "shortName": "Port Charles",
+        "tla": "IDM",
+        "crest": "https://picsum.photos/910/839",
+        "address": "9698 Amber Hills\nDonnaburgh, WA 89047",
+        "venue": "Ewing Ltd Stadium"
+      },
+      {
+        "id": 29749,
+        "area": {
+          "id": 2875
+        },
+        "name": "Bennettfurt FC",
+        "shortName": "Gallagherstad",
+        "tla": "KGI",
+        "crest": "https://picsum.photos/662/917",
+        "address": "5394 Fuller Branch\nRojasberg, OR 80170",
+        "venue": "Wallace Ltd Stadium"
+      },
+      {
+        "id": 72282,
+        "area": {
+          "id": 2875
+        },
+        "name": "Port Christina FC",
+        "shortName": "Garzaport",
+        "tla": "EWC",
+        "crest": "https://picsum.photos/811/992",
+        "address": "7485 Sullivan Club Apt. 984\nSouth Stevenport, MP 60575",
+        "venue": "Acevedo, Cooper and Ross Stadium"
+      },
+      {
+        "id": 86221,
+        "area": {
+          "id": 2875
+        },
+        "name": "South Kellyshire FC",
+        "shortName": "West Kellytown",
+        "tla": "YMK",
+        "crest": "https://dummyimage.com/807x20",
+        "address": "Unit 1026 Box 2706\nDPO AA 38495",
+        "venue": "Guzman, Brown and Larsen Stadium"
+      },
+      {
+        "id": 33480,
+        "area": {
+          "id": 2875
+        },
+        "name": "Amandaview FC",
+        "shortName": "Abigailbury",
+        "tla": "AJI",
+        "crest": "https://dummyimage.com/389x84",
+        "address": "974 Angela Mall\nNorth Edward, NV 49070",
+        "venue": "Williams and Sons Stadium"
+      },
+      {
+        "id": 16019,
+        "area": {
+          "id": 2875
+        },
+        "name": "Jenniferfurt FC",
+        "shortName": "New Pamelastad",
+        "tla": "PNB",
+        "crest": "https://dummyimage.com/732x793",
+        "address": "378 Reynolds Port Apt. 870\nNew Thomaschester, FM 84746",
+        "venue": "Johnson Ltd Stadium"
+      },
+      {
+        "id": 36744,
+        "area": {
+          "id": 2875
+        },
+        "name": "Watsonville FC",
+        "shortName": "East Josephport",
+        "tla": "TQI",
+        "crest": "https://dummyimage.com/88x805",
+        "address": "8652 Case Lane Apt. 215\nCherylchester, VI 63112",
+        "venue": "Stewart Group Stadium"
+      },
+      {
+        "id": 33364,
+        "area": {
+          "id": 2875
+        },
+        "name": "Port Henry FC",
+        "shortName": "West Joeport",
+        "tla": "CYB",
+        "crest": "https://dummyimage.com/529x1021",
+        "address": "8455 Carolyn Islands Apt. 138\nWest Adam, MP 11227",
+        "venue": "Roberts Ltd Stadium"
+      },
+      {
+        "id": 55573,
+        "area": {
+          "id": 2875
+        },
+        "name": "North Gabriel FC",
+        "shortName": "North Joycefurt",
+        "tla": "IQL",
+        "crest": "https://placekittens.com/187/139",
+        "address": "277 Ronald Groves\nNew Michael, MD 93872",
+        "venue": "Morris, Nguyen and White Stadium"
+      },
+      {
+        "id": 97633,
+        "area": {
+          "id": 2875
+        },
+        "name": "Georgestad FC",
+        "shortName": "Lake Michele",
+        "tla": "GZH",
+        "crest": "https://dummyimage.com/671x1001",
+        "address": "05080 Parker Course Suite 774\nThomasstad, SC 28658",
+        "venue": "Barton-Evans Stadium"
+      },
+      {
+        "id": 79327,
+        "area": {
+          "id": 2875
+        },
+        "name": "Danielmouth FC",
+        "shortName": "West Beverlyshire",
+        "tla": "DMQ",
+        "crest": "https://picsum.photos/592/416",
+        "address": "803 David Forge Suite 113\nPort Dawn, PW 79258",
+        "venue": "Simmons Inc Stadium"
+      },
+      {
+        "id": 77237,
+        "area": {
+          "id": 2875
+        },
+        "name": "Hunterburgh FC",
+        "shortName": "West Laurafort",
+        "tla": "IEM",
+        "crest": "https://placekittens.com/19/584",
+        "address": "152 Sean Inlet Suite 535\nSouth Lisa, WY 67591",
+        "venue": "Garcia PLC Stadium"
+      },
+      {
+        "id": 24074,
+        "area": {
+          "id": 2875
+        },
+        "name": "Rogerfort FC",
+        "shortName": "West Joshua",
+        "tla": "YFF",
+        "crest": "https://placekittens.com/981/906",
+        "address": "691 Walker Via\nTaylorshire, KS 49793",
+        "venue": "Leon, Green and Escobar Stadium"
+      },
+      {
+        "id": 16902,
+        "area": {
+          "id": 2875
+        },
+        "name": "Lake Benjaminton FC",
+        "shortName": "Timothyshire",
+        "tla": "BIO",
+        "crest": "https://picsum.photos/697/335",
+        "address": "844 Debra Loaf Suite 884\nAguilarmouth, GA 74037",
+        "venue": "Colon-Wu Stadium"
+      },
+      {
+        "id": 53069,
+        "area": {
+          "id": 2875
+        },
+        "name": "Karenberg FC",
+        "shortName": "Port Brittanyburgh",
+        "tla": "JEC",
+        "crest": "https://picsum.photos/947/151",
+        "address": "971 Smith Isle\nRuthview, MA 13461",
+        "venue": "Norton-Harris Stadium"
+      },
+      {
+        "id": 75056,
+        "area": {
+          "id": 2875
+        },
+        "name": "New Wanda FC",
+        "shortName": "North Ianborough",
+        "tla": "OBN",
+        "crest": "https://placekittens.com/699/889",
+        "address": "397 Joshua Junction\nPort Andrewshire, SC 22380",
+        "venue": "Griffin PLC Stadium"
+      },
+      {
+        "id": 16159,
+        "area": {
+          "id": 2875
+        },
+        "name": "Leslieside FC",
+        "shortName": "Middletonshire",
+        "tla": "NOY",
+        "crest": "https://placekittens.com/765/183",
+        "address": "880 Woodward Bridge Suite 326\nLake Julieville, OK 32106",
+        "venue": "Miller, Wright and Mathews Stadium"
+      },
+      {
+        "id": 26469,
+        "area": {
+          "id": 2875
+        },
+        "name": "Parkermouth FC",
+        "shortName": "Davidchester",
+        "tla": "CKD",
+        "crest": "https://placekittens.com/671/206",
+        "address": "5024 Jennifer Ford\nJonesmouth, UT 70091",
+        "venue": "Harris-Todd Stadium"
+      },
+      {
+        "id": 28331,
+        "area": {
+          "id": 2875
+        },
+        "name": "Millerstad FC",
+        "shortName": "Carrollborough",
+        "tla": "WPZ",
+        "crest": "https://placekittens.com/123/14",
+        "address": "1547 Christopher Isle Suite 639\nCarrollstad, MI 15664",
+        "venue": "James and Sons Stadium"
+      },
+      {
+        "id": 61496,
+        "area": {
+          "id": 2875
+        },
+        "name": "Lake Dennishaven FC",
+        "shortName": "South Todd",
+        "tla": "DBK",
+        "crest": "https://dummyimage.com/863x774",
+        "address": "2816 Scott Viaduct\nJonesville, RI 91801",
+        "venue": "Haley-Morris Stadium"
+      },
+      {
+        "id": 36835,
+        "area": {
+          "id": 2875
+        },
+        "name": "Amandaport FC",
+        "shortName": "Claytonton",
+        "tla": "XHC",
+        "crest": "https://picsum.photos/386/2",
+        "address": "42763 Taylor Walks\nWest Cynthiaview, NH 15713",
+        "venue": "Fischer, Hall and Stewart Stadium"
+      },
+      {
+        "id": 37710,
+        "area": {
+          "id": 2875
+        },
+        "name": "New Robertton FC",
+        "shortName": "Simpsonview",
+        "tla": "SWQ",
+        "crest": "https://picsum.photos/7/355",
+        "address": "874 Webster Keys Apt. 358\nTaylorfort, DE 59943",
+        "venue": "Beasley-Smith Stadium"
+      },
+      {
+        "id": 65681,
+        "area": {
+          "id": 2875
+        },
+        "name": "Port Danielfurt FC",
+        "shortName": "Kimberlyton",
+        "tla": "MTN",
+        "crest": "https://picsum.photos/133/1010",
+        "address": "583 Jason Haven Suite 704\nEast Jennifertown, RI 15275",
+        "venue": "Lee-Petersen Stadium"
+      },
+      {
+        "id": 64936,
+        "area": {
+          "id": 2875
+        },
+        "name": "East Amyfurt FC",
+        "shortName": "West Joseph",
+        "tla": "KCQ",
+        "crest": "https://picsum.photos/138/348",
+        "address": "PSC 9057, Box 7204\nAPO AA 09189",
+        "venue": "Brown Ltd Stadium"
+      },
+      {
+        "id": 74847,
+        "area": {
+          "id": 2875
+        },
+        "name": "Coryborough FC",
+        "shortName": "West Nathan",
+        "tla": "XPJ",
+        "crest": "https://placekittens.com/154/121",
+        "address": "22487 Brenda Street Suite 264\nHarrisburgh, MN 10741",
+        "venue": "Wilkinson-Leon Stadium"
+      },
+      {
+        "id": 34316,
+        "area": {
+          "id": 2875
+        },
+        "name": "Alexisborough FC",
+        "shortName": "South Cory",
+        "tla": "IND",
+        "crest": "https://dummyimage.com/72x394",
+        "address": "63070 Amy Mission Apt. 020\nNew Matthewbury, MO 54778",
+        "venue": "Taylor, Duncan and Gonzalez Stadium"
+      },
+      {
+        "id": 81264,
+        "area": {
+          "id": 2875
+        },
+        "name": "North Matthewfort FC",
+        "shortName": "Anthonyville",
+        "tla": "FPI",
+        "crest": "https://picsum.photos/683/25",
+        "address": "713 Destiny Extension\nNorth Daniel, ND 50396",
+        "venue": "Williams, Hicks and Wilkerson Stadium"
+      },
+      {
+        "id": 95863,
+        "area": {
+          "id": 2875
+        },
+        "name": "Simpsonburgh FC",
+        "shortName": "North Lindaview",
+        "tla": "UTX",
+        "crest": "https://picsum.photos/572/834",
+        "address": "Unit 1928 Box 1707\nDPO AA 40660",
+        "venue": "Russell and Sons Stadium"
+      },
+      {
+        "id": 39567,
+        "area": {
+          "id": 2875
+        },
+        "name": "Kellyberg FC",
+        "shortName": "West Douglas",
+        "tla": "PZA",
+        "crest": "https://picsum.photos/295/701",
+        "address": "20944 Salinas Mountains Apt. 690\nLake Ian, SD 82487",
+        "venue": "Stewart-Walker Stadium"
+      },
+      {
+        "id": 27111,
+        "area": {
+          "id": 2875
+        },
+        "name": "Ortizmouth FC",
+        "shortName": "Jennifertown",
+        "tla": "RIR",
+        "crest": "https://placekittens.com/706/735",
+        "address": "0211 Luis Plain\nEast Lindaside, FM 53533",
+        "venue": "Mitchell, Obrien and Herrera Stadium"
+      },
+      {
+        "id": 64214,
+        "area": {
+          "id": 2875
+        },
+        "name": "Timothychester FC",
+        "shortName": "Martinezmouth",
+        "tla": "YDA",
+        "crest": "https://dummyimage.com/1024x551",
+        "address": "378 Tiffany Creek\nSouth Kellyshire, DC 11740",
+        "venue": "Turner-Williams Stadium"
+      },
+      {
+        "id": 84878,
+        "area": {
+          "id": 2875
+        },
+        "name": "South Cathy FC",
+        "shortName": "Port James",
+        "tla": "UOR",
+        "crest": "https://dummyimage.com/550x895",
+        "address": "213 Flores Meadows\nEast Jennifer, AL 22543",
+        "venue": "Cuevas and Sons Stadium"
+      },
+      {
+        "id": 74443,
+        "area": {
+          "id": 2875
+        },
+        "name": "Port Alexis FC",
+        "shortName": "Aaronborough",
+        "tla": "WNA",
+        "crest": "https://picsum.photos/124/42",
+        "address": "46739 Cheryl Alley Apt. 141\nYatestown, OR 12604",
+        "venue": "Bradley-Figueroa Stadium"
+      },
+      {
+        "id": 29958,
+        "area": {
+          "id": 2875
+        },
+        "name": "East Gina FC",
+        "shortName": "South Judy",
+        "tla": "LRI",
+        "crest": "https://dummyimage.com/941x91",
+        "address": "8186 Cooke Loaf Apt. 000\nGabriellebury, NE 16064",
+        "venue": "Sharp and Sons Stadium"
+      },
+      {
+        "id": 68414,
+        "area": {
+          "id": 2875
+        },
+        "name": "North Alexandraland FC",
+        "shortName": "Christopherside",
+        "tla": "PXS",
+        "crest": "https://placekittens.com/530/675",
+        "address": "03401 Harris Track Apt. 466\nSouth Marcshire, PA 78781",
+        "venue": "Campbell-Zamora Stadium"
+      },
+      {
+        "id": 45826,
+        "area": {
+          "id": 2875
+        },
+        "name": "Reynoldsberg FC",
+        "shortName": "North Brianberg",
+        "tla": "RPU",
+        "crest": "https://placekittens.com/32/285",
+        "address": "822 William Ranch\nTammyberg, MH 51760",
+        "venue": "Johnson LLC Stadium"
+      },
+      {
+        "id": 75640,
+        "area": {
+          "id": 2875
+        },
+        "name": "South Josemouth FC",
+        "shortName": "South Jeremy",
+        "tla": "WOM",
+        "crest": "https://picsum.photos/842/638",
+        "address": "USNS Cooper\nFPO AA 02781",
+        "venue": "Phillips and Sons Stadium"
+      },
+      {
+        "id": 91232,
+        "area": {
+          "id": 2875
+        },
+        "name": "Port Annberg FC",
+        "shortName": "Danielville",
+        "tla": "RAE",
+        "crest": "https://dummyimage.com/361x670",
+        "address": "610 Steven Extensions Apt. 046\nJohnsonland, DC 74105",
+        "venue": "Boyd Group Stadium"
+      },
+      {
+        "id": 21359,
+        "area": {
+          "id": 2875
+        },
+        "name": "North Jenniferburgh FC",
+        "shortName": "East Ashley",
+        "tla": "OBE",
+        "crest": "https://picsum.photos/718/183",
+        "address": "507 Graham Islands Apt. 446\nWest Dianaberg, NV 55415",
+        "venue": "Christian LLC Stadium"
+      },
+      {
+        "id": 60176,
+        "area": {
+          "id": 2875
+        },
+        "name": "North Christymouth FC",
+        "shortName": "North Michael",
+        "tla": "UVZ",
+        "crest": "https://dummyimage.com/419x633",
+        "address": "58617 Nichols Estates Suite 127\nSouth Shawn, AL 67267",
+        "venue": "Boone-Padilla Stadium"
+      },
+      {
+        "id": 60780,
+        "area": {
+          "id": 2875
+        },
+        "name": "Sarahfurt FC",
+        "shortName": "Port David",
+        "tla": "ENC",
+        "crest": "https://placekittens.com/837/905",
+        "address": "477 Eileen Prairie Apt. 350\nSouth Theresaville, AS 67381",
+        "venue": "Mason-Webb Stadium"
+      },
+      {
+        "id": 49496,
+        "area": {
+          "id": 2875
+        },
+        "name": "East Joe FC",
+        "shortName": "Lisaport",
+        "tla": "DTU",
+        "crest": "https://placekittens.com/858/774",
+        "address": "15649 Martin Glens\nNorth Tara, TN 91066",
+        "venue": "Owen-Day Stadium"
+      },
+      {
+        "id": 21526,
+        "area": {
+          "id": 2875
+        },
+        "name": "North Ellenfort FC",
+        "shortName": "New Andrea",
+        "tla": "HJD",
+        "crest": "https://placekittens.com/510/5",
+        "address": "59488 Jennifer Pines Suite 968\nSouth Richardtown, MI 13390",
+        "venue": "Kaiser and Sons Stadium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+experiment:
+  name: pg_etap_soda_sql_soda
+  baseline:
+    stg_run_id: manual_input_stg_20260516_095415
+    dds_run_id: manual_input_dds_20260516_095415
+  defaults:
+    output_dir: logs/etl_stage_reports
+    include_experiments: true
+    only_unprocessed: false
+    repeats: 5
+    tools_by_stage:
+      E:
+      - soda
+      T:
+      - sql
+      L:
+      - soda

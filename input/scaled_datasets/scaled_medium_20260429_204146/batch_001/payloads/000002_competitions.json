@@ -1,0 +1,143 @@
+{
+  "endpoint": "competitions",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_medium_20260429_204146_b001",
+    "batch_id": "scaled_medium_20260429_204146_b001"
+  },
+  "response_json": {
+    "competitions": [
+      {
+        "id": 2040,
+        "area": {
+          "id": 2071,
+          "name": "Aruba",
+          "countryCode": "HR",
+          "flag": "https://picsum.photos/466/592"
+        },
+        "name": "Underwood LLC League",
+        "code": "ZRE",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/432/644"
+      },
+      {
+        "id": 2017,
+        "area": {
+          "id": 2389,
+          "name": "Bhutan",
+          "countryCode": "MK",
+          "flag": "https://picsum.photos/704/541"
+        },
+        "name": "Porter, Wilkerson and Day League",
+        "code": "JQI",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/505/538"
+      },
+      {
+        "id": 2002,
+        "area": {
+          "id": 2654,
+          "name": "Bouvet Island (Bouvetoya)",
+          "countryCode": "AR",
+          "flag": "https://picsum.photos/563/501"
+        },
+        "name": "Patterson, Silva and Cox League",
+        "code": "IGF",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/186/96"
+      },
+      {
+        "id": 2010,
+        "area": {
+          "id": 2654,
+          "name": "Bouvet Island (Bouvetoya)",
+          "countryCode": "AR",
+          "flag": "https://picsum.photos/563/501"
+        },
+        "name": "Burton Ltd League",
+        "code": "BME",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/788/781"
+      },
+      {
+        "id": 2008,
+        "area": {
+          "id": 2142,
+          "name": "Saint Pierre and Miquelon",
+          "countryCode": "CA",
+          "flag": "https://picsum.photos/178/864"
+        },
+        "name": "Rice-Maddox League",
+        "code": "ARU",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/234/546"
+      },
+      {
+        "id": 2007,
+        "area": {
+          "id": 2203,
+          "name": "Saint Barthelemy",
+          "countryCode": "CF",
+          "flag": "https://dummyimage.com/859x451"
+        },
+        "name": "Rodriguez-Graham League",
+        "code": "DAU",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/539/365"
+      },
+      {
+        "id": 2019,
+        "area": {
+          "id": 2203,
+          "name": "Saint Barthelemy",
+          "countryCode": "CF",
+          "flag": "https://dummyimage.com/859x451"
+        },
+        "name": "Harrell LLC League",
+        "code": "OGM",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/407x313"
+      },
+      {
+        "id": 2016,
+        "area": {
+          "id": 2565,
+          "name": "French Polynesia",
+          "countryCode": "YE",
+          "flag": "https://placekittens.com/740/393"
+        },
+        "name": "Ryan PLC League",
+        "code": "AMU",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/1000/39"
+      },
+      {
+        "id": 2034,
+        "area": {
+          "id": 2071,
+          "name": "Aruba",
+          "countryCode": "HR",
+          "flag": "https://picsum.photos/466/592"
+        },
+        "name": "Koch-Decker League",
+        "code": "TPD",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/493/161"
+      },
+      {
+        "id": 2015,
+        "area": {
+          "id": 2654,
+          "name": "Bouvet Island (Bouvetoya)",
+          "countryCode": "AR",
+          "flag": "https://picsum.photos/563/501"
+        },
+        "name": "Tucker, Jones and Hodges League",
+        "code": "XII",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/973x338"
+      }
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "endpoint": "competitions",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_large_20260429_204207_b001",
+    "batch_id": "scaled_large_20260429_204207_b001"
+  },
+  "response_json": {
+    "competitions": [
+      {
+        "id": 2040,
+        "area": {
+          "id": 2896,
+          "name": "Saint Helena",
+          "countryCode": "IN",
+          "flag": "https://placekittens.com/365/217"
+        },
+        "name": "Cabrera-Spence League",
+        "code": "IXI",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/262/973"
+      },
+      {
+        "id": 2017,
+        "area": {
+          "id": 2780,
+          "name": "Central African Republic",
+          "countryCode": "SR",
+          "flag": "https://dummyimage.com/1x663"
+        },
+        "name": "Baker PLC League",
+        "code": "BNI",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/411x638"
+      },
+      {
+        "id": 2002,
+        "area": {
+          "id": 2654,
+          "name": "Bouvet Island (Bouvetoya)",
+          "countryCode": "AR",
+          "flag": "https://picsum.photos/563/501"
+        },
+        "name": "Santos, Kim and Holmes League",
+        "code": "HPO",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/131/692"
+      },
+      {
+        "id": 2010,
+        "area": {
+          "id": 2300,
+          "name": "Jordan",
+          "countryCode": "DJ",
+          "flag": "https://placekittens.com/929/6"
+        },
+        "name": "Spencer, Chapman and Smith League",
+        "code": "TOD",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/468/138"
+      },
+      {
+        "id": 2008,
+        "area": {
+          "id": 2896,
+          "name": "Saint Helena",
+          "countryCode": "IN",
+          "flag": "https://placekittens.com/365/217"
+        },
+        "name": "Jones-Young League",
+        "code": "QFN",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/270/968"
+      },
+      {
+        "id": 2007,
+        "area": {
+          "id": 2284,
+          "name": "Cape Verde",
+          "countryCode": "GM",
+          "flag": "https://picsum.photos/689/209"
+        },
+        "name": "Aguirre-Lee League",
+        "code": "GQB",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/725x867"
+      },
+      {
+        "id": 2019,
+        "area": {
+          "id": 2479,
+          "name": "Marshall Islands",
+          "countryCode": "ID",
+          "flag": "https://placekittens.com/23/234"
+        },
+        "name": "Shields-Brown League",
+        "code": "PPG",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/124/824"
+      },
+      {
+        "id": 2016,
+        "area": {
+          "id": 2746,
+          "name": "Ecuador",
+          "countryCode": "DK",
+          "flag": "https://dummyimage.com/946x777"
+        },
+        "name": "Mcbride-Rodriguez League",
+        "code": "MMI",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/918x287"
+      },
+      {
+        "id": 2034,
+        "area": {
+          "id": 2875,
+          "name": "Djibouti",
+          "countryCode": "BZ",
+          "flag": "https://dummyimage.com/778x569"
+        },
+        "name": "Ramirez and Sons League",
+        "code": "ECZ",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/200/103"
+      },
+      {
+        "id": 2015,
+        "area": {
+          "id": 2565,
+          "name": "French Polynesia",
+          "countryCode": "YE",
+          "flag": "https://placekittens.com/740/393"
+        },
+        "name": "Huff, Novak and House League",
+        "code": "PKA",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/994/985"
+      },
+      {
+        "id": 2037,
+        "area": {
+          "id": 2603,
+          "name": "Fiji",
+          "countryCode": "AF",
+          "flag": "https://dummyimage.com/326x865"
+        },
+        "name": "Barrera-Martin League",
+        "code": "AYQ",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/931x584"
+      },
+      {
+        "id": 2027,
+        "area": {
+          "id": 2389,
+          "name": "Bhutan",
+          "countryCode": "MK",
+          "flag": "https://picsum.photos/704/541"
+        },
+        "name": "Bernard, Cowan and Peters League",
+        "code": "TFJ",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/388/607"
+      },
+      {
+        "id": 2003,
+        "area": {
+          "id": 2300,
+          "name": "Jordan",
+          "countryCode": "DJ",
+          "flag": "https://placekittens.com/929/6"
+        },
+        "name": "Riley PLC League",
+        "code": "DVU",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/117/102"
+      },
+      {
+        "id": 2047,
+        "area": {
+          "id": 2875,
+          "name": "Djibouti",
+          "countryCode": "BZ",
+          "flag": "https://dummyimage.com/778x569"
+        },
+        "name": "Shaw-Farrell League",
+        "code": "KDG",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/164/380"
+      },
+      {
+        "id": 2049,
+        "area": {
+          "id": 2203,
+          "name": "Saint Barthelemy",
+          "countryCode": "CF",
+          "flag": "https://dummyimage.com/859x451"
+        },
+        "name": "Jones, Hensley and Powell League",
+        "code": "KPL",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/81x167"
+      },
+      {
+        "id": 2006,
+        "area": {
+          "id": 2030,
+          "name": "Bermuda",
+          "countryCode": "GM",
+          "flag": "https://placekittens.com/476/54"
+        },
+        "name": "Silva, Mills and Donovan League",
+        "code": "NQT",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/643x488"
+      },
+      {
+        "id": 2044,
+        "area": {
+          "id": 2214,
+          "name": "Paraguay",
+          "countryCode": "IQ",
+          "flag": "https://placekittens.com/146/350"
+        },
+        "name": "Anderson-Brewer League",
+        "code": "DUW",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/148x19"
+      },
+      {
+        "id": 2032,
+        "area": {
+          "id": 2203,
+          "name": "Saint Barthelemy",
+          "countryCode": "CF",
+          "flag": "https://dummyimage.com/859x451"
+        },
+        "name": "Murillo, Ferrell and Jones League",
+        "code": "NGQ",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/271/714"
+      },
+      {
+        "id": 2036,
+        "area": {
+          "id": 2650,
+          "name": "Syrian Arab Republic",
+          "countryCode": "MM",
+          "flag": "https://dummyimage.com/333x758"
+        },
+        "name": "Wood and Sons League",
+        "code": "CIT",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/619/16"
+      },
+      {
+        "id": 2046,
+        "area": {
+          "id": 2780,
+          "name": "Central African Republic",
+          "countryCode": "SR",
+          "flag": "https://dummyimage.com/1x663"
+        },
+        "name": "Evans, Alvarado and Mcmillan League",
+        "code": "IQH",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/219x318"
+      },
+      {
+        "id": 2042,
+        "area": {
+          "id": 2650,
+          "name": "Syrian Arab Republic",
+          "countryCode": "MM",
+          "flag": "https://dummyimage.com/333x758"
+        },
+        "name": "Jacobs-Robbins League",
+        "code": "NRO",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/540x1000"
+      },
+      {
+        "id": 2022,
+        "area": {
+          "id": 2408,
+          "name": "Guyana",
+          "countryCode": "GN",
+          "flag": "https://picsum.photos/283/1010"
+        },
+        "name": "Davis Group League",
+        "code": "RCA",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/683/267"
+      },
+      {
+        "id": 2018,
+        "area": {
+          "id": 2565,
+          "name": "French Polynesia",
+          "countryCode": "YE",
+          "flag": "https://placekittens.com/740/393"
+        },
+        "name": "Martin-Ramos League",
+        "code": "TBJ",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/19/229"
+      },
+      {
+        "id": 2028,
+        "area": {
+          "id": 2896,
+          "name": "Saint Helena",
+          "countryCode": "IN",
+          "flag": "https://placekittens.com/365/217"
+        },
+        "name": "Mckee, Gardner and Davenport League",
+        "code": "LJJ",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/880/261"
+      },
+      {
+        "id": 2030,
+        "area": {
+          "id": 2142,
+          "name": "Saint Pierre and Miquelon",
+          "countryCode": "CA",
+          "flag": "https://picsum.photos/178/864"
+        },
+        "name": "Diaz-Fitzpatrick League",
+        "code": "CWN",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/511x210"
+      },
+      {
+        "id": 2041,
+        "area": {
+          "id": 2906,
+          "name": "Mauritania",
+          "countryCode": "GB",
+          "flag": "https://picsum.photos/546/696"
+        },
+        "name": "Henson, Russell and Oliver League",
+        "code": "JPK",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/362/844"
+      },
+      {
+        "id": 2048,
+        "area": {
+          "id": 2947,
+          "name": "Northern Mariana Islands",
+          "countryCode": "FM",
+          "flag": "https://picsum.photos/449/664"
+        },
+        "name": "Doyle LLC League",
+        "code": "YAZ",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/508/546"
+      },
+      {
+        "id": 2033,
+        "area": {
+          "id": 2511,
+          "name": "Indonesia",
+          "countryCode": "BA",
+          "flag": "https://dummyimage.com/939x292"
+        },
+        "name": "Rodriguez, Brennan and Garrison League",
+        "code": "OMD",
+        "type": "LEAGUE",
+        "emblem": "https://picsum.photos/716/625"
+      },
+      {
+        "id": 2011,
+        "area": {
+          "id": 2203,
+          "name": "Saint Barthelemy",
+          "countryCode": "CF",
+          "flag": "https://dummyimage.com/859x451"
+        },
+        "name": "Johnson and Sons League",
+        "code": "ZVR",
+        "type": "LEAGUE",
+        "emblem": "https://dummyimage.com/142x571"
+      },
+      {
+        "id": 2043,
+        "area": {
+          "id": 2246,
+          "name": "Turkey",
+          "countryCode": "TN",
+          "flag": "https://placekittens.com/161/175"
+        },
+        "name": "Hicks, Frazier and Anthony League",
+        "code": "VBH",
+        "type": "LEAGUE",
+        "emblem": "https://placekittens.com/534/365"
+      }
+    ]
+  }
+}

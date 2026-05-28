@@ -1,0 +1,15 @@
+﻿layers:
+  DDS:
+    mutations:
+      fact_match:
+        description: "Adds an artificial match with the same home_team_id and away_team_id to violate business rules."
+        enabled: false
+      fact_standing:
+        description: "Adds an artificial standings record with zero metrics to distort aggregates."
+        enabled: false
+      dim_competition:
+        description: "Modifies competition attributes (e.g., name) to demonstrate dimension corruption."
+        enabled: false
+      season_dates_missing:
+        description: "Nullifies dim_season start/end dates and fact_match utc_date to simulate missing season dates."
+        enabled: false

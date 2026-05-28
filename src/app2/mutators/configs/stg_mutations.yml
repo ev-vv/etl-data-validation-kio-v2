@@ -1,0 +1,34 @@
+﻿layers:
+  STG:
+    action_descriptions:
+      duplicate_first: "Duplicates the first record to create non-unique elements."
+      drop_required: "Removes required fields from the first record (id/name/utcDate)."
+      corrupt_id: "Corrupts id by setting it to a string."
+      swap_teams: "Swaps homeTeam and awayTeam for N matches (APP2_STG_SWAP_TEAMS_COUNT)."
+      drop_matches_key: "Removes 'matches' key to simulate schema mismatch."
+      matchday_out_of_range: "Sets matchday to out-of-range value."
+    mutations:
+      competitions:
+        description: "Mutations for competitions endpoint."
+        enabled: false
+        actions: [duplicate_first, corrupt_id, drop_required]
+      areas:
+        description: "Mutations for areas endpoint."
+        enabled: false
+        actions: [duplicate_first, drop_required, corrupt_id]
+      teams:
+        description: "Mutations for teams endpoint."
+        enabled: false
+        actions: [duplicate_first, drop_required, corrupt_id]
+      scorers:
+        description: "Mutations for scorers endpoint."
+        enabled: false
+        actions: [duplicate_first, drop_required, corrupt_id]
+      matches:
+        description: "Mutations for matches endpoint."
+        enabled: false
+        actions: [duplicate_first, drop_required, corrupt_id, swap_teams, drop_matches_key, matchday_out_of_range]
+      standings:
+        description: "Mutations for standings endpoint."
+        enabled: false
+        actions: [duplicate_first, drop_required, corrupt_id]

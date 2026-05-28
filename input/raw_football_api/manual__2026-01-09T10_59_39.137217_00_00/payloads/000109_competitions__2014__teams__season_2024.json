@@ -1,0 +1,5952 @@
+{
+  "source_id": 109,
+  "endpoint": "competitions/2014/teams?season=2024",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "count": 20,
+    "teams": [
+      {
+        "id": 77,
+        "tla": "ATH",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Athletic Club",
+        "coach": {
+          "id": 15873,
+          "name": "Ernesto Valverde",
+          "contract": {
+            "start": "2022-07",
+            "until": "2026-06"
+          },
+          "lastName": "Ernesto Valverde",
+          "firstName": "",
+          "dateOfBirth": "1964-02-09",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/77.png",
+        "squad": [
+          {
+            "id": 32570,
+            "name": "Unai Simón",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1997-06-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 172017,
+            "name": "Julen Agirrezabala",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2000-12-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264158,
+            "name": "Oier Gastesi",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-10-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 276865,
+            "name": "Aimar Duñabeitia",
+            "position": "Defence",
+            "dateOfBirth": "2003-02-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 276982,
+            "name": "Ander Izagirre",
+            "position": "Defence",
+            "dateOfBirth": "2003-06-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270747,
+            "name": "Peio Canales",
+            "position": "Midfield",
+            "dateOfBirth": "2005-01-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278297,
+            "name": "Alejandro Rego",
+            "position": "Midfield",
+            "dateOfBirth": "2003-06-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 231471,
+            "name": "Endika Buján",
+            "position": "Offence",
+            "dateOfBirth": "2003-01-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278296,
+            "name": "Iker Varela",
+            "position": "Offence",
+            "dateOfBirth": "2003-03-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 151439,
+            "name": "Aitor Paredes Casamichana",
+            "position": "Centre-Back",
+            "dateOfBirth": "2000-04-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 126878,
+            "name": "Oihan Sancet",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2000-04-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 96868,
+            "name": "Mikel Vesga",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1993-04-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 81565,
+            "name": "Gorka Guruzeta",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1996-09-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33091,
+            "name": "Andoni Gorosabel",
+            "position": "Right-Back",
+            "dateOfBirth": "1996-08-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32629,
+            "name": "Iñaki Williams",
+            "position": "Right Winger",
+            "dateOfBirth": "1994-06-15",
+            "nationality": "Ghana"
+          },
+          {
+            "id": 32618,
+            "name": "Daniel Vivian",
+            "position": "Centre-Back",
+            "dateOfBirth": "1999-07-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32599,
+            "name": "De Marcos",
+            "position": "Right-Back",
+            "dateOfBirth": "1989-04-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32584,
+            "name": "Unai Núñez",
+            "position": "Centre-Back",
+            "dateOfBirth": "1997-01-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32581,
+            "name": "Iñigo Lekue",
+            "position": "Right-Back",
+            "dateOfBirth": "1993-05-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32579,
+            "name": "Yeray Álvarez",
+            "position": "Centre-Back",
+            "dateOfBirth": "1995-01-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32481,
+            "name": "Ruiz de Galarreta",
+            "position": "Central Midfield",
+            "dateOfBirth": "1993-08-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 8479,
+            "name": "Yuri Berchiche",
+            "position": "Left-Back",
+            "dateOfBirth": "1990-02-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 2294,
+            "name": "Álex Berenguer",
+            "position": "Left Winger",
+            "dateOfBirth": "1995-07-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 261580,
+            "name": "Sannadi",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2001-02-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 246633,
+            "name": "Adama Boiro",
+            "position": "Left-Back",
+            "dateOfBirth": "2002-06-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244642,
+            "name": "Aingeru Olabarrieta",
+            "position": "Right Winger",
+            "dateOfBirth": "2005-11-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244599,
+            "name": "Mikel Jauregizar",
+            "position": "Central Midfield",
+            "dateOfBirth": "2003-11-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 202335,
+            "name": "Unai Gomez",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2003-05-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 185137,
+            "name": "Álvaro Djaló",
+            "position": "Left Winger",
+            "dateOfBirth": "1999-08-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 168663,
+            "name": "Benat Prados",
+            "position": "Central Midfield",
+            "dateOfBirth": "2001-02-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 157135,
+            "name": "Nico Williams",
+            "position": "Left Winger",
+            "dateOfBirth": "2002-07-12",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "San Mamés",
+        "address": "Ibaigane, Alameda Mazarredo, 23 Bilbao 48009",
+        "founded": 1898,
+        "website": "http://www.athletic-club.eus",
+        "shortName": "Athletic",
+        "clubColors": "Red / White / Black",
+        "lastUpdated": "2022-03-06T09:31:27Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2001,
+            "code": "CL",
+            "name": "UEFA Champions League",
+            "type": "CUP",
+            "emblem": "https://crests.football-data.org/CL.png"
+          },
+          {
+            "id": 2078,
+            "code": "SDE",
+            "name": "Supercopa de España",
+            "type": "SUPER_CUP",
+            "emblem": "https://crests.football-data.org/sde.png"
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "tla": "ATL",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Club Atlético de Madrid",
+        "coach": {
+          "id": 132,
+          "name": "Diego Simeone",
+          "contract": {
+            "start": "2011-12",
+            "until": "2027-06"
+          },
+          "lastName": "Simeone",
+          "firstName": "Diego",
+          "dateOfBirth": "1970-04-28",
+          "nationality": "Argentina"
+        },
+        "crest": "https://crests.football-data.org/78.png",
+        "squad": [
+          {
+            "id": 120,
+            "name": "Jan Oblak",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1993-01-07",
+            "nationality": "Slovenia"
+          },
+          {
+            "id": 46554,
+            "name": "Juan Musso",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1994-05-06",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 175982,
+            "name": "Alejandro Iturbe",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-09-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180049,
+            "name": "Gomis",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-05-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 182334,
+            "name": "Carlos Gimenez",
+            "position": "Defence",
+            "dateOfBirth": "2003-02-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213260,
+            "name": "Javi Galán",
+            "position": "Defence",
+            "dateOfBirth": "1994-11-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213277,
+            "name": "José Giménez",
+            "position": "Defence",
+            "dateOfBirth": "1995-01-20",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 270792,
+            "name": "Gerónimo Spina",
+            "position": "Defence",
+            "dateOfBirth": "2005-02-09",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 171955,
+            "name": "Javier Serrano",
+            "position": "Midfield",
+            "dateOfBirth": "2003-01-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 177509,
+            "name": "Pablo Barrios",
+            "position": "Midfield",
+            "dateOfBirth": "2003-06-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 221308,
+            "name": "Adrián",
+            "position": "Offence",
+            "dateOfBirth": "2004-06-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 277848,
+            "name": "Omar",
+            "position": "Offence",
+            "dateOfBirth": "2006-08-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 99791,
+            "name": "Robin Le Normand",
+            "position": "Centre-Back",
+            "dateOfBirth": "1996-11-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 98571,
+            "name": "Julián Álvarez",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2000-01-31",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 83562,
+            "name": "Borja Garcés",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1999-08-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 46452,
+            "name": "Nahuel Molina",
+            "position": "Right-Back",
+            "dateOfBirth": "1998-04-06",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 37094,
+            "name": "Reinildo",
+            "position": "Left-Back",
+            "dateOfBirth": "1994-01-21",
+            "nationality": "Mozambique"
+          },
+          {
+            "id": 8167,
+            "name": "Alexander Sørloth",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1995-12-05",
+            "nationality": "Norway"
+          },
+          {
+            "id": 3656,
+            "name": "Axel Witsel",
+            "position": "Centre-Back",
+            "dateOfBirth": "1989-01-12",
+            "nationality": "Belgium"
+          },
+          {
+            "id": 3369,
+            "name": "Thomas Lemar",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1995-11-12",
+            "nationality": "France"
+          },
+          {
+            "id": 3191,
+            "name": "Azpilicueta",
+            "position": "Centre-Back",
+            "dateOfBirth": "1989-08-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 2127,
+            "name": "Rodrigo de Paul",
+            "position": "Central Midfield",
+            "dateOfBirth": "1994-05-24",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 125,
+            "name": "Ángel Correa",
+            "position": "Right Winger",
+            "dateOfBirth": "1995-03-09",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 114,
+            "name": "Antoine Griezmann",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1991-03-21",
+            "nationality": "France"
+          },
+          {
+            "id": 112,
+            "name": "Koke",
+            "position": "Central Midfield",
+            "dateOfBirth": "1992-01-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 70,
+            "name": "Marcos Llorente",
+            "position": "Right Midfield",
+            "dateOfBirth": "1995-01-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 63,
+            "name": "Clément Lenglet",
+            "position": "Centre-Back",
+            "dateOfBirth": "1995-06-17",
+            "nationality": "France"
+          },
+          {
+            "id": 244719,
+            "name": "Rayane Belaid",
+            "position": "Left Winger",
+            "dateOfBirth": "2005-11-02",
+            "nationality": "Algeria"
+          },
+          {
+            "id": 206337,
+            "name": "Ilias Kostis",
+            "position": "Centre-Back",
+            "dateOfBirth": "2003-02-27",
+            "nationality": "Cyprus"
+          },
+          {
+            "id": 190835,
+            "name": "Aitor Gismera",
+            "position": "Central Midfield",
+            "dateOfBirth": "2004-02-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 178710,
+            "name": "Samuel Lino",
+            "position": "Left Winger",
+            "dateOfBirth": "1999-12-23",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 171964,
+            "name": "Giuliano Simeone",
+            "position": "Right Winger",
+            "dateOfBirth": "2002-12-18",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 128731,
+            "name": "Rodrigo Riquelme",
+            "position": "Left Winger",
+            "dateOfBirth": "2000-04-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 119265,
+            "name": "Conor Gallagher",
+            "position": "Central Midfield",
+            "dateOfBirth": "2000-02-06",
+            "nationality": "England"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio Wanda Metropolitano",
+        "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+        "founded": 1903,
+        "website": "http://www.clubatleticodemadrid.com",
+        "shortName": "Atleti",
+        "clubColors": "Red / White / Blue",
+        "lastUpdated": "2024-07-29T17:08:58Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2001,
+            "code": "CL",
+            "name": "UEFA Champions League",
+            "type": "CUP",
+            "emblem": "https://crests.football-data.org/CL.png"
+          },
+          {
+            "id": 2078,
+            "code": "SDE",
+            "name": "Supercopa de España",
+            "type": "SUPER_CUP",
+            "emblem": "https://crests.football-data.org/sde.png"
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "tla": "OSA",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "CA Osasuna",
+        "coach": {
+          "id": 176612,
+          "name": "Alessio Lisci",
+          "contract": {
+            "start": "2025-06",
+            "until": "2027-06"
+          },
+          "lastName": "Lisci",
+          "firstName": "Alessio",
+          "dateOfBirth": "1985-11-04",
+          "nationality": "Italy"
+        },
+        "crest": "https://crests.football-data.org/79.png",
+        "squad": [
+          {
+            "id": 31968,
+            "name": "Sergio Herrera",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1993-06-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32391,
+            "name": "Aitor Fernández",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1991-05-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 191209,
+            "name": "Pablo Valencia",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-03-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 217550,
+            "name": "Dimitrios Stamatakis",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-04-23",
+            "nationality": "Greece"
+          },
+          {
+            "id": 278562,
+            "name": "Rafa Fernández",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2004-05-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 229014,
+            "name": "Sierra Arnal",
+            "position": "Defence",
+            "dateOfBirth": "2003-03-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 246636,
+            "name": "Diego Espejo",
+            "position": "Defence",
+            "dateOfBirth": "2002-08-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 277419,
+            "name": "Jon García",
+            "position": "Midfield",
+            "dateOfBirth": "2003-01-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180104,
+            "name": "Bryan Zaragoza",
+            "position": "Offence",
+            "dateOfBirth": "2001-04-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 262845,
+            "name": "Sixtus Ogbuehi",
+            "position": "Offence",
+            "dateOfBirth": "2003-01-01",
+            "nationality": "Nigeria"
+          },
+          {
+            "id": 274205,
+            "name": "Carlos Lumbreras",
+            "position": "Offence",
+            "dateOfBirth": "2005-02-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 151019,
+            "name": "Flavien Boyomo",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-10-07",
+            "nationality": "France"
+          },
+          {
+            "id": 136000,
+            "name": "Jesús Areso",
+            "position": "Right-Back",
+            "dateOfBirth": "1999-07-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 130324,
+            "name": "Raúl",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2000-11-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 119093,
+            "name": "Aimar Oroz",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2001-11-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 111674,
+            "name": "Jon Moncayola",
+            "position": "Central Midfield",
+            "dateOfBirth": "1998-05-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 81183,
+            "name": "Juan Cruz",
+            "position": "Left-Back",
+            "dateOfBirth": "1992-07-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 50890,
+            "name": "Catena",
+            "position": "Centre-Back",
+            "dateOfBirth": "1994-10-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33346,
+            "name": "Rubén Peña",
+            "position": "Right-Back",
+            "dateOfBirth": "1991-07-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32217,
+            "name": "Moi Gómez",
+            "position": "Left Winger",
+            "dateOfBirth": "1994-06-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32212,
+            "name": "Rubén García",
+            "position": "Right Winger",
+            "dateOfBirth": "1993-07-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32004,
+            "name": "Kike Barja",
+            "position": "Right Winger",
+            "dateOfBirth": "1997-04-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32002,
+            "name": "Lucas Torró",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1994-07-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 31979,
+            "name": "Unai García",
+            "position": "Centre-Back",
+            "dateOfBirth": "1992-09-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 15869,
+            "name": "José Arnáiz",
+            "position": "Left Winger",
+            "dateOfBirth": "1995-04-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 2237,
+            "name": "Ante Budimir",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1991-07-22",
+            "nationality": "Croatia"
+          },
+          {
+            "id": 249577,
+            "name": "Asier Osambela",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2004-02-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 248752,
+            "name": "Iñigo Arguibide",
+            "position": "Right Winger",
+            "dateOfBirth": "2005-04-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 191925,
+            "name": "Iker Munoz",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2002-11-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 190999,
+            "name": "Diego Moreno",
+            "position": "Right-Back",
+            "dateOfBirth": "2001-06-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 186674,
+            "name": "Abel Bretones",
+            "position": "Left-Back",
+            "dateOfBirth": "2000-08-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 173617,
+            "name": "Pablo Ibáñez Tébar",
+            "position": "Central Midfield",
+            "dateOfBirth": "1998-09-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 159409,
+            "name": "Jorge Herrando",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-02-28",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio El Sadar",
+        "address": "Calle del Sadar, s/n Pamplona 31006",
+        "founded": 1920,
+        "website": "http://www.osasuna.es",
+        "shortName": "Osasuna",
+        "clubColors": "Red / Navy Blue",
+        "lastUpdated": "2024-07-29T17:09:06Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "tla": "ESP",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "RCD Espanyol de Barcelona",
+        "coach": {
+          "id": 83316,
+          "name": "Manolo González",
+          "contract": {
+            "start": "2024-03",
+            "until": "2027-06"
+          },
+          "lastName": "Manolo González",
+          "firstName": "",
+          "dateOfBirth": "1979-01-14",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/80.png",
+        "squad": [
+          {
+            "id": 265,
+            "name": "Pacheco",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1992-05-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 150560,
+            "name": "Ángel Fortuño Viñas",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-10-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 152506,
+            "name": "Joan García",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-05-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244761,
+            "name": "Pol Tristán",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2002-03-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 249600,
+            "name": "Llorenç Serred",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-09-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273284,
+            "name": "José López",
+            "position": "Defence",
+            "dateOfBirth": "2006-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 154714,
+            "name": "Omar El Hilali",
+            "position": "Midfield",
+            "dateOfBirth": "2003-09-12",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 179637,
+            "name": "Justin Smith",
+            "position": "Midfield",
+            "dateOfBirth": "2003-02-04",
+            "nationality": "Canada"
+          },
+          {
+            "id": 250363,
+            "name": "Rafael Bauzà",
+            "position": "Midfield",
+            "dateOfBirth": "2005-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 276734,
+            "name": "Roger Hinojo",
+            "position": "Midfield",
+            "dateOfBirth": "2005-02-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 129808,
+            "name": "Walid Cheddira",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1998-01-22",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 125210,
+            "name": "Pol Lozano",
+            "position": "Central Midfield",
+            "dateOfBirth": "1999-10-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 119094,
+            "name": "José Gragera",
+            "position": "Central Midfield",
+            "dateOfBirth": "2000-05-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 98747,
+            "name": "Pablo Ramon",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-06-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 81168,
+            "name": "Javi Puado",
+            "position": "Left Winger",
+            "dateOfBirth": "1998-05-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 62623,
+            "name": "Alex Král",
+            "position": "Central Midfield",
+            "dateOfBirth": "1998-05-19",
+            "nationality": "Czech Republic"
+          },
+          {
+            "id": 33652,
+            "name": "Edu Expósito",
+            "position": "Central Midfield",
+            "dateOfBirth": "1996-08-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33620,
+            "name": "Sergi Gómez",
+            "position": "Centre-Back",
+            "dateOfBirth": "1992-03-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32678,
+            "name": "Aguado",
+            "position": "Central Midfield",
+            "dateOfBirth": "1996-05-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32524,
+            "name": "Brian Oliván",
+            "position": "Left-Back",
+            "dateOfBirth": "1994-04-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32398,
+            "name": "Pere Milla",
+            "position": "Left Winger",
+            "dateOfBirth": "1992-09-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32362,
+            "name": "Fernando Calero",
+            "position": "Centre-Back",
+            "dateOfBirth": "1995-09-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 11040,
+            "name": "Leandro Cabrera",
+            "position": "Centre-Back",
+            "dateOfBirth": "1991-06-17",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 3873,
+            "name": "Álvaro Tejero",
+            "position": "Right-Back",
+            "dateOfBirth": "1996-07-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 2151,
+            "name": "Marash Kumbulla",
+            "position": "Centre-Back",
+            "dateOfBirth": "2000-02-08",
+            "nationality": "Albania"
+          },
+          {
+            "id": 244681,
+            "name": "Álex Almansa",
+            "position": "Left Winger",
+            "dateOfBirth": "2003-11-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 230523,
+            "name": "José Luis Catalá",
+            "position": "Centre-Back",
+            "dateOfBirth": "2004-08-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 215544,
+            "name": "Antoniu Roca",
+            "position": "Right Winger",
+            "dateOfBirth": "2002-05-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 186564,
+            "name": "Carlos Romero",
+            "position": "Left-Back",
+            "dateOfBirth": "2001-10-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180218,
+            "name": "Roberto Fernández",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2002-07-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 170962,
+            "name": "Alejo Veliz",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2003-09-19",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 151031,
+            "name": "Urko González",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2001-03-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 150561,
+            "name": "Jofre Carreras Pagès",
+            "position": "Right Winger",
+            "dateOfBirth": "2001-06-17",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "RCDE Stadium",
+        "address": "Avenida Baix Llobregat, 100 Cornellà de Llobregat 08940",
+        "founded": 1900,
+        "website": "http://www.rcdespanyol.com",
+        "shortName": "Espanyol",
+        "clubColors": "Blue / White",
+        "lastUpdated": "2024-07-29T17:09:12Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "tla": "FCB",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "FC Barcelona",
+        "coach": {
+          "id": 133997,
+          "name": "Hansi Flick",
+          "contract": {
+            "start": "2024-07",
+            "until": "2027-06"
+          },
+          "lastName": "Flick",
+          "firstName": "Hansi",
+          "dateOfBirth": "1965-02-24",
+          "nationality": "Germany"
+        },
+        "crest": "https://crests.football-data.org/81.png",
+        "squad": [
+          {
+            "id": 2022,
+            "name": "Wojciech Szczęsny",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1990-04-18",
+            "nationality": "Poland"
+          },
+          {
+            "id": 3173,
+            "name": "Marc-André ter Stegen",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1992-04-30",
+            "nationality": "Germany"
+          },
+          {
+            "id": 180898,
+            "name": "Iñaki Peña",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1999-03-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 191325,
+            "name": "Ander Astralaga",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2004-03-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 217424,
+            "name": "Diego Kochen",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2006-03-19",
+            "nationality": "USA"
+          },
+          {
+            "id": 242551,
+            "name": "Áron Yaakobishvili",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2006-03-06",
+            "nationality": "Hungary"
+          },
+          {
+            "id": 265505,
+            "name": "Andrés Cuenca",
+            "position": "Defence",
+            "dateOfBirth": "2007-06-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272984,
+            "name": "Álvaro Cortés",
+            "position": "Defence",
+            "dateOfBirth": "2005-03-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 277406,
+            "name": "Alexis Olmedo",
+            "position": "Defence",
+            "dateOfBirth": "2006-01-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278200,
+            "name": "Landry Farré",
+            "position": "Defence",
+            "dateOfBirth": "2007-01-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 212314,
+            "name": "Noah Darvich",
+            "position": "Midfield",
+            "dateOfBirth": "2006-09-25",
+            "nationality": "Germany"
+          },
+          {
+            "id": 270320,
+            "name": "Guille Fernández",
+            "position": "Midfield",
+            "dateOfBirth": "2008-06-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 207017,
+            "name": "Dani Rodríguez",
+            "position": "Offence",
+            "dateOfBirth": "2005-08-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270450,
+            "name": "Toni Fernández",
+            "position": "Offence",
+            "dateOfBirth": "2008-07-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 172761,
+            "name": "Álex Balde",
+            "position": "Left-Back",
+            "dateOfBirth": "2003-10-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 171992,
+            "name": "Pablo Gavira",
+            "position": "Central Midfield",
+            "dateOfBirth": "2004-08-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 159520,
+            "name": "Pablo Torre",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2003-04-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 144579,
+            "name": "Pau Victor Delgado",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2001-11-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 133860,
+            "name": "Pedri",
+            "position": "Central Midfield",
+            "dateOfBirth": "2002-11-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 128040,
+            "name": "Ansu Fati",
+            "position": "Left Winger",
+            "dateOfBirth": "2002-10-31",
+            "nationality": "Spain"
+          },
+          {
+            "id": 101345,
+            "name": "Eric García",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-01-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 37428,
+            "name": "Raphinha",
+            "position": "Left Winger",
+            "dateOfBirth": "1996-12-14",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 33154,
+            "name": "Ferrán Torres",
+            "position": "Right Winger",
+            "dateOfBirth": "2000-02-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32588,
+            "name": "Íñigo Martínez",
+            "position": "Centre-Back",
+            "dateOfBirth": "1991-05-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 28292,
+            "name": "Ronald Araújo",
+            "position": "Centre-Back",
+            "dateOfBirth": "1999-03-07",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 23132,
+            "name": "Dani Olmo",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1998-05-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 8499,
+            "name": "Jules Koundé",
+            "position": "Right-Back",
+            "dateOfBirth": "1998-11-12",
+            "nationality": "France"
+          },
+          {
+            "id": 7559,
+            "name": "Frenkie de Jong",
+            "position": "Central Midfield",
+            "dateOfBirth": "1997-05-12",
+            "nationality": "Netherlands"
+          },
+          {
+            "id": 3455,
+            "name": "Andreas Christensen",
+            "position": "Centre-Back",
+            "dateOfBirth": "1996-04-10",
+            "nationality": "Denmark"
+          },
+          {
+            "id": 371,
+            "name": "Robert Lewandowski",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1988-08-21",
+            "nationality": "Poland"
+          },
+          {
+            "id": 264322,
+            "name": "Sergi Domínguez",
+            "position": "Centre-Back",
+            "dateOfBirth": "2005-04-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264321,
+            "name": "Marc Bernal",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2007-05-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264320,
+            "name": "Gerard Martín",
+            "position": "Left-Back",
+            "dateOfBirth": "2002-02-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 227023,
+            "name": "Héctor Fort",
+            "position": "Right-Back",
+            "dateOfBirth": "2006-08-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 217540,
+            "name": "Pau Cubarsí",
+            "position": "Centre-Back",
+            "dateOfBirth": "2007-01-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 214533,
+            "name": "Fermín López",
+            "position": "Central Midfield",
+            "dateOfBirth": "2003-05-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 202283,
+            "name": "Lamine Yamal",
+            "position": "Right Winger",
+            "dateOfBirth": "2007-07-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 188817,
+            "name": "Marc Casado",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2003-09-14",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Camp Nou",
+        "address": "Avenida Arístides Maillol s/n Barcelona 08028",
+        "founded": 1899,
+        "website": "http://www.fcbarcelona.com",
+        "shortName": "Barça",
+        "clubColors": "Red / Navy Blue / Orange",
+        "lastUpdated": "2024-07-29T17:09:22Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2001,
+            "code": "CL",
+            "name": "UEFA Champions League",
+            "type": "CUP",
+            "emblem": "https://crests.football-data.org/CL.png"
+          },
+          {
+            "id": 2078,
+            "code": "SDE",
+            "name": "Supercopa de España",
+            "type": "SUPER_CUP",
+            "emblem": "https://crests.football-data.org/sde.png"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "tla": "GET",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Getafe CF",
+        "coach": {
+          "id": 3155,
+          "name": "Pepe Bordalás",
+          "contract": {
+            "start": "2023-04",
+            "until": "2026-06"
+          },
+          "lastName": "José Bordalás",
+          "firstName": "",
+          "dateOfBirth": "1964-03-05",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/82.png",
+        "squad": [
+          {
+            "id": 78,
+            "name": "David Soria",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1993-04-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 146888,
+            "name": "Jiří Letáček",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1999-01-09",
+            "nationality": "Czech Republic"
+          },
+          {
+            "id": 214562,
+            "name": "Jorge Benito",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2006-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 246276,
+            "name": "Djordjije Medenica",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2006-11-17",
+            "nationality": "Czech Republic"
+          },
+          {
+            "id": 264160,
+            "name": "Diego Ferrer",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2007-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 151018,
+            "name": "David Argüelles",
+            "position": "Defence",
+            "dateOfBirth": "2002-01-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270274,
+            "name": "Guillem Trilla",
+            "position": "Defence",
+            "dateOfBirth": "2003-02-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 274082,
+            "name": "Lohr",
+            "position": "Defence",
+            "dateOfBirth": "2002-08-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 274175,
+            "name": "Ismael Bekhoucha",
+            "position": "Defence",
+            "dateOfBirth": "2004-11-20",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 270536,
+            "name": "Abdoulaye Keita",
+            "position": "Offence",
+            "dateOfBirth": "2002-09-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273863,
+            "name": "Cuéllar",
+            "position": "Offence",
+            "dateOfBirth": "2007-03-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 274083,
+            "name": "Isma Fernández",
+            "position": "Offence",
+            "dateOfBirth": "2005-07-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 111570,
+            "name": "Alex Sola",
+            "position": "Right Winger",
+            "dateOfBirth": "1999-06-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 83351,
+            "name": "Juan Iglesias",
+            "position": "Right-Back",
+            "dateOfBirth": "1998-07-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 46491,
+            "name": "Omar Alderete",
+            "position": "Centre-Back",
+            "dateOfBirth": "1996-12-26",
+            "nationality": "Paraguay"
+          },
+          {
+            "id": 45472,
+            "name": "Domingos Duarte",
+            "position": "Centre-Back",
+            "dateOfBirth": "1995-03-10",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 33073,
+            "name": "Juan Berrocal",
+            "position": "Centre-Back",
+            "dateOfBirth": "1999-02-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32758,
+            "name": "Mauro Arambarri",
+            "position": "Central Midfield",
+            "dateOfBirth": "1995-09-30",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 32510,
+            "name": "Carles Pérez",
+            "position": "Right Winger",
+            "dateOfBirth": "1998-02-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32449,
+            "name": "Luis Milla",
+            "position": "Central Midfield",
+            "dateOfBirth": "1994-10-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 8015,
+            "name": "Allan Nyom",
+            "position": "Right-Back",
+            "dateOfBirth": "1988-05-10",
+            "nationality": "Cameroon"
+          },
+          {
+            "id": 3125,
+            "name": "Dakonam Djené",
+            "position": "Centre-Back",
+            "dateOfBirth": "1991-12-31",
+            "nationality": "Togo"
+          },
+          {
+            "id": 357,
+            "name": "Juan Bernat",
+            "position": "Left-Back",
+            "dateOfBirth": "1993-03-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 277,
+            "name": "Diego Rico",
+            "position": "Left-Back",
+            "dateOfBirth": "1993-02-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 69,
+            "name": "Borja Mayoral",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1997-04-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 2,
+            "name": "Juanmi",
+            "position": "Left Winger",
+            "dateOfBirth": "1993-05-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 267897,
+            "name": "Coba da Costa",
+            "position": "Left Winger",
+            "dateOfBirth": "2002-07-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 260763,
+            "name": "Chrisantus",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2003-05-19",
+            "nationality": "Nigeria"
+          },
+          {
+            "id": 250399,
+            "name": "Alberto Risco",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2005-08-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 203446,
+            "name": "Yellu",
+            "position": "Central Midfield",
+            "dateOfBirth": "2004-05-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 189369,
+            "name": "Alvaro Rodriguez",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2004-07-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 186707,
+            "name": "Gorka Rivera",
+            "position": "Left-Back",
+            "dateOfBirth": "2004-08-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 176733,
+            "name": "Peter Gonzalez",
+            "position": "Right Winger",
+            "dateOfBirth": "2002-07-25",
+            "nationality": "Dominican Republic"
+          },
+          {
+            "id": 171851,
+            "name": "Bertug Yildirim",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2002-07-12",
+            "nationality": "Turkey"
+          },
+          {
+            "id": 154000,
+            "name": "RamónTerrats Espacio",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2000-10-18",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Coliseum Alfonso Pérez",
+        "address": "Avenida Teresa de Calcuta, s/n Getafe 28903",
+        "founded": 1946,
+        "website": "http://www.getafecf.com",
+        "shortName": "Getafe",
+        "clubColors": "Blue / White",
+        "lastUpdated": "2022-02-25T16:43:35Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "tla": "RMA",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Real Madrid CF",
+        "coach": {
+          "id": 180279,
+          "name": "Xabi Alonso",
+          "contract": {
+            "start": "2025-06",
+            "until": "2028-06"
+          },
+          "lastName": "Xabi Alonso",
+          "firstName": "",
+          "dateOfBirth": "1981-11-25",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/86.png",
+        "squad": [
+          {
+            "id": 3641,
+            "name": "Thibaut Courtois",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1992-05-11",
+            "nationality": "Belgium"
+          },
+          {
+            "id": 28995,
+            "name": "Andriy Lunin",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1999-02-11",
+            "nationality": "Ukraine"
+          },
+          {
+            "id": 188407,
+            "name": "Sergio Mestre",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-02-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 206826,
+            "name": "Fran Gonzalez",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-06-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213266,
+            "name": "Fran García",
+            "position": "Defence",
+            "dateOfBirth": "1999-08-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270615,
+            "name": "David Jiménez",
+            "position": "Defence",
+            "dateOfBirth": "2004-03-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273000,
+            "name": "Diego Aguado",
+            "position": "Defence",
+            "dateOfBirth": "2007-02-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273181,
+            "name": "Loren Aguado",
+            "position": "Defence",
+            "dateOfBirth": "2002-09-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273343,
+            "name": "Yusi",
+            "position": "Defence",
+            "dateOfBirth": "2005-10-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 275112,
+            "name": "Mario Rivas",
+            "position": "Defence",
+            "dateOfBirth": "2007-03-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 276963,
+            "name": "Víctor Valdepeñas",
+            "position": "Defence",
+            "dateOfBirth": "2006-10-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270273,
+            "name": "Chema Andrés",
+            "position": "Midfield",
+            "dateOfBirth": "2005-04-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273059,
+            "name": "Hugo De Llanos",
+            "position": "Midfield",
+            "dateOfBirth": "2005-03-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273058,
+            "name": "Daniel Yáñez",
+            "position": "Offence",
+            "dateOfBirth": "2007-03-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273423,
+            "name": "Víctor Muñoz",
+            "position": "Offence",
+            "dateOfBirth": "2003-07-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 274728,
+            "name": "Pol Fortuny",
+            "position": "Offence",
+            "dateOfBirth": "2005-03-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 169162,
+            "name": "Arda Guler",
+            "position": "Right Winger",
+            "dateOfBirth": "2005-02-25",
+            "nationality": "Turkey"
+          },
+          {
+            "id": 125010,
+            "name": "Jude Bellingham",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2003-06-29",
+            "nationality": "England"
+          },
+          {
+            "id": 102343,
+            "name": "Eduardo Camavinga",
+            "position": "Central Midfield",
+            "dateOfBirth": "2002-11-10",
+            "nationality": "France"
+          },
+          {
+            "id": 8514,
+            "name": "Aurélien Tchouameni",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2000-01-27",
+            "nationality": "France"
+          },
+          {
+            "id": 8458,
+            "name": "Ferland Mendy",
+            "position": "Left-Back",
+            "dateOfBirth": "1995-06-08",
+            "nationality": "France"
+          },
+          {
+            "id": 7887,
+            "name": "Brahim Diaz",
+            "position": "Right Winger",
+            "dateOfBirth": "1999-08-03",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 7867,
+            "name": "Trent Alexander-Arnold",
+            "position": "Right-Back",
+            "dateOfBirth": "1998-10-07",
+            "nationality": "England"
+          },
+          {
+            "id": 3374,
+            "name": "Kylian Mbappé",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1998-12-20",
+            "nationality": "France"
+          },
+          {
+            "id": 3194,
+            "name": "Dani Carvajal",
+            "position": "Right-Back",
+            "dateOfBirth": "1992-01-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 3177,
+            "name": "Antonio Rüdiger",
+            "position": "Centre-Back",
+            "dateOfBirth": "1993-03-03",
+            "nationality": "Germany"
+          },
+          {
+            "id": 1556,
+            "name": "Vinicius Junior",
+            "position": "Left Winger",
+            "dateOfBirth": "2000-07-12",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 1337,
+            "name": "Éder Militão",
+            "position": "Centre-Back",
+            "dateOfBirth": "1998-01-18",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 1324,
+            "name": "Rodrygo",
+            "position": "Right Winger",
+            "dateOfBirth": "2001-01-09",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 349,
+            "name": "David Alaba",
+            "position": "Centre-Back",
+            "dateOfBirth": "1992-06-24",
+            "nationality": "Austria"
+          },
+          {
+            "id": 96,
+            "name": "Federico Valverde",
+            "position": "Central Midfield",
+            "dateOfBirth": "1998-07-22",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 68,
+            "name": "Dani Ceballos",
+            "position": "Central Midfield",
+            "dateOfBirth": "1996-08-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 46,
+            "name": "Jesús Vallejo",
+            "position": "Centre-Back",
+            "dateOfBirth": "1997-01-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 45,
+            "name": "Lucas Vázquez",
+            "position": "Right-Back",
+            "dateOfBirth": "1991-07-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 43,
+            "name": "Luka Modrić",
+            "position": "Central Midfield",
+            "dateOfBirth": "1985-09-09",
+            "nationality": "Croatia"
+          },
+          {
+            "id": 272712,
+            "name": "Raúl",
+            "position": "Centre-Back",
+            "dateOfBirth": "2003-02-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 247056,
+            "name": "Jacobo Ramón",
+            "position": "Centre-Back",
+            "dateOfBirth": "2005-06-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 217658,
+            "name": "Gonzalo García",
+            "position": "Right Winger",
+            "dateOfBirth": "2004-03-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 191727,
+            "name": "Dean Huijsen",
+            "position": "Centre-Back",
+            "dateOfBirth": "2005-04-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 188487,
+            "name": "Endrick",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2006-07-21",
+            "nationality": "Brazil"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio Santiago Bernabéu",
+        "address": "Avenida Concha Espina, 1 Madrid 28036",
+        "founded": 1902,
+        "website": "http://www.realmadrid.com",
+        "shortName": "Real Madrid",
+        "clubColors": "White / Purple",
+        "lastUpdated": "2022-02-19T08:59:31Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2001,
+            "code": "CL",
+            "name": "UEFA Champions League",
+            "type": "CUP",
+            "emblem": "https://crests.football-data.org/CL.png"
+          },
+          {
+            "id": 2078,
+            "code": "SDE",
+            "name": "Supercopa de España",
+            "type": "SUPER_CUP",
+            "emblem": "https://crests.football-data.org/sde.png"
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "tla": "RAY",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Rayo Vallecano de Madrid",
+        "coach": {
+          "id": 32390,
+          "name": "Iñigo Pérez",
+          "contract": {
+            "start": "2024-02",
+            "until": "2026-06"
+          },
+          "lastName": "Iñigo Pérez",
+          "firstName": "",
+          "dateOfBirth": "1988-01-18",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/87.png",
+        "squad": [
+          {
+            "id": 46245,
+            "name": "Augusto Batalla",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1996-04-30",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 133288,
+            "name": "Dani Cárdenas",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1997-03-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 182191,
+            "name": "Gil Juanpe",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-05-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273859,
+            "name": "Benedi",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-05-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273860,
+            "name": "Adrián Molina",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-07-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264416,
+            "name": "Marco de las Sías",
+            "position": "Defence",
+            "dateOfBirth": "2005-12-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 276988,
+            "name": "Sergio Lozano",
+            "position": "Defence",
+            "dateOfBirth": "2006-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180261,
+            "name": "Joni Montiel",
+            "position": "Midfield",
+            "dateOfBirth": "1998-09-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264415,
+            "name": "Etienne",
+            "position": "Offence",
+            "dateOfBirth": "2002-08-18",
+            "nationality": "Cameroon"
+          },
+          {
+            "id": 37649,
+            "name": "Pathé Ciss",
+            "position": "Central Midfield",
+            "dateOfBirth": "1994-03-16",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 33711,
+            "name": "Gerard Gumbau",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1994-12-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33496,
+            "name": "Isi Palazón",
+            "position": "Right Winger",
+            "dateOfBirth": "1994-12-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32312,
+            "name": "Álvaro García",
+            "position": "Left Winger",
+            "dateOfBirth": "1992-10-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32310,
+            "name": "Sergi Guardiola",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1991-05-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32228,
+            "name": "Pedro Díaz",
+            "position": "Central Midfield",
+            "dateOfBirth": "1998-06-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32127,
+            "name": "Raúl de Tomás",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1994-10-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32124,
+            "name": "Unai López",
+            "position": "Central Midfield",
+            "dateOfBirth": "1995-10-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32116,
+            "name": "Óscar Trejo",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1988-04-26",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 32109,
+            "name": "Óscar Valentín",
+            "position": "Central Midfield",
+            "dateOfBirth": "1994-08-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32108,
+            "name": "Adri Embarba",
+            "position": "Right Winger",
+            "dateOfBirth": "1992-05-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 31988,
+            "name": "Aridane Hernández",
+            "position": "Centre-Back",
+            "dateOfBirth": "1989-03-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 28384,
+            "name": "Alfonso Espino",
+            "position": "Left-Back",
+            "dateOfBirth": "1992-01-05",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 25641,
+            "name": "Abdul Mumin",
+            "position": "Centre-Back",
+            "dateOfBirth": "1998-06-06",
+            "nationality": "Ghana"
+          },
+          {
+            "id": 8716,
+            "name": "Iván Balliu",
+            "position": "Right-Back",
+            "dateOfBirth": "1992-01-01",
+            "nationality": "Albania"
+          },
+          {
+            "id": 7925,
+            "name": "Florian Lejeune",
+            "position": "Centre-Back",
+            "dateOfBirth": "1991-05-20",
+            "nationality": "France"
+          },
+          {
+            "id": 260906,
+            "name": "Pelayo Fernández",
+            "position": "Centre-Back",
+            "dateOfBirth": "2003-04-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 151251,
+            "name": "Pep Chavarría",
+            "position": "Left-Back",
+            "dateOfBirth": "1998-04-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 133276,
+            "name": "Jorge de Frutos",
+            "position": "Right Winger",
+            "dateOfBirth": "1997-02-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 115175,
+            "name": "Sergio Camello",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2001-02-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 114955,
+            "name": "Andrei Rațiu",
+            "position": "Right-Back",
+            "dateOfBirth": "1998-06-20",
+            "nationality": "Romania"
+          },
+          {
+            "id": 98032,
+            "name": "Randy Ntekja",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1997-12-06",
+            "nationality": "France"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio del Rayo Vallecano",
+        "address": "Calle del Payaso Fofó, s/n Madrid 28018",
+        "founded": 1924,
+        "website": "http://www.rayovallecano.es",
+        "shortName": "Rayo Vallecano",
+        "clubColors": "White / Red",
+        "lastUpdated": "2024-07-29T17:10:35Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2154,
+            "code": "UCL",
+            "name": "UEFA Conference League",
+            "type": "CUP",
+            "emblem": "https://crests.football-data.org/UCL.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "tla": "MAL",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "RCD Mallorca",
+        "coach": {
+          "id": 32442,
+          "name": "Jagoba Arrasate",
+          "contract": {
+            "start": "2024-07",
+            "until": "2027-06"
+          },
+          "lastName": "Jagoba Arrasate",
+          "firstName": "",
+          "dateOfBirth": "1978-04-22",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/89.png",
+        "squad": [
+          {
+            "id": 274,
+            "name": "Cuéllar",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1984-05-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 79776,
+            "name": "Dominik Greif",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1997-04-06",
+            "nationality": "Slovakia"
+          },
+          {
+            "id": 172628,
+            "name": "Leo Román",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2000-07-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 176253,
+            "name": "Pere Garcia",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2002-03-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 204349,
+            "name": "Sebastian Wade",
+            "position": "Defence",
+            "dateOfBirth": "2003-04-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180040,
+            "name": "Antonio Sánchez",
+            "position": "Midfield",
+            "dateOfBirth": "1997-04-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 265348,
+            "name": "Miquel Salas",
+            "position": "Midfield",
+            "dateOfBirth": "2005-08-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264439,
+            "name": "Marc Domènech",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2006-12-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 218445,
+            "name": "David López",
+            "position": "Centre-Back",
+            "dateOfBirth": "2003-02-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 172108,
+            "name": "Copete",
+            "position": "Centre-Back",
+            "dateOfBirth": "1999-10-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 140814,
+            "name": "Samuel Almeida Costa",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2000-11-27",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 137985,
+            "name": "Chiquinho",
+            "position": "Left Winger",
+            "dateOfBirth": "2000-02-05",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 120984,
+            "name": "Mateu Morey",
+            "position": "Right-Back",
+            "dateOfBirth": "2000-03-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 101870,
+            "name": "Roberto Navarro",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2002-04-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 98753,
+            "name": "Valery",
+            "position": "Right Winger",
+            "dateOfBirth": "1999-11-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33681,
+            "name": "Abdón Prats",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1992-12-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33513,
+            "name": "Pablo Maffeo",
+            "position": "Right-Back",
+            "dateOfBirth": "1997-07-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33138,
+            "name": "Toni Lato",
+            "position": "Left-Back",
+            "dateOfBirth": "1997-11-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33120,
+            "name": "Manu Morlanes",
+            "position": "Central Midfield",
+            "dateOfBirth": "1999-01-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32984,
+            "name": "Antonio Raíllo",
+            "position": "Centre-Back",
+            "dateOfBirth": "1991-10-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32717,
+            "name": "Sergi Darder",
+            "position": "Central Midfield",
+            "dateOfBirth": "1993-12-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32282,
+            "name": "Dani Rodríguez",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1988-06-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 30059,
+            "name": "Vedat Muriqi",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1994-04-24",
+            "nationality": "Kosovo"
+          },
+          {
+            "id": 15958,
+            "name": "Cyle Larin",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1995-04-17",
+            "nationality": "Canada"
+          },
+          {
+            "id": 9408,
+            "name": "Takuma Asano",
+            "position": "Right Winger",
+            "dateOfBirth": "1994-11-10",
+            "nationality": "Japan"
+          },
+          {
+            "id": 6713,
+            "name": "Omar Mascarell",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1993-02-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 3724,
+            "name": "Johan Mojica",
+            "position": "Left-Back",
+            "dateOfBirth": "1992-08-21",
+            "nationality": "Colombia"
+          },
+          {
+            "id": 2777,
+            "name": "Martin Valjent",
+            "position": "Centre-Back",
+            "dateOfBirth": "1995-12-11",
+            "nationality": "Slovakia"
+          }
+        ],
+        "staff": [],
+        "venue": "Iberostar Estadi",
+        "address": "Son Moix, Calle Camí dels Reis, s/n Palma de Mallorca 07011",
+        "founded": 1916,
+        "website": "http://www.rcdmallorca.es",
+        "shortName": "Mallorca",
+        "clubColors": "Red / Black",
+        "lastUpdated": "2022-02-19T08:44:00Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "tla": "BET",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Real Betis Balompié",
+        "coach": {
+          "id": 11630,
+          "name": "Manuel Pellegrini",
+          "contract": {
+            "start": "2020-08",
+            "until": "2027-06"
+          },
+          "lastName": "Pellegrini",
+          "firstName": "Manuel",
+          "dateOfBirth": "1953-09-16",
+          "nationality": "Chile"
+        },
+        "crest": "https://crests.football-data.org/90.png",
+        "squad": [
+          {
+            "id": 8197,
+            "name": "Adrián",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1987-01-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180215,
+            "name": "Fran Vieites",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1999-05-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 203476,
+            "name": "Germán García",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2004-02-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 217557,
+            "name": "Guilherme Fernandes",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-03-28",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 265440,
+            "name": "Manu González",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2007-04-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 171526,
+            "name": "Rudy Kohon",
+            "position": "Defence",
+            "dateOfBirth": "2004-05-23",
+            "nationality": "France"
+          },
+          {
+            "id": 203505,
+            "name": "Félix Martí",
+            "position": "Defence",
+            "dateOfBirth": "2004-04-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272694,
+            "name": "Ángel Ortiz",
+            "position": "Defence",
+            "dateOfBirth": "2004-07-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 274547,
+            "name": "Sergio",
+            "position": "Defence",
+            "dateOfBirth": "2003-02-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273366,
+            "name": "Carlos Reina",
+            "position": "Midfield",
+            "dateOfBirth": "2004-08-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 175941,
+            "name": "Abdessamad Ezzalzouli",
+            "position": "Offence",
+            "dateOfBirth": "2001-12-17",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 213268,
+            "name": "Ezequiel Ávila",
+            "position": "Offence",
+            "dateOfBirth": "1994-02-06",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 274546,
+            "name": "Pablo García",
+            "position": "Offence",
+            "dateOfBirth": "2006-08-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278018,
+            "name": "Marcos Fernández",
+            "position": "Offence",
+            "dateOfBirth": "2003-05-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 138031,
+            "name": "Natan",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-02-06",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 123265,
+            "name": "Johnny",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2001-09-20",
+            "nationality": "USA"
+          },
+          {
+            "id": 97085,
+            "name": "Antony",
+            "position": "Right Winger",
+            "dateOfBirth": "2000-02-24",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 33117,
+            "name": "Pablo Fornals",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1996-02-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33045,
+            "name": "Aitor Ruibal",
+            "position": "Right-Back",
+            "dateOfBirth": "1996-03-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33038,
+            "name": "Bartra",
+            "position": "Centre-Back",
+            "dateOfBirth": "1991-01-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32710,
+            "name": "Marc Roca",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1996-11-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32415,
+            "name": "Cucho Hernández",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1999-04-20",
+            "nationality": "Colombia"
+          },
+          {
+            "id": 21583,
+            "name": "Cédric Bakambu",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1991-04-11",
+            "nationality": "DR Congo"
+          },
+          {
+            "id": 8435,
+            "name": "Romain Perraud",
+            "position": "Left-Back",
+            "dateOfBirth": "1997-09-22",
+            "nationality": "France"
+          },
+          {
+            "id": 7783,
+            "name": "Héctor Bellerín",
+            "position": "Right-Back",
+            "dateOfBirth": "1995-03-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 3624,
+            "name": "Youssouf Sabaly",
+            "position": "Right-Back",
+            "dateOfBirth": "1993-03-05",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 3250,
+            "name": "William Carvalho",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1992-04-07",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 3216,
+            "name": "Giovani Lo Celso",
+            "position": "Central Midfield",
+            "dateOfBirth": "1996-04-09",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 1745,
+            "name": "Ricardo Rodriguez",
+            "position": "Left-Back",
+            "dateOfBirth": "1992-08-25",
+            "nationality": "Switzerland"
+          },
+          {
+            "id": 66,
+            "name": "Isco",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1992-04-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 9,
+            "name": "Diego Llorente",
+            "position": "Centre-Back",
+            "dateOfBirth": "1993-08-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270595,
+            "name": "Mateo Flores",
+            "position": "Central Midfield",
+            "dateOfBirth": "2004-04-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270254,
+            "name": "Jesús Rodríguez",
+            "position": "Left Winger",
+            "dateOfBirth": "2005-11-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 245708,
+            "name": "Xavi Pleguezuelo",
+            "position": "Left-Back",
+            "dateOfBirth": "2003-01-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 218485,
+            "name": "Pablo Busto",
+            "position": "Right-Back",
+            "dateOfBirth": "2005-09-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 212861,
+            "name": "Sergi Altimira",
+            "position": "Central Midfield",
+            "dateOfBirth": "2001-08-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 190558,
+            "name": "Nobel Mendy",
+            "position": "Centre-Back",
+            "dateOfBirth": "2004-08-16",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 189529,
+            "name": "Dani Perez",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2005-07-26",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio Benito Villamarín",
+        "address": "Avenida de Heliópolis, s/n Sevilla 41012",
+        "founded": 1907,
+        "website": "http://www.realbetisbalompie.es",
+        "shortName": "Real Betis",
+        "clubColors": "Green / White",
+        "lastUpdated": "2022-05-03T08:22:26Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2146,
+            "code": "EL",
+            "name": "UEFA Europa League",
+            "type": "CUP",
+            "emblem": "https://crests.football-data.org/EL.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "tla": "RSO",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Real Sociedad de Fútbol",
+        "coach": {
+          "id": 10232,
+          "name": "Pellegrino Matarazzo",
+          "contract": {
+            "start": "2025-12",
+            "until": "2027-06"
+          },
+          "lastName": "Matarazzo",
+          "firstName": "Pellegrino",
+          "dateOfBirth": "1977-11-28",
+          "nationality": "USA"
+        },
+        "crest": "https://crests.football-data.org/92.png",
+        "squad": [
+          {
+            "id": 32413,
+            "name": "Álex Remiro",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1995-03-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 157040,
+            "name": "Unai Marrero",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-10-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180250,
+            "name": "Egoitz Arana",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2002-02-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 215503,
+            "name": "Aitor Fraga",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-03-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180060,
+            "name": "Javi López",
+            "position": "Defence",
+            "dateOfBirth": "2002-03-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272954,
+            "name": "Luken Beitia",
+            "position": "Defence",
+            "dateOfBirth": "2004-06-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272958,
+            "name": "Jon Balda",
+            "position": "Defence",
+            "dateOfBirth": "2002-04-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 182319,
+            "name": "Orri Oskarsson",
+            "position": "Offence",
+            "dateOfBirth": "2004-08-29",
+            "nationality": "Iceland"
+          },
+          {
+            "id": 272953,
+            "name": "Arkaitz Mariezkurrena",
+            "position": "Offence",
+            "dateOfBirth": "2005-04-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272956,
+            "name": "Mikel Goti",
+            "position": "Offence",
+            "dateOfBirth": "2002-05-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272957,
+            "name": "Alex Marchal",
+            "position": "Offence",
+            "dateOfBirth": "2007-09-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272960,
+            "name": "Ekain Orobengoa",
+            "position": "Offence",
+            "dateOfBirth": "2004-06-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 277466,
+            "name": "Dani Díaz",
+            "position": "Offence",
+            "dateOfBirth": "2006-06-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 156615,
+            "name": "Beñat Turrientes",
+            "position": "Central Midfield",
+            "dateOfBirth": "2002-01-31",
+            "nationality": "Spain"
+          },
+          {
+            "id": 144615,
+            "name": "Jon Pacheco",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-01-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 141571,
+            "name": "Jon Aramburu",
+            "position": "Right-Back",
+            "dateOfBirth": "2002-07-23",
+            "nationality": "Venezuela"
+          },
+          {
+            "id": 115035,
+            "name": "Martín Zubimendi",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1999-02-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 101182,
+            "name": "Ander Barrenetxea",
+            "position": "Left Winger",
+            "dateOfBirth": "2001-12-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 100129,
+            "name": "Aihen Muñoz",
+            "position": "Left-Back",
+            "dateOfBirth": "1997-08-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 82516,
+            "name": "Luka Sučić",
+            "position": "Central Midfield",
+            "dateOfBirth": "2002-09-08",
+            "nationality": "Croatia"
+          },
+          {
+            "id": 81191,
+            "name": "Nayef Aguerd",
+            "position": "Centre-Back",
+            "dateOfBirth": "1996-03-30",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 48555,
+            "name": "Takefusa Kubo",
+            "position": "Right Winger",
+            "dateOfBirth": "2001-06-04",
+            "nationality": "Japan"
+          },
+          {
+            "id": 33615,
+            "name": "Brais Méndez",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1997-01-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 8808,
+            "name": "Hamari Traoré",
+            "position": "Right-Back",
+            "dateOfBirth": "1992-01-27",
+            "nationality": "Mali"
+          },
+          {
+            "id": 7633,
+            "name": "Sheraldo Becker",
+            "position": "Left Winger",
+            "dateOfBirth": "1995-02-09",
+            "nationality": "Suriname"
+          },
+          {
+            "id": 164,
+            "name": "Sergio Gómez",
+            "position": "Right Winger",
+            "dateOfBirth": "2000-09-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 29,
+            "name": "Igor Zubeldía",
+            "position": "Centre-Back",
+            "dateOfBirth": "1997-03-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 27,
+            "name": "Aritz Elustondo",
+            "position": "Centre-Back",
+            "dateOfBirth": "1994-03-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 11,
+            "name": "Álvaro Odriozola",
+            "position": "Right-Back",
+            "dateOfBirth": "1995-12-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 246275,
+            "name": "Iñaki Rupérez",
+            "position": "Right-Back",
+            "dateOfBirth": "2003-01-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 245442,
+            "name": "Jon Martín",
+            "position": "Centre-Back",
+            "dateOfBirth": "2006-04-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180137,
+            "name": "Mikel Oyarzabal",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1997-04-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 172786,
+            "name": "Pablo Marin",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2003-07-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 170540,
+            "name": "Arsen Zakharyan",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2003-05-26",
+            "nationality": "Russia"
+          },
+          {
+            "id": 161293,
+            "name": "Jon Olasagasti",
+            "position": "Central Midfield",
+            "dateOfBirth": "2000-08-16",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio Municipal de Anoeta",
+        "address": "Anoeta Pasalekua, 1 San Sebastián 20014",
+        "founded": 1903,
+        "website": "http://www.realsociedad.com",
+        "shortName": "Real Sociedad",
+        "clubColors": "Blue / White",
+        "lastUpdated": "2024-07-29T17:10:27Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "tla": "VIL",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Villarreal CF",
+        "coach": {
+          "id": 33156,
+          "name": "Marcelino",
+          "contract": {
+            "start": "2023-11",
+            "until": "2026-06"
+          },
+          "lastName": "Marcelino",
+          "firstName": "",
+          "dateOfBirth": "1965-08-14",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/94.png",
+        "squad": [
+          {
+            "id": 149840,
+            "name": "Iker Álvarez",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-07-25",
+            "nationality": "Andorra"
+          },
+          {
+            "id": 150546,
+            "name": "Diego Conde",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1998-10-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 178718,
+            "name": "Luiz Junior",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-01-14",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 188765,
+            "name": "Ruben Gomez",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2002-01-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 245756,
+            "name": "Alex Quevedo",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2004-04-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 184995,
+            "name": "Arnau Solà",
+            "position": "Defence",
+            "dateOfBirth": "2003-04-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213265,
+            "name": "Raúl Albiol",
+            "position": "Defence",
+            "dateOfBirth": "1985-09-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213274,
+            "name": "Kiko Femenía",
+            "position": "Defence",
+            "dateOfBirth": "1991-02-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272229,
+            "name": "Valou",
+            "position": "Defence",
+            "dateOfBirth": "2006-01-01",
+            "nationality": "Ivory Coast"
+          },
+          {
+            "id": 185090,
+            "name": "Thiago Ojeda",
+            "position": "Midfield",
+            "dateOfBirth": "2003-01-12",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 213263,
+            "name": "Santi Comesaña",
+            "position": "Midfield",
+            "dateOfBirth": "1996-10-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273016,
+            "name": "Alassane Diatta",
+            "position": "Midfield",
+            "dateOfBirth": "2005-05-14",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 180081,
+            "name": "Yeremy",
+            "position": "Offence",
+            "dateOfBirth": "2002-10-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 203439,
+            "name": "Karl Etta Eyong",
+            "position": "Offence",
+            "dateOfBirth": "2003-10-14",
+            "nationality": "Cameroon"
+          },
+          {
+            "id": 213278,
+            "name": "Álex Baena",
+            "position": "Offence",
+            "dateOfBirth": "2001-07-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 176202,
+            "name": "Ilias Akhomach",
+            "position": "Right Winger",
+            "dateOfBirth": "2004-04-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 171995,
+            "name": "Thierno Barry",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2000-01-12",
+            "nationality": "France"
+          },
+          {
+            "id": 113175,
+            "name": "Tajon Buchanan",
+            "position": "Right Midfield",
+            "dateOfBirth": "1999-02-08",
+            "nationality": "Canada"
+          },
+          {
+            "id": 32719,
+            "name": "Gerard Moreno",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1992-04-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 15868,
+            "name": "Denís Suárez",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1994-01-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 8412,
+            "name": "Nicolas Pépé",
+            "position": "Right Winger",
+            "dateOfBirth": "1995-05-29",
+            "nationality": "Ivory Coast"
+          },
+          {
+            "id": 7996,
+            "name": "Juan Foyth",
+            "position": "Right-Back",
+            "dateOfBirth": "1998-01-12",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 7936,
+            "name": "Ayoze Pérez",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1993-07-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 7901,
+            "name": "Eric Bailly",
+            "position": "Centre-Back",
+            "dateOfBirth": "1994-04-12",
+            "nationality": "Ivory Coast"
+          },
+          {
+            "id": 3198,
+            "name": "Dani Parejo",
+            "position": "Central Midfield",
+            "dateOfBirth": "1989-04-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 814,
+            "name": "Logan Costa",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-04-01",
+            "nationality": "Cape Verde Islands"
+          },
+          {
+            "id": 633,
+            "name": "Pape Gueye",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1999-01-24",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 267,
+            "name": "Alfonso Pedraza",
+            "position": "Left-Back",
+            "dateOfBirth": "1996-04-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244860,
+            "name": "Willy Kambwala",
+            "position": "Centre-Back",
+            "dateOfBirth": "2004-08-25",
+            "nationality": "DR Congo"
+          },
+          {
+            "id": 217521,
+            "name": "Pau Navarro",
+            "position": "Centre-Back",
+            "dateOfBirth": "2005-04-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 211848,
+            "name": "Antonio Espigares",
+            "position": "Centre-Back",
+            "dateOfBirth": "2004-09-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 206721,
+            "name": "Dani Requena",
+            "position": "Central Midfield",
+            "dateOfBirth": "2004-02-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180289,
+            "name": "Sergi Cardona",
+            "position": "Left-Back",
+            "dateOfBirth": "1999-07-08",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio de la Cerámica",
+        "address": "Camino Miralcamp, s/n Villarreal 12540",
+        "founded": 1923,
+        "website": "http://www.villarrealcf.es",
+        "shortName": "Villarreal",
+        "clubColors": "Yellow / Blue",
+        "lastUpdated": "2022-02-22T18:26:04Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2001,
+            "code": "CL",
+            "name": "UEFA Champions League",
+            "type": "CUP",
+            "emblem": "https://crests.football-data.org/CL.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "tla": "VAL",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Valencia CF",
+        "coach": {
+          "id": 149937,
+          "name": "Carlos Corberán",
+          "contract": {
+            "start": "2024-12",
+            "until": "2027-06"
+          },
+          "lastName": "Carlos Corberán",
+          "firstName": "",
+          "dateOfBirth": "1983-04-07",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/95.png",
+        "squad": [
+          {
+            "id": 33136,
+            "name": "Jaume Doménech",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1990-11-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33781,
+            "name": "Stole Dimitrievski",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1993-12-25",
+            "nationality": "North Macedonia"
+          },
+          {
+            "id": 84506,
+            "name": "Giorgi Mamardashvili",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2000-09-29",
+            "nationality": "Georgia"
+          },
+          {
+            "id": 251106,
+            "name": "Vicent Abril",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-02-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264324,
+            "name": "Raúl Jiménez",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2006-02-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 206832,
+            "name": "Rodrigo Abajas",
+            "position": "Defence",
+            "dateOfBirth": "2003-05-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 228918,
+            "name": "Álex Serradell",
+            "position": "Defence",
+            "dateOfBirth": "2002-08-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 265515,
+            "name": "Iker Córdoba",
+            "position": "Defence",
+            "dateOfBirth": "2005-11-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 175916,
+            "name": "Pedro Aleman",
+            "position": "Midfield",
+            "dateOfBirth": "2002-03-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 274176,
+            "name": "Pablo López",
+            "position": "Midfield",
+            "dateOfBirth": "2006-03-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278431,
+            "name": "Lucas Núñez",
+            "position": "Midfield",
+            "dateOfBirth": "2006-03-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244988,
+            "name": "Hamza Bellari",
+            "position": "Offence",
+            "dateOfBirth": "2003-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 253524,
+            "name": "Warren Madrigal",
+            "position": "Offence",
+            "dateOfBirth": "2004-07-24",
+            "nationality": "Costa Rica"
+          },
+          {
+            "id": 273055,
+            "name": "Ismael",
+            "position": "Offence",
+            "dateOfBirth": "2004-01-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 172839,
+            "name": "Cristhian Mosquera",
+            "position": "Centre-Back",
+            "dateOfBirth": "2004-06-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 158894,
+            "name": "Enzo Barrenechea",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2001-05-22",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 157190,
+            "name": "Jesus Vazquez Alcalde",
+            "position": "Left-Back",
+            "dateOfBirth": "2003-01-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 98674,
+            "name": "Hugo Guillamón",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2000-01-31",
+            "nationality": "Spain"
+          },
+          {
+            "id": 83223,
+            "name": "Ivan Jaime Pajuelo",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2000-09-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 80765,
+            "name": "Max Aarons",
+            "position": "Right-Back",
+            "dateOfBirth": "2000-01-04",
+            "nationality": "England"
+          },
+          {
+            "id": 50907,
+            "name": "Luis Rioja",
+            "position": "Left Winger",
+            "dateOfBirth": "1993-10-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 37539,
+            "name": "André Almeida",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2000-05-30",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 33270,
+            "name": "Pepelu",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1998-08-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33146,
+            "name": "Gaya",
+            "position": "Left-Back",
+            "dateOfBirth": "1995-05-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32762,
+            "name": "Hugo Duro",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1999-11-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 8780,
+            "name": "Dimitri Foulquier",
+            "position": "Right-Back",
+            "dateOfBirth": "1993-03-23",
+            "nationality": "Guadeloupe"
+          },
+          {
+            "id": 8456,
+            "name": "Mouctar Diakhaby",
+            "position": "Centre-Back",
+            "dateOfBirth": "1996-12-19",
+            "nationality": "France"
+          },
+          {
+            "id": 7672,
+            "name": "Umar Sadiq",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1997-02-02",
+            "nationality": "Nigeria"
+          },
+          {
+            "id": 4442,
+            "name": "Sergi Canós",
+            "position": "Left Winger",
+            "dateOfBirth": "1997-02-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 4098,
+            "name": "Rafael Mir",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1997-06-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244743,
+            "name": "David Otorbi",
+            "position": "Right Winger",
+            "dateOfBirth": "2007-10-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 221412,
+            "name": "Yarek Gasiorowski",
+            "position": "Centre-Back",
+            "dateOfBirth": "2005-01-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 214182,
+            "name": "Martin Tejón",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2004-04-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 187117,
+            "name": "Fran Perez",
+            "position": "Right Winger",
+            "dateOfBirth": "2002-09-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180061,
+            "name": "Diego López",
+            "position": "Right Winger",
+            "dateOfBirth": "2002-05-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 177180,
+            "name": "Javier Guerra",
+            "position": "Central Midfield",
+            "dateOfBirth": "2003-05-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 176602,
+            "name": "Ruben Iranzo",
+            "position": "Centre-Back",
+            "dateOfBirth": "2003-03-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 176041,
+            "name": "Cesar Tarrega",
+            "position": "Centre-Back",
+            "dateOfBirth": "2002-02-26",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio de Mestalla",
+        "address": "Plaza del Valencia Club de Fútbol, 2 Valencia 46010",
+        "founded": 1919,
+        "website": "http://www.valenciacf.com",
+        "shortName": "Valencia",
+        "clubColors": "White / Orange / Black",
+        "lastUpdated": "2024-07-29T17:10:18Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 250,
+        "tla": "VDD",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Real Valladolid CF",
+        "coach": {
+          "id": 271018,
+          "name": "Tevenet",
+          "contract": {
+            "start": "2025-12",
+            "until": "2026-06"
+          },
+          "lastName": "Tevenet",
+          "firstName": "",
+          "dateOfBirth": "1974-05-08",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/250.png",
+        "squad": [
+          {
+            "id": 52791,
+            "name": "André Ferreira",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1996-05-29",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 153843,
+            "name": "Karl Jakob Hein",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2002-04-13",
+            "nationality": "Estonia"
+          },
+          {
+            "id": 228750,
+            "name": "Arnau Rafús",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-04-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 250925,
+            "name": "Koke",
+            "position": "Defence",
+            "dateOfBirth": "2005-03-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264456,
+            "name": "Raúl Chasco",
+            "position": "Defence",
+            "dateOfBirth": "2003-09-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278201,
+            "name": "Iago Parente",
+            "position": "Defence",
+            "dateOfBirth": "2006-02-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278419,
+            "name": "Alani",
+            "position": "Midfield",
+            "dateOfBirth": "2006-07-29",
+            "nationality": "Nigeria"
+          },
+          {
+            "id": 180071,
+            "name": "Latasa",
+            "position": "Offence",
+            "dateOfBirth": "2001-03-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278497,
+            "name": "Xavi Moreno",
+            "position": "Offence",
+            "dateOfBirth": "2004-11-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 127140,
+            "name": "Cenk Özkacar",
+            "position": "Centre-Back",
+            "dateOfBirth": "2000-10-06",
+            "nationality": "Turkey"
+          },
+          {
+            "id": 111896,
+            "name": "Tamás Nikitscher",
+            "position": "Central Midfield",
+            "dateOfBirth": "1999-11-03",
+            "nationality": "Hungary"
+          },
+          {
+            "id": 80899,
+            "name": "Javi Sánchez",
+            "position": "Centre-Back",
+            "dateOfBirth": "1997-03-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 75984,
+            "name": "Stanko Jurić",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1996-08-16",
+            "nationality": "Croatia"
+          },
+          {
+            "id": 51139,
+            "name": "Maranhão",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1996-10-20",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 33459,
+            "name": "Iván Sánchez Aguayo",
+            "position": "Right Winger",
+            "dateOfBirth": "1992-09-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32368,
+            "name": "Anuar Tuhami",
+            "position": "Right Winger",
+            "dateOfBirth": "1995-01-15",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 32063,
+            "name": "Darwin Machís",
+            "position": "Left Winger",
+            "dateOfBirth": "1993-02-07",
+            "nationality": "Venezuela"
+          },
+          {
+            "id": 32035,
+            "name": "Luis Pérez",
+            "position": "Right-Back",
+            "dateOfBirth": "1995-02-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 30823,
+            "name": "Eray Cömert",
+            "position": "Centre-Back",
+            "dateOfBirth": "1998-02-04",
+            "nationality": "Switzerland"
+          },
+          {
+            "id": 9208,
+            "name": "Selim Amallah",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1996-11-15",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 8968,
+            "name": "Joseph Aidoo",
+            "position": "Centre-Back",
+            "dateOfBirth": "1995-09-29",
+            "nationality": "Ghana"
+          },
+          {
+            "id": 8921,
+            "name": "Mamadou Sylla",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1994-03-20",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 3126,
+            "name": "Amath Ndiaye",
+            "position": "Right Winger",
+            "dateOfBirth": "1996-07-16",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 2828,
+            "name": "Antonio Candela",
+            "position": "Right-Back",
+            "dateOfBirth": "2000-04-27",
+            "nationality": "Italy"
+          },
+          {
+            "id": 1464,
+            "name": "Henrique",
+            "position": "Left-Back",
+            "dateOfBirth": "1994-04-25",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 404,
+            "name": "Florian Grillitsch",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1995-08-07",
+            "nationality": "Austria"
+          },
+          {
+            "id": 244913,
+            "name": "Adrián Arnun",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2007-03-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 218448,
+            "name": "Chuki",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2004-04-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 207110,
+            "name": "Mario Maroto",
+            "position": "Central Midfield",
+            "dateOfBirth": "2003-11-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 191064,
+            "name": "Mario Martin",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2004-03-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 187078,
+            "name": "David Torres",
+            "position": "Centre-Back",
+            "dateOfBirth": "2003-03-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 146128,
+            "name": "Raúl Moro",
+            "position": "Left Winger",
+            "dateOfBirth": "2002-12-05",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio Municipal José Zorrilla",
+        "address": "Avenida del Mundial, 82 Valladolid 47014",
+        "founded": 1928,
+        "website": "http://www.realvalladolid.es",
+        "shortName": "Valladolid",
+        "clubColors": "Violet / White",
+        "lastUpdated": "2022-02-19T09:12:57Z",
+        "runningCompetitions": [
+          {
+            "id": 2077,
+            "code": "SD",
+            "name": "Segunda División",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/SD.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 263,
+        "tla": "ALA",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Deportivo Alavés",
+        "coach": {
+          "id": 46586,
+          "name": "Eduardo Coudet",
+          "contract": {
+            "start": "2024-12",
+            "until": "2026-06"
+          },
+          "lastName": "Coudet",
+          "firstName": "Eduardo",
+          "dateOfBirth": "1974-09-12",
+          "nationality": "Argentina"
+        },
+        "crest": "https://crests.football-data.org/263.png",
+        "squad": [
+          {
+            "id": 283,
+            "name": "Sivera",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1996-08-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 123682,
+            "name": "Jesús Owono",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2001-03-01",
+            "nationality": "Equatorial Guinea"
+          },
+          {
+            "id": 142453,
+            "name": "Adrian Rodriguez",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2000-12-12",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 202315,
+            "name": "Gregoire Swiderski",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-10-05",
+            "nationality": "Canada"
+          },
+          {
+            "id": 271884,
+            "name": "Alejandro Jay",
+            "position": "Defence",
+            "dateOfBirth": "2002-07-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213257,
+            "name": "Joan Jordán",
+            "position": "Midfield",
+            "dateOfBirth": "1994-07-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213262,
+            "name": "Carles Aleñá",
+            "position": "Midfield",
+            "dateOfBirth": "1998-01-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 274252,
+            "name": "Doumbia",
+            "position": "Midfield",
+            "dateOfBirth": "2002-01-01",
+            "nationality": "Mali"
+          },
+          {
+            "id": 275634,
+            "name": "Alejandro Bueso",
+            "position": "Midfield",
+            "dateOfBirth": "2005-01-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264197,
+            "name": "Julen Lartitegi",
+            "position": "Offence",
+            "dateOfBirth": "2003-09-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278561,
+            "name": "Lander Pinillos",
+            "position": "Offence",
+            "dateOfBirth": "2003-10-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 147357,
+            "name": "Hugo Novoa",
+            "position": "Right-Back",
+            "dateOfBirth": "2003-01-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 119064,
+            "name": "Moussa Diarra",
+            "position": "Centre-Back",
+            "dateOfBirth": "2000-11-10",
+            "nationality": "Mali"
+          },
+          {
+            "id": 118715,
+            "name": "Manuel Sánchez",
+            "position": "Left-Back",
+            "dateOfBirth": "2000-08-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 81187,
+            "name": "Abdelkabir Abqar",
+            "position": "Centre-Back",
+            "dateOfBirth": "1999-03-10",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 64424,
+            "name": "Aleksandar Sedlar",
+            "position": "Centre-Back",
+            "dateOfBirth": "1991-12-13",
+            "nationality": "Serbia"
+          },
+          {
+            "id": 46123,
+            "name": "Nahuel Tenaglia",
+            "position": "Right-Back",
+            "dateOfBirth": "1996-02-21",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 46070,
+            "name": "Tomás Conechny",
+            "position": "Left Winger",
+            "dateOfBirth": "1998-03-30",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 45831,
+            "name": "Facundo Garcés",
+            "position": "Centre-Back",
+            "dateOfBirth": "1999-09-05",
+            "nationality": "Malaysia"
+          },
+          {
+            "id": 33777,
+            "name": "Asier Villalibre",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1997-09-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33358,
+            "name": "Kike García",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1989-11-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33093,
+            "name": "Ander Guevara",
+            "position": "Central Midfield",
+            "dateOfBirth": "1997-07-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33092,
+            "name": "Jon Guridi",
+            "position": "Central Midfield",
+            "dateOfBirth": "1995-02-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 28663,
+            "name": "Carlos Benavidez",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1998-03-30",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 11733,
+            "name": "Toni Martínez",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1997-06-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 252919,
+            "name": "Pau Cabanes",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2005-02-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244942,
+            "name": "Egoitz Muñoz",
+            "position": "Right-Back",
+            "dateOfBirth": "2005-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 215614,
+            "name": "Ander Sánchez",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2004-01-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213404,
+            "name": "Carlos Vicente",
+            "position": "Right Winger",
+            "dateOfBirth": "1999-04-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 212858,
+            "name": "Santiago Mouriño",
+            "position": "Centre-Back",
+            "dateOfBirth": "2002-02-13",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 203533,
+            "name": "Adrián Pica",
+            "position": "Centre-Back",
+            "dateOfBirth": "2002-04-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 176854,
+            "name": "Tomas Mendes",
+            "position": "Central Midfield",
+            "dateOfBirth": "2004-11-21",
+            "nationality": "Guinea-Bissau"
+          },
+          {
+            "id": 175937,
+            "name": "Carlos Martin",
+            "position": "Left Winger",
+            "dateOfBirth": "2002-04-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 168657,
+            "name": "Eneko Ortiz",
+            "position": "Left-Back",
+            "dateOfBirth": null,
+            "nationality": "Spain"
+          },
+          {
+            "id": 157626,
+            "name": "Antonio Blanco",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2000-07-23",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio de Mendizorroza",
+        "address": "Mendizorroza, Paseo Cervantes, s/n Vitoria 01007",
+        "founded": 1921,
+        "website": "http://www.alaves.com",
+        "shortName": "Alavés",
+        "clubColors": "Blue / White",
+        "lastUpdated": "2022-02-19T08:23:45Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "tla": "LPA",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "UD Las Palmas",
+        "coach": {
+          "id": 8940,
+          "name": "Luis García",
+          "contract": {
+            "start": "2025-07",
+            "until": "2026-06"
+          },
+          "lastName": "Luis García",
+          "firstName": "",
+          "dateOfBirth": "1981-02-06",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/275.png",
+        "squad": [
+          {
+            "id": 15860,
+            "name": "Jasper Cillessen",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1989-04-22",
+            "nationality": "Netherlands"
+          },
+          {
+            "id": 23120,
+            "name": "Dinko Horkaš",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1999-03-10",
+            "nationality": "Croatia"
+          },
+          {
+            "id": 247055,
+            "name": "Álvaro Killane",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2004-12-14",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 267896,
+            "name": "Víctor Puig",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-08-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273961,
+            "name": "Israel Mora",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-04-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 277686,
+            "name": "Nacho Nicolau",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-03-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 186701,
+            "name": "Stefan Bajcetic",
+            "position": "Defence",
+            "dateOfBirth": "2004-10-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270034,
+            "name": "Juanma Herzog",
+            "position": "Defence",
+            "dateOfBirth": "2004-05-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272507,
+            "name": "Sergio Viera",
+            "position": "Defence",
+            "dateOfBirth": "2005-05-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272508,
+            "name": "Valentino Raca",
+            "position": "Defence",
+            "dateOfBirth": "2005-01-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 151030,
+            "name": "Marvin Olawale Akinlabi Park",
+            "position": "Midfield",
+            "dateOfBirth": "2000-07-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278558,
+            "name": "José Carlos González",
+            "position": "Midfield",
+            "dateOfBirth": "2006-03-27",
+            "nationality": "Venezuela"
+          },
+          {
+            "id": 203554,
+            "name": "Saliou Mandiang",
+            "position": "Offence",
+            "dateOfBirth": "2003-04-13",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 264220,
+            "name": "Valentín Pezzolesi",
+            "position": "Offence",
+            "dateOfBirth": "2007-04-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 275208,
+            "name": "Elías Romero",
+            "position": "Offence",
+            "dateOfBirth": "2004-05-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 275210,
+            "name": "Sergio Ruiz",
+            "position": "Offence",
+            "dateOfBirth": "2005-01-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 276719,
+            "name": "Diego Martín",
+            "position": "Offence",
+            "dateOfBirth": "2003-08-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 278557,
+            "name": "Arturo Rodríguez",
+            "position": "Offence",
+            "dateOfBirth": "2006-08-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 150533,
+            "name": "Alberto Moleiro",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2003-09-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 130273,
+            "name": "Álex Suárez",
+            "position": "Centre-Back",
+            "dateOfBirth": "1993-03-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 127827,
+            "name": "Manuel Fuster",
+            "position": "Left Winger",
+            "dateOfBirth": "1997-10-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 125151,
+            "name": "Fábio Silva",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2002-07-19",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 119386,
+            "name": "Kirian Rodríguez",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1996-03-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 34486,
+            "name": "Scott McKenna",
+            "position": "Centre-Back",
+            "dateOfBirth": "1996-11-12",
+            "nationality": "Scotland"
+          },
+          {
+            "id": 33323,
+            "name": "Benito Ramírez",
+            "position": "Left Winger",
+            "dateOfBirth": "1995-07-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32587,
+            "name": "Viti",
+            "position": "Right-Back",
+            "dateOfBirth": "1997-09-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32381,
+            "name": "Mata",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1988-10-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32144,
+            "name": "Álex Muñoz",
+            "position": "Left-Back",
+            "dateOfBirth": "1994-07-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 31969,
+            "name": "Javi Muñoz",
+            "position": "Central Midfield",
+            "dateOfBirth": "1995-02-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 15872,
+            "name": "Marc Cardona",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1995-07-08",
+            "nationality": "Spain"
+          },
+          {
+            "id": 11589,
+            "name": "Sandro",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1995-07-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 10210,
+            "name": "Adnan Januzaj",
+            "position": "Right Winger",
+            "dateOfBirth": "1995-02-05",
+            "nationality": "Belgium"
+          },
+          {
+            "id": 8571,
+            "name": "Enzo Loiodice",
+            "position": "Central Midfield",
+            "dateOfBirth": "2000-11-27",
+            "nationality": "France"
+          },
+          {
+            "id": 8429,
+            "name": "Andy Pelmard",
+            "position": "Right-Back",
+            "dateOfBirth": "2000-03-12",
+            "nationality": "France"
+          },
+          {
+            "id": 4359,
+            "name": "Oliver McBurnie",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1996-06-04",
+            "nationality": "Scotland"
+          },
+          {
+            "id": 245397,
+            "name": "Aboubacar Bassinga",
+            "position": "Central Midfield",
+            "dateOfBirth": "2005-07-13",
+            "nationality": "Ivory Coast"
+          },
+          {
+            "id": 176832,
+            "name": "Mika Marmol",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-07-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 170055,
+            "name": "José Campaña",
+            "position": "Central Midfield",
+            "dateOfBirth": "1993-05-31",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio de Gran Canaria",
+        "address": "Calle Pío XII, 29 Las Palmas de Gran Canaria 35005",
+        "founded": 1949,
+        "website": "http://www.udlaspalmas.es",
+        "shortName": "Las Palmas",
+        "clubColors": "Yellow / Blue",
+        "lastUpdated": "2022-02-19T08:43:46Z",
+        "runningCompetitions": [
+          {
+            "id": 2077,
+            "code": "SD",
+            "name": "Segunda División",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/SD.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 298,
+        "tla": "GIR",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Girona FC",
+        "coach": {
+          "id": 32129,
+          "name": "Michel",
+          "contract": {
+            "start": "2021-07",
+            "until": "2026-06"
+          },
+          "lastName": "Míchel",
+          "firstName": "",
+          "dateOfBirth": "1975-10-30",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/298.png",
+        "squad": [
+          {
+            "id": 7993,
+            "name": "Paulo Gazzaniga",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1992-01-02",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 32854,
+            "name": "Juan Carlos",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1988-01-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 203508,
+            "name": "Lucas Garcia Madrigal",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2004-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 215549,
+            "name": "Vladyslav Krapyvtsov",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2005-06-25",
+            "nationality": "Ukraine"
+          },
+          {
+            "id": 272020,
+            "name": "Pau García",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2007-06-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272525,
+            "name": "Aleksandar Andreev",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2006-03-25",
+            "nationality": "Bulgaria"
+          },
+          {
+            "id": 274731,
+            "name": "Jordi Danso",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2007-04-23",
+            "nationality": "Gambia"
+          },
+          {
+            "id": 272019,
+            "name": "Marc Aznar",
+            "position": "Defence",
+            "dateOfBirth": "2006-01-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272416,
+            "name": "Ferrán",
+            "position": "Defence",
+            "dateOfBirth": "2003-04-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180175,
+            "name": "Ricard Artero",
+            "position": "Midfield",
+            "dateOfBirth": "2003-02-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 271953,
+            "name": "Enric García",
+            "position": "Midfield",
+            "dateOfBirth": "2006-02-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272147,
+            "name": "Papa Ba",
+            "position": "Midfield",
+            "dateOfBirth": "2004-09-12",
+            "nationality": "Senegal"
+          },
+          {
+            "id": 274730,
+            "name": "Oriol Comas",
+            "position": "Midfield",
+            "dateOfBirth": "2003-08-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 175723,
+            "name": "Dawda Camara",
+            "position": "Offence",
+            "dateOfBirth": "2002-11-04",
+            "nationality": "Mali"
+          },
+          {
+            "id": 270319,
+            "name": "Raúl Martínez",
+            "position": "Offence",
+            "dateOfBirth": "2002-02-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 146896,
+            "name": "Bojan Miovski",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1999-06-24",
+            "nationality": "North Macedonia"
+          },
+          {
+            "id": 144953,
+            "name": "Miguel Gutiérrez",
+            "position": "Left-Back",
+            "dateOfBirth": "2001-07-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 135524,
+            "name": "Alejandro Francés",
+            "position": "Centre-Back",
+            "dateOfBirth": "2002-08-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 102497,
+            "name": "Iván Martín",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1999-02-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 101912,
+            "name": "Bryan Gil",
+            "position": "Left Winger",
+            "dateOfBirth": "2001-02-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 77734,
+            "name": "Yangel Herrera",
+            "position": "Central Midfield",
+            "dateOfBirth": "1998-01-07",
+            "nationality": "Venezuela"
+          },
+          {
+            "id": 62493,
+            "name": "Ladislav Krejčí",
+            "position": "Centre-Back",
+            "dateOfBirth": "1999-04-20",
+            "nationality": "Czech Republic"
+          },
+          {
+            "id": 33523,
+            "name": "Portu",
+            "position": "Right Winger",
+            "dateOfBirth": "1992-05-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33511,
+            "name": "Juanpe",
+            "position": "Centre-Back",
+            "dateOfBirth": "1991-04-30",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32712,
+            "name": "David López",
+            "position": "Centre-Back",
+            "dateOfBirth": "1989-10-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32511,
+            "name": "Abel Ruiz",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2000-01-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 16173,
+            "name": "Viktor Tsyhankov",
+            "position": "Right Winger",
+            "dateOfBirth": "1997-11-15",
+            "nationality": "Ukraine"
+          },
+          {
+            "id": 9870,
+            "name": "Arnaut Danjuma",
+            "position": "Left Winger",
+            "dateOfBirth": "1997-01-31",
+            "nationality": "Netherlands"
+          },
+          {
+            "id": 8091,
+            "name": "Oriol Romeu",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1991-09-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 7899,
+            "name": "Daley Blind",
+            "position": "Centre-Back",
+            "dateOfBirth": "1990-03-09",
+            "nationality": "Netherlands"
+          },
+          {
+            "id": 7556,
+            "name": "Donny van de Beek",
+            "position": "Central Midfield",
+            "dateOfBirth": "1997-04-18",
+            "nationality": "Netherlands"
+          },
+          {
+            "id": 3171,
+            "name": "Cristhian Stuani",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1986-10-12",
+            "nationality": "Uruguay"
+          },
+          {
+            "id": 1148,
+            "name": "Arthur",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1996-08-12",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 271952,
+            "name": "Min-su Kim",
+            "position": "Left Winger",
+            "dateOfBirth": "2006-01-19",
+            "nationality": "South Korea"
+          },
+          {
+            "id": 244589,
+            "name": "Juan Arango",
+            "position": "Left Winger",
+            "dateOfBirth": "2006-06-27",
+            "nationality": "Venezuela"
+          },
+          {
+            "id": 228420,
+            "name": "Antal Yaakobishvili",
+            "position": "Centre-Back",
+            "dateOfBirth": "2004-07-12",
+            "nationality": "Hungary"
+          },
+          {
+            "id": 220122,
+            "name": "Jastin García",
+            "position": "Left Winger",
+            "dateOfBirth": "2004-01-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 178361,
+            "name": "Jhon Solis",
+            "position": "Central Midfield",
+            "dateOfBirth": "2004-03-10",
+            "nationality": "Colombia"
+          },
+          {
+            "id": 177333,
+            "name": "Gabriel Misehouy",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2005-07-18",
+            "nationality": "Netherlands"
+          },
+          {
+            "id": 156794,
+            "name": "Yaser Asprilla",
+            "position": "Right Winger",
+            "dateOfBirth": "2003-11-19",
+            "nationality": "Colombia"
+          },
+          {
+            "id": 151744,
+            "name": "Arnau Martinez",
+            "position": "Right-Back",
+            "dateOfBirth": "2003-04-25",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadi Municipal de Montilivi",
+        "address": "Avinguda de Montilivi, 141 Girona 17003",
+        "founded": 1930,
+        "website": "http://www.gironafc.cat",
+        "shortName": "Girona",
+        "clubColors": "Red / White / Blue",
+        "lastUpdated": "2022-08-16T12:47:06Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 558,
+        "tla": "CEL",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "RC Celta de Vigo",
+        "coach": {
+          "id": 249529,
+          "name": "Claudio",
+          "contract": {
+            "start": "2024-03",
+            "until": "2027-06"
+          },
+          "lastName": "Claudio Giráldez",
+          "firstName": "",
+          "dateOfBirth": "1988-02-24",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/558.png",
+        "squad": [
+          {
+            "id": 3121,
+            "name": "Vicente Guaita",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1987-01-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32918,
+            "name": "Iván Villar",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1997-07-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 175870,
+            "name": "Coke Carrillo",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2002-01-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 178053,
+            "name": "Cesar Fernandez",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2004-01-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 185095,
+            "name": "Marc Vidal",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2000-02-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 189528,
+            "name": "Martin Conde",
+            "position": "Defence",
+            "dateOfBirth": "2003-03-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180502,
+            "name": "Jones El-Abdellaoui",
+            "position": "Midfield",
+            "dateOfBirth": "2006-01-12",
+            "nationality": "Norway"
+          },
+          {
+            "id": 272431,
+            "name": "Fer López",
+            "position": "Midfield",
+            "dateOfBirth": "2004-05-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272435,
+            "name": "Miguel Román",
+            "position": "Midfield",
+            "dateOfBirth": "2002-12-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 126913,
+            "name": "Iker Losada",
+            "position": "Offence",
+            "dateOfBirth": "2001-08-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 159446,
+            "name": "Carlos Dominguez",
+            "position": "Centre-Back",
+            "dateOfBirth": "2001-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 157368,
+            "name": "Ilaix Moriba",
+            "position": "Central Midfield",
+            "dateOfBirth": "2003-01-19",
+            "nationality": "Guinea"
+          },
+          {
+            "id": 146986,
+            "name": "Óscar Mingueza",
+            "position": "Right-Back",
+            "dateOfBirth": "1999-05-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 133570,
+            "name": "Sergio Carreira",
+            "position": "Right-Back",
+            "dateOfBirth": "2000-10-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 57610,
+            "name": "Mihajlo Ristić",
+            "position": "Left-Back",
+            "dateOfBirth": "1995-10-31",
+            "nationality": "Serbia"
+          },
+          {
+            "id": 32324,
+            "name": "Alfonso González",
+            "position": "Left Winger",
+            "dateOfBirth": "1999-05-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32111,
+            "name": "Fran Beltrán",
+            "position": "Central Midfield",
+            "dateOfBirth": "1999-02-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32056,
+            "name": "Borja Iglesias",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1993-01-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 31019,
+            "name": "Carl Starfelt",
+            "position": "Centre-Back",
+            "dateOfBirth": "1995-06-01",
+            "nationality": "Sweden"
+          },
+          {
+            "id": 16747,
+            "name": "Franco Cervi",
+            "position": "Left Winger",
+            "dateOfBirth": "1994-05-26",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 7928,
+            "name": "Javier Manquillo",
+            "position": "Right-Back",
+            "dateOfBirth": "1994-05-05",
+            "nationality": "Spain"
+          },
+          {
+            "id": 3201,
+            "name": "Iago Aspas",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1987-08-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 3195,
+            "name": "Marcos Alonso",
+            "position": "Left-Back",
+            "dateOfBirth": "1990-12-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 1137,
+            "name": "Jailson",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1995-09-07",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 252993,
+            "name": "Yoel Lago",
+            "position": "Centre-Back",
+            "dateOfBirth": "2004-03-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 229003,
+            "name": "Javi Rodríguez",
+            "position": "Centre-Back",
+            "dateOfBirth": "2003-06-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 188859,
+            "name": "Pablo Duran",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2001-05-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 182269,
+            "name": "Damian Rodriguez",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2003-03-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 175892,
+            "name": "Hugo Gonzalez",
+            "position": "Right Winger",
+            "dateOfBirth": "2003-02-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 175869,
+            "name": "Hugo Alvarez",
+            "position": "Left Winger",
+            "dateOfBirth": "2003-07-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 170438,
+            "name": "Williot Swedberg",
+            "position": "Left Winger",
+            "dateOfBirth": "2004-02-01",
+            "nationality": "Sweden"
+          },
+          {
+            "id": 168650,
+            "name": "Hugo Sotelo",
+            "position": "Central Midfield",
+            "dateOfBirth": "2003-12-19",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio de Balaídos",
+        "address": "Calle del Conde de Gondomar, 1 Vigo 36203",
+        "founded": 1923,
+        "website": "http://www.celtavigo.net",
+        "shortName": "Celta",
+        "clubColors": "Sky Blue / White",
+        "lastUpdated": "2024-07-29T17:10:02Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2146,
+            "code": "EL",
+            "name": "UEFA Europa League",
+            "type": "CUP",
+            "emblem": "https://crests.football-data.org/EL.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 559,
+        "tla": "SEV",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "Sevilla FC",
+        "coach": {
+          "id": 38804,
+          "name": "Matías Almeyda",
+          "contract": {
+            "start": "2025-07",
+            "until": "2027-06"
+          },
+          "lastName": "Almeyda",
+          "firstName": "Matías",
+          "dateOfBirth": "1973-12-21",
+          "nationality": "Argentina"
+        },
+        "crest": "https://crests.football-data.org/559.png",
+        "squad": [
+          {
+            "id": 6843,
+            "name": "Ørjan Nyland",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1990-09-10",
+            "nationality": "Norway"
+          },
+          {
+            "id": 79533,
+            "name": "Álvaro Fernández",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1998-04-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 161304,
+            "name": "Rafa Romero",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-08-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 177573,
+            "name": "Alberto Flores",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-11-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 191198,
+            "name": "Matias Arbol",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2002-09-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180165,
+            "name": "Castrin",
+            "position": "Defence",
+            "dateOfBirth": "2003-05-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213280,
+            "name": "Adrià Pedrosa",
+            "position": "Defence",
+            "dateOfBirth": "1998-05-13",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272316,
+            "name": "Ramón Martínez",
+            "position": "Defence",
+            "dateOfBirth": "2002-10-22",
+            "nationality": "Spain"
+          },
+          {
+            "id": 192043,
+            "name": "Lulo Dasilva",
+            "position": "Midfield",
+            "dateOfBirth": "2002-10-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 213279,
+            "name": "Manuel Bueno",
+            "position": "Midfield",
+            "dateOfBirth": "2004-07-27",
+            "nationality": "Spain"
+          },
+          {
+            "id": 264218,
+            "name": "Pablo Rivera",
+            "position": "Midfield",
+            "dateOfBirth": "2004-01-11",
+            "nationality": "Spain"
+          },
+          {
+            "id": 182080,
+            "name": "Leandro Antonetti",
+            "position": "Offence",
+            "dateOfBirth": "2003-01-13",
+            "nationality": "Puerto Rico"
+          },
+          {
+            "id": 185105,
+            "name": "Peque",
+            "position": "Offence",
+            "dateOfBirth": "2002-10-04",
+            "nationality": "Spain"
+          },
+          {
+            "id": 270749,
+            "name": "Mateo Mejía",
+            "position": "Offence",
+            "dateOfBirth": "2003-03-31",
+            "nationality": "Spain"
+          },
+          {
+            "id": 273422,
+            "name": "Álvaro García",
+            "position": "Offence",
+            "dateOfBirth": "2002-01-01",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180038,
+            "name": "Juanlu",
+            "position": "Right-Back",
+            "dateOfBirth": "2003-08-15",
+            "nationality": "Spain"
+          },
+          {
+            "id": 178107,
+            "name": "Kike Salas",
+            "position": "Centre-Back",
+            "dateOfBirth": "2002-04-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 171984,
+            "name": "Jose Angel Carmona",
+            "position": "Right-Back",
+            "dateOfBirth": "2002-01-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 136039,
+            "name": "Loïc Bade",
+            "position": "Centre-Back",
+            "dateOfBirth": "2000-04-11",
+            "nationality": "France"
+          },
+          {
+            "id": 127127,
+            "name": "Nianzou Kouassi",
+            "position": "Centre-Back",
+            "dateOfBirth": "2002-06-07",
+            "nationality": "France"
+          },
+          {
+            "id": 98223,
+            "name": "Lucien Agoume",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "2002-02-09",
+            "nationality": "France"
+          },
+          {
+            "id": 82132,
+            "name": "Akor Adams",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2000-01-29",
+            "nationality": "Nigeria"
+          },
+          {
+            "id": 45449,
+            "name": "Marcão",
+            "position": "Centre-Back",
+            "dateOfBirth": "1996-06-05",
+            "nationality": "Brazil"
+          },
+          {
+            "id": 38625,
+            "name": "Chidera Ejuke",
+            "position": "Left Winger",
+            "dateOfBirth": "1998-01-02",
+            "nationality": "Nigeria"
+          },
+          {
+            "id": 31913,
+            "name": "Ruben Vargas",
+            "position": "Left Winger",
+            "dateOfBirth": "1998-08-05",
+            "nationality": "Switzerland"
+          },
+          {
+            "id": 21410,
+            "name": "Nemanja Gudelj",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1991-11-16",
+            "nationality": "Serbia"
+          },
+          {
+            "id": 16275,
+            "name": "Djibril Sow",
+            "position": "Central Midfield",
+            "dateOfBirth": "1997-02-06",
+            "nationality": "Switzerland"
+          },
+          {
+            "id": 8862,
+            "name": "Albert Sambi Lokonga",
+            "position": "Central Midfield",
+            "dateOfBirth": "1999-10-22",
+            "nationality": "Belgium"
+          },
+          {
+            "id": 8128,
+            "name": "Dodi Lukebakio",
+            "position": "Right Winger",
+            "dateOfBirth": "1997-09-24",
+            "nationality": "Belgium"
+          },
+          {
+            "id": 1752,
+            "name": "Suso",
+            "position": "Right Winger",
+            "dateOfBirth": "1993-11-19",
+            "nationality": "Spain"
+          },
+          {
+            "id": 118,
+            "name": "Saúl",
+            "position": "Central Midfield",
+            "dateOfBirth": "1994-11-21",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244911,
+            "name": "Alberto Collado",
+            "position": "Central Midfield",
+            "dateOfBirth": "2005-04-16",
+            "nationality": "Spain"
+          },
+          {
+            "id": 244751,
+            "name": "Oso",
+            "position": "Left Winger",
+            "dateOfBirth": "2003-07-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 229008,
+            "name": "Isra Domínguez",
+            "position": "Left Winger",
+            "dateOfBirth": "2003-05-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 228998,
+            "name": "Darío Benavides",
+            "position": "Right-Back",
+            "dateOfBirth": "2003-01-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 221295,
+            "name": "Stanis Idumbo-Muzambo",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2005-06-29",
+            "nationality": "Belgium"
+          },
+          {
+            "id": 213043,
+            "name": "Isaac",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2000-05-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 190843,
+            "name": "Diego Hormigo",
+            "position": "Left-Back",
+            "dateOfBirth": "2003-04-16",
+            "nationality": "Spain"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio Ramón Sánchez Pizjuán",
+        "address": "Calle Sevilla Fútbol Club, s/n Sevilla 41005",
+        "founded": 1905,
+        "website": "http://www.sevillafc.es",
+        "shortName": "Sevilla FC",
+        "clubColors": "White / Red",
+        "lastUpdated": "2024-07-29T17:09:57Z",
+        "runningCompetitions": [
+          {
+            "id": 2014,
+            "code": "PD",
+            "name": "Primera Division",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/laliga.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      },
+      {
+        "id": 745,
+        "tla": "LEG",
+        "area": {
+          "id": 2224,
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg",
+          "name": "Spain"
+        },
+        "name": "CD Leganés",
+        "coach": {
+          "id": 159726,
+          "name": "Igor Oca Pulido",
+          "contract": {
+            "start": "2025-12",
+            "until": "2026-06"
+          },
+          "lastName": "Igor Oca",
+          "firstName": "",
+          "dateOfBirth": "1981-05-07",
+          "nationality": "Spain"
+        },
+        "crest": "https://crests.football-data.org/745.png",
+        "squad": [
+          {
+            "id": 3430,
+            "name": "Marko Dmitrović",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1992-01-24",
+            "nationality": "Serbia"
+          },
+          {
+            "id": 15926,
+            "name": "Juan Soriano",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1997-08-23",
+            "nationality": "Spain"
+          },
+          {
+            "id": 214534,
+            "name": "Álvaro Abajas",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-05-12",
+            "nationality": "Spain"
+          },
+          {
+            "id": 274248,
+            "name": "Guille Ruiz",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2003-12-09",
+            "nationality": "Spain"
+          },
+          {
+            "id": 172623,
+            "name": "Iker Bachiller",
+            "position": "Defence",
+            "dateOfBirth": "2002-09-14",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180173,
+            "name": "Javi Hernández",
+            "position": "Defence",
+            "dateOfBirth": "1998-05-02",
+            "nationality": "Spain"
+          },
+          {
+            "id": 180217,
+            "name": "Sergio Gónzalez",
+            "position": "Defence",
+            "dateOfBirth": "1992-04-20",
+            "nationality": "Spain"
+          },
+          {
+            "id": 260686,
+            "name": "Joao Urbáez",
+            "position": "Defence",
+            "dateOfBirth": "2002-07-24",
+            "nationality": "Dominican Republic"
+          },
+          {
+            "id": 272315,
+            "name": "Fernando Rodríguez",
+            "position": "Midfield",
+            "dateOfBirth": "2002-11-06",
+            "nationality": "Spain"
+          },
+          {
+            "id": 272314,
+            "name": "Suleiman El Haddadi",
+            "position": "Offence",
+            "dateOfBirth": null,
+            "nationality": "Morocco"
+          },
+          {
+            "id": 277484,
+            "name": "Yan Diomandé",
+            "position": "Offence",
+            "dateOfBirth": "2006-11-14",
+            "nationality": "Ivory Coast"
+          },
+          {
+            "id": 126968,
+            "name": "Enric Franquesa",
+            "position": "Left-Back",
+            "dateOfBirth": "1997-02-26",
+            "nationality": "Spain"
+          },
+          {
+            "id": 102213,
+            "name": "Yvan Neyou",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1997-01-03",
+            "nationality": "Cameroon"
+          },
+          {
+            "id": 97025,
+            "name": "Roberto López",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "2000-04-24",
+            "nationality": "Spain"
+          },
+          {
+            "id": 81038,
+            "name": "Miguel",
+            "position": "Centre-Forward",
+            "dateOfBirth": "1999-09-03",
+            "nationality": "Spain"
+          },
+          {
+            "id": 33713,
+            "name": "Darko Brašanac",
+            "position": "Central Midfield",
+            "dateOfBirth": "1992-02-12",
+            "nationality": "Serbia"
+          },
+          {
+            "id": 33243,
+            "name": "Munir El Haddadi",
+            "position": "Right Winger",
+            "dateOfBirth": "1995-09-01",
+            "nationality": "Morocco"
+          },
+          {
+            "id": 33131,
+            "name": "Dani Raba",
+            "position": "Right Winger",
+            "dateOfBirth": "1995-10-29",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32848,
+            "name": "Juan Cruz",
+            "position": "Left Winger",
+            "dateOfBirth": "2000-04-25",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32019,
+            "name": "Jorge Sáenz",
+            "position": "Centre-Back",
+            "dateOfBirth": "1996-11-17",
+            "nationality": "Spain"
+          },
+          {
+            "id": 11700,
+            "name": "Julián Chicco",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1998-01-13",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 10207,
+            "name": "Borna Barišić",
+            "position": "Left-Back",
+            "dateOfBirth": "1992-11-10",
+            "nationality": "Croatia"
+          },
+          {
+            "id": 8559,
+            "name": "Valentin Rosier",
+            "position": "Right-Back",
+            "dateOfBirth": "1996-08-19",
+            "nationality": "France"
+          },
+          {
+            "id": 3877,
+            "name": "Óscar",
+            "position": "Attacking Midfield",
+            "dateOfBirth": "1998-06-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 3782,
+            "name": "Renato Tapia",
+            "position": "Defensive Midfield",
+            "dateOfBirth": "1995-07-28",
+            "nationality": "Peru"
+          },
+          {
+            "id": 3433,
+            "name": "Matija Nastasić",
+            "position": "Centre-Back",
+            "dateOfBirth": "1993-03-28",
+            "nationality": "Serbia"
+          },
+          {
+            "id": 228935,
+            "name": "Hugo Solozábal",
+            "position": "Central Midfield",
+            "dateOfBirth": "2003-02-07",
+            "nationality": "Spain"
+          },
+          {
+            "id": 214543,
+            "name": "Piri",
+            "position": "Right Winger",
+            "dateOfBirth": "2003-07-10",
+            "nationality": "Spain"
+          },
+          {
+            "id": 211828,
+            "name": "Diego García",
+            "position": "Centre-Forward",
+            "dateOfBirth": "2000-04-18",
+            "nationality": "Spain"
+          },
+          {
+            "id": 187231,
+            "name": "Duk",
+            "position": "Left Winger",
+            "dateOfBirth": "2000-02-16",
+            "nationality": "Cape Verde Islands"
+          },
+          {
+            "id": 185093,
+            "name": "Adrià Altimira",
+            "position": "Right-Back",
+            "dateOfBirth": "2001-03-28",
+            "nationality": "Spain"
+          },
+          {
+            "id": 171893,
+            "name": "Seydouba Cisse",
+            "position": "Central Midfield",
+            "dateOfBirth": "2001-02-10",
+            "nationality": "Guinea"
+          }
+        ],
+        "staff": [],
+        "venue": "Estadio Municipal de Butarque",
+        "address": "Calle Arquitectura, s/n Leganés 28914",
+        "founded": 1928,
+        "website": "http://www.deportivoleganes.com",
+        "shortName": "Leganés",
+        "clubColors": "Blue / White",
+        "lastUpdated": "2022-02-20T08:40:13Z",
+        "runningCompetitions": [
+          {
+            "id": 2077,
+            "code": "SD",
+            "name": "Segunda División",
+            "type": "LEAGUE",
+            "emblem": "https://crests.football-data.org/SD.png"
+          },
+          {
+            "id": 2079,
+            "code": "CDR",
+            "name": "Copa del Rey",
+            "type": "CUP",
+            "emblem": null
+          }
+        ]
+      }
+    ],
+    "season": {
+      "id": 2292,
+      "winner": null,
+      "endDate": "2025-05-25",
+      "startDate": "2024-08-18",
+      "currentMatchday": 38
+    },
+    "filters": {
+      "season": 2024
+    },
+    "competition": {
+      "id": 2014,
+      "code": "PD",
+      "name": "Primera Division",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/laliga.png"
+    }
+  }
+}

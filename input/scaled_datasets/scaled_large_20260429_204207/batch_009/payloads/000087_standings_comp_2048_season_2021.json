@@ -1,0 +1,787 @@
+{
+  "endpoint": "competitions/2048/standings?season=2021",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_large_20260429_204207_b009",
+    "batch_id": "scaled_large_20260429_204207_b009"
+  },
+  "response_json": {
+    "competition": {
+      "id": 2048,
+      "area": {
+        "id": 2947,
+        "name": "Northern Mariana Islands",
+        "countryCode": "FM",
+        "flag": "https://picsum.photos/449/664"
+      },
+      "name": "Doyle LLC League",
+      "code": "YAZ",
+      "type": "LEAGUE",
+      "emblem": "https://picsum.photos/508/546"
+    },
+    "season": {
+      "id": 2021,
+      "startDate": "2021-08-01",
+      "endDate": "2022-05-30"
+    },
+    "standings": [
+      {
+        "stage": "REGULAR_SEASON",
+        "type": "TOTAL",
+        "table": [
+          {
+            "position": 1,
+            "team": {
+              "id": 49589,
+              "name": "Port Derekfurt FC"
+            },
+            "playedGames": 38,
+            "won": 19,
+            "draw": 2,
+            "lost": 3,
+            "points": 70,
+            "goalsFor": 51,
+            "goalsAgainst": 73,
+            "goalDifference": -27
+          },
+          {
+            "position": 2,
+            "team": {
+              "id": 16320,
+              "name": "Nicholasbury FC"
+            },
+            "playedGames": 38,
+            "won": 12,
+            "draw": 10,
+            "lost": 10,
+            "points": 86,
+            "goalsFor": 59,
+            "goalsAgainst": 28,
+            "goalDifference": -29
+          },
+          {
+            "position": 3,
+            "team": {
+              "id": 28898,
+              "name": "East Janicestad FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 5,
+            "lost": 1,
+            "points": 46,
+            "goalsFor": 46,
+            "goalsAgainst": 50,
+            "goalDifference": 29
+          },
+          {
+            "position": 4,
+            "team": {
+              "id": 66719,
+              "name": "Robertstad FC"
+            },
+            "playedGames": 38,
+            "won": 2,
+            "draw": 2,
+            "lost": 2,
+            "points": 60,
+            "goalsFor": 62,
+            "goalsAgainst": 59,
+            "goalDifference": 26
+          },
+          {
+            "position": 5,
+            "team": {
+              "id": 83864,
+              "name": "Jamesberg FC"
+            },
+            "playedGames": 38,
+            "won": 8,
+            "draw": 4,
+            "lost": 4,
+            "points": 33,
+            "goalsFor": 40,
+            "goalsAgainst": 29,
+            "goalDifference": 5
+          },
+          {
+            "position": 6,
+            "team": {
+              "id": 14736,
+              "name": "West Joseph FC"
+            },
+            "playedGames": 38,
+            "won": 18,
+            "draw": 6,
+            "lost": 3,
+            "points": 54,
+            "goalsFor": 60,
+            "goalsAgainst": 70,
+            "goalDifference": -27
+          },
+          {
+            "position": 7,
+            "team": {
+              "id": 54624,
+              "name": "West David FC"
+            },
+            "playedGames": 38,
+            "won": 6,
+            "draw": 8,
+            "lost": 0,
+            "points": 65,
+            "goalsFor": 62,
+            "goalsAgainst": 71,
+            "goalDifference": -21
+          },
+          {
+            "position": 8,
+            "team": {
+              "id": 84893,
+              "name": "Josephbury FC"
+            },
+            "playedGames": 38,
+            "won": 6,
+            "draw": 5,
+            "lost": 2,
+            "points": 55,
+            "goalsFor": 63,
+            "goalsAgainst": 72,
+            "goalDifference": 5
+          },
+          {
+            "position": 9,
+            "team": {
+              "id": 22791,
+              "name": "Lake Moniqueport FC"
+            },
+            "playedGames": 38,
+            "won": 14,
+            "draw": 5,
+            "lost": 10,
+            "points": 73,
+            "goalsFor": 34,
+            "goalsAgainst": 74,
+            "goalDifference": -12
+          },
+          {
+            "position": 10,
+            "team": {
+              "id": 74558,
+              "name": "Hayesburgh FC"
+            },
+            "playedGames": 38,
+            "won": 13,
+            "draw": 4,
+            "lost": 7,
+            "points": 12,
+            "goalsFor": 26,
+            "goalsAgainst": 78,
+            "goalDifference": 13
+          },
+          {
+            "position": 11,
+            "team": {
+              "id": 97445,
+              "name": "Stevenshire FC"
+            },
+            "playedGames": 38,
+            "won": 18,
+            "draw": 7,
+            "lost": 7,
+            "points": 57,
+            "goalsFor": 52,
+            "goalsAgainst": 79,
+            "goalDifference": -11
+          },
+          {
+            "position": 12,
+            "team": {
+              "id": 97184,
+              "name": "Vargasport FC"
+            },
+            "playedGames": 38,
+            "won": 3,
+            "draw": 3,
+            "lost": 2,
+            "points": 49,
+            "goalsFor": 64,
+            "goalsAgainst": 63,
+            "goalDifference": -23
+          },
+          {
+            "position": 13,
+            "team": {
+              "id": 46802,
+              "name": "Lewisfort FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 9,
+            "lost": 3,
+            "points": 53,
+            "goalsFor": 78,
+            "goalsAgainst": 23,
+            "goalDifference": -8
+          },
+          {
+            "position": 14,
+            "team": {
+              "id": 97530,
+              "name": "Carlsonfurt FC"
+            },
+            "playedGames": 38,
+            "won": 20,
+            "draw": 5,
+            "lost": 9,
+            "points": 87,
+            "goalsFor": 46,
+            "goalsAgainst": 72,
+            "goalDifference": 5
+          },
+          {
+            "position": 15,
+            "team": {
+              "id": 96370,
+              "name": "South Michaela FC"
+            },
+            "playedGames": 38,
+            "won": 19,
+            "draw": 1,
+            "lost": 4,
+            "points": 68,
+            "goalsFor": 67,
+            "goalsAgainst": 42,
+            "goalDifference": 12
+          },
+          {
+            "position": 16,
+            "team": {
+              "id": 58908,
+              "name": "Frazierfort FC"
+            },
+            "playedGames": 38,
+            "won": 13,
+            "draw": 0,
+            "lost": 4,
+            "points": 14,
+            "goalsFor": 77,
+            "goalsAgainst": 51,
+            "goalDifference": -15
+          },
+          {
+            "position": 17,
+            "team": {
+              "id": 21185,
+              "name": "South Meganfurt FC"
+            },
+            "playedGames": 38,
+            "won": 20,
+            "draw": 0,
+            "lost": 6,
+            "points": 65,
+            "goalsFor": 72,
+            "goalsAgainst": 24,
+            "goalDifference": 8
+          },
+          {
+            "position": 18,
+            "team": {
+              "id": 60706,
+              "name": "Jenniferstad FC"
+            },
+            "playedGames": 38,
+            "won": 10,
+            "draw": 4,
+            "lost": 10,
+            "points": 15,
+            "goalsFor": 72,
+            "goalsAgainst": 61,
+            "goalDifference": 8
+          },
+          {
+            "position": 19,
+            "team": {
+              "id": 59660,
+              "name": "West Chelseaborough FC"
+            },
+            "playedGames": 38,
+            "won": 5,
+            "draw": 10,
+            "lost": 10,
+            "points": 85,
+            "goalsFor": 63,
+            "goalsAgainst": 63,
+            "goalDifference": 5
+          },
+          {
+            "position": 20,
+            "team": {
+              "id": 98974,
+              "name": "South Jonathonmouth FC"
+            },
+            "playedGames": 38,
+            "won": 6,
+            "draw": 4,
+            "lost": 2,
+            "points": 72,
+            "goalsFor": 34,
+            "goalsAgainst": 75,
+            "goalDifference": -2
+          },
+          {
+            "position": 21,
+            "team": {
+              "id": 67759,
+              "name": "Harrisonton FC"
+            },
+            "playedGames": 38,
+            "won": 18,
+            "draw": 7,
+            "lost": 4,
+            "points": 21,
+            "goalsFor": 57,
+            "goalsAgainst": 79,
+            "goalDifference": 8
+          },
+          {
+            "position": 22,
+            "team": {
+              "id": 11240,
+              "name": "Lake Davidbury FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 10,
+            "lost": 3,
+            "points": 57,
+            "goalsFor": 47,
+            "goalsAgainst": 33,
+            "goalDifference": -17
+          },
+          {
+            "position": 23,
+            "team": {
+              "id": 67112,
+              "name": "Matthewburgh FC"
+            },
+            "playedGames": 38,
+            "won": 12,
+            "draw": 6,
+            "lost": 6,
+            "points": 85,
+            "goalsFor": 61,
+            "goalsAgainst": 25,
+            "goalDifference": 22
+          },
+          {
+            "position": 24,
+            "team": {
+              "id": 78976,
+              "name": "Melissafort FC"
+            },
+            "playedGames": 38,
+            "won": 7,
+            "draw": 6,
+            "lost": 0,
+            "points": 17,
+            "goalsFor": 53,
+            "goalsAgainst": 53,
+            "goalDifference": -23
+          },
+          {
+            "position": 25,
+            "team": {
+              "id": 81163,
+              "name": "Lake Alexanderhaven FC"
+            },
+            "playedGames": 38,
+            "won": 8,
+            "draw": 4,
+            "lost": 7,
+            "points": 24,
+            "goalsFor": 57,
+            "goalsAgainst": 47,
+            "goalDifference": -1
+          },
+          {
+            "position": 26,
+            "team": {
+              "id": 49367,
+              "name": "Ramosshire FC"
+            },
+            "playedGames": 38,
+            "won": 7,
+            "draw": 2,
+            "lost": 1,
+            "points": 13,
+            "goalsFor": 78,
+            "goalsAgainst": 26,
+            "goalDifference": 24
+          },
+          {
+            "position": 27,
+            "team": {
+              "id": 11136,
+              "name": "Rebekahtown FC"
+            },
+            "playedGames": 38,
+            "won": 2,
+            "draw": 5,
+            "lost": 4,
+            "points": 57,
+            "goalsFor": 75,
+            "goalsAgainst": 50,
+            "goalDifference": 25
+          },
+          {
+            "position": 28,
+            "team": {
+              "id": 94612,
+              "name": "Alexandriaport FC"
+            },
+            "playedGames": 38,
+            "won": 3,
+            "draw": 6,
+            "lost": 4,
+            "points": 48,
+            "goalsFor": 54,
+            "goalsAgainst": 43,
+            "goalDifference": 9
+          },
+          {
+            "position": 29,
+            "team": {
+              "id": 19529,
+              "name": "New Katelynhaven FC"
+            },
+            "playedGames": 38,
+            "won": 14,
+            "draw": 5,
+            "lost": 7,
+            "points": 23,
+            "goalsFor": 50,
+            "goalsAgainst": 47,
+            "goalDifference": -19
+          },
+          {
+            "position": 30,
+            "team": {
+              "id": 18802,
+              "name": "West Kevin FC"
+            },
+            "playedGames": 38,
+            "won": 15,
+            "draw": 6,
+            "lost": 7,
+            "points": 76,
+            "goalsFor": 74,
+            "goalsAgainst": 73,
+            "goalDifference": -14
+          },
+          {
+            "position": 31,
+            "team": {
+              "id": 76030,
+              "name": "Lake Jane FC"
+            },
+            "playedGames": 38,
+            "won": 8,
+            "draw": 5,
+            "lost": 2,
+            "points": 93,
+            "goalsFor": 40,
+            "goalsAgainst": 61,
+            "goalDifference": 2
+          },
+          {
+            "position": 32,
+            "team": {
+              "id": 13568,
+              "name": "Sandovalfort FC"
+            },
+            "playedGames": 38,
+            "won": 0,
+            "draw": 4,
+            "lost": 8,
+            "points": 86,
+            "goalsFor": 55,
+            "goalsAgainst": 57,
+            "goalDifference": -2
+          },
+          {
+            "position": 33,
+            "team": {
+              "id": 55302,
+              "name": "Paultown FC"
+            },
+            "playedGames": 38,
+            "won": 5,
+            "draw": 10,
+            "lost": 3,
+            "points": 58,
+            "goalsFor": 57,
+            "goalsAgainst": 25,
+            "goalDifference": 1
+          },
+          {
+            "position": 34,
+            "team": {
+              "id": 57784,
+              "name": "Lake Philip FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 3,
+            "lost": 1,
+            "points": 8,
+            "goalsFor": 35,
+            "goalsAgainst": 71,
+            "goalDifference": 4
+          },
+          {
+            "position": 35,
+            "team": {
+              "id": 34007,
+              "name": "Grimeshaven FC"
+            },
+            "playedGames": 38,
+            "won": 9,
+            "draw": 7,
+            "lost": 0,
+            "points": 40,
+            "goalsFor": 45,
+            "goalsAgainst": 56,
+            "goalDifference": 3
+          },
+          {
+            "position": 36,
+            "team": {
+              "id": 65712,
+              "name": "South Scottborough FC"
+            },
+            "playedGames": 38,
+            "won": 16,
+            "draw": 9,
+            "lost": 2,
+            "points": 3,
+            "goalsFor": 51,
+            "goalsAgainst": 71,
+            "goalDifference": -13
+          },
+          {
+            "position": 37,
+            "team": {
+              "id": 51963,
+              "name": "Allisonberg FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 3,
+            "lost": 3,
+            "points": 54,
+            "goalsFor": 62,
+            "goalsAgainst": 67,
+            "goalDifference": 8
+          },
+          {
+            "position": 38,
+            "team": {
+              "id": 66114,
+              "name": "North Matthewstad FC"
+            },
+            "playedGames": 38,
+            "won": 15,
+            "draw": 6,
+            "lost": 6,
+            "points": 99,
+            "goalsFor": 78,
+            "goalsAgainst": 71,
+            "goalDifference": 25
+          },
+          {
+            "position": 39,
+            "team": {
+              "id": 50654,
+              "name": "Cindymouth FC"
+            },
+            "playedGames": 38,
+            "won": 11,
+            "draw": 4,
+            "lost": 2,
+            "points": 75,
+            "goalsFor": 49,
+            "goalsAgainst": 20,
+            "goalDifference": -7
+          },
+          {
+            "position": 40,
+            "team": {
+              "id": 90291,
+              "name": "Moralesbury FC"
+            },
+            "playedGames": 38,
+            "won": 15,
+            "draw": 0,
+            "lost": 9,
+            "points": 23,
+            "goalsFor": 63,
+            "goalsAgainst": 50,
+            "goalDifference": -15
+          },
+          {
+            "position": 41,
+            "team": {
+              "id": 85962,
+              "name": "Clarkfort FC"
+            },
+            "playedGames": 38,
+            "won": 5,
+            "draw": 7,
+            "lost": 4,
+            "points": 66,
+            "goalsFor": 29,
+            "goalsAgainst": 78,
+            "goalDifference": -12
+          },
+          {
+            "position": 42,
+            "team": {
+              "id": 38709,
+              "name": "Rodriguezmouth FC"
+            },
+            "playedGames": 38,
+            "won": 8,
+            "draw": 3,
+            "lost": 4,
+            "points": 75,
+            "goalsFor": 73,
+            "goalsAgainst": 78,
+            "goalDifference": 9
+          },
+          {
+            "position": 43,
+            "team": {
+              "id": 46404,
+              "name": "South Sharon FC"
+            },
+            "playedGames": 38,
+            "won": 12,
+            "draw": 5,
+            "lost": 7,
+            "points": 96,
+            "goalsFor": 34,
+            "goalsAgainst": 56,
+            "goalDifference": -24
+          },
+          {
+            "position": 44,
+            "team": {
+              "id": 96489,
+              "name": "Port Jeffreymouth FC"
+            },
+            "playedGames": 38,
+            "won": 17,
+            "draw": 1,
+            "lost": 8,
+            "points": 87,
+            "goalsFor": 42,
+            "goalsAgainst": 47,
+            "goalDifference": 24
+          },
+          {
+            "position": 45,
+            "team": {
+              "id": 35071,
+              "name": "Ericstad FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 9,
+            "lost": 1,
+            "points": 73,
+            "goalsFor": 67,
+            "goalsAgainst": 30,
+            "goalDifference": 16
+          },
+          {
+            "position": 46,
+            "team": {
+              "id": 80931,
+              "name": "New Rebeccahaven FC"
+            },
+            "playedGames": 38,
+            "won": 8,
+            "draw": 5,
+            "lost": 5,
+            "points": 33,
+            "goalsFor": 39,
+            "goalsAgainst": 35,
+            "goalDifference": -18
+          },
+          {
+            "position": 47,
+            "team": {
+              "id": 26433,
+              "name": "Westchester FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 7,
+            "lost": 3,
+            "points": 71,
+            "goalsFor": 59,
+            "goalsAgainst": 80,
+            "goalDifference": 24
+          },
+          {
+            "position": 48,
+            "team": {
+              "id": 62859,
+              "name": "Wagnertown FC"
+            },
+            "playedGames": 38,
+            "won": 7,
+            "draw": 4,
+            "lost": 10,
+            "points": 95,
+            "goalsFor": 66,
+            "goalsAgainst": 52,
+            "goalDifference": 18
+          },
+          {
+            "position": 49,
+            "team": {
+              "id": 23815,
+              "name": "Powellside FC"
+            },
+            "playedGames": 38,
+            "won": 11,
+            "draw": 5,
+            "lost": 2,
+            "points": 72,
+            "goalsFor": 70,
+            "goalsAgainst": 62,
+            "goalDifference": -15
+          },
+          {
+            "position": 50,
+            "team": {
+              "id": 59814,
+              "name": "Brianfurt FC"
+            },
+            "playedGames": 38,
+            "won": 4,
+            "draw": 5,
+            "lost": 5,
+            "points": 55,
+            "goalsFor": 68,
+            "goalsAgainst": 72,
+            "goalDifference": 1
+          }
+        ]
+      }
+    ]
+  }
+}

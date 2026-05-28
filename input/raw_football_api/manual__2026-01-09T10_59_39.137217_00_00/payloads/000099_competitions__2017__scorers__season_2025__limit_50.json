@@ -1,0 +1,1582 @@
+{
+  "source_id": 99,
+  "endpoint": "competitions/2017/scorers?season=2025&limit=50",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "count": 50,
+    "season": {
+      "id": 2433,
+      "winner": null,
+      "endDate": "2026-05-17",
+      "startDate": "2025-08-08",
+      "currentMatchday": 17
+    },
+    "filters": {
+      "limit": 50,
+      "season": 2025
+    },
+    "scorers": [
+      {
+        "team": {
+          "id": 1903,
+          "tla": "BEN",
+          "name": "Sport Lisboa e Benfica",
+          "crest": "https://crests.football-data.org/1903.png",
+          "venue": "Estádio do Sport Lisboa e Benfica",
+          "address": "Avenida General Norton de Matos 1500 Lissabon null",
+          "founded": 1904,
+          "website": "https://www.slbenfica.pt",
+          "shortName": "SL Benfica",
+          "clubColors": null,
+          "lastUpdated": "2024-11-06T20:07:52Z"
+        },
+        "goals": 17,
+        "player": {
+          "id": 67299,
+          "name": "Vangelis Pavlidis",
+          "section": "Offence",
+          "lastName": "Pavlidis",
+          "position": null,
+          "firstName": "Vangelis",
+          "dateOfBirth": "1998-11-21",
+          "lastUpdated": "2023-07-30T23:06:57Z",
+          "nationality": "Greece",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 8,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 498,
+          "tla": "SPO",
+          "name": "Sporting Clube de Portugal",
+          "crest": "https://crests.football-data.org/498.png",
+          "venue": "Estádio José Alvalade",
+          "address": "Edifício Visconde de Alvalade, Apartado 42099 Lisboa 1601-801",
+          "founded": 1906,
+          "website": "http://www.sporting.pt",
+          "shortName": "Sporting CP",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:53Z"
+        },
+        "goals": 15,
+        "player": {
+          "id": 32386,
+          "name": "Luis Suárez",
+          "section": "Offence",
+          "lastName": "Suárez",
+          "position": null,
+          "firstName": "Luis",
+          "dateOfBirth": "1997-12-02",
+          "lastUpdated": "2025-02-20T09:44:47Z",
+          "nationality": "Colombia",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 2,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 503,
+          "tla": "FCP",
+          "name": "FC Porto",
+          "crest": "https://crests.football-data.org/503.png",
+          "venue": "Estádio Do Dragão",
+          "address": "Estádio do Dragão, Entrada Poente - Piso 3 Porto 4350-451",
+          "founded": 1893,
+          "website": "http://www.fcporto.pt",
+          "shortName": "Porto",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-10T19:26:43Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 215434,
+          "name": "Samu Omorodion",
+          "section": "Centre-Forward",
+          "lastName": "Samu Aghehowa",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": null,
+          "lastUpdated": "2024-11-26T09:43:13Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 4,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 5533,
+          "tla": "GIL",
+          "name": "Gil Vicente FC",
+          "crest": "https://crests.football-data.org/5533.png",
+          "venue": "Estádio Cidade de Barcelos",
+          "address": "Rua D. Diogo Pinheiro n.º 25, Apartado 197 Barcelos 4750-282",
+          "founded": 1924,
+          "website": "http://www.gilvicentefc.pt",
+          "shortName": "Gil Vicente",
+          "clubColors": "Red / Blue",
+          "lastUpdated": "2022-02-19T08:57:44Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 178755,
+          "name": "Pablo Felipe",
+          "section": "Offence",
+          "lastName": "Pablo",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2004-01-02",
+          "lastUpdated": "2025-05-17T09:42:49Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 2,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 496,
+          "tla": "RIO",
+          "name": "Rio Ave FC",
+          "crest": "https://crests.football-data.org/496.png",
+          "venue": "Estádio do Rio Ave Futebol Clube",
+          "address": "Praça da República, n.º35, Apartado 42 Vila do Conde 4481-909",
+          "founded": 1939,
+          "website": "http://www.rioave-fc.pt",
+          "shortName": "Rio Ave",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:50Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 141542,
+          "name": "Clayton",
+          "section": "Offence",
+          "lastName": "Clayton",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-01-11",
+          "lastUpdated": "2024-06-13T09:41:59Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 2,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 583,
+          "tla": "MOR",
+          "name": "Moreirense FC",
+          "crest": "https://crests.football-data.org/583.png",
+          "venue": "P.D. Comendador Joaquim de Almeida Freitas",
+          "address": "Avenida Comendador Joaquim de Almeida Freitas Moreira de Cónegos 4815-270",
+          "founded": 1938,
+          "website": "http://www.moreirensefc.pt",
+          "shortName": "Moreirense",
+          "clubColors": "Green / White",
+          "lastUpdated": "2023-03-05T07:40:05Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 37636,
+          "name": "Guilherme Schettine",
+          "section": "Offence",
+          "lastName": "Guilherme Schettine",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1995-10-10",
+          "lastUpdated": "2023-11-12T09:47:06Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 5529,
+          "tla": "CDN",
+          "name": "CD Nacional",
+          "crest": "https://crests.football-data.org/5529.png",
+          "venue": "Estádio da Madeira",
+          "address": "Rua do Esmeraldo, n.º 46 Funchal 9060",
+          "founded": 1910,
+          "website": "http://www.cdnacional.pt",
+          "shortName": "CD Nacional",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-06-02T09:42:46Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 188085,
+          "name": "Chuchu",
+          "section": "Offence",
+          "lastName": "Ramírez",
+          "position": null,
+          "firstName": "Jesús",
+          "dateOfBirth": "1998-05-04",
+          "lastUpdated": "2023-11-22T09:46:37Z",
+          "nationality": "Venezuela",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 3,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 498,
+          "tla": "SPO",
+          "name": "Sporting Clube de Portugal",
+          "crest": "https://crests.football-data.org/498.png",
+          "venue": "Estádio José Alvalade",
+          "address": "Edifício Visconde de Alvalade, Apartado 42099 Lisboa 1601-801",
+          "founded": 1906,
+          "website": "http://www.sporting.pt",
+          "shortName": "Sporting CP",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:53Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 92050,
+          "name": "Pedro Gonçalves",
+          "section": "Attacking Midfield",
+          "lastName": "Pedro Gonçalves",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-06-28",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 1,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 582,
+          "tla": "EST",
+          "name": "GD Estoril Praia",
+          "crest": "https://crests.football-data.org/582.png",
+          "venue": "Estádio António Coimbra da Mota",
+          "address": "Estádio António Coimbra da Mota Estoril 2765",
+          "founded": 1939,
+          "website": "http://www.estorilpraia.pt",
+          "shortName": "Estoril Praia",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-10-19T16:23:49Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 553,
+          "name": "Yanis Begraoui",
+          "section": "Centre-Forward",
+          "lastName": "Begraoui",
+          "position": null,
+          "firstName": "Yanis",
+          "dateOfBirth": "2001-07-04",
+          "lastUpdated": "2025-10-13T09:42:38Z",
+          "nationality": "Morocco",
+          "shirtNumber": 19
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 5613,
+          "tla": "SCB",
+          "name": "Sporting Clube de Braga",
+          "crest": "https://crests.football-data.org/5613.png",
+          "venue": "Estádio Municipal de Braga",
+          "address": "Parque Norte, Monte Crasto, Apartado 12 Braga 4700-087",
+          "founded": 1921,
+          "website": "http://www.scbraga.pt",
+          "shortName": "Braga",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-19T08:44:56Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 45401,
+          "name": "Ricardo Horta",
+          "section": "Left Winger",
+          "lastName": "Ricardo Horta",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1994-09-15",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 496,
+          "tla": "RIO",
+          "name": "Rio Ave FC",
+          "crest": "https://crests.football-data.org/496.png",
+          "venue": "Estádio do Rio Ave Futebol Clube",
+          "address": "Praça da República, n.º35, Apartado 42 Vila do Conde 4481-909",
+          "founded": 1939,
+          "website": "http://www.rioave-fc.pt",
+          "shortName": "Rio Ave",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:50Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 178810,
+          "name": "André Luiz",
+          "section": "Centre-Forward",
+          "lastName": "André Luiz",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2002-02-23",
+          "lastUpdated": "2025-05-20T09:42:31Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 712,
+          "tla": "FCA",
+          "name": "FC Arouca",
+          "crest": "https://crests.football-data.org/712.png",
+          "venue": "Estádio Municipal de Arouca",
+          "address": "Rua Doutor Ângelo Miranda Arouca 4540-140",
+          "founded": 1952,
+          "website": "http://www.fcarouca.eu",
+          "shortName": "Arouca",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-02-25T16:58:25Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 143641,
+          "name": "Alfonso Trezza",
+          "section": "Right Winger",
+          "lastName": "Trezza",
+          "position": null,
+          "firstName": "Alfonso",
+          "dateOfBirth": "1999-06-22",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Uruguay",
+          "shirtNumber": 19
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 5613,
+          "tla": "SCB",
+          "name": "Sporting Clube de Braga",
+          "crest": "https://crests.football-data.org/5613.png",
+          "venue": "Estádio Municipal de Braga",
+          "address": "Parque Norte, Monte Crasto, Apartado 12 Braga 4700-087",
+          "founded": 1921,
+          "website": "http://www.scbraga.pt",
+          "shortName": "Braga",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-19T08:44:56Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 121007,
+          "name": "Rodrigo Zalazar",
+          "section": "Central Midfield",
+          "lastName": "Zalazar",
+          "position": null,
+          "firstName": "Rodrigo",
+          "dateOfBirth": "1999-08-12",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Uruguay",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 5,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 9136,
+          "tla": "AMA",
+          "name": "CF Estrela da Amadora",
+          "crest": "https://crests.football-data.org/9136.png",
+          "venue": "Estádio Nacional",
+          "address": "null null null",
+          "founded": null,
+          "website": null,
+          "shortName": "Amadora",
+          "clubColors": null,
+          "lastUpdated": "2023-07-31T12:07:04Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 79824,
+          "name": "Kikas",
+          "section": "Centre-Forward",
+          "lastName": "Kikas",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-09-17",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 712,
+          "tla": "FCA",
+          "name": "FC Arouca",
+          "crest": "https://crests.football-data.org/712.png",
+          "venue": "Estádio Municipal de Arouca",
+          "address": "Rua Doutor Ângelo Miranda Arouca 4540-140",
+          "founded": 1952,
+          "website": "http://www.fcarouca.eu",
+          "shortName": "Arouca",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-02-25T16:58:25Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 92089,
+          "name": "Naïs Djouahra",
+          "section": "Left Winger",
+          "lastName": "Djouahra",
+          "position": null,
+          "firstName": "Naïs",
+          "dateOfBirth": "1999-11-23",
+          "lastUpdated": "2025-10-13T09:42:39Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 7822,
+          "tla": "ALV",
+          "name": "FC Alverca",
+          "crest": "https://crests.football-data.org/7822.png",
+          "venue": "Campo Futebol Clube Alverca",
+          "address": "null Alverca do Ribatejo null",
+          "founded": 1939,
+          "website": "http://www.fcalverca.pt/",
+          "shortName": "Alverca",
+          "clubColors": null,
+          "lastUpdated": "2023-09-02T13:20:53Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 172231,
+          "name": "Marko Milovanovic",
+          "section": "Offence",
+          "lastName": "Marezi",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2003-08-04",
+          "lastUpdated": "2024-08-18T09:45:42Z",
+          "nationality": "Serbia",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 2,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 503,
+          "tla": "FCP",
+          "name": "FC Porto",
+          "crest": "https://crests.football-data.org/503.png",
+          "venue": "Estádio Do Dragão",
+          "address": "Estádio do Dragão, Entrada Poente - Piso 3 Porto 4350-451",
+          "founded": 1893,
+          "website": "http://www.fcporto.pt",
+          "shortName": "Porto",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-10T19:26:43Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 127034,
+          "name": "Borja Sainz",
+          "section": "Left Winger",
+          "lastName": "Borja Sainz",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-02-01",
+          "lastUpdated": "2024-09-02T09:59:05Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 9136,
+          "tla": "AMA",
+          "name": "CF Estrela da Amadora",
+          "crest": "https://crests.football-data.org/9136.png",
+          "venue": "Estádio Nacional",
+          "address": "null null null",
+          "founded": null,
+          "website": null,
+          "shortName": "Amadora",
+          "clubColors": null,
+          "lastUpdated": "2023-07-31T12:07:04Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 209178,
+          "name": "Sidny Lopes Cabral",
+          "section": "Defence",
+          "lastName": "Lopes Cabral",
+          "position": null,
+          "firstName": "Sidny",
+          "dateOfBirth": "2002-09-18",
+          "lastUpdated": "2025-09-19T09:41:44Z",
+          "nationality": "Cape Verde Islands",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 3,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 498,
+          "tla": "SPO",
+          "name": "Sporting Clube de Portugal",
+          "crest": "https://crests.football-data.org/498.png",
+          "venue": "Estádio José Alvalade",
+          "address": "Edifício Visconde de Alvalade, Apartado 42099 Lisboa 1601-801",
+          "founded": 1906,
+          "website": "http://www.sporting.pt",
+          "shortName": "Sporting CP",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:53Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 37332,
+          "name": "Trincão",
+          "section": "Left Winger",
+          "lastName": "Francisco Trincão",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-12-29",
+          "lastUpdated": "2025-05-30T09:41:08Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 5531,
+          "tla": "FAM",
+          "name": "FC Famalicão",
+          "crest": "https://crests.football-data.org/5531.png",
+          "venue": "Estádio Municipal 22 de Junho",
+          "address": "null Vila Nova de Famalicão null",
+          "founded": 1931,
+          "website": "http://www.fcfamalicao.pt",
+          "shortName": "Famalicão",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-08-07T11:37:24Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 187280,
+          "name": "Gustavo Sa",
+          "section": "Attacking Midfield",
+          "lastName": "Gustavo Sá",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2004-11-11",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 503,
+          "tla": "FCP",
+          "name": "FC Porto",
+          "crest": "https://crests.football-data.org/503.png",
+          "venue": "Estádio Do Dragão",
+          "address": "Estádio do Dragão, Entrada Poente - Piso 3 Porto 4350-451",
+          "founded": 1893,
+          "website": "http://www.fcporto.pt",
+          "shortName": "Porto",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-10T19:26:43Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 39102,
+          "name": "William da Silva",
+          "section": "Midfield",
+          "lastName": "William Gomes",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1986-11-20",
+          "lastUpdated": "2025-10-10T09:42:41Z",
+          "nationality": "Brazil",
+          "shirtNumber": 8
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 5530,
+          "tla": "CD ",
+          "name": "CD Santa Clara",
+          "crest": "https://crests.football-data.org/5530.png",
+          "venue": "Cidade do Futebol",
+          "address": "Rua Comandante Jaime de Sousa, 21 Ponta Delgada 9500",
+          "founded": 1921,
+          "website": "http://www.cdsantaclara.pt",
+          "shortName": "Santa Clara",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-20T08:40:31Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 118015,
+          "name": "Vinícius",
+          "section": "Offence",
+          "lastName": "Vinícius Lopes",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-05-07",
+          "lastUpdated": "2023-11-22T09:46:39Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 582,
+          "tla": "EST",
+          "name": "GD Estoril Praia",
+          "crest": "https://crests.football-data.org/582.png",
+          "venue": "Estádio António Coimbra da Mota",
+          "address": "Estádio António Coimbra da Mota Estoril 2765",
+          "founded": 1939,
+          "website": "http://www.estorilpraia.pt",
+          "shortName": "Estoril Praia",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-10-19T16:23:49Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 16752,
+          "name": "João Carvalho",
+          "section": "Midfield",
+          "lastName": "João Carvalho",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1997-03-09",
+          "lastUpdated": "2024-04-10T09:48:39Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 1903,
+          "tla": "BEN",
+          "name": "Sport Lisboa e Benfica",
+          "crest": "https://crests.football-data.org/1903.png",
+          "venue": "Estádio do Sport Lisboa e Benfica",
+          "address": "Avenida General Norton de Matos 1500 Lissabon null",
+          "founded": 1904,
+          "website": "https://www.slbenfica.pt",
+          "shortName": "SL Benfica",
+          "clubColors": null,
+          "lastUpdated": "2024-11-06T20:07:52Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 151558,
+          "name": "Heorhii Sudakov",
+          "section": "Midfield",
+          "lastName": "Sudakov",
+          "position": null,
+          "firstName": "Georgiy",
+          "dateOfBirth": "2002-09-01",
+          "lastUpdated": "2024-06-12T17:56:51Z",
+          "nationality": "Ukraine",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 5531,
+          "tla": "FAM",
+          "name": "FC Famalicão",
+          "crest": "https://crests.football-data.org/5531.png",
+          "venue": "Estádio Municipal 22 de Junho",
+          "address": "null Vila Nova de Famalicão null",
+          "founded": 1931,
+          "website": "http://www.fcfamalicao.pt",
+          "shortName": "Famalicão",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-08-07T11:37:24Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 265516,
+          "name": "Yassir Zabiri",
+          "section": "Midfield",
+          "lastName": "Zabiri",
+          "position": null,
+          "firstName": "Yassir",
+          "dateOfBirth": "2005-02-23",
+          "lastUpdated": "2025-10-13T09:42:40Z",
+          "nationality": "Morocco",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 498,
+          "tla": "SPO",
+          "name": "Sporting Clube de Portugal",
+          "crest": "https://crests.football-data.org/498.png",
+          "venue": "Estádio José Alvalade",
+          "address": "Edifício Visconde de Alvalade, Apartado 42099 Lisboa 1601-801",
+          "founded": 1906,
+          "website": "http://www.sporting.pt",
+          "shortName": "Sporting CP",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:53Z"
+        },
+        "goals": 4,
+        "player": {
+          "id": 28770,
+          "name": "Maximiliano Araújo",
+          "section": "Midfield",
+          "lastName": "Araújo",
+          "position": null,
+          "firstName": "Maxi",
+          "dateOfBirth": "2000-02-15",
+          "lastUpdated": "2025-05-22T09:41:07Z",
+          "nationality": "Uruguay",
+          "shirtNumber": 20
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 5533,
+          "tla": "GIL",
+          "name": "Gil Vicente FC",
+          "crest": "https://crests.football-data.org/5533.png",
+          "venue": "Estádio Cidade de Barcelos",
+          "address": "Rua D. Diogo Pinheiro n.º 25, Apartado 197 Barcelos 4750-282",
+          "founded": 1924,
+          "website": "http://www.gilvicentefc.pt",
+          "shortName": "Gil Vicente",
+          "clubColors": "Red / Blue",
+          "lastUpdated": "2022-02-19T08:57:44Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 157367,
+          "name": "Luís Esteves",
+          "section": "Midfield",
+          "lastName": "Luís Esteves",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-04-09",
+          "lastUpdated": "2024-12-29T09:42:49Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 5613,
+          "tla": "SCB",
+          "name": "Sporting Clube de Braga",
+          "crest": "https://crests.football-data.org/5613.png",
+          "venue": "Estádio Municipal de Braga",
+          "address": "Parque Norte, Monte Crasto, Apartado 12 Braga 4700-087",
+          "founded": 1921,
+          "website": "http://www.scbraga.pt",
+          "shortName": "Braga",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-19T08:44:56Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 144579,
+          "name": "Pau Victor Delgado",
+          "section": "Centre-Forward",
+          "lastName": "Pau Víctor",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-11-26",
+          "lastUpdated": "2024-08-12T11:57:14Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 5543,
+          "tla": "GUI",
+          "name": "Vitória SC",
+          "crest": "https://crests.football-data.org/5543.png",
+          "venue": "Estádio Dom Afonso Henriques",
+          "address": "Dr. António Pimenta Machado, Apartado 505 Guimarães 4802-914",
+          "founded": 1922,
+          "website": "http://www.vitoriasc.pt",
+          "shortName": "Vitória SC",
+          "clubColors": "White / Black",
+          "lastUpdated": "2022-03-06T09:31:54Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 4003,
+          "name": "Nélson Oliveira",
+          "section": "Centre-Forward",
+          "lastName": "Nélson Oliveira",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1991-08-08",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 1903,
+          "tla": "BEN",
+          "name": "Sport Lisboa e Benfica",
+          "crest": "https://crests.football-data.org/1903.png",
+          "venue": "Estádio do Sport Lisboa e Benfica",
+          "address": "Avenida General Norton de Matos 1500 Lissabon null",
+          "founded": 1904,
+          "website": "https://www.slbenfica.pt",
+          "shortName": "SL Benfica",
+          "clubColors": null,
+          "lastUpdated": "2024-11-06T20:07:52Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 183643,
+          "name": "Franjo Ivanovic",
+          "section": "Midfield",
+          "lastName": "Ivanović",
+          "position": null,
+          "firstName": "Franjo",
+          "dateOfBirth": "2003-10-01",
+          "lastUpdated": "2024-06-11T09:51:37Z",
+          "nationality": "Croatia",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 1903,
+          "tla": "BEN",
+          "name": "Sport Lisboa e Benfica",
+          "crest": "https://crests.football-data.org/1903.png",
+          "venue": "Estádio do Sport Lisboa e Benfica",
+          "address": "Avenida General Norton de Matos 1500 Lissabon null",
+          "founded": 1904,
+          "website": "https://www.slbenfica.pt",
+          "shortName": "SL Benfica",
+          "clubColors": null,
+          "lastUpdated": "2024-11-06T20:07:52Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 38088,
+          "name": "Fredrik Aursnes",
+          "section": "Defensive Midfield",
+          "lastName": "Aursnes",
+          "position": null,
+          "firstName": "Fredrik",
+          "dateOfBirth": "1995-12-10",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Norway",
+          "shirtNumber": 17
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 5613,
+          "tla": "SCB",
+          "name": "Sporting Clube de Braga",
+          "crest": "https://crests.football-data.org/5613.png",
+          "venue": "Estádio Municipal de Braga",
+          "address": "Parque Norte, Monte Crasto, Apartado 12 Braga 4700-087",
+          "founded": 1921,
+          "website": "http://www.scbraga.pt",
+          "shortName": "Braga",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-19T08:44:56Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 102579,
+          "name": "Fran Navarro",
+          "section": "Offence",
+          "lastName": "Fran Navarro",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-02-03",
+          "lastUpdated": "2025-05-21T09:42:34Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 583,
+          "tla": "MOR",
+          "name": "Moreirense FC",
+          "crest": "https://crests.football-data.org/583.png",
+          "venue": "P.D. Comendador Joaquim de Almeida Freitas",
+          "address": "Avenida Comendador Joaquim de Almeida Freitas Moreira de Cónegos 4815-270",
+          "founded": 1938,
+          "website": "http://www.moreirensefc.pt",
+          "shortName": "Moreirense",
+          "clubColors": "Green / White",
+          "lastUpdated": "2023-03-05T07:40:05Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 245259,
+          "name": "Diogo Travassos",
+          "section": "Defence",
+          "lastName": "Diogo Travassos",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2004-03-31",
+          "lastUpdated": "2025-10-13T09:42:39Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 5530,
+          "tla": "CD ",
+          "name": "CD Santa Clara",
+          "crest": "https://crests.football-data.org/5530.png",
+          "venue": "Cidade do Futebol",
+          "address": "Rua Comandante Jaime de Sousa, 21 Ponta Delgada 9500",
+          "founded": 1921,
+          "website": "http://www.cdsantaclara.pt",
+          "shortName": "Santa Clara",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-20T08:40:31Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 37393,
+          "name": "Serginho",
+          "section": "Goalkeeper",
+          "lastName": "Serginho",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1982-12-06",
+          "lastUpdated": "2023-11-28T09:46:11Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 3,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 6618,
+          "tla": "CAS",
+          "name": "Casa Pia AC",
+          "crest": "https://crests.football-data.org/6618.png",
+          "venue": "Estádio Pina Manique",
+          "address": "Estádio Pina Manique Lisboa 1500-462",
+          "founded": 1920,
+          "website": "http://www.casapia-ac.pt",
+          "shortName": "Casa Pia",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-07-26T17:38:35Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 45116,
+          "name": "Jérémy Livolant",
+          "section": "Midfield",
+          "lastName": "Livolant",
+          "position": null,
+          "firstName": "Jérémy",
+          "dateOfBirth": "1998-01-09",
+          "lastUpdated": "2024-08-04T23:09:44Z",
+          "nationality": "France",
+          "shirtNumber": 29
+        },
+        "assists": 3,
+        "penalties": 1,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 498,
+          "tla": "SPO",
+          "name": "Sporting Clube de Portugal",
+          "crest": "https://crests.football-data.org/498.png",
+          "venue": "Estádio José Alvalade",
+          "address": "Edifício Visconde de Alvalade, Apartado 42099 Lisboa 1601-801",
+          "founded": 1906,
+          "website": "http://www.sporting.pt",
+          "shortName": "Sporting CP",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:53Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 186459,
+          "name": "Fotis Ioannidis",
+          "section": "Offence",
+          "lastName": "Ioannidis",
+          "position": null,
+          "firstName": "Fotis",
+          "dateOfBirth": "2000-01-10",
+          "lastUpdated": "2025-10-13T09:41:07Z",
+          "nationality": "Greece",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 12
+      },
+      {
+        "team": {
+          "id": 1049,
+          "tla": "TON",
+          "name": "CD Tondela",
+          "crest": "https://crests.football-data.org/1049.png",
+          "venue": "Estádio João Cardoso",
+          "address": "Av. Eurico José Gouveia (Estádio) - Apartado 84 Tondela 3460-582",
+          "founded": 1933,
+          "website": "http://www.cdtondela.pt",
+          "shortName": "Tondela",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-03-05T07:37:49Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 242516,
+          "name": "Pedro Maranhão",
+          "section": "Offence",
+          "lastName": "Pedro Maranhão",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1999-03-02",
+          "lastUpdated": "2025-10-12T09:42:41Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 2,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 5529,
+          "tla": "CDN",
+          "name": "CD Nacional",
+          "crest": "https://crests.football-data.org/5529.png",
+          "venue": "Estádio da Madeira",
+          "address": "Rua do Esmeraldo, n.º 46 Funchal 9060",
+          "founded": 1910,
+          "website": "http://www.cdnacional.pt",
+          "shortName": "CD Nacional",
+          "clubColors": "Black / White",
+          "lastUpdated": "2023-06-02T09:42:46Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 169570,
+          "name": "Zé Vitor",
+          "section": "Defence",
+          "lastName": "Zé Vítor",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-02-09",
+          "lastUpdated": "2025-05-16T09:42:48Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 5543,
+          "tla": "GUI",
+          "name": "Vitória SC",
+          "crest": "https://crests.football-data.org/5543.png",
+          "venue": "Estádio Dom Afonso Henriques",
+          "address": "Dr. António Pimenta Machado, Apartado 505 Guimarães 4802-914",
+          "founded": 1922,
+          "website": "http://www.vitoriasc.pt",
+          "shortName": "Vitória SC",
+          "clubColors": "White / Black",
+          "lastUpdated": "2022-03-06T09:31:54Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 280039,
+          "name": "Oumar Camara",
+          "section": "Offence",
+          "lastName": "Camara",
+          "position": null,
+          "firstName": "Oumar",
+          "dateOfBirth": "2007-05-11",
+          "lastUpdated": "2025-08-02T09:42:46Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 1,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 9136,
+          "tla": "AMA",
+          "name": "CF Estrela da Amadora",
+          "crest": "https://crests.football-data.org/9136.png",
+          "venue": "Estádio Nacional",
+          "address": "null null null",
+          "founded": null,
+          "website": null,
+          "shortName": "Amadora",
+          "clubColors": null,
+          "lastUpdated": "2023-07-31T12:07:04Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 151113,
+          "name": "Abraham Marcus",
+          "section": "Midfield",
+          "lastName": "Marcus",
+          "position": null,
+          "firstName": "Abraham",
+          "dateOfBirth": "2000-01-02",
+          "lastUpdated": "2023-05-01T20:02:17Z",
+          "nationality": "Nigeria",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 9136,
+          "tla": "AMA",
+          "name": "CF Estrela da Amadora",
+          "crest": "https://crests.football-data.org/9136.png",
+          "venue": "Estádio Nacional",
+          "address": "null null null",
+          "founded": null,
+          "website": null,
+          "shortName": "Amadora",
+          "clubColors": null,
+          "lastUpdated": "2023-07-31T12:07:04Z"
+        },
+        "goals": 3,
+        "player": {
+          "id": 37116,
+          "name": "Jovane Cabral",
+          "section": "Offence",
+          "lastName": "Jovane Cabral",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-06-14",
+          "lastUpdated": "2024-04-10T09:48:39Z",
+          "nationality": "Cape Verde Islands",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 12
+      },
+      {
+        "team": {
+          "id": 498,
+          "tla": "SPO",
+          "name": "Sporting Clube de Portugal",
+          "crest": "https://crests.football-data.org/498.png",
+          "venue": "Estádio José Alvalade",
+          "address": "Edifício Visconde de Alvalade, Apartado 42099 Lisboa 1601-801",
+          "founded": 1906,
+          "website": "http://www.sporting.pt",
+          "shortName": "Sporting CP",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:53Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 73998,
+          "name": "Morten Hjulmand",
+          "section": "Defensive Midfield",
+          "lastName": "Hjulmand",
+          "position": null,
+          "firstName": "Morten",
+          "dateOfBirth": "1999-06-25",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Denmark",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 10340,
+          "tla": "AVS",
+          "name": "AVS",
+          "crest": "https://crests.football-data.org/10340.png",
+          "venue": "Estádio do CD Aves",
+          "address": "null null null",
+          "founded": null,
+          "website": null,
+          "shortName": "AVS",
+          "clubColors": null,
+          "lastUpdated": "2024-12-17T10:57:53Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 2470,
+          "name": "Nenê",
+          "section": "Offence",
+          "lastName": "Nenê",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1983-07-28",
+          "lastUpdated": "2023-11-22T09:47:10Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 5531,
+          "tla": "FAM",
+          "name": "FC Famalicão",
+          "crest": "https://crests.football-data.org/5531.png",
+          "venue": "Estádio Municipal 22 de Junho",
+          "address": "null Vila Nova de Famalicão null",
+          "founded": 1931,
+          "website": "http://www.fcfamalicao.pt",
+          "shortName": "Famalicão",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-08-07T11:37:24Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 1785,
+          "name": "Gil Dias",
+          "section": "Defence",
+          "lastName": "Gil Dias",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1996-09-28",
+          "lastUpdated": "2024-12-25T09:42:50Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 582,
+          "tla": "EST",
+          "name": "GD Estoril Praia",
+          "crest": "https://crests.football-data.org/582.png",
+          "venue": "Estádio António Coimbra da Mota",
+          "address": "Estádio António Coimbra da Mota Estoril 2765",
+          "founded": 1939,
+          "website": "http://www.estorilpraia.pt",
+          "shortName": "Estoril Praia",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-10-19T16:23:49Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 276658,
+          "name": "Tiago Parente",
+          "section": "Defence",
+          "lastName": "Tiago Parente",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2004-01-14",
+          "lastUpdated": "2025-10-13T09:42:38Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 9136,
+          "tla": "AMA",
+          "name": "CF Estrela da Amadora",
+          "crest": "https://crests.football-data.org/9136.png",
+          "venue": "Estádio Nacional",
+          "address": "null null null",
+          "founded": null,
+          "website": null,
+          "shortName": "Amadora",
+          "clubColors": null,
+          "lastUpdated": "2023-07-31T12:07:04Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 81357,
+          "name": "Ianis Stoica",
+          "section": "Midfield",
+          "lastName": "Stoica",
+          "position": null,
+          "firstName": "Ianis",
+          "dateOfBirth": "2002-12-08",
+          "lastUpdated": "2023-08-11T13:53:07Z",
+          "nationality": "Romania",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 503,
+          "tla": "FCP",
+          "name": "FC Porto",
+          "crest": "https://crests.football-data.org/503.png",
+          "venue": "Estádio Do Dragão",
+          "address": "Estádio do Dragão, Entrada Poente - Piso 3 Porto 4350-451",
+          "founded": 1893,
+          "website": "http://www.fcporto.pt",
+          "shortName": "Porto",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-10T19:26:43Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 1166,
+          "name": "Pepê",
+          "section": "Left Winger",
+          "lastName": "Pepê",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1997-02-24",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 15
+      },
+      {
+        "team": {
+          "id": 582,
+          "tla": "EST",
+          "name": "GD Estoril Praia",
+          "crest": "https://crests.football-data.org/582.png",
+          "venue": "Estádio António Coimbra da Mota",
+          "address": "Estádio António Coimbra da Mota Estoril 2765",
+          "founded": 1939,
+          "website": "http://www.estorilpraia.pt",
+          "shortName": "Estoril Praia",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-10-19T16:23:49Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 636,
+          "name": "Rafik Guitane",
+          "section": "Right Winger",
+          "lastName": "Guitane",
+          "position": null,
+          "firstName": "Rafik",
+          "dateOfBirth": "1999-05-26",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Algeria",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 14
+      },
+      {
+        "team": {
+          "id": 5613,
+          "tla": "SCB",
+          "name": "Sporting Clube de Braga",
+          "crest": "https://crests.football-data.org/5613.png",
+          "venue": "Estádio Municipal de Braga",
+          "address": "Parque Norte, Monte Crasto, Apartado 12 Braga 4700-087",
+          "founded": 1921,
+          "website": "http://www.scbraga.pt",
+          "shortName": "Braga",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-02-19T08:44:56Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 137515,
+          "name": "Amine El Ouazzani",
+          "section": "Offence",
+          "lastName": "El Ouazzani",
+          "position": null,
+          "firstName": "Amine",
+          "dateOfBirth": "2001-07-15",
+          "lastUpdated": "2024-08-04T23:09:44Z",
+          "nationality": "Morocco",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 13
+      },
+      {
+        "team": {
+          "id": 498,
+          "tla": "SPO",
+          "name": "Sporting Clube de Portugal",
+          "crest": "https://crests.football-data.org/498.png",
+          "venue": "Estádio José Alvalade",
+          "address": "Edifício Visconde de Alvalade, Apartado 42099 Lisboa 1601-801",
+          "founded": 1906,
+          "website": "http://www.sporting.pt",
+          "shortName": "Sporting CP",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-07-26T17:38:53Z"
+        },
+        "goals": 2,
+        "player": {
+          "id": 53190,
+          "name": "Ricardo Mangas",
+          "section": "Left-Back",
+          "lastName": "Ricardo Mangas",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "1998-03-19",
+          "lastUpdated": "2024-11-01T22:50:30Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 12
+      }
+    ],
+    "competition": {
+      "id": 2017,
+      "code": "PPL",
+      "name": "Primeira Liga",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/PPL.png"
+    }
+  }
+}

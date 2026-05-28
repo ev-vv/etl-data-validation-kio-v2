@@ -1,0 +1,157 @@
+{
+  "endpoint": "competitions/2017/standings?season=2024",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_small_20260429_204117_b001",
+    "batch_id": "scaled_small_20260429_204117_b001"
+  },
+  "response_json": {
+    "competition": {
+      "id": 2017,
+      "area": {
+        "id": 2142,
+        "name": "Saint Pierre and Miquelon",
+        "countryCode": "CA",
+        "flag": "https://picsum.photos/178/864"
+      },
+      "name": "Munoz-Roman League",
+      "code": "UDI",
+      "type": "LEAGUE",
+      "emblem": "https://picsum.photos/255/775"
+    },
+    "season": {
+      "id": 2024,
+      "startDate": "2024-08-01",
+      "endDate": "2025-05-30"
+    },
+    "standings": [
+      {
+        "stage": "REGULAR_SEASON",
+        "type": "TOTAL",
+        "table": [
+          {
+            "position": 1,
+            "team": {
+              "id": 58434,
+              "name": "Ericside FC"
+            },
+            "playedGames": 38,
+            "won": 2,
+            "draw": 3,
+            "lost": 1,
+            "points": 71,
+            "goalsFor": 68,
+            "goalsAgainst": 46,
+            "goalDifference": 8
+          },
+          {
+            "position": 2,
+            "team": {
+              "id": 22097,
+              "name": "Calderonton FC"
+            },
+            "playedGames": 38,
+            "won": 19,
+            "draw": 9,
+            "lost": 3,
+            "points": 99,
+            "goalsFor": 53,
+            "goalsAgainst": 44,
+            "goalDifference": -2
+          },
+          {
+            "position": 3,
+            "team": {
+              "id": 23473,
+              "name": "Kimberlychester FC"
+            },
+            "playedGames": 38,
+            "won": 14,
+            "draw": 4,
+            "lost": 9,
+            "points": 54,
+            "goalsFor": 39,
+            "goalsAgainst": 56,
+            "goalDifference": 9
+          },
+          {
+            "position": 4,
+            "team": {
+              "id": 46585,
+              "name": "Darlenefurt FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 9,
+            "lost": 1,
+            "points": 97,
+            "goalsFor": 33,
+            "goalsAgainst": 60,
+            "goalDifference": -17
+          },
+          {
+            "position": 5,
+            "team": {
+              "id": 97062,
+              "name": "Cindyville FC"
+            },
+            "playedGames": 38,
+            "won": 8,
+            "draw": 10,
+            "lost": 1,
+            "points": 20,
+            "goalsFor": 35,
+            "goalsAgainst": 31,
+            "goalDifference": 5
+          },
+          {
+            "position": 6,
+            "team": {
+              "id": 32241,
+              "name": "West Zacharymouth FC"
+            },
+            "playedGames": 38,
+            "won": 2,
+            "draw": 2,
+            "lost": 0,
+            "points": 52,
+            "goalsFor": 48,
+            "goalsAgainst": 64,
+            "goalDifference": 8
+          },
+          {
+            "position": 7,
+            "team": {
+              "id": 77889,
+              "name": "Williamsbury FC"
+            },
+            "playedGames": 38,
+            "won": 15,
+            "draw": 4,
+            "lost": 0,
+            "points": 29,
+            "goalsFor": 38,
+            "goalsAgainst": 65,
+            "goalDifference": -12
+          },
+          {
+            "position": 8,
+            "team": {
+              "id": 28136,
+              "name": "East Patrick FC"
+            },
+            "playedGames": 38,
+            "won": 14,
+            "draw": 1,
+            "lost": 10,
+            "points": 29,
+            "goalsFor": 79,
+            "goalsAgainst": 36,
+            "goalDifference": 20
+          }
+        ]
+      }
+    ]
+  }
+}

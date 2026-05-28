@@ -1,0 +1,33 @@
+scales:
+  small:
+    competitions: 3
+    teams_per_comp: 8
+    matches_per_season: 38
+    seasons: [2023, 2024]
+    areas: 5
+    description: "Тестовый набор (~1,800 матчей)"
+    
+  medium:
+    competitions: 10
+    teams_per_comp: 20
+    matches_per_season: 380
+    seasons: [2022, 2023, 2024, 2025]
+    areas: 15
+    description: "Средний набор (~30,000 матчей)"
+    
+  large:
+    competitions: 30
+    teams_per_comp: 50
+    matches_per_season: 380
+    seasons: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+    areas: 30
+    description: "Большой набор (~1,200,000 матчей)"
+
+batch_config:
+  small: 1
+  medium: 4
+  large: 10
+  
+output:
+  base_dir: "input/scaled_datasets"
+  structure: "batch"  # batch | single

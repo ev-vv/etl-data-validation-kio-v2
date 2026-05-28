@@ -1,0 +1,1582 @@
+{
+  "source_id": 83,
+  "endpoint": "competitions/2003/scorers?season=2024&limit=50",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "count": 50,
+    "season": {
+      "id": 2293,
+      "winner": null,
+      "endDate": "2025-05-18",
+      "startDate": "2024-08-09",
+      "currentMatchday": 34
+    },
+    "filters": {
+      "limit": 50,
+      "season": 2024
+    },
+    "scorers": [
+      {
+        "team": {
+          "id": 666,
+          "tla": "TWE",
+          "name": "FC Twente '65",
+          "crest": "https://crests.football-data.org/666.png",
+          "venue": "De Grolsch Veste",
+          "address": "Colosseum 65 Enschede 7521 PP",
+          "founded": 1965,
+          "website": "http://www.fctwente.nl",
+          "shortName": "Twente",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-24T17:06:27Z"
+        },
+        "goals": 24,
+        "player": {
+          "id": 80161,
+          "name": "Sem Steijn",
+          "section": "Attacking Midfield",
+          "lastName": "Steijn",
+          "position": null,
+          "firstName": "Sem",
+          "dateOfBirth": "2001-11-17",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 6,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 675,
+          "tla": "FEY",
+          "name": "Feyenoord Rotterdam",
+          "crest": "https://crests.football-data.org/675.png",
+          "venue": "Stadion Feijenoord",
+          "address": "Van Zandvlietplein 3 Rotterdam 3007 AP",
+          "founded": 1908,
+          "website": "http://www.feyenoord.nl",
+          "shortName": "Feyenoord",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-24T17:06:52Z"
+        },
+        "goals": 16,
+        "player": {
+          "id": 119703,
+          "name": "Igor Paixão",
+          "section": "Left Winger",
+          "lastName": "Igor Paixão",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2000-06-28",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Brazil",
+          "shirtNumber": null
+        },
+        "assists": 10,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 674,
+          "tla": "PSV",
+          "name": "PSV",
+          "crest": "https://crests.football-data.org/674.png",
+          "venue": "Philips Stadion",
+          "address": "Fredriklaan 10a Eindhoven 5616 NH",
+          "founded": 1913,
+          "website": "http://www.psv.nl",
+          "shortName": "PSV",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-06T09:30:40Z"
+        },
+        "goals": 14,
+        "player": {
+          "id": 7452,
+          "name": "Luuk de Jong",
+          "section": "Centre-Forward",
+          "lastName": "de Jong",
+          "position": null,
+          "firstName": "Luuk",
+          "dateOfBirth": "1990-08-27",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 8,
+        "penalties": 2,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 682,
+          "tla": "AZ",
+          "name": "AZ",
+          "crest": "https://crests.football-data.org/682.png",
+          "venue": "AFAS Stadion",
+          "address": "Stadionweg 1 Alkmaar 1812 AZ",
+          "founded": 1967,
+          "website": "http://www.az.nl",
+          "shortName": "AZ",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:18Z"
+        },
+        "goals": 14,
+        "player": {
+          "id": 131041,
+          "name": "Troy Parrott",
+          "section": "Centre-Forward",
+          "lastName": "Parrott",
+          "position": null,
+          "firstName": "Troy",
+          "dateOfBirth": "2002-02-04",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Ireland",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 684,
+          "tla": "ZWO",
+          "name": "PEC Zwolle",
+          "crest": "https://crests.football-data.org/684.png",
+          "venue": "MAC³PARK Stadion",
+          "address": "Stadionplein 1 Zwolle 8025 CP",
+          "founded": 1910,
+          "website": "http://www.peczwolle.nl",
+          "shortName": "Zwolle",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-03-22T10:11:39Z"
+        },
+        "goals": 13,
+        "player": {
+          "id": 7476,
+          "name": "Dylan Vente",
+          "section": "Centre-Forward",
+          "lastName": "Vente",
+          "position": null,
+          "firstName": "Dylan",
+          "dateOfBirth": "1999-05-09",
+          "lastUpdated": "2024-09-06T09:41:28Z",
+          "nationality": "Suriname",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 3,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 674,
+          "tla": "PSV",
+          "name": "PSV",
+          "crest": "https://crests.football-data.org/674.png",
+          "venue": "Philips Stadion",
+          "address": "Fredriklaan 10a Eindhoven 5616 NH",
+          "founded": 1913,
+          "website": "http://www.psv.nl",
+          "shortName": "PSV",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-06T09:30:40Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 144470,
+          "name": "Malik Tillman",
+          "section": "Attacking Midfield",
+          "lastName": "Tillman",
+          "position": null,
+          "firstName": "Malik",
+          "dateOfBirth": "2002-05-28",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "USA",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 678,
+          "tla": "AJA",
+          "name": "AFC Ajax",
+          "crest": "https://crests.football-data.org/678.png",
+          "venue": "Johan Cruyff ArenA",
+          "address": "ArenA Boulevard 29 Amsterdam 1101 AX",
+          "founded": 1900,
+          "website": "http://www.ajax.nl",
+          "shortName": "Ajax",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:05Z"
+        },
+        "goals": 12,
+        "player": {
+          "id": 130053,
+          "name": "Oliver Edvardsen",
+          "section": "Left Winger",
+          "lastName": "Edvardsen",
+          "position": null,
+          "firstName": "Oliver",
+          "dateOfBirth": "1999-03-19",
+          "lastUpdated": "2025-01-30T09:41:23Z",
+          "nationality": "Norway",
+          "shirtNumber": 23
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 674,
+          "tla": "PSV",
+          "name": "PSV",
+          "crest": "https://crests.football-data.org/674.png",
+          "venue": "Philips Stadion",
+          "address": "Fredriklaan 10a Eindhoven 5616 NH",
+          "founded": 1913,
+          "website": "http://www.psv.nl",
+          "shortName": "PSV",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-06T09:30:40Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 119731,
+          "name": "Ricardo Pepi",
+          "section": "Centre-Forward",
+          "lastName": "Pepi",
+          "position": null,
+          "firstName": "Ricardo",
+          "dateOfBirth": "2003-01-09",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "USA",
+          "shirtNumber": 16
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 20
+      },
+      {
+        "team": {
+          "id": 674,
+          "tla": "PSV",
+          "name": "PSV",
+          "crest": "https://crests.football-data.org/674.png",
+          "venue": "Philips Stadion",
+          "address": "Fredriklaan 10a Eindhoven 5616 NH",
+          "founded": 1913,
+          "website": "http://www.psv.nl",
+          "shortName": "PSV",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-06T09:30:40Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 7565,
+          "name": "Noa Lang",
+          "section": "Left Winger",
+          "lastName": "Lang",
+          "position": null,
+          "firstName": "Noa",
+          "dateOfBirth": "1999-06-17",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 10,
+        "penalties": null,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 674,
+          "tla": "PSV",
+          "name": "PSV",
+          "crest": "https://crests.football-data.org/674.png",
+          "venue": "Philips Stadion",
+          "address": "Fredriklaan 10a Eindhoven 5616 NH",
+          "founded": 1913,
+          "website": "http://www.psv.nl",
+          "shortName": "PSV",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-06T09:30:40Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 130173,
+          "name": "Ismael Saibari",
+          "section": "Central Midfield",
+          "lastName": "Saibari",
+          "position": null,
+          "firstName": "Ismael",
+          "dateOfBirth": "2001-01-28",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Morocco",
+          "shirtNumber": 9
+        },
+        "assists": 11,
+        "penalties": null,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 6806,
+          "tla": "SPA",
+          "name": "Sparta Rotterdam",
+          "crest": "https://crests.football-data.org/6806.png",
+          "venue": "Sparta-Stadion Het Kasteel",
+          "address": "Spartapark Noord 1 Rotterdam 3027 VW",
+          "founded": 1888,
+          "website": "http://www.sparta-rotterdam.nl",
+          "shortName": "Sparta",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-22T10:09:59Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 38124,
+          "name": "Tobias Lauritsen",
+          "section": "Centre-Forward",
+          "lastName": "Lauritsen",
+          "position": null,
+          "firstName": "Tobias",
+          "dateOfBirth": "1997-08-30",
+          "lastUpdated": "2024-08-24T08:13:28Z",
+          "nationality": "Norway",
+          "shirtNumber": 20
+        },
+        "assists": 2,
+        "penalties": 2,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 674,
+          "tla": "PSV",
+          "name": "PSV",
+          "crest": "https://crests.football-data.org/674.png",
+          "venue": "Philips Stadion",
+          "address": "Fredriklaan 10a Eindhoven 5616 NH",
+          "founded": 1913,
+          "website": "http://www.psv.nl",
+          "shortName": "PSV",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-06T09:30:40Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 7688,
+          "name": "Guus Til",
+          "section": "Attacking Midfield",
+          "lastName": "Til",
+          "position": null,
+          "firstName": "Guus",
+          "dateOfBirth": "1997-12-22",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": 8
+        },
+        "assists": 10,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 718,
+          "tla": "GOA",
+          "name": "Go Ahead Eagles",
+          "crest": "https://crests.football-data.org/718.png",
+          "venue": "De Adelaarshorst",
+          "address": "Vetkampstraat 1 Deventer 7416 WK",
+          "founded": 1902,
+          "website": "http://www.ga-eagles.nl",
+          "shortName": "Go Ahead",
+          "clubColors": "Red / Yellow",
+          "lastUpdated": "2022-03-22T10:09:14Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 144367,
+          "name": "Jakob Breum",
+          "section": "Left Winger",
+          "lastName": "Breum",
+          "position": null,
+          "firstName": "Jakob",
+          "dateOfBirth": "2003-11-17",
+          "lastUpdated": "2024-08-24T08:13:28Z",
+          "nationality": "Denmark",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 678,
+          "tla": "AJA",
+          "name": "AFC Ajax",
+          "crest": "https://crests.football-data.org/678.png",
+          "venue": "Johan Cruyff ArenA",
+          "address": "ArenA Boulevard 29 Amsterdam 1101 AX",
+          "founded": 1900,
+          "website": "http://www.ajax.nl",
+          "shortName": "Ajax",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:05Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 7697,
+          "name": "Wout Weghorst",
+          "section": "Centre-Forward",
+          "lastName": "Weghorst",
+          "position": null,
+          "firstName": "Wout",
+          "dateOfBirth": "1992-08-07",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 1,
+        "playedMatches": 25
+      },
+      {
+        "team": {
+          "id": 674,
+          "tla": "PSV",
+          "name": "PSV",
+          "crest": "https://crests.football-data.org/674.png",
+          "venue": "Philips Stadion",
+          "address": "Fredriklaan 10a Eindhoven 5616 NH",
+          "founded": 1913,
+          "website": "http://www.psv.nl",
+          "shortName": "PSV",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-06T09:30:40Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 154110,
+          "name": "Johan Bakayoko",
+          "section": "Right Winger",
+          "lastName": "Bakayoko",
+          "position": null,
+          "firstName": "Johan",
+          "dateOfBirth": "2003-04-20",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Belgium",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 682,
+          "tla": "AZ",
+          "name": "AZ",
+          "crest": "https://crests.football-data.org/682.png",
+          "venue": "AFAS Stadion",
+          "address": "Stadionweg 1 Alkmaar 1812 AZ",
+          "founded": 1967,
+          "website": "http://www.az.nl",
+          "shortName": "AZ",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:18Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 176746,
+          "name": "Mexx Meerdink",
+          "section": "Centre-Forward",
+          "lastName": "Meerdink",
+          "position": null,
+          "firstName": "Mexx",
+          "dateOfBirth": "2003-07-24",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 678,
+          "tla": "AJA",
+          "name": "AFC Ajax",
+          "crest": "https://crests.football-data.org/678.png",
+          "venue": "Johan Cruyff ArenA",
+          "address": "ArenA Boulevard 29 Amsterdam 1101 AX",
+          "founded": 1900,
+          "website": "http://www.ajax.nl",
+          "shortName": "Ajax",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:05Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 97537,
+          "name": "Kenneth Taylor",
+          "section": "Central Midfield",
+          "lastName": "Taylor",
+          "position": null,
+          "firstName": "Kenneth",
+          "dateOfBirth": "2002-05-16",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Netherlands",
+          "shirtNumber": 8
+        },
+        "assists": 6,
+        "penalties": 3,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 671,
+          "tla": "HER",
+          "name": "Heracles Almelo",
+          "crest": "https://crests.football-data.org/671.png",
+          "venue": "Erve Asito",
+          "address": "Stadionlaan 1 Almelo 7606 JZ",
+          "founded": 1903,
+          "website": "http://www.heracles.nl",
+          "shortName": "Heracles",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-03-22T10:10:18Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 262684,
+          "name": "Luka Kulenović",
+          "section": "Centre-Forward",
+          "lastName": "Kulenović",
+          "position": null,
+          "firstName": "Luka",
+          "dateOfBirth": "1999-09-29",
+          "lastUpdated": "2024-11-07T09:41:21Z",
+          "nationality": "Bosnia-Herzegovina",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 25
+      },
+      {
+        "team": {
+          "id": 1915,
+          "tla": "NEC",
+          "name": "NEC",
+          "crest": "https://crests.football-data.org/1915.png",
+          "venue": "Goffertstadion",
+          "address": "Stadionplein 1 Nijmegen 6532 AJ",
+          "founded": 1900,
+          "website": "http://www.nec-nijmegen.nl",
+          "shortName": "NEC",
+          "clubColors": "Red / Green / Black",
+          "lastUpdated": "2022-03-06T09:55:52Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 7304,
+          "name": "Vito van Crooij",
+          "section": "Offence",
+          "lastName": "van Crooij",
+          "position": null,
+          "firstName": "Vito",
+          "dateOfBirth": "1996-01-29",
+          "lastUpdated": "2023-07-30T23:07:00Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 1,
+        "playedMatches": 25
+      },
+      {
+        "team": {
+          "id": 674,
+          "tla": "PSV",
+          "name": "PSV",
+          "crest": "https://crests.football-data.org/674.png",
+          "venue": "Philips Stadion",
+          "address": "Fredriklaan 10a Eindhoven 5616 NH",
+          "founded": 1913,
+          "website": "http://www.psv.nl",
+          "shortName": "PSV",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-06T09:30:40Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 2004,
+          "name": "Ivan Perišić",
+          "section": "Left Winger",
+          "lastName": "Perišić",
+          "position": null,
+          "firstName": "Ivan",
+          "dateOfBirth": "1989-02-02",
+          "lastUpdated": "2024-08-23T09:25:15Z",
+          "nationality": "Croatia",
+          "shirtNumber": null
+        },
+        "assists": 9,
+        "penalties": null,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 683,
+          "tla": "RKC",
+          "name": "RKC Waalwijk",
+          "crest": "https://crests.football-data.org/683.png",
+          "venue": "Mandemakers Stadion",
+          "address": "Akkerlaan 2 Waalwijk 5143 ND",
+          "founded": 1940,
+          "website": "http://www.rkcwaalwijk.nl",
+          "shortName": "RKC",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-03-22T10:11:27Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 188950,
+          "name": "Oskar Zawada",
+          "section": "Offence",
+          "lastName": "Zawada",
+          "position": null,
+          "firstName": "Oskar",
+          "dateOfBirth": "2004-06-05",
+          "lastUpdated": "2023-09-10T01:49:40Z",
+          "nationality": "Poland",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 673,
+          "tla": "HEE",
+          "name": "SC Heerenveen",
+          "crest": "https://crests.football-data.org/673.png",
+          "venue": "Abe Lenstra Stadion",
+          "address": "Abe Lenstra Boulevard 19 Heerenveen 8448 JA",
+          "founded": 1920,
+          "website": "http://www.sc-heerenveen.nl",
+          "shortName": "Heerenveen",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-20T08:40:47Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 84910,
+          "name": "Ion Nicolăescu",
+          "section": "Centre-Forward",
+          "lastName": "Nicolăescu",
+          "position": null,
+          "firstName": "Ion",
+          "dateOfBirth": "1998-09-07",
+          "lastUpdated": "2025-10-15T09:42:32Z",
+          "nationality": "Moldova",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 3,
+        "playedMatches": 27
+      },
+      {
+        "team": {
+          "id": 718,
+          "tla": "GOA",
+          "name": "Go Ahead Eagles",
+          "crest": "https://crests.football-data.org/718.png",
+          "venue": "De Adelaarshorst",
+          "address": "Vetkampstraat 1 Deventer 7416 WK",
+          "founded": 1902,
+          "website": "http://www.ga-eagles.nl",
+          "shortName": "Go Ahead",
+          "clubColors": "Red / Yellow",
+          "lastUpdated": "2022-03-22T10:09:14Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 144445,
+          "name": "Victor Edvardsen",
+          "section": "Centre-Forward",
+          "lastName": "Edvardsen",
+          "position": null,
+          "firstName": "Victor",
+          "dateOfBirth": "1996-01-14",
+          "lastUpdated": "2024-08-24T08:13:28Z",
+          "nationality": "Sweden",
+          "shirtNumber": 16
+        },
+        "assists": 7,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 678,
+          "tla": "AJA",
+          "name": "AFC Ajax",
+          "crest": "https://crests.football-data.org/678.png",
+          "venue": "Johan Cruyff ArenA",
+          "address": "ArenA Boulevard 29 Amsterdam 1101 AX",
+          "founded": 1900,
+          "website": "http://www.ajax.nl",
+          "shortName": "Ajax",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:05Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 7841,
+          "name": "Davy Klaassen",
+          "section": "Central Midfield",
+          "lastName": "Klaassen",
+          "position": null,
+          "firstName": "Davy",
+          "dateOfBirth": "1993-02-21",
+          "lastUpdated": "2024-08-23T09:25:23Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 1,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 676,
+          "tla": "UTR",
+          "name": "FC Utrecht",
+          "crest": "https://crests.football-data.org/676.png",
+          "venue": "Stadion Galgenwaard",
+          "address": "Postbus 85159 Utrecht 3508 AD",
+          "founded": 1970,
+          "website": "http://www.fc-utrecht.nl",
+          "shortName": "Utrecht",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-24T17:07:00Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 167447,
+          "name": "Paxten Aaronson",
+          "section": "Attacking Midfield",
+          "lastName": "Aaronson",
+          "position": null,
+          "firstName": "Paxten",
+          "dateOfBirth": "2003-08-26",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "USA",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 681,
+          "tla": "NAC",
+          "name": "NAC Breda",
+          "crest": "https://crests.football-data.org/681.png",
+          "venue": "Rat Verlegh Stadion",
+          "address": "Postbus 3356 Breda 4800 DJ",
+          "founded": 1912,
+          "website": "http://www.nac.nl",
+          "shortName": "NAC",
+          "clubColors": "Yellow / White / Black",
+          "lastUpdated": "2022-03-23T08:30:12Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 31023,
+          "name": "Elías Már Ómarsson",
+          "section": "Centre-Forward",
+          "lastName": "Ómarsson",
+          "position": null,
+          "firstName": "Elías Már",
+          "dateOfBirth": "1995-01-18",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Iceland",
+          "shirtNumber": 9
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 675,
+          "tla": "FEY",
+          "name": "Feyenoord Rotterdam",
+          "crest": "https://crests.football-data.org/675.png",
+          "venue": "Stadion Feijenoord",
+          "address": "Van Zandvlietplein 3 Rotterdam 3007 AP",
+          "founded": 1908,
+          "website": "http://www.feyenoord.nl",
+          "shortName": "Feyenoord",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-24T17:06:52Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 244466,
+          "name": "Anis Moussa",
+          "section": "Right Winger",
+          "lastName": "Hadj Moussa",
+          "position": null,
+          "firstName": "Anis",
+          "dateOfBirth": "2002-02-11",
+          "lastUpdated": "2024-12-10T09:41:10Z",
+          "nationality": "Algeria",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 671,
+          "tla": "HER",
+          "name": "Heracles Almelo",
+          "crest": "https://crests.football-data.org/671.png",
+          "venue": "Erve Asito",
+          "address": "Stadionlaan 1 Almelo 7606 JZ",
+          "founded": 1903,
+          "website": "http://www.heracles.nl",
+          "shortName": "Heracles",
+          "clubColors": "Black / White",
+          "lastUpdated": "2022-03-22T10:10:18Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 7432,
+          "name": "Jizz Hornkamp",
+          "section": "Centre-Forward",
+          "lastName": "Hornkamp",
+          "position": null,
+          "firstName": "Jizz",
+          "dateOfBirth": "1998-03-07",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": 9
+        },
+        "assists": 2,
+        "penalties": 2,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 666,
+          "tla": "TWE",
+          "name": "FC Twente '65",
+          "crest": "https://crests.football-data.org/666.png",
+          "venue": "De Grolsch Veste",
+          "address": "Colosseum 65 Enschede 7521 PP",
+          "founded": 1965,
+          "website": "http://www.fctwente.nl",
+          "shortName": "Twente",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-24T17:06:27Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 7455,
+          "name": "Sam Lammers",
+          "section": "Centre-Forward",
+          "lastName": "Lammers",
+          "position": null,
+          "firstName": "Sam",
+          "dateOfBirth": "1997-04-30",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 21
+      },
+      {
+        "team": {
+          "id": 1920,
+          "tla": "SIT",
+          "name": "Fortuna Sittard",
+          "crest": "https://crests.football-data.org/1920.png",
+          "venue": "Fortuna Sittard Stadion",
+          "address": "Milaanstraat 120 Sittard 6135 LH",
+          "founded": 1968,
+          "website": "http://www.fortuna-sittard.nl",
+          "shortName": "Sittard",
+          "clubColors": "Yellow / Green",
+          "lastUpdated": "2022-03-22T10:11:54Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 7361,
+          "name": "Kristoffer Peterson",
+          "section": "Left Winger",
+          "lastName": "Peterson",
+          "position": null,
+          "firstName": "Kristoffer",
+          "dateOfBirth": "1994-11-28",
+          "lastUpdated": "2024-08-24T08:13:28Z",
+          "nationality": "Sweden",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 3,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 675,
+          "tla": "FEY",
+          "name": "Feyenoord Rotterdam",
+          "crest": "https://crests.football-data.org/675.png",
+          "venue": "Stadion Feijenoord",
+          "address": "Van Zandvlietplein 3 Rotterdam 3007 AP",
+          "founded": 1908,
+          "website": "http://www.feyenoord.nl",
+          "shortName": "Feyenoord",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-24T17:06:52Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 39635,
+          "name": "Santiago Giménez",
+          "section": "Centre-Forward",
+          "lastName": "Giménez",
+          "position": null,
+          "firstName": "Santiago",
+          "dateOfBirth": "2001-04-18",
+          "lastUpdated": "2025-02-02T09:41:08Z",
+          "nationality": "Mexico",
+          "shirtNumber": 29
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 11
+      },
+      {
+        "team": {
+          "id": 1915,
+          "tla": "NEC",
+          "name": "NEC",
+          "crest": "https://crests.football-data.org/1915.png",
+          "venue": "Goffertstadion",
+          "address": "Stadionplein 1 Nijmegen 6532 AJ",
+          "founded": 1900,
+          "website": "http://www.nec-nijmegen.nl",
+          "shortName": "NEC",
+          "clubColors": "Red / Green / Black",
+          "lastUpdated": "2022-03-06T09:55:52Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 48659,
+          "name": "Koki Ogawa",
+          "section": "Centre-Forward",
+          "lastName": "Ogawa",
+          "position": null,
+          "firstName": "Koki",
+          "dateOfBirth": "1997-08-08",
+          "lastUpdated": "2024-08-24T08:13:28Z",
+          "nationality": "Japan",
+          "shirtNumber": 9
+        },
+        "assists": 1,
+        "penalties": 1,
+        "playedMatches": 25
+      },
+      {
+        "team": {
+          "id": 1915,
+          "tla": "NEC",
+          "name": "NEC",
+          "crest": "https://crests.football-data.org/1915.png",
+          "venue": "Goffertstadion",
+          "address": "Stadionplein 1 Nijmegen 6532 AJ",
+          "founded": 1900,
+          "website": "http://www.nec-nijmegen.nl",
+          "shortName": "NEC",
+          "clubColors": "Red / Green / Black",
+          "lastUpdated": "2022-03-06T09:55:52Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 187040,
+          "name": "Sami Ouaissa",
+          "section": "Attacking Midfield",
+          "lastName": "Ouaissa",
+          "position": null,
+          "firstName": "Sami",
+          "dateOfBirth": "2004-10-02",
+          "lastUpdated": "2024-08-24T08:13:28Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 666,
+          "tla": "TWE",
+          "name": "FC Twente '65",
+          "crest": "https://crests.football-data.org/666.png",
+          "venue": "De Grolsch Veste",
+          "address": "Colosseum 65 Enschede 7521 PP",
+          "founded": 1965,
+          "website": "http://www.fctwente.nl",
+          "shortName": "Twente",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-24T17:06:27Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 16061,
+          "name": "Ricky van Wolfswinkel",
+          "section": "Centre-Forward",
+          "lastName": "van Wolfswinkel",
+          "position": null,
+          "firstName": "Ricky",
+          "dateOfBirth": "1989-01-27",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 675,
+          "tla": "FEY",
+          "name": "Feyenoord Rotterdam",
+          "crest": "https://crests.football-data.org/675.png",
+          "venue": "Stadion Feijenoord",
+          "address": "Van Zandvlietplein 3 Rotterdam 3007 AP",
+          "founded": 1908,
+          "website": "http://www.feyenoord.nl",
+          "shortName": "Feyenoord",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-24T17:06:52Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 119460,
+          "name": "Ayase Ueda",
+          "section": "Centre-Forward",
+          "lastName": "Ueda",
+          "position": null,
+          "firstName": "Ayase",
+          "dateOfBirth": "1998-09-10",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Japan",
+          "shirtNumber": 36
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 21
+      },
+      {
+        "team": {
+          "id": 681,
+          "tla": "NAC",
+          "name": "NAC Breda",
+          "crest": "https://crests.football-data.org/681.png",
+          "venue": "Rat Verlegh Stadion",
+          "address": "Postbus 3356 Breda 4800 DJ",
+          "founded": 1912,
+          "website": "http://www.nac.nl",
+          "shortName": "NAC",
+          "clubColors": "Yellow / White / Black",
+          "lastUpdated": "2022-03-23T08:30:12Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 214587,
+          "name": "Leo Sauer",
+          "section": "Left Winger",
+          "lastName": "Sauer",
+          "position": null,
+          "firstName": "Leo",
+          "dateOfBirth": "2005-12-16",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Slovakia",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 676,
+          "tla": "UTR",
+          "name": "FC Utrecht",
+          "crest": "https://crests.football-data.org/676.png",
+          "venue": "Stadion Galgenwaard",
+          "address": "Postbus 85159 Utrecht 3508 AD",
+          "founded": 1970,
+          "website": "http://www.fc-utrecht.nl",
+          "shortName": "Utrecht",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-24T17:07:00Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 150525,
+          "name": "Miguel Rodríguez",
+          "section": "Right Winger",
+          "lastName": "Miguel Rodríguez",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2003-04-29",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Spain",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 25
+      },
+      {
+        "team": {
+          "id": 682,
+          "tla": "AZ",
+          "name": "AZ",
+          "crest": "https://crests.football-data.org/682.png",
+          "venue": "AFAS Stadion",
+          "address": "Stadionweg 1 Alkmaar 1812 AZ",
+          "founded": 1967,
+          "website": "http://www.az.nl",
+          "shortName": "AZ",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:18Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 72536,
+          "name": "Ibrahim Sadiq",
+          "section": "Right Winger",
+          "lastName": "Sadiq",
+          "position": null,
+          "firstName": "Ibrahim",
+          "dateOfBirth": "2000-05-07",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Ghana",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 20
+      },
+      {
+        "team": {
+          "id": 673,
+          "tla": "HEE",
+          "name": "SC Heerenveen",
+          "crest": "https://crests.football-data.org/673.png",
+          "venue": "Abe Lenstra Stadion",
+          "address": "Abe Lenstra Boulevard 19 Heerenveen 8448 JA",
+          "founded": 1920,
+          "website": "http://www.sc-heerenveen.nl",
+          "shortName": "Heerenveen",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-20T08:40:47Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 210841,
+          "name": "Jacob Trenskow",
+          "section": "Right Winger",
+          "lastName": "Trenskow",
+          "position": null,
+          "firstName": "Jacob",
+          "dateOfBirth": "2000-11-26",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Denmark",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 25
+      },
+      {
+        "team": {
+          "id": 682,
+          "tla": "AZ",
+          "name": "AZ",
+          "crest": "https://crests.football-data.org/682.png",
+          "venue": "AFAS Stadion",
+          "address": "Stadionweg 1 Alkmaar 1812 AZ",
+          "founded": 1967,
+          "website": "http://www.az.nl",
+          "shortName": "AZ",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:18Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 115116,
+          "name": "Sven Mijnans",
+          "section": "Attacking Midfield",
+          "lastName": "Mijnans",
+          "position": null,
+          "firstName": "Sven",
+          "dateOfBirth": "2000-03-09",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Netherlands",
+          "shirtNumber": 17
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 684,
+          "tla": "ZWO",
+          "name": "PEC Zwolle",
+          "crest": "https://crests.football-data.org/684.png",
+          "venue": "MAC³PARK Stadion",
+          "address": "Stadionplein 1 Zwolle 8025 CP",
+          "founded": 1910,
+          "website": "http://www.peczwolle.nl",
+          "shortName": "Zwolle",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-03-22T10:11:39Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 21054,
+          "name": "Filip Krastev",
+          "section": "Central Midfield",
+          "lastName": "Krastev",
+          "position": null,
+          "firstName": "Filip",
+          "dateOfBirth": "2001-10-15",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Bulgaria",
+          "shirtNumber": 20
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 672,
+          "tla": "WII",
+          "name": "Willem II Tilburg",
+          "crest": "https://crests.football-data.org/672.png",
+          "venue": "Koning Willem II Stadion",
+          "address": "Goirleseweg 34 Tilburg 5026 PC",
+          "founded": 1896,
+          "website": "http://www.willem-II.nl",
+          "shortName": "Willem II",
+          "clubColors": "Red / White / Blue",
+          "lastUpdated": "2022-03-24T17:06:41Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 124714,
+          "name": "Jesse Bosch",
+          "section": "Central Midfield",
+          "lastName": "Bosch",
+          "position": null,
+          "firstName": "Jesse",
+          "dateOfBirth": "2000-02-01",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 675,
+          "tla": "FEY",
+          "name": "Feyenoord Rotterdam",
+          "crest": "https://crests.football-data.org/675.png",
+          "venue": "Stadion Feijenoord",
+          "address": "Van Zandvlietplein 3 Rotterdam 3007 AP",
+          "founded": 1908,
+          "website": "http://www.feyenoord.nl",
+          "shortName": "Feyenoord",
+          "clubColors": "Red / White / Black",
+          "lastUpdated": "2022-03-24T17:06:52Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 97536,
+          "name": "Quinten Timber",
+          "section": "Central Midfield",
+          "lastName": "Timber",
+          "position": null,
+          "firstName": "Quinten",
+          "dateOfBirth": "2001-06-17",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 18
+      },
+      {
+        "team": {
+          "id": 678,
+          "tla": "AJA",
+          "name": "AFC Ajax",
+          "crest": "https://crests.football-data.org/678.png",
+          "venue": "Johan Cruyff ArenA",
+          "address": "ArenA Boulevard 29 Amsterdam 1101 AX",
+          "founded": 1900,
+          "website": "http://www.ajax.nl",
+          "shortName": "Ajax",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-22T10:11:05Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 8467,
+          "name": "Bertrand Traoré",
+          "section": "Right Winger",
+          "lastName": "Traoré",
+          "position": null,
+          "firstName": "Bertrand",
+          "dateOfBirth": "1995-09-06",
+          "lastUpdated": "2024-08-12T11:57:15Z",
+          "nationality": "Burkina Faso",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 1915,
+          "tla": "NEC",
+          "name": "NEC",
+          "crest": "https://crests.football-data.org/1915.png",
+          "venue": "Goffertstadion",
+          "address": "Stadionplein 1 Nijmegen 6532 AJ",
+          "founded": 1900,
+          "website": "http://www.nec-nijmegen.nl",
+          "shortName": "NEC",
+          "clubColors": "Red / Green / Black",
+          "lastUpdated": "2022-03-06T09:55:52Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 137025,
+          "name": "Sontje Hansen",
+          "section": "Right Winger",
+          "lastName": "Hansen",
+          "position": null,
+          "firstName": "Sontje",
+          "dateOfBirth": "2000-05-18",
+          "lastUpdated": "2025-10-12T09:42:35Z",
+          "nationality": "Curaçao",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 676,
+          "tla": "UTR",
+          "name": "FC Utrecht",
+          "crest": "https://crests.football-data.org/676.png",
+          "venue": "Stadion Galgenwaard",
+          "address": "Postbus 85159 Utrecht 3508 AD",
+          "founded": 1970,
+          "website": "http://www.fc-utrecht.nl",
+          "shortName": "Utrecht",
+          "clubColors": "Red / White",
+          "lastUpdated": "2022-03-24T17:07:00Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 148291,
+          "name": "Yoann Cathline",
+          "section": "Left Winger",
+          "lastName": "Cathline",
+          "position": null,
+          "firstName": "Yoann",
+          "dateOfBirth": "2002-07-22",
+          "lastUpdated": "2024-08-24T08:13:26Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 683,
+          "tla": "RKC",
+          "name": "RKC Waalwijk",
+          "crest": "https://crests.football-data.org/683.png",
+          "venue": "Mandemakers Stadion",
+          "address": "Akkerlaan 2 Waalwijk 5143 ND",
+          "founded": 1940,
+          "website": "http://www.rkcwaalwijk.nl",
+          "shortName": "RKC",
+          "clubColors": "Yellow / Blue",
+          "lastUpdated": "2022-03-22T10:11:27Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 137048,
+          "name": "Yassin Oukili",
+          "section": "Central Midfield",
+          "lastName": "Oukili",
+          "position": null,
+          "firstName": "Yassin",
+          "dateOfBirth": "2001-01-03",
+          "lastUpdated": "2025-10-12T09:42:43Z",
+          "nationality": "Netherlands",
+          "shirtNumber": 37
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 718,
+          "tla": "GOA",
+          "name": "Go Ahead Eagles",
+          "crest": "https://crests.football-data.org/718.png",
+          "venue": "De Adelaarshorst",
+          "address": "Vetkampstraat 1 Deventer 7416 WK",
+          "founded": 1902,
+          "website": "http://www.ga-eagles.nl",
+          "shortName": "Go Ahead",
+          "clubColors": "Red / Yellow",
+          "lastUpdated": "2022-03-22T10:09:14Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 111229,
+          "name": "Oliver Antman",
+          "section": "Right Winger",
+          "lastName": "Antman",
+          "position": null,
+          "firstName": "Oliver",
+          "dateOfBirth": "2001-08-15",
+          "lastUpdated": "2024-08-24T08:13:28Z",
+          "nationality": "Finland",
+          "shirtNumber": null
+        },
+        "assists": 15,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 677,
+          "tla": "GRO",
+          "name": "FC Groningen",
+          "crest": "https://crests.football-data.org/677.png",
+          "venue": "Hitachi Capital Mobility Stadion",
+          "address": "Boumaboulevard 41 Groningen 9701 BJ",
+          "founded": 1921,
+          "website": "http://www.fcgroningen.nl",
+          "shortName": "Groningen",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-03-22T10:10:56Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 189599,
+          "name": "Jorg Schreuders",
+          "section": "Right Winger",
+          "lastName": "Schreuders",
+          "position": null,
+          "firstName": "Jorg",
+          "dateOfBirth": "2004-09-09",
+          "lastUpdated": "2024-08-24T08:13:27Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 677,
+          "tla": "GRO",
+          "name": "FC Groningen",
+          "crest": "https://crests.football-data.org/677.png",
+          "venue": "Hitachi Capital Mobility Stadion",
+          "address": "Boumaboulevard 41 Groningen 9701 BJ",
+          "founded": 1921,
+          "website": "http://www.fcgroningen.nl",
+          "shortName": "Groningen",
+          "clubColors": "Green / White",
+          "lastUpdated": "2022-03-22T10:10:56Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 188914,
+          "name": "Thom van Bergen",
+          "section": "Centre-Forward",
+          "lastName": "van Bergen",
+          "position": null,
+          "firstName": "Thom",
+          "dateOfBirth": "2004-01-06",
+          "lastUpdated": "2025-05-27T09:41:22Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 34
+      }
+    ],
+    "competition": {
+      "id": 2003,
+      "code": "DED",
+      "name": "Eredivisie",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/ED.png"
+    }
+  }
+}

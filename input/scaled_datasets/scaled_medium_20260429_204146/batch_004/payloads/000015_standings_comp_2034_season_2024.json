@@ -1,0 +1,337 @@
+{
+  "endpoint": "competitions/2034/standings?season=2024",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "scaled_medium_20260429_204146_b004",
+    "batch_id": "scaled_medium_20260429_204146_b004"
+  },
+  "response_json": {
+    "competition": {
+      "id": 2034,
+      "area": {
+        "id": 2071,
+        "name": "Aruba",
+        "countryCode": "HR",
+        "flag": "https://picsum.photos/466/592"
+      },
+      "name": "Koch-Decker League",
+      "code": "TPD",
+      "type": "LEAGUE",
+      "emblem": "https://picsum.photos/493/161"
+    },
+    "season": {
+      "id": 2024,
+      "startDate": "2024-08-01",
+      "endDate": "2025-05-30"
+    },
+    "standings": [
+      {
+        "stage": "REGULAR_SEASON",
+        "type": "TOTAL",
+        "table": [
+          {
+            "position": 1,
+            "team": {
+              "id": 17956,
+              "name": "Angelachester FC"
+            },
+            "playedGames": 38,
+            "won": 18,
+            "draw": 10,
+            "lost": 7,
+            "points": 69,
+            "goalsFor": 78,
+            "goalsAgainst": 62,
+            "goalDifference": -3
+          },
+          {
+            "position": 2,
+            "team": {
+              "id": 85571,
+              "name": "Emilychester FC"
+            },
+            "playedGames": 38,
+            "won": 20,
+            "draw": 7,
+            "lost": 1,
+            "points": 42,
+            "goalsFor": 39,
+            "goalsAgainst": 80,
+            "goalDifference": 12
+          },
+          {
+            "position": 3,
+            "team": {
+              "id": 43303,
+              "name": "Suzannemouth FC"
+            },
+            "playedGames": 38,
+            "won": 5,
+            "draw": 9,
+            "lost": 5,
+            "points": 86,
+            "goalsFor": 59,
+            "goalsAgainst": 79,
+            "goalDifference": 26
+          },
+          {
+            "position": 4,
+            "team": {
+              "id": 22046,
+              "name": "Carrollborough FC"
+            },
+            "playedGames": 38,
+            "won": 19,
+            "draw": 5,
+            "lost": 7,
+            "points": 10,
+            "goalsFor": 70,
+            "goalsAgainst": 57,
+            "goalDifference": -11
+          },
+          {
+            "position": 5,
+            "team": {
+              "id": 61495,
+              "name": "Mullinsshire FC"
+            },
+            "playedGames": 38,
+            "won": 14,
+            "draw": 10,
+            "lost": 10,
+            "points": 63,
+            "goalsFor": 23,
+            "goalsAgainst": 22,
+            "goalDifference": -1
+          },
+          {
+            "position": 6,
+            "team": {
+              "id": 66369,
+              "name": "Gailshire FC"
+            },
+            "playedGames": 38,
+            "won": 2,
+            "draw": 9,
+            "lost": 1,
+            "points": 94,
+            "goalsFor": 61,
+            "goalsAgainst": 65,
+            "goalDifference": 17
+          },
+          {
+            "position": 7,
+            "team": {
+              "id": 24585,
+              "name": "Shannontown FC"
+            },
+            "playedGames": 38,
+            "won": 1,
+            "draw": 3,
+            "lost": 5,
+            "points": 24,
+            "goalsFor": 34,
+            "goalsAgainst": 45,
+            "goalDifference": 22
+          },
+          {
+            "position": 8,
+            "team": {
+              "id": 96898,
+              "name": "Michelletown FC"
+            },
+            "playedGames": 38,
+            "won": 7,
+            "draw": 5,
+            "lost": 9,
+            "points": 19,
+            "goalsFor": 27,
+            "goalsAgainst": 60,
+            "goalDifference": 29
+          },
+          {
+            "position": 9,
+            "team": {
+              "id": 56580,
+              "name": "Joelhaven FC"
+            },
+            "playedGames": 38,
+            "won": 15,
+            "draw": 2,
+            "lost": 3,
+            "points": 34,
+            "goalsFor": 20,
+            "goalsAgainst": 41,
+            "goalDifference": 18
+          },
+          {
+            "position": 10,
+            "team": {
+              "id": 36517,
+              "name": "West Haley FC"
+            },
+            "playedGames": 38,
+            "won": 20,
+            "draw": 1,
+            "lost": 5,
+            "points": 41,
+            "goalsFor": 54,
+            "goalsAgainst": 66,
+            "goalDifference": 29
+          },
+          {
+            "position": 11,
+            "team": {
+              "id": 90864,
+              "name": "Catherinebury FC"
+            },
+            "playedGames": 38,
+            "won": 17,
+            "draw": 10,
+            "lost": 6,
+            "points": 53,
+            "goalsFor": 35,
+            "goalsAgainst": 72,
+            "goalDifference": 29
+          },
+          {
+            "position": 12,
+            "team": {
+              "id": 33209,
+              "name": "Camachofort FC"
+            },
+            "playedGames": 38,
+            "won": 3,
+            "draw": 10,
+            "lost": 10,
+            "points": 34,
+            "goalsFor": 62,
+            "goalsAgainst": 34,
+            "goalDifference": 4
+          },
+          {
+            "position": 13,
+            "team": {
+              "id": 67613,
+              "name": "Wilkersonport FC"
+            },
+            "playedGames": 38,
+            "won": 14,
+            "draw": 0,
+            "lost": 6,
+            "points": 14,
+            "goalsFor": 24,
+            "goalsAgainst": 41,
+            "goalDifference": -11
+          },
+          {
+            "position": 14,
+            "team": {
+              "id": 95010,
+              "name": "Lake Jessica FC"
+            },
+            "playedGames": 38,
+            "won": 4,
+            "draw": 1,
+            "lost": 1,
+            "points": 89,
+            "goalsFor": 53,
+            "goalsAgainst": 68,
+            "goalDifference": 2
+          },
+          {
+            "position": 15,
+            "team": {
+              "id": 36588,
+              "name": "New Kathytown FC"
+            },
+            "playedGames": 38,
+            "won": 19,
+            "draw": 5,
+            "lost": 9,
+            "points": 32,
+            "goalsFor": 58,
+            "goalsAgainst": 65,
+            "goalDifference": 27
+          },
+          {
+            "position": 16,
+            "team": {
+              "id": 49117,
+              "name": "Samanthaton FC"
+            },
+            "playedGames": 38,
+            "won": 3,
+            "draw": 9,
+            "lost": 2,
+            "points": 92,
+            "goalsFor": 65,
+            "goalsAgainst": 44,
+            "goalDifference": -10
+          },
+          {
+            "position": 17,
+            "team": {
+              "id": 37400,
+              "name": "North Ashleyhaven FC"
+            },
+            "playedGames": 38,
+            "won": 18,
+            "draw": 5,
+            "lost": 1,
+            "points": 60,
+            "goalsFor": 33,
+            "goalsAgainst": 34,
+            "goalDifference": -5
+          },
+          {
+            "position": 18,
+            "team": {
+              "id": 37831,
+              "name": "Lake Jamesport FC"
+            },
+            "playedGames": 38,
+            "won": 20,
+            "draw": 6,
+            "lost": 6,
+            "points": 39,
+            "goalsFor": 55,
+            "goalsAgainst": 27,
+            "goalDifference": -13
+          },
+          {
+            "position": 19,
+            "team": {
+              "id": 17342,
+              "name": "Annettemouth FC"
+            },
+            "playedGames": 38,
+            "won": 7,
+            "draw": 1,
+            "lost": 3,
+            "points": 100,
+            "goalsFor": 48,
+            "goalsAgainst": 77,
+            "goalDifference": -14
+          },
+          {
+            "position": 20,
+            "team": {
+              "id": 24710,
+              "name": "Kristenborough FC"
+            },
+            "playedGames": 38,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "points": 72,
+            "goalsFor": 54,
+            "goalsAgainst": 23,
+            "goalDifference": 26
+          }
+        ]
+      }
+    ]
+  }
+}

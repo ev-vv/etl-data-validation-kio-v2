@@ -1,0 +1,1 @@
+from app2.validators.stg.completeness_suite.run import run_stg_completeness_suite

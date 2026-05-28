@@ -1,0 +1,1582 @@
+{
+  "source_id": 43,
+  "endpoint": "competitions/2015/scorers?season=2023&limit=50",
+  "http_status": 200,
+  "request_params": {
+    "dag_id": "stg_football_raw_app2",
+    "run_id": "manual__2026-01-09T10:59:39.137217+00:00"
+  },
+  "response_json": {
+    "count": 50,
+    "season": {
+      "id": 1595,
+      "winner": null,
+      "endDate": "2024-05-19",
+      "startDate": "2023-08-11",
+      "currentMatchday": 34
+    },
+    "filters": {
+      "limit": 50,
+      "season": 2023
+    },
+    "scorers": [
+      {
+        "team": {
+          "id": 524,
+          "tla": "PSG",
+          "name": "Paris Saint-Germain FC",
+          "crest": "https://crests.football-data.org/524.png",
+          "venue": "Parc des Princes",
+          "address": "24, rue de Commandant Guibaud Paris 7501",
+          "founded": 1904,
+          "website": "http://www.psg.fr",
+          "shortName": "PSG",
+          "clubColors": "Red / Blue / White",
+          "lastUpdated": "2022-02-10T19:07:11Z"
+        },
+        "goals": 27,
+        "player": {
+          "id": 3374,
+          "name": "Kylian Mbappé",
+          "section": "Centre-Forward",
+          "lastName": "Mbappé",
+          "position": null,
+          "firstName": "Kylian",
+          "dateOfBirth": "1998-12-20",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": 6,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 523,
+          "tla": "LYO",
+          "name": "Olympique Lyonnais",
+          "crest": "https://crests.football-data.org/523.png",
+          "venue": "Groupama Stadium",
+          "address": "350 avenue Jean Jaurès Lyon 69007",
+          "founded": 1896,
+          "website": "http://www.olweb.fr",
+          "shortName": "Olympique Lyon",
+          "clubColors": "White / Red / Blue",
+          "lastUpdated": "2024-07-29T17:19:54Z"
+        },
+        "goals": 19,
+        "player": {
+          "id": 7797,
+          "name": "Alexandre Lacazette",
+          "section": "Centre-Forward",
+          "lastName": "Lacazette",
+          "position": null,
+          "firstName": "Alexandre",
+          "dateOfBirth": "1991-05-28",
+          "lastUpdated": "2024-10-09T09:42:52Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 2,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 521,
+          "tla": "LIL",
+          "name": "Lille OSC",
+          "crest": "https://crests.football-data.org/521.png",
+          "venue": "Stade Pierre-Mauroy",
+          "address": "Grand Rue 59, 780 Camphin-en-Pévèle Lille null",
+          "founded": 1944,
+          "website": "http://www.losc.fr",
+          "shortName": "Lille",
+          "clubColors": "White / Red",
+          "lastUpdated": "2024-07-29T17:19:48Z"
+        },
+        "goals": 19,
+        "player": {
+          "id": 8924,
+          "name": "Jonathan David",
+          "section": "Centre-Forward",
+          "lastName": "David",
+          "position": null,
+          "firstName": "Jonathan",
+          "dateOfBirth": "2000-01-14",
+          "lastUpdated": "2025-12-19T09:41:06Z",
+          "nationality": "Canada",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": 2,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 516,
+          "tla": "MAR",
+          "name": "Olympique de Marseille",
+          "crest": "https://crests.football-data.org/516.png",
+          "venue": "Orange Vélodrome",
+          "address": "La Commanderie, 33, traverse de La Martine Marseille 13012",
+          "founded": 1898,
+          "website": "http://www.om.net",
+          "shortName": "Marseille",
+          "clubColors": "White / Blue",
+          "lastUpdated": "2022-02-19T08:35:12Z"
+        },
+        "goals": 17,
+        "player": {
+          "id": 7801,
+          "name": "Pierre-Emerick Aubameyang",
+          "section": "Centre-Forward",
+          "lastName": "Aubameyang",
+          "position": null,
+          "firstName": "Pierre-Emerick",
+          "dateOfBirth": "1989-06-18",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "Gabon",
+          "shirtNumber": null
+        },
+        "assists": 7,
+        "penalties": 4,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 548,
+          "tla": "ASM",
+          "name": "AS Monaco FC",
+          "crest": "https://crests.football-data.org/548.png",
+          "venue": "Stade Louis II.",
+          "address": "Avenue des Castellans Monaco 98000",
+          "founded": 1919,
+          "website": "http://www.asmonaco.com",
+          "shortName": "Monaco",
+          "clubColors": "Red / White",
+          "lastUpdated": "2021-11-06T13:27:09Z"
+        },
+        "goals": 16,
+        "player": {
+          "id": 73,
+          "name": "Wissam Ben Yedder",
+          "section": "Centre-Forward",
+          "lastName": "Ben Yedder",
+          "position": null,
+          "firstName": "Wissam",
+          "dateOfBirth": "1990-08-12",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 511,
+          "tla": "TOU",
+          "name": "Toulouse FC",
+          "crest": "https://crests.football-data.org/511.png",
+          "venue": "Stadium Municipal",
+          "address": "1 allée Gabriel Biénèsm, BP 54023 Toulouse 31028",
+          "founded": 1937,
+          "website": "http://www.tfc.info",
+          "shortName": "Toulouse",
+          "clubColors": "Violet / White",
+          "lastUpdated": "2022-02-20T08:39:56Z"
+        },
+        "goals": 14,
+        "player": {
+          "id": 9848,
+          "name": "Thijs Dallinga",
+          "section": "Centre-Forward",
+          "lastName": "Dallinga",
+          "position": null,
+          "firstName": "Thijs",
+          "dateOfBirth": "2000-08-03",
+          "lastUpdated": "2025-12-24T09:42:25Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 545,
+          "tla": "FCM",
+          "name": "FC Metz",
+          "crest": "https://crests.football-data.org/545.png",
+          "venue": "Stade Saint-Symphorien",
+          "address": "3, allée Saint Symphonien, BP 40292 Metz 5700",
+          "founded": 1919,
+          "website": "http://www.fcmetz.com",
+          "shortName": "FC Metz",
+          "clubColors": "Red / Blue",
+          "lastUpdated": "2024-07-29T17:22:18Z"
+        },
+        "goals": 13,
+        "player": {
+          "id": 136646,
+          "name": "Georges Mikautadze",
+          "section": "Centre-Forward",
+          "lastName": "Mikautadze",
+          "position": null,
+          "firstName": "Georges",
+          "dateOfBirth": "2000-10-31",
+          "lastUpdated": "2024-08-23T10:11:40Z",
+          "nationality": "Georgia",
+          "shirtNumber": 18
+        },
+        "assists": 4,
+        "penalties": 3,
+        "playedMatches": 20
+      },
+      {
+        "team": {
+          "id": 522,
+          "tla": "NIC",
+          "name": "OGC Nice",
+          "crest": "https://crests.football-data.org/522.png",
+          "venue": "Stade de Nice",
+          "address": "35, avenue du Ray Nice 06100",
+          "founded": 1904,
+          "website": "http://www.ogcnice.com",
+          "shortName": "Nice",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-02-19T08:51:11Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 113427,
+          "name": "Terem Moffi",
+          "section": "Centre-Forward",
+          "lastName": "Moffi",
+          "position": null,
+          "firstName": "Terem",
+          "dateOfBirth": "1999-05-25",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Nigeria",
+          "shirtNumber": 20
+        },
+        "assists": 3,
+        "penalties": 3,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 524,
+          "tla": "PSG",
+          "name": "Paris Saint-Germain FC",
+          "crest": "https://crests.football-data.org/524.png",
+          "venue": "Parc des Princes",
+          "address": "24, rue de Commandant Guibaud Paris 7501",
+          "founded": 1904,
+          "website": "http://www.psg.fr",
+          "shortName": "PSG",
+          "clubColors": "Red / Blue / White",
+          "lastUpdated": "2022-02-10T19:07:11Z"
+        },
+        "goals": 11,
+        "player": {
+          "id": 101431,
+          "name": "Gonçalo Ramos",
+          "section": "Centre-Forward",
+          "lastName": "Gonçalo Ramos",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2001-06-20",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": 1,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 529,
+          "tla": "REN",
+          "name": "Stade Rennais FC 1901",
+          "crest": "https://crests.football-data.org/529.png",
+          "venue": "Roazhon Park",
+          "address": "La Piverdière - Chemin de la Taupinais CS 5390 Rennes 35039",
+          "founded": 1901,
+          "website": "http://www.staderennais.com",
+          "shortName": "Stade Rennais",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-03-20T11:21:26Z"
+        },
+        "goals": 10,
+        "player": {
+          "id": 130668,
+          "name": "Arnaud Kalimuendo",
+          "section": "Centre-Forward",
+          "lastName": "Kalimuendo",
+          "position": null,
+          "firstName": "Arnaud",
+          "dateOfBirth": "2002-01-20",
+          "lastUpdated": "2024-10-10T09:42:53Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 2,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 548,
+          "tla": "ASM",
+          "name": "AS Monaco FC",
+          "crest": "https://crests.football-data.org/548.png",
+          "venue": "Stade Louis II.",
+          "address": "Avenue des Castellans Monaco 98000",
+          "founded": 1919,
+          "website": "http://www.asmonaco.com",
+          "shortName": "Monaco",
+          "clubColors": "Red / White",
+          "lastUpdated": "2021-11-06T13:27:09Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 15100,
+          "name": "Takumi Minamino",
+          "section": "Left Winger",
+          "lastName": "Minamino",
+          "position": null,
+          "firstName": "Takumi",
+          "dateOfBirth": "1995-01-16",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Japan",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 529,
+          "tla": "REN",
+          "name": "Stade Rennais FC 1901",
+          "crest": "https://crests.football-data.org/529.png",
+          "venue": "Roazhon Park",
+          "address": "La Piverdière - Chemin de la Taupinais CS 5390 Rennes 35039",
+          "founded": 1901,
+          "website": "http://www.staderennais.com",
+          "shortName": "Stade Rennais",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-03-20T11:21:26Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 8818,
+          "name": "Benjamin Bourigeaud",
+          "section": "Central Midfield",
+          "lastName": "Bourigeaud",
+          "position": null,
+          "firstName": "Benjamin",
+          "dateOfBirth": "1994-01-14",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "France",
+          "shirtNumber": 14
+        },
+        "assists": 5,
+        "penalties": 7,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 546,
+          "tla": "RCL",
+          "name": "Racing Club de Lens",
+          "crest": "https://crests.football-data.org/546.png",
+          "venue": "Stade Bollaert-Delelis",
+          "address": "33 rue Arthur Lamendin Avion 62210",
+          "founded": 1906,
+          "website": "http://www.rclens.fr",
+          "shortName": "RC Lens",
+          "clubColors": "Red / Yellow",
+          "lastUpdated": "2022-02-19T08:24:45Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 156808,
+          "name": "Sepe Elye Wahi",
+          "section": "Centre-Forward",
+          "lastName": "Wahi",
+          "position": null,
+          "firstName": "Elye",
+          "dateOfBirth": "2003-01-02",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 1,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 518,
+          "tla": "MON",
+          "name": "Montpellier HSC",
+          "crest": "https://crests.football-data.org/518.png",
+          "venue": "Stade de la Mosson",
+          "address": "Domaine de Grammont CS 79041 Montpellier 34967",
+          "founded": 1970,
+          "website": "http://www.mhscfoot.com",
+          "shortName": "Montpellier",
+          "clubColors": "Blue / Orange",
+          "lastUpdated": "2022-02-19T08:47:35Z"
+        },
+        "goals": 9,
+        "player": {
+          "id": 852,
+          "name": "Téji Savanier",
+          "section": "Attacking Midfield",
+          "lastName": "Savanier",
+          "position": null,
+          "firstName": "Téji",
+          "dateOfBirth": "1991-12-22",
+          "lastUpdated": "2024-10-09T09:42:50Z",
+          "nationality": "France",
+          "shirtNumber": 11
+        },
+        "assists": 6,
+        "penalties": 7,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 512,
+          "tla": "BRE",
+          "name": "Stade Brestois 29",
+          "crest": "https://crests.football-data.org/512.png",
+          "venue": "Stade Francis-Le Blé",
+          "address": "Port de Plaisance, 470 bis rue Alain Colas Brest 29200",
+          "founded": 1903,
+          "website": "http://www.stade-brestois.com",
+          "shortName": "Brest",
+          "clubColors": "White / Red",
+          "lastUpdated": "2022-02-19T08:43:14Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 856,
+          "name": "Romain Del Castillo",
+          "section": "Right Winger",
+          "lastName": "Del Castillo",
+          "position": null,
+          "firstName": "Romain",
+          "dateOfBirth": "1996-03-29",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "France",
+          "shirtNumber": 22
+        },
+        "assists": 8,
+        "penalties": 3,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 541,
+          "tla": "CLF",
+          "name": "Clermont Foot 63",
+          "crest": "https://crests.football-data.org/541.png",
+          "venue": "Stade Gabriel Montpied",
+          "address": "Rue Adrien Mabrut Clermont-Ferrand 63100",
+          "founded": 1911,
+          "website": "http://www.clermontfoot.com",
+          "shortName": "Clermont Foot",
+          "clubColors": "Red / Blue",
+          "lastUpdated": "2024-07-29T17:21:20Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 185000,
+          "name": "Muhammed Cham",
+          "section": "Midfield",
+          "lastName": "Cham",
+          "position": null,
+          "firstName": "Muhammed",
+          "dateOfBirth": "2000-09-26",
+          "lastUpdated": "2024-08-04T23:09:44Z",
+          "nationality": "Austria",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": 4,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 543,
+          "tla": "NAN",
+          "name": "FC Nantes",
+          "crest": "https://crests.football-data.org/543.png",
+          "venue": "Stade de la Beaujoire - Louis Fonteneau",
+          "address": "Centre Sportif José Arribas, La Jonelière Nantes 44240",
+          "founded": 1943,
+          "website": "http://www.fcnantes.com",
+          "shortName": "Nantes",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-06-14T15:27:19Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 114672,
+          "name": "Mostafa Mohamed",
+          "section": "Centre-Forward",
+          "lastName": "Mohamed",
+          "position": null,
+          "firstName": "Mostafa",
+          "dateOfBirth": "1997-11-28",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Egypt",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 3,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 518,
+          "tla": "MON",
+          "name": "Montpellier HSC",
+          "crest": "https://crests.football-data.org/518.png",
+          "venue": "Stade de la Mosson",
+          "address": "Domaine de Grammont CS 79041 Montpellier 34967",
+          "founded": 1970,
+          "website": "http://www.mhscfoot.com",
+          "shortName": "Montpellier",
+          "clubColors": "Blue / Orange",
+          "lastUpdated": "2022-02-19T08:47:35Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 82132,
+          "name": "Akor Adams",
+          "section": "Centre-Forward",
+          "lastName": "Adams",
+          "position": null,
+          "firstName": "Akor",
+          "dateOfBirth": "2000-01-29",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "Nigeria",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 576,
+          "tla": "RC ",
+          "name": "RC Strasbourg Alsace",
+          "crest": "https://crests.football-data.org/576.png",
+          "venue": "Stade de la Meinau",
+          "address": "12 Rue Extenwoerth Strasbourg 67000",
+          "founded": 1906,
+          "website": "http://www.rcstrasbourgalsace.fr",
+          "shortName": "Strasbourg",
+          "clubColors": "Blue / White",
+          "lastUpdated": "2022-02-19T08:40:46Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 150599,
+          "name": "Emanuel Emegha",
+          "section": "Centre-Forward",
+          "lastName": "Emegha",
+          "position": null,
+          "firstName": "Emmanuel",
+          "dateOfBirth": "2003-02-03",
+          "lastUpdated": "2025-11-12T09:42:23Z",
+          "nationality": "Netherlands",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 525,
+          "tla": "FCL",
+          "name": "FC Lorient",
+          "crest": "https://crests.football-data.org/525.png",
+          "venue": "Stade Yves Allainmat - Le Moustoir",
+          "address": "Tade Yves Allainmat<br>Rue Du Tour Des Portes, BP 404 Lorient 56104",
+          "founded": 1926,
+          "website": "http://www.fclweb.fr",
+          "shortName": "Lorient",
+          "clubColors": "Orange / Black",
+          "lastUpdated": "2022-02-19T08:25:01Z"
+        },
+        "goals": 8,
+        "player": {
+          "id": 213749,
+          "name": "Mohamed Bamba",
+          "section": "Centre-Forward",
+          "lastName": "Bamba",
+          "position": null,
+          "firstName": "Mohamed",
+          "dateOfBirth": "2001-12-10",
+          "lastUpdated": "2024-09-02T09:59:11Z",
+          "nationality": "Ivory Coast",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": 1,
+        "playedMatches": 16
+      },
+      {
+        "team": {
+          "id": 546,
+          "tla": "RCL",
+          "name": "Racing Club de Lens",
+          "crest": "https://crests.football-data.org/546.png",
+          "venue": "Stade Bollaert-Delelis",
+          "address": "33 rue Arthur Lamendin Avion 62210",
+          "founded": 1906,
+          "website": "http://www.rclens.fr",
+          "shortName": "RC Lens",
+          "clubColors": "Red / Yellow",
+          "lastUpdated": "2022-02-19T08:24:45Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 64837,
+          "name": "Florian Sotoca",
+          "section": "Centre-Forward",
+          "lastName": "Sotoca",
+          "position": null,
+          "firstName": "Florian",
+          "dateOfBirth": "1990-10-25",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "France",
+          "shirtNumber": 7
+        },
+        "assists": 6,
+        "penalties": 4,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 548,
+          "tla": "ASM",
+          "name": "AS Monaco FC",
+          "crest": "https://crests.football-data.org/548.png",
+          "venue": "Stade Louis II.",
+          "address": "Avenue des Castellans Monaco 98000",
+          "founded": 1919,
+          "website": "http://www.asmonaco.com",
+          "shortName": "Monaco",
+          "clubColors": "Red / White",
+          "lastUpdated": "2021-11-06T13:27:09Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 175701,
+          "name": "Maghnes Akliouche",
+          "section": "Right Winger",
+          "lastName": "Akliouche",
+          "position": null,
+          "firstName": "Maghnes",
+          "dateOfBirth": "2002-02-25",
+          "lastUpdated": "2024-11-05T12:57:20Z",
+          "nationality": "Algeria",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 529,
+          "tla": "REN",
+          "name": "Stade Rennais FC 1901",
+          "crest": "https://crests.football-data.org/529.png",
+          "venue": "Roazhon Park",
+          "address": "La Piverdière - Chemin de la Taupinais CS 5390 Rennes 35039",
+          "founded": 1901,
+          "website": "http://www.staderennais.com",
+          "shortName": "Stade Rennais",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-03-20T11:21:26Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 8476,
+          "name": "Amine Gouiri",
+          "section": "Centre-Forward",
+          "lastName": "Gouiri",
+          "position": null,
+          "firstName": "Amine",
+          "dateOfBirth": "2000-02-16",
+          "lastUpdated": "2024-11-04T17:17:04Z",
+          "nationality": "France",
+          "shirtNumber": 11
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 33
+      },
+      {
+        "team": {
+          "id": 548,
+          "tla": "ASM",
+          "name": "AS Monaco FC",
+          "crest": "https://crests.football-data.org/548.png",
+          "venue": "Stade Louis II.",
+          "address": "Avenue des Castellans Monaco 98000",
+          "founded": 1919,
+          "website": "http://www.asmonaco.com",
+          "shortName": "Monaco",
+          "clubColors": "Red / White",
+          "lastUpdated": "2021-11-06T13:27:09Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 131040,
+          "name": "Folarin Balogun",
+          "section": "Centre-Forward",
+          "lastName": "Balogun",
+          "position": null,
+          "firstName": "Folarin",
+          "dateOfBirth": "2001-07-03",
+          "lastUpdated": "2024-10-08T09:41:10Z",
+          "nationality": "USA",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 512,
+          "tla": "BRE",
+          "name": "Stade Brestois 29",
+          "crest": "https://crests.football-data.org/512.png",
+          "venue": "Stade Francis-Le Blé",
+          "address": "Port de Plaisance, 470 bis rue Alain Colas Brest 29200",
+          "founded": 1903,
+          "website": "http://www.stade-brestois.com",
+          "shortName": "Brest",
+          "clubColors": "White / Red",
+          "lastUpdated": "2022-02-19T08:43:14Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 8542,
+          "name": "Mahdi Camara",
+          "section": "Central Midfield",
+          "lastName": "Camara",
+          "position": null,
+          "firstName": "Mahdi",
+          "dateOfBirth": "1998-06-30",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "France",
+          "shirtNumber": 8
+        },
+        "assists": 3,
+        "penalties": 1,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 546,
+          "tla": "RCL",
+          "name": "Racing Club de Lens",
+          "crest": "https://crests.football-data.org/546.png",
+          "venue": "Stade Bollaert-Delelis",
+          "address": "33 rue Arthur Lamendin Avion 62210",
+          "founded": 1906,
+          "website": "http://www.rclens.fr",
+          "shortName": "RC Lens",
+          "clubColors": "Red / Yellow",
+          "lastUpdated": "2022-02-19T08:24:45Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 8575,
+          "name": "Wesley Saïd",
+          "section": "Centre-Forward",
+          "lastName": "Saïd",
+          "position": null,
+          "firstName": "Wesley",
+          "dateOfBirth": "1995-04-19",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 524,
+          "tla": "PSG",
+          "name": "Paris Saint-Germain FC",
+          "crest": "https://crests.football-data.org/524.png",
+          "venue": "Parc des Princes",
+          "address": "24, rue de Commandant Guibaud Paris 7501",
+          "founded": 1904,
+          "website": "http://www.psg.fr",
+          "shortName": "PSG",
+          "clubColors": "Red / Blue / White",
+          "lastUpdated": "2022-02-10T19:07:11Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 178722,
+          "name": "Vitinha",
+          "section": "Central Midfield",
+          "lastName": "Vitinha",
+          "position": null,
+          "firstName": "",
+          "dateOfBirth": "2000-02-13",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Portugal",
+          "shirtNumber": null
+        },
+        "assists": 4,
+        "penalties": null,
+        "playedMatches": 31
+      },
+      {
+        "team": {
+          "id": 529,
+          "tla": "REN",
+          "name": "Stade Rennais FC 1901",
+          "crest": "https://crests.football-data.org/529.png",
+          "venue": "Roazhon Park",
+          "address": "La Piverdière - Chemin de la Taupinais CS 5390 Rennes 35039",
+          "founded": 1901,
+          "website": "http://www.staderennais.com",
+          "shortName": "Stade Rennais",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-03-20T11:21:26Z"
+        },
+        "goals": 7,
+        "player": {
+          "id": 8797,
+          "name": "Martin Terrier",
+          "section": "Left Winger",
+          "lastName": "Terrier",
+          "position": null,
+          "firstName": "Martin",
+          "dateOfBirth": "1997-03-04",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "France",
+          "shirtNumber": 21
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 24
+      },
+      {
+        "team": {
+          "id": 518,
+          "tla": "MON",
+          "name": "Montpellier HSC",
+          "crest": "https://crests.football-data.org/518.png",
+          "venue": "Stade de la Mosson",
+          "address": "Domaine de Grammont CS 79041 Montpellier 34967",
+          "founded": 1970,
+          "website": "http://www.mhscfoot.com",
+          "shortName": "Montpellier",
+          "clubColors": "Blue / Orange",
+          "lastUpdated": "2022-02-19T08:47:35Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 575,
+          "name": "Arnaud Nordin",
+          "section": "Right Winger",
+          "lastName": "Nordin",
+          "position": null,
+          "firstName": "Arnaud",
+          "dateOfBirth": "1998-06-17",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "France",
+          "shirtNumber": 18
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 20
+      },
+      {
+        "team": {
+          "id": 522,
+          "tla": "NIC",
+          "name": "OGC Nice",
+          "crest": "https://crests.football-data.org/522.png",
+          "venue": "Stade de Nice",
+          "address": "35, avenue du Ray Nice 06100",
+          "founded": 1904,
+          "website": "http://www.ogcnice.com",
+          "shortName": "Nice",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-02-19T08:51:11Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 128710,
+          "name": "Evann Guessand",
+          "section": "Centre-Forward",
+          "lastName": "Guessand",
+          "position": null,
+          "firstName": "Evann",
+          "dateOfBirth": "2001-07-01",
+          "lastUpdated": "2025-12-24T09:42:36Z",
+          "nationality": "France",
+          "shirtNumber": 35
+        },
+        "assists": null,
+        "penalties": 2,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 547,
+          "tla": "SDR",
+          "name": "Stade de Reims",
+          "crest": "https://crests.football-data.org/547.png",
+          "venue": "Stade Auguste-Delaune II",
+          "address": "26 rue Robert-Fulton Reims 51100",
+          "founded": 1909,
+          "website": "http://www.stade-de-reims.com",
+          "shortName": "Stade de Reims",
+          "clubColors": "Red / White / Cyan",
+          "lastUpdated": "2022-03-20T11:25:01Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 74587,
+          "name": "Teddy Teuma",
+          "section": "Central Midfield",
+          "lastName": "Teuma",
+          "position": null,
+          "firstName": "Teddy",
+          "dateOfBirth": "1993-09-30",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Malta",
+          "shirtNumber": 17
+        },
+        "assists": 3,
+        "penalties": 1,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 548,
+          "tla": "ASM",
+          "name": "AS Monaco FC",
+          "crest": "https://crests.football-data.org/548.png",
+          "venue": "Stade Louis II.",
+          "address": "Avenue des Castellans Monaco 98000",
+          "founded": 1919,
+          "website": "http://www.asmonaco.com",
+          "shortName": "Monaco",
+          "clubColors": "Red / White",
+          "lastUpdated": "2021-11-06T13:27:09Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 3683,
+          "name": "Aleksandr Golovin",
+          "section": "Attacking Midfield",
+          "lastName": "Golovin",
+          "position": null,
+          "firstName": "Aleksandr",
+          "dateOfBirth": "1996-05-30",
+          "lastUpdated": "2024-10-08T09:41:10Z",
+          "nationality": "Russia",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 25
+      },
+      {
+        "team": {
+          "id": 522,
+          "tla": "NIC",
+          "name": "OGC Nice",
+          "crest": "https://crests.football-data.org/522.png",
+          "venue": "Stade de Nice",
+          "address": "35, avenue du Ray Nice 06100",
+          "founded": 1904,
+          "website": "http://www.ogcnice.com",
+          "shortName": "Nice",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-02-19T08:51:11Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 4121,
+          "name": "Jérémie Boga",
+          "section": "Left Winger",
+          "lastName": "Boga",
+          "position": null,
+          "firstName": "Jérémie",
+          "dateOfBirth": "1997-01-03",
+          "lastUpdated": "2024-10-09T09:41:51Z",
+          "nationality": "Ivory Coast",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 512,
+          "tla": "BRE",
+          "name": "Stade Brestois 29",
+          "crest": "https://crests.football-data.org/512.png",
+          "venue": "Stade Francis-Le Blé",
+          "address": "Port de Plaisance, 470 bis rue Alain Colas Brest 29200",
+          "founded": 1903,
+          "website": "http://www.stade-brestois.com",
+          "shortName": "Brest",
+          "clubColors": "White / Red",
+          "lastUpdated": "2022-02-19T08:43:14Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 8193,
+          "name": "Steve Mounié",
+          "section": "Centre-Forward",
+          "lastName": "Mounié",
+          "position": null,
+          "firstName": "Steve",
+          "dateOfBirth": "1994-09-29",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "Benin",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 524,
+          "tla": "PSG",
+          "name": "Paris Saint-Germain FC",
+          "crest": "https://crests.football-data.org/524.png",
+          "venue": "Parc des Princes",
+          "address": "24, rue de Commandant Guibaud Paris 7501",
+          "founded": 1904,
+          "website": "http://www.psg.fr",
+          "shortName": "PSG",
+          "clubColors": "Red / Blue / White",
+          "lastUpdated": "2022-02-10T19:07:11Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 8708,
+          "name": "Randal Kolo Muani",
+          "section": "Centre-Forward",
+          "lastName": "Kolo Muani",
+          "position": null,
+          "firstName": "Randal",
+          "dateOfBirth": "1998-12-05",
+          "lastUpdated": "2024-08-12T11:57:09Z",
+          "nationality": "France",
+          "shirtNumber": 23
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 521,
+          "tla": "LIL",
+          "name": "Lille OSC",
+          "crest": "https://crests.football-data.org/521.png",
+          "venue": "Stade Pierre-Mauroy",
+          "address": "Grand Rue 59, 780 Camphin-en-Pévèle Lille null",
+          "founded": 1944,
+          "website": "http://www.losc.fr",
+          "shortName": "Lille",
+          "clubColors": "White / Red",
+          "lastUpdated": "2024-07-29T17:19:48Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 8990,
+          "name": "Edon Zhegrova",
+          "section": "Right Winger",
+          "lastName": "Zhegrova",
+          "position": null,
+          "firstName": "Edon",
+          "dateOfBirth": "1999-03-31",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Kosovo",
+          "shirtNumber": null
+        },
+        "assists": 6,
+        "penalties": null,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 512,
+          "tla": "BRE",
+          "name": "Stade Brestois 29",
+          "crest": "https://crests.football-data.org/512.png",
+          "venue": "Stade Francis-Le Blé",
+          "address": "Port de Plaisance, 470 bis rue Alain Colas Brest 29200",
+          "founded": 1903,
+          "website": "http://www.stade-brestois.com",
+          "shortName": "Brest",
+          "clubColors": "White / Red",
+          "lastUpdated": "2022-02-19T08:43:14Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 175942,
+          "name": "Kamory Doumbia",
+          "section": "Attacking Midfield",
+          "lastName": "Doumbia",
+          "position": null,
+          "firstName": "Kamory",
+          "dateOfBirth": "2003-02-18",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "Mali",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": null,
+        "playedMatches": 28
+      },
+      {
+        "team": {
+          "id": 511,
+          "tla": "TOU",
+          "name": "Toulouse FC",
+          "crest": "https://crests.football-data.org/511.png",
+          "venue": "Stadium Municipal",
+          "address": "1 allée Gabriel Biénèsm, BP 54023 Toulouse 31028",
+          "founded": 1937,
+          "website": "http://www.tfc.info",
+          "shortName": "Toulouse",
+          "clubColors": "Violet / White",
+          "lastUpdated": "2022-02-20T08:39:56Z"
+        },
+        "goals": 6,
+        "player": {
+          "id": 9490,
+          "name": "Vincent Sierro",
+          "section": "Central Midfield",
+          "lastName": "Sierro",
+          "position": null,
+          "firstName": "Vincent",
+          "dateOfBirth": "1995-10-08",
+          "lastUpdated": "2024-10-10T09:42:49Z",
+          "nationality": "Switzerland",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": 4,
+        "playedMatches": 32
+      },
+      {
+        "team": {
+          "id": 522,
+          "tla": "NIC",
+          "name": "OGC Nice",
+          "crest": "https://crests.football-data.org/522.png",
+          "venue": "Stade de Nice",
+          "address": "35, avenue du Ray Nice 06100",
+          "founded": 1904,
+          "website": "http://www.ogcnice.com",
+          "shortName": "Nice",
+          "clubColors": "Red / Black",
+          "lastUpdated": "2022-02-19T08:51:11Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 8517,
+          "name": "Gaëtan Laborde",
+          "section": "Centre-Forward",
+          "lastName": "Laborde",
+          "position": null,
+          "firstName": "Gaëtan",
+          "dateOfBirth": "1994-05-03",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "France",
+          "shirtNumber": 10
+        },
+        "assists": 2,
+        "penalties": 1,
+        "playedMatches": 34
+      },
+      {
+        "team": {
+          "id": 521,
+          "tla": "LIL",
+          "name": "Lille OSC",
+          "crest": "https://crests.football-data.org/521.png",
+          "venue": "Stade Pierre-Mauroy",
+          "address": "Grand Rue 59, 780 Camphin-en-Pévèle Lille null",
+          "founded": 1944,
+          "website": "http://www.losc.fr",
+          "shortName": "Lille",
+          "clubColors": "White / Red",
+          "lastUpdated": "2024-07-29T17:19:48Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 98745,
+          "name": "Bafodé Diakité",
+          "section": "Centre-Back",
+          "lastName": "Diakité",
+          "position": null,
+          "firstName": "Bafodé",
+          "dateOfBirth": "2001-01-06",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "France",
+          "shirtNumber": 19
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 25
+      },
+      {
+        "team": {
+          "id": 518,
+          "tla": "MON",
+          "name": "Montpellier HSC",
+          "crest": "https://crests.football-data.org/518.png",
+          "venue": "Stade de la Mosson",
+          "address": "Domaine de Grammont CS 79041 Montpellier 34967",
+          "founded": 1970,
+          "website": "http://www.mhscfoot.com",
+          "shortName": "Montpellier",
+          "clubColors": "Blue / Orange",
+          "lastUpdated": "2022-02-19T08:47:35Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 98763,
+          "name": "Musa Al Taamari",
+          "section": "Right Winger",
+          "lastName": "Al Tamari",
+          "position": null,
+          "firstName": "Mousa",
+          "dateOfBirth": "1997-06-10",
+          "lastUpdated": "2024-10-10T09:42:50Z",
+          "nationality": "Jordan",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 27
+      },
+      {
+        "team": {
+          "id": 547,
+          "tla": "SDR",
+          "name": "Stade de Reims",
+          "crest": "https://crests.football-data.org/547.png",
+          "venue": "Stade Auguste-Delaune II",
+          "address": "26 rue Robert-Fulton Reims 51100",
+          "founded": 1909,
+          "website": "http://www.stade-de-reims.com",
+          "shortName": "Stade de Reims",
+          "clubColors": "Red / White / Cyan",
+          "lastUpdated": "2022-03-20T11:25:01Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 99868,
+          "name": "Mohammed Daramy",
+          "section": "Left Winger",
+          "lastName": "Daramy",
+          "position": null,
+          "firstName": "Mohamed",
+          "dateOfBirth": "2002-01-07",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Denmark",
+          "shirtNumber": null
+        },
+        "assists": 5,
+        "penalties": 1,
+        "playedMatches": 26
+      },
+      {
+        "team": {
+          "id": 525,
+          "tla": "FCL",
+          "name": "FC Lorient",
+          "crest": "https://crests.football-data.org/525.png",
+          "venue": "Stade Yves Allainmat - Le Moustoir",
+          "address": "Tade Yves Allainmat<br>Rue Du Tour Des Portes, BP 404 Lorient 56104",
+          "founded": 1926,
+          "website": "http://www.fclweb.fr",
+          "shortName": "Lorient",
+          "clubColors": "Orange / Black",
+          "lastUpdated": "2022-02-19T08:25:01Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 8762,
+          "name": "Romain Faivre",
+          "section": "Right Midfield",
+          "lastName": "Faivre",
+          "position": null,
+          "firstName": "Romain",
+          "dateOfBirth": "1998-07-14",
+          "lastUpdated": "2024-08-23T09:25:16Z",
+          "nationality": "France",
+          "shirtNumber": 21
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 17
+      },
+      {
+        "team": {
+          "id": 511,
+          "tla": "TOU",
+          "name": "Toulouse FC",
+          "crest": "https://crests.football-data.org/511.png",
+          "venue": "Stadium Municipal",
+          "address": "1 allée Gabriel Biénèsm, BP 54023 Toulouse 31028",
+          "founded": 1937,
+          "website": "http://www.tfc.info",
+          "shortName": "Toulouse",
+          "clubColors": "Violet / White",
+          "lastUpdated": "2022-02-20T08:39:56Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 176747,
+          "name": "Frank Magri",
+          "section": "Centre-Forward",
+          "lastName": "Magri",
+          "position": null,
+          "firstName": "Frank",
+          "dateOfBirth": "1999-09-04",
+          "lastUpdated": "2024-08-12T11:57:17Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 547,
+          "tla": "SDR",
+          "name": "Stade de Reims",
+          "crest": "https://crests.football-data.org/547.png",
+          "venue": "Stade Auguste-Delaune II",
+          "address": "26 rue Robert-Fulton Reims 51100",
+          "founded": 1909,
+          "website": "http://www.stade-de-reims.com",
+          "shortName": "Stade de Reims",
+          "clubColors": "Red / White / Cyan",
+          "lastUpdated": "2022-03-20T11:25:01Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 188275,
+          "name": "Oumar Diakite",
+          "section": "Centre-Forward",
+          "lastName": "Diakité",
+          "position": null,
+          "firstName": "Oumar",
+          "dateOfBirth": "2003-12-20",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Ivory Coast",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": null,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 521,
+          "tla": "LIL",
+          "name": "Lille OSC",
+          "crest": "https://crests.football-data.org/521.png",
+          "venue": "Stade Pierre-Mauroy",
+          "address": "Grand Rue 59, 780 Camphin-en-Pévèle Lille null",
+          "founded": 1944,
+          "website": "http://www.losc.fr",
+          "shortName": "Lille",
+          "clubColors": "White / Red",
+          "lastUpdated": "2024-07-29T17:19:48Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 30299,
+          "name": "Yusuf Yazıcı",
+          "section": "Attacking Midfield",
+          "lastName": "Yazıcı",
+          "position": null,
+          "firstName": "Yusuf",
+          "dateOfBirth": "1997-01-29",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Turkey",
+          "shirtNumber": null
+        },
+        "assists": 2,
+        "penalties": null,
+        "playedMatches": 30
+      },
+      {
+        "team": {
+          "id": 525,
+          "tla": "FCL",
+          "name": "FC Lorient",
+          "crest": "https://crests.football-data.org/525.png",
+          "venue": "Stade Yves Allainmat - Le Moustoir",
+          "address": "Tade Yves Allainmat<br>Rue Du Tour Des Portes, BP 404 Lorient 56104",
+          "founded": 1926,
+          "website": "http://www.fclweb.fr",
+          "shortName": "Lorient",
+          "clubColors": "Orange / Black",
+          "lastUpdated": "2022-02-19T08:25:01Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 204241,
+          "name": "Eli Kroupi",
+          "section": "Centre-Forward",
+          "lastName": "Kroupi",
+          "position": null,
+          "firstName": "Eli",
+          "dateOfBirth": "2006-06-23",
+          "lastUpdated": "2024-09-02T09:59:11Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": 3,
+        "penalties": null,
+        "playedMatches": 38
+      },
+      {
+        "team": {
+          "id": 543,
+          "tla": "NAN",
+          "name": "FC Nantes",
+          "crest": "https://crests.football-data.org/543.png",
+          "venue": "Stade de la Beaujoire - Louis Fonteneau",
+          "address": "Centre Sportif José Arribas, La Jonelière Nantes 44240",
+          "founded": 1943,
+          "website": "http://www.fcnantes.com",
+          "shortName": "Nantes",
+          "clubColors": "Green / Yellow",
+          "lastUpdated": "2023-06-14T15:27:19Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 170412,
+          "name": "Matthis Abline",
+          "section": "Centre-Forward",
+          "lastName": "Abline",
+          "position": null,
+          "firstName": "Matthis",
+          "dateOfBirth": "2003-03-28",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "France",
+          "shirtNumber": null
+        },
+        "assists": null,
+        "penalties": null,
+        "playedMatches": 29
+      },
+      {
+        "team": {
+          "id": 533,
+          "tla": "HAC",
+          "name": "Le Havre AC",
+          "crest": "https://crests.football-data.org/533.png",
+          "venue": "Stade Océane",
+          "address": "2 route du château BP 90 Saint-Laurent-de-Brèvedent 76700",
+          "founded": 1872,
+          "website": "http://www.hac-foot.com",
+          "shortName": "Le Havre",
+          "clubColors": "Sky Blue / Navy Blue",
+          "lastUpdated": "2022-06-19T00:03:33Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 728,
+          "name": "Mohamed Bayo",
+          "section": "Centre-Forward",
+          "lastName": "Bayo",
+          "position": null,
+          "firstName": "Mohamed",
+          "dateOfBirth": "1993-09-15",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "Guinea",
+          "shirtNumber": 27
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 24
+      },
+      {
+        "team": {
+          "id": 533,
+          "tla": "HAC",
+          "name": "Le Havre AC",
+          "crest": "https://crests.football-data.org/533.png",
+          "venue": "Stade Océane",
+          "address": "2 route du château BP 90 Saint-Laurent-de-Brèvedent 76700",
+          "founded": 1872,
+          "website": "http://www.hac-foot.com",
+          "shortName": "Le Havre",
+          "clubColors": "Sky Blue / Navy Blue",
+          "lastUpdated": "2022-06-19T00:03:33Z"
+        },
+        "goals": 5,
+        "player": {
+          "id": 24260,
+          "name": "Emmanuel Sabbi",
+          "section": "Right Winger",
+          "lastName": "Sabbi",
+          "position": null,
+          "firstName": "Emmanuel",
+          "dateOfBirth": "1997-12-24",
+          "lastUpdated": "2024-08-12T11:57:19Z",
+          "nationality": "USA",
+          "shirtNumber": null
+        },
+        "assists": 1,
+        "penalties": 2,
+        "playedMatches": 33
+      }
+    ],
+    "competition": {
+      "id": 2015,
+      "code": "FL1",
+      "name": "Ligue 1",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/FL1.png"
+    }
+  }
+}
