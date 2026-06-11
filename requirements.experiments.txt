@@ -11,3 +11,4 @@ great_expectations==0.18.22
 soda-core-postgres==3.5.6
 dbt-core==1.7.9
 dbt-postgres==1.7.9
+pyspark==3.5.0

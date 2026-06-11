@@ -84,10 +84,13 @@ source venv/bin/activate            # Linux / macOS
 # 3. Установить зависимости
 pip install --upgrade pip
 pip install -r requirements.experiments.txt
+# PySpark устанавливается отдельно для гарантии совместимости с Python 3.14+
+pip install pyspark==3.5.0
 
 # 4. Проверить Docker
 docker --version
 docker compose version
+
 ```
 
 Параметры подключения по умолчанию (используются, если нет `.env`):

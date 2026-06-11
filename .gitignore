@@ -5,12 +5,11 @@
 venv/
 /.env
 /dbt_packages/
-
+/output/
 # IDE / editor
 .vscode/
 .idea/
 
-# Fallback ignores (if someone builds in the source dir)
 *.aux
 *.bbl
 *.blg
