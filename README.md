@@ -77,7 +77,7 @@ git clone https://github.com/ev-vv/etl-data-validation-kio-v2.git etl-data-valid
 cd etl-data-validation-kio-v2
 
 # 2. Создать виртуальное окружение
-python3 -m venv venv
+python3.12 -m venv venv
 source venv/bin/activate            # Linux / macOS
 # для Windows PowerShell:  .\venv\Scripts\Activate.ps1
 
